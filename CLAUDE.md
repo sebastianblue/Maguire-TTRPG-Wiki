@@ -5,7 +5,10 @@ An interactive HTML wiki for a tabletop RPG setting based on Gregory Maguire's O
 
 ## Current Status
 **Step 1 Complete** - App foundation built
-**Step 2 In Progress** - Core functionality (search, editing, data)
+**Step 2 Complete** - Core functionality (search, editing, data)
+**Step 3 Complete** - GM Tools (dice, initiative, notes, conditions, export/import)
+**Step 4 Complete** - Page Templates with 9 example pages
+**Step 5 In Progress** - Content: Characters (Races ✅, Classes ✅, Backgrounds next)
 
 ## Directory Structure
 ```
@@ -20,8 +23,9 @@ An interactive HTML wiki for a tabletop RPG setting based on Gregory Maguire's O
     storage.js         # localStorage wrapper utilities
     navigation.js      # Sidebar navigation, collapsible categories
     tabs.js            # Tab system with drag-and-drop
-    search.js          # (Step 2) Search functionality
-    editor.js          # (Step 2) Page editing
+    search.js          # ✅ Search functionality
+    editor.js          # ✅ Page editing
+    gm-tools.js        # ✅ GM Tools panel
   /data
     pages.json         # All wiki page content
   /pages
@@ -30,10 +34,10 @@ An interactive HTML wiki for a tabletop RPG setting based on Gregory Maguire's O
 
 ## Build Process (9 Steps)
 1. **App Foundation** ✅ - HTML shell, tabs, navigation, styling
-2. **Core Functionality** 🔄 - Search, editing, data persistence
-3. **GM Tools** - Dice roller, initiative tracker, notes
-4. **Page Templates** - Standardized formats for races, classes, etc.
-5. **Content: Characters** - Races, classes, backgrounds
+2. **Core Functionality** ✅ - Search, editing, data persistence
+3. **GM Tools** ✅ - Dice roller, initiative tracker, notes, export/import
+4. **Page Templates** ✅ - Standardized formats with 9 example pages
+5. **Content: Characters** 🔄 - Races ✅ (19 pages), Classes ✅ (10 pages), Backgrounds (next), Special Skills (next)
 6. **Content: Magic & Equipment** - Spells, items, gear
 7. **Content: Creatures** - Monsters, NPCs, stat blocks
 8. **Content: World** - Regions, factions, history

@@ -30,12 +30,28 @@ const App = (function() {
       Tabs.init();
     }
 
+    // Initialize search
+    if (typeof Search !== 'undefined') {
+      Search.init();
+    }
+
+    // Initialize editor
+    if (typeof Editor !== 'undefined') {
+      Editor.init();
+    }
+
+    // Initialize GM Tools
+    if (typeof GMTools !== 'undefined') {
+      GMTools.init();
+    }
+
     // Set up global event listeners
     setupKeyboardShortcuts();
     setupThemeToggle();
     setupFontControls();
     setupFooterButtons();
     setupModals();
+    setupExportImport();
 
     isInitialized = true;
     console.log('Oz TTRPG Wiki initialized successfully');
@@ -114,13 +130,8 @@ const App = (function() {
     const bookmarkBtn = document.getElementById('bookmark-btn');
     const printBtn = document.getElementById('print-btn');
 
-    // Edit button (functionality in Step 2)
-    if (editBtn) {
-      editBtn.addEventListener('click', () => {
-        console.log('Edit mode - will be implemented in Step 2');
-        // Will trigger edit mode for current page
-      });
-    }
+    // Edit button - handled by Editor module
+    // No setup needed here
 
     // Bookmark button
     if (bookmarkBtn) {
@@ -217,15 +228,16 @@ const App = (function() {
           break;
 
         case 'e':
-          // Edit mode (to be implemented in Step 2)
+          // Edit mode
           event.preventDefault();
-          console.log('Edit mode shortcut - will be implemented in Step 2');
+          if (typeof Editor !== 'undefined') {
+            Editor.toggleEditMode();
+          }
           break;
 
         case 's':
-          // Save (to be implemented in Step 2)
-          event.preventDefault();
-          console.log('Save shortcut - will be implemented in Step 2');
+          // Save handled by Editor module when in edit mode
+          // This will be caught by the editor's keydown handler
           break;
 
         case 'w':
@@ -390,6 +402,92 @@ const App = (function() {
     return info;
   }
 
+  /**
+   * Set up export/import buttons
+   */
+  function setupExportImport() {
+    const exportBtn = document.getElementById('export-btn');
+    const importBtn = document.getElementById('import-btn');
+    const importFileInput = document.getElementById('import-file-input');
+
+    if (exportBtn) {
+      exportBtn.addEventListener('click', exportData);
+    }
+
+    if (importBtn && importFileInput) {
+      importBtn.addEventListener('click', () => {
+        importFileInput.click();
+      });
+
+      importFileInput.addEventListener('change', handleImportFile);
+    }
+  }
+
+  /**
+   * Export all user data as JSON file
+   */
+  function exportData() {
+    const data = Storage.exportAllData();
+
+    const json = JSON.stringify(data, null, 2);
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `oz-wiki-backup-${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+
+    showNotification('Data exported successfully', 'success');
+  }
+
+  /**
+   * Handle import file selection
+   */
+  function handleImportFile(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+
+    reader.onload = function(e) {
+      try {
+        const data = JSON.parse(e.target.result);
+
+        // Confirm import
+        const merge = confirm(
+          'Import data?\n\n' +
+          'OK = Merge with existing data\n' +
+          'Cancel = Replace all data'
+        );
+
+        const success = Storage.importData(data, merge);
+
+        if (success) {
+          showNotification('Data imported successfully', 'success');
+
+          // Reload page to apply changes
+          setTimeout(() => {
+            window.location.reload();
+          }, 1000);
+        } else {
+          showNotification('Import failed - invalid data format', 'error');
+        }
+      } catch (error) {
+        console.error('Import error:', error);
+        showNotification('Import failed - invalid JSON file', 'error');
+      }
+    };
+
+    reader.readAsText(file);
+
+    // Reset input
+    event.target.value = '';
+  }
+
   // Public API
   return {
     init,
@@ -397,7 +495,9 @@ const App = (function() {
     focusSearch,
     showShortcutsModal,
     closeAllModals,
-    debugStorage
+    debugStorage,
+    exportData,
+    importData: handleImportFile
   };
 })();
 

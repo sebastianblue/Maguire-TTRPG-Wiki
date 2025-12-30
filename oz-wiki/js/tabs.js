@@ -219,6 +219,9 @@ const Tabs = (function() {
     if (typeof Navigation !== 'undefined') {
       Navigation.setActivePage(tabId);
     }
+
+    // Dispatch tab changed event
+    document.dispatchEvent(new CustomEvent('tabChanged', { detail: { tabId } }));
   }
 
   /**
@@ -289,10 +292,11 @@ const Tabs = (function() {
    * Load page content
    * @param {string} pageId
    */
-  function loadPageContent(pageId) {
+  async function loadPageContent(pageId) {
     if (pageId === 'welcome') {
       // Show welcome page (already in HTML)
       showWelcomePage();
+      updatePagePath(pageId);
       return;
     }
 
@@ -308,12 +312,29 @@ const Tabs = (function() {
 
     if (userEdit) {
       renderPageContent(pageId, userEdit.content, true);
+      updatePagePath(pageId);
       return;
     }
 
-    // Load from pages.json (will be implemented in Step 2)
-    // For now, show placeholder
-    renderPlaceholderPage(pageId);
+    // Load from pages.json
+    try {
+      const response = await fetch('data/pages.json');
+      const data = await response.json();
+
+      if (data.pages && data.pages[pageId]) {
+        const page = data.pages[pageId];
+        renderPageContent(pageId, page.content, false);
+        updatePagePath(pageId);
+      } else {
+        // Page not in JSON yet - show placeholder
+        renderPlaceholderPage(pageId);
+        updatePagePath(pageId);
+      }
+    } catch (error) {
+      console.error('Error loading page:', error);
+      renderPlaceholderPage(pageId);
+      updatePagePath(pageId);
+    }
   }
 
   /**
@@ -537,6 +558,27 @@ const Tabs = (function() {
     const activeTab = tabsContainer.querySelector('.tab.active');
     if (activeTab) {
       activeTab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    }
+  }
+
+  /**
+   * Update page path in footer
+   * @param {string} pageId
+   */
+  function updatePagePath(pageId) {
+    const pagePath = document.getElementById('page-path');
+    if (pagePath) {
+      if (pageId === 'welcome') {
+        pagePath.textContent = 'Welcome';
+      } else {
+        const parts = pageId.split('/');
+        const formatted = parts.map(part => {
+          return part.split('-').map(word =>
+            word.charAt(0).toUpperCase() + word.slice(1)
+          ).join(' ');
+        }).join(' > ');
+        pagePath.textContent = formatted;
+      }
     }
   }
 
