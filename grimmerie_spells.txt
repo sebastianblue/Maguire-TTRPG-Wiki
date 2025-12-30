@@ -1,0 +1,99 @@
+<h1>Grimmerie Tradition Spells</h1>
+
+<p class="flavor-text">"The Grimmerie speaks in tongues of fire and shadow, accessible only to those willing to pay its price."</p>
+
+<p>The Grimmerie Tradition represents the most powerful and dangerous arcane magic in Oz. These spells are primarily drawn from <a href="#" onclick="Tabs.openTab('objects/magic-items/artifacts/the-grimmerie', 'the Grimmerie'); return false;">the Grimmerie</a> itself, the ancient book of forbidden magic that only a few—like <a href="#" onclick="Tabs.openTab('npcs/elphaba-thropp', 'Elphaba Thropp'); return false;">Elphaba</a>—have successfully decoded. These spells are available primarily to <a href="#" onclick="Tabs.openTab('character/classes/the-witch', 'Witches'); return false;">Witches</a> and <a href="#" onclick="Tabs.openTab('character/classes/the-adept', 'Adepts'); return false;">Adepts</a> who have studied the text.</p>
+
+<h2>Accessing Grimmerie Spells</h2>
+<p>Unlike standard arcane magic, Grimmerie spells often require:</p>
+<ul>
+<li>Physical access to the Grimmerie or copied pages</li>
+<li>Successful Intelligence (Arcana) checks to decode (DC varies by spell level)</li>
+<li>Personal sacrifice or cost beyond normal spell components</li>
+<li>Risk of corruption (see <a href="#" onclick="Tabs.openTab('magic/phenomena/grimmerie-corruption', 'Grimmerie Corruption'); return false;">Grimmerie Corruption</a>)</li>
+</ul>
+
+<h2>Spell List by Circle</h2>
+
+<h3>Cantrips (0-Circle)</h3>
+<p><strong>Abjur:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/eldritch-ward', 'Eldritch Ward'); return false;">Eldritch Ward</a></p>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/conjure-flame', 'Conjure Flame'); return false;">Conjure Flame</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/read-intent', 'Read Intent'); return false;">Read Intent</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/compel-truth', 'Compel Truth'); return false;">Compel Truth</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/eldritch-blast', 'Eldritch Blast'); return false;">Eldritch Blast</a></p>
+<p><strong>Illus:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/false-face', 'False Face'); return false;">False Face</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/chill-touch', 'Chill Touch'); return false;">Chill Touch</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/shape-minor', 'Shape Minor'); return false;">Shape Minor</a></p>
+
+<h3>1st-Circle Spells</h3>
+<p><strong>Abjur:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/shield', 'Shield'); return false;">Shield</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/protection-from-scrying', 'Protection from Scrying'); return false;">Protection from Scrying</a></p>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/summon-familiar', 'Summon Familiar'); return false;">Summon Familiar</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/grease', 'Grease'); return false;">Grease</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/identify', 'Identify'); return false;">Identify</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/detect-thoughts-minor', 'Detect Thoughts (Minor)'); return false;">Detect Thoughts (Minor)</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/charm-person', 'Charm Person'); return false;">Charm Person</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/sleep', 'Sleep'); return false;">Sleep</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/burning-hands', 'Burning Hands'); return false;">Burning Hands</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/thunderwave', 'Thunderwave'); return false;">Thunderwave</a></p>
+<p><strong>Illus:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/disguise-self', 'Disguise Self'); return false;">Disguise Self</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/silent-image', 'Silent Image'); return false;">Silent Image</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/cause-fear', 'Cause Fear'); return false;">Cause Fear</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/feather-fall', 'Feather Fall'); return false;">Feather Fall</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/expeditious-retreat', 'Expeditious Retreat'); return false;">Expeditious Retreat</a></p>
+
+<h3>2nd-Circle Spells</h3>
+<p><strong>Abjur:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dispel-magic-lesser', 'Dispel Magic (Lesser)'); return false;">Dispel Magic (Lesser)</a></p>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/misty-step', 'Misty Step'); return false;">Misty Step</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/summon-beast', 'Summon Beast'); return false;">Summon Beast</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/detect-thoughts', 'Detect Thoughts'); return false;">Detect Thoughts</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/see-invisibility', 'See Invisibility'); return false;">See Invisibility</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/hold-person', 'Hold Person'); return false;">Hold Person</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/suggestion', 'Suggestion'); return false;">Suggestion</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/scorching-ray', 'Scorching Ray'); return false;">Scorching Ray</a></p>
+<p><strong>Illus:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/invisibility', 'Invisibility'); return false;">Invisibility</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/mirror-image', 'Mirror Image'); return false;">Mirror Image</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/ray-of-enfeeblement', 'Ray of Enfeeblement'); return false;">Ray of Enfeeblement</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/levitate', 'Levitate'); return false;">Levitate</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/alter-self', 'Alter Self'); return false;">Alter Self</a></p>
+
+<h3>3rd-Circle Spells</h3>
+<p><strong>Abjur:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/counterspell', 'Counterspell'); return false;">Counterspell</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dispel-magic', 'Dispel Magic'); return false;">Dispel Magic</a></p>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/conjure-animals', 'Conjure Animals'); return false;">Conjure Animals</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/clairvoyance', 'Clairvoyance'); return false;">Clairvoyance</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/fear', 'Fear'); return false;">Fear</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/fireball', 'Fireball'); return false;">Fireball</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/lightning-bolt', 'Lightning Bolt'); return false;">Lightning Bolt</a></p>
+<p><strong>Illus:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/major-image', 'Major Image'); return false;">Major Image</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/animate-dead', 'Animate Dead'); return false;">Animate Dead</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/vampiric-touch', 'Vampiric Touch'); return false;">Vampiric Touch</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/fly', 'Fly'); return false;">Fly</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/haste', 'Haste'); return false;">Haste</a></p>
+
+<h3>4th-Circle Spells</h3>
+<p><strong>Abjur:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/banishment', 'Banishment'); return false;">Banishment</a></p>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dimension-door', 'Dimension Door'); return false;">Dimension Door</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/arcane-eye', 'Arcane Eye'); return false;">Arcane Eye</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dominate-beast', 'Dominate Beast'); return false;">Dominate Beast</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/ice-storm', 'Ice Storm'); return false;">Ice Storm</a></p>
+<p><strong>Illus:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/greater-invisibility', 'Greater Invisibility'); return false;">Greater Invisibility</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/blight', 'Blight'); return false;">Blight</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/polymorph', 'Polymorph'); return false;">Polymorph</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/stone-shape', 'Stone Shape'); return false;">Stone Shape</a></p>
+
+<h3>5th-Circle Spells</h3>
+<p><strong>Conj:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/teleportation-circle', 'Teleportation Circle'); return false;">Teleportation Circle</a></p>
+<p><strong>Div:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/scrying', 'Scrying'); return false;">Scrying</a></p>
+<p><strong>Ench:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dominate-person', 'Dominate Person'); return false;">Dominate Person</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/modify-memory', 'Modify Memory'); return false;">Modify Memory</a></p>
+<p><strong>Evoc:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/cone-of-cold', 'Cone of Cold'); return false;">Cone of Cold</a></p>
+<p><strong>Necro:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/cloudkill', 'Cloudkill'); return false;">Cloudkill</a></p>
+<p><strong>Trans:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/animate-objects', 'Animate Objects'); return false;">Animate Objects</a></p>
+
+<h3>Higher Circles (6th+)</h3>
+<p><strong>6th:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/disintegrate', 'Disintegrate'); return false;">Disintegrate</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/true-seeing', 'True Seeing'); return false;">True Seeing</a></p>
+<p><strong>7th:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/teleport', 'Teleport'); return false;">Teleport</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/finger-of-death', 'Finger of Death'); return false;">Finger of Death</a></p>
+<p><strong>8th:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/dominate-monster', 'Dominate Monster'); return false;">Dominate Monster</a></p>
+<p><strong>9th:</strong> <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/wish', 'Wish'); return false;">Wish</a>, <a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/power-word-kill', 'Power Word Kill'); return false;">Power Word Kill</a></p>
+
+<h2>Unique Grimmerie Spells</h2>
+<p>The following spells are found only in the Grimmerie and have no standard arcane equivalents:</p>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/awaken-animal-consciousness', 'Awaken Animal Consciousness'); return false;">Awaken Animal Consciousness</a> (5th Circle) - The spell that created the Animals</li>
+<li><a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/silence-the-voiced', 'Silence the Voiced'); return false;">Silence the Voiced</a> (3rd Circle) - Remove speech from Animals</li>
+<li><a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/green-elixir', 'Green Elixir'); return false;">Green Elixir</a> (2nd Circle) - The potion that affected Elphaba's mother</li>
+<li><a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/time-fracture', 'Time Fracture'); return false;">Time Fracture</a> (7th Circle) - Cause temporal distortions</li>
+<li><a href="#" onclick="Tabs.openTab('magic/spells/grimmerie/soul-transfer', 'Soul Transfer'); return false;">Soul Transfer</a> (9th Circle) - Move consciousness between bodies</li>
+</ul>
+
+<h2>Related Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('objects/magic-items/artifacts/the-grimmerie', 'The Grimmerie'); return false;">The Grimmerie</a> - The source text</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-witch', 'The Witch'); return false;">The Witch</a> - Primary caster class</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-adept', 'The Adept'); return false;">The Adept</a> - Academic caster class</li>
+<li><a href="#" onclick="Tabs.openTab('magic/phenomena/grimmerie-corruption', 'Grimmerie Corruption'); return false;">Grimmerie Corruption</a> - Dangers of using these spells</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/elphaba-thropp', 'Elphaba Thropp'); return false;">Elphaba Thropp</a> - Master of Grimmerie magic</li>
+</ul>
