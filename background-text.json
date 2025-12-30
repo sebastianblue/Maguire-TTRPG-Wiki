@@ -1,0 +1,2379 @@
+def background_content(
+	title,
+	quote,
+	overview_paras,
+	applicable_intro,
+	applicable_items,  # list of (label, explanation)
+	skills,
+	tools,
+	languages,
+	equipment_items,
+	feature_name,
+	feature_desc,
+	traits, ideals, bonds, flaws,
+	gm_notes,
+	related_paths
+):
+	parts = []
+	parts.append(f"<h1>{title}</h1>\n")
+	parts.append("<blockquote>\n<p><em>\"" + quote + "\"</em></p>\n</blockquote>\n")
+	parts.append("<h2>Overview</h2>")
+	for p in overview_paras:
+		parts.append(f"<p>{p}</p>")
+	parts.append("\n<h2>Applicable Races</h2>")
+	parts.append(f"<p>{applicable_intro}</p>")
+	parts.append("<ul>")
+	for lab, exp in applicable_items:
+		parts.append(f"<li><strong>{lab}:</strong> {exp}</li>")
+	parts.append("</ul>\n")
+	parts.append("<h2>Skill Proficiencies</h2>")
+	parts.append(f"<p>{skills}</p>\n")
+	parts.append("<h2>Tool Proficiencies</h2>")
+	parts.append(f"<p>{tools}</p>\n")
+	parts.append("<h2>Languages</h2>")
+	parts.append(f"<p>{languages}</p>\n")
+	parts.append("<h2>Equipment</h2>")
+	parts.append("<p>You start with the following equipment:</p>")
+	parts.append("<ul>")
+	for it in equipment_items:
+		parts.append(f"<li>{it}</li>")
+	parts.append("</ul>\n")
+	parts.append(f"<h2>Feature: {feature_name}</h2>")
+	parts.append(f"<p>{feature_desc}</p>\n")
+	parts.append("<h2>Suggested Characteristics</h2>")
+	parts.append("<p>People who lived this life often carry it in their habits, loyalties, and blind spots.</p>\n")
+	parts.append("<h3>Personality Traits</h3>")
+	parts.append(dtable("d8", "Personality Trait", traits) + "\n")
+	parts.append("<h3>Ideals</h3>")
+	parts.append(dtable("d6", "Ideal", ideals_rows(ideals)) + "\n")
+	parts.append("<h3>Bonds</h3>")
+	parts.append(dtable("d6", "Bond", bonds) + "\n")
+	parts.append("<h3>Flaws</h3>")
+	parts.append(dtable("d6", "Flaw", flaws) + "\n")
+	parts.append("<h2>GM Notes</h2>")
+	parts.append(f"<p>{gm_notes}</p>\n")
+	parts.append(related_entries_html(related_paths))
+	return "\n".join(parts)
+
+LAST_MODIFIED = "2025-12-30T00:00:00Z"
+
+def make_entry(slug, title, **kwargs):
+	key = f"character/backgrounds/{slug}"
+	content = background_content(title=title, **kwargs)
+	return key, {
+		"id": key,
+		"title": title,
+		"category": ["Character", "Backgrounds"],
+		"content": content,
+		"related": kwargs["related_paths"],
+		"tags": kwargs["tags"],
+		"applicableRaces": kwargs["applicableRaces"],
+		"lastModified": LAST_MODIFIED
+	}
+
+# Convenience aliases for page paths
+R_GILL = "character/races/humans/gillikinese"
+R_MUNCH = "character/races/humans/munchkinlander"
+R_QUAD = "character/races/humans/quadling"
+R_VINK = "character/races/humans/vinkan"
+R_EC = "character/races/humans/emerald-city-native"
+R_OUT = "character/races/humans/outlander"
+R_AM = "character/races/animals/mammals"
+R_AB = "character/races/animals/birds"
+R_TIK = "character/races/tiktoks"
+R_TOU = "character/races/touched"
+R_WM = "character/races/winged-monkeys"
+
+C_SCH = "character/classes/the-scholar"
+C_PER = "character/classes/the-performer"
+C_SOL = "character/classes/the-soldier"
+C_ART = "character/classes/the-artisan"
+C_TRV = "character/classes/the-traveler"
+C_AGT = "character/classes/the-agent"
+C_UNI = "character/classes/the-unionist"
+C_LUR = "character/classes/the-lurlinite"
+C_WIT = "character/classes/the-witch"
+
+L_GILL = "exploration/regions/gillikin"
+L_MUNCH = "exploration/regions/munchkinland"
+L_QUAD = "exploration/regions/quadling-country"
+L_VINK = "exploration/regions/the-vinkus"
+L_ECITY = "exploration/regions/emerald-city"
+LOC_SHIZ = "exploration/locations/shiz-university"
+LOC_SOUTH = "exploration/locations/southstairs"
+LOC_KK = "exploration/locations/kiamo-ko"
+LOC_APPLE = "exploration/locations/apple-press-farm"
+
+F_PAL = "factions/government/the-palace"
+F_GALE = "factions/government/gale-force"
+F_UNION = "factions/religious/unionist-church"
+F_MAUN = "factions/religious/mauntery-system"
+F_ANRES = "factions/resistance/animal-resistance"
+F_FREE = "factions/resistance/free-munchkinland"
+F_CRIM = "factions/underground/criminal-networks"
+F_SHIZ = "factions/academic/shiz-university"
+F_HOME = "factions/military/home-guard"
+F_CLOCK = "factions/secret/the-clocks-keepers"
+
+O_RAIL = "underground/animal-underground-railroad"
+O_SGUIDE = "underground/southstairs-guide"
+COND_SCR = "conditions/scraped"
+H_WIZ = "historical/the-wizard-reign"
+H_SHELL = "historical/emperor-shell-reign"
+REL_GOD = "religion/the-unnamed-god"
+REL_LUR = "religion/lurline-old-ways"
+
+backgrounds = {}
+
+def add(slug, title, data):
+	key, entry = make_entry(slug, title, **data)
+	backgrounds[key] = entry
+
+# 1 Shiz University Student/Graduate
+add("shiz-university-graduate", "Shiz University Student/Graduate", dict(
+	quote="Shiz made me sharp. It did not make me brave.",
+	overview_paras=[
+		"Shiz University sells its students a story: learning as a ladder, scholarship as a shield. In practice, Shiz is a mirror. It reflects back who you are, who you want to be, and who you will pretend to be when the room gets quiet.",
+		"You studied among heirs, strivers, and ideologues. You watched ideas get rewarded, punished, or politely buried. You left with a name that opens doors, and a memory of how easily doors can close - especially for those who were never meant to be inside."
+	],
+	applicable_intro="Shiz is overwhelmingly human, though its gates have never been perfectly sealed.",
+	applicable_items=[
+		("Gillikinese", "Legacy students and well-funded scholars from the north"),
+		("Emerald City Native", "Children of officials and merchants hungry for polish"),
+		("Munchkinlander", "Scholarship students, ambitious transfers, political projects"),
+		("Animals", "Rare; those admitted often paid in humiliation for access")
+	],
+	skills="History, Investigation",
+	tools="Calligrapher's supplies",
+	languages="One of your choice",
+	equipment_items=[
+		"A worn course reader with marginal notes",
+		"A school ring or enamel pin",
+		"Fine but practical clothes",
+		"A journal and ink",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Academic Network",
+	feature_desc="You can usually find a sympathetic alum, a library, or a lecture hall in any major settlement. Even rivals may trade favors when the favor is discreet and the source is Shiz.",
+	traits=[
+		"I annotate everything, even conversations.",
+		"I keep my opinions polite until I know the room.",
+		"I collect rumors like citations.",
+		"I overexplain when nervous.",
+		"I still dream in exam timetables.",
+		"I cannot resist a good argument.",
+		"I distrust easy answers on principle.",
+		"I carry shame about who I ignored at Shiz."
+	],
+	ideals=[
+		("Knowledge", "Truth matters more than comfort", "Neutral"),
+		("Reform", "Institutions can be bent, not burned", "Lawful"),
+		("Justice", "The clever should protect the vulnerable", "Good"),
+		("Ambition", "If I do not rise, I will be crushed", "Neutral"),
+		("Subversion", "A polished smile is a useful mask", "Chaotic"),
+		("Control", "Order is the only mercy Oz offers", "Evil")
+	],
+	bonds=[
+		"I owe a mentor who took a risk on me.",
+		"A classmate knows what I did - and what I did not do.",
+		"I guard a set of notes that someone would kill for.",
+		"My scholarship came with strings; the knot is still tight.",
+		"I left someone behind in the worst moment.",
+		"Shiz made me; I will not let it erase me."
+	],
+	flaws=[
+		"I confuse being right with being safe.",
+		"I go cold when emotions get loud.",
+		"I will betray a friend to protect my future.",
+		"I cannot stop collecting leverage.",
+		"I panic when I feel uneducated.",
+		"I assume the system will eventually reward me."
+	],
+	gm_notes="Use Shiz as a pipeline: old classmates as allies or antagonists, faculty as patrons, and archived secrets as plot fuel. Shiz ties cleanly to court intrigue, resistance recruitment, or a personal reckoning with complicity.",
+	related_paths=[LOC_SHIZ, F_SHIZ, L_GILL, C_SCH],
+	tags=["background", "playable", "academic", "gillikin", "shiz"],
+	applicableRaces=["Gillikinese", "Emerald City Native", "Munchkinlander", "Animals (rare)"]
+))
+
+# 2 Crage Hall Attendee
+add("crage-hall-attendee", "Crage Hall Attendee", dict(
+	quote="They taught us to speak in rooms that pretended not to hear.",
+	overview_paras=[
+		"Crage Hall is a city within Shiz: a place where young women learn to read between lines, and to write new ones when the old lines choke.",
+		"Some come for ideals, some for strategy, some for shelter. You learned how power dresses itself up as etiquette - and how to use etiquette as a blade without drawing blood in public."
+	],
+	applicable_intro="Crage Hall is mostly human, shaped by class and access more than blood.",
+	applicable_items=[
+		("Gillikinese", "Well-funded students with time to think and time to scheme"),
+		("Emerald City Native", "Practical social climbers and daughters of office"),
+		("Munchkinlander", "Outsiders who learned to survive by reading people"),
+		("Outlander", "Guests and transfers carrying foreign manners and secrets")
+	],
+	skills="Insight, Persuasion",
+	tools="Calligrapher's supplies",
+	languages="One of your choice",
+	equipment_items=[
+		"A slim notebook of coded observations",
+		"A set of formal gloves or a modest fan",
+		"A ribbon or badge from Crage Hall",
+		"Perfume or soap of good quality",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Sister-Circle",
+	feature_desc="When you can plausibly trace a connection to Crage Hall, you can usually find a willing ear: someone who will pass a message, vouch for your character, or arrange a quiet introduction.",
+	traits=[
+		"I notice who stands where, and why.",
+		"I never waste a compliment.",
+		"I ask small questions to learn big truths.",
+		"I keep my anger tidy.",
+		"I always have an exit plan.",
+		"I am loyal to the people who saw me clearly.",
+		"I weaponize gossip, then feel guilty about it.",
+		"I trust women faster than I trust systems."
+	],
+	ideals=[
+		("Solidarity", "No one survives alone", "Good"),
+		("Strategy", "Feelings are data", "Neutral"),
+		("Dignity", "I will not be made small", "Lawful"),
+		("Disruption", "Polite rebellion still counts", "Chaotic"),
+		("Influence", "Soft power is still power", "Neutral"),
+		("Revenge", "I remember every slight", "Evil")
+	],
+	bonds=[
+		"A fellow Crage student has my back - for now.",
+		"I promised to protect someone less powerful than me.",
+		"A mentor taught me the rules; I learned the loopholes.",
+		"I carry letters that could ruin a family.",
+		"I love someone I should not.",
+		"I will not let my old life find me."
+	],
+	flaws=[
+		"I default to manipulation.",
+		"I dismiss people who cannot read a room.",
+		"I would rather be admired than understood.",
+		"I lie smoothly, then forget to stop.",
+		"I hoard secrets until they rot.",
+		"I flinch from direct confrontation."
+	],
+	gm_notes="Crage Hall is perfect for social leverage: rivals with shared history, alumnae networks, and a slow-burn scandal. Use it to seed contacts in the Palace, Shiz faculty, or the underground.",
+	related_paths=[LOC_SHIZ, F_SHIZ, C_SCH, L_GILL],
+	tags=["background", "playable", "academic", "crage", "shiz", "gillikin"],
+	applicableRaces=["Gillikinese", "Emerald City Native", "Munchkinlander", "Outlander"]
+))
+
+# 3 Three Queens College Alumnus
+add("three-queens-college-alumnus", "Three Queens College Alumnus", dict(
+	quote="They polished us until we could see our own distortions.",
+	overview_paras=[
+		"Three Queens College is a finishing forge: education wrapped in velvet, ambition served with tea. You learned how culture can be used as currency and how kindness can be staged.",
+		"Your degree is a passport to salons and closed doors. It also comes with a price: the expectation that you will be useful, presentable, and loyal to the story your benefactors prefer."
+	],
+	applicable_intro="This background is strongly associated with privileged human circles.",
+	applicable_items=[
+		("Gillikinese", "The core student body, groomed for influence"),
+		("Emerald City Native", "Children of wealth who want legitimacy"),
+		("Outlander", "Diplomatic daughters and carefully chosen guests"),
+		("Munchkinlander", "Rare scholarship cases, often watched closely")
+	],
+	skills="Persuasion, Deception",
+	tools="Gaming set (cards or dice)",
+	languages="One of your choice",
+	equipment_items=[
+		"A formal invitation you never used (or never returned)",
+		"A signet-like accessory or tasteful jewelry",
+		"A fashionable outfit and a plain travel outfit",
+		"A small bottle of ink and a wax seal",
+		"A pouch containing 15 gp"
+	],
+	feature_name="Well-Placed Introductions",
+	feature_desc="In cities and court-adjacent spaces, you can usually get an audience - not with the most powerful person, but with someone who matters and remembers names.",
+	traits=[
+		"I smile when I am furious.",
+		"I can make any room feel smaller.",
+		"I collect favors like heirlooms.",
+		"I speak softly to make others lean in.",
+		"I hate being underestimated almost as much as I enjoy it.",
+		"I treat etiquette as a second language.",
+		"I am nostalgic for a place I resented.",
+		"I always know the price of a gift."
+	],
+	ideals=[
+		("Grace", "Power should look effortless", "Lawful"),
+		("Truth", "A beautiful lie still poisons", "Good"),
+		("Status", "Rank is the only protection", "Neutral"),
+		("Freedom", "I refuse to be curated", "Chaotic"),
+		("Duty", "I must represent my house well", "Lawful"),
+		("Dominance", "The world is a ladder; I climb", "Evil")
+	],
+	bonds=[
+		"A patron paid for my education; the debt remains.",
+		"I keep a friend safe by holding her secret.",
+		"A rival knows my weak spot and enjoys it.",
+		"I am trying to restore a family name.",
+		"I love the idea of someone more than the person.",
+		"My alma mater expects my loyalty on command."
+	],
+	flaws=[
+		"I confuse taste with virtue.",
+		"I assume people want what I want.",
+		"I am reckless when bored.",
+		"I weaponize charm, then blame others.",
+		"I fear poverty more than death.",
+		"I cannot admit I was wrong."
+	],
+	gm_notes="Three Queens alumni are great for high-society play: invitations, patronage, and enemies who smile while they twist the knife. Drop a gala, a hostage negotiation, or a public scandal into the campaign.",
+	related_paths=[L_ECITY, F_PAL, C_SCH, R_GILL],
+	tags=["background", "playable", "academic", "elite", "emerald-city"],
+	applicableRaces=["Gillikinese", "Emerald City Native", "Outlander", "Munchkinlander (rare)"]
+))
+
+# 4 Briscoe Hall
+add("briscoe-hall", "Briscoe Hall", dict(
+	quote="They gave us skills, not illusions.",
+	overview_paras=[
+		"Briscoe Hall is where the work happens: practical learning, grudging respect, and a clear view of who gets thanked when a machine runs.",
+		"You learned to fix what breaks - and to recognize when a system is built to break someone else. You do not romanticize labor. You know its cost."
+	],
+	applicable_intro="Briscoe is a common path for working-class humans and a few outsiders who found a crack in the gate.",
+	applicable_items=[
+		("Munchkinlander", "Apprentices, scholarship kids, and stubborn talent"),
+		("Gillikinese", "Second sons, black sheep, and practical minds"),
+		("Emerald City Native", "Clerks and technicians who want real skill"),
+		("The Touched", "Those who learned to survive by making themselves useful")
+	],
+	skills="Athletics, Investigation",
+	tools="Artisan's tools (choose one)",
+	languages="None",
+	equipment_items=[
+		"A tool roll appropriate to your trade",
+		"A rough apron or work coat",
+		"A small tin of grease or polish",
+		"A set of chalks and a measuring cord",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Find the Work",
+	feature_desc="In any town with industry, you can usually locate the people who actually keep things running and earn at least modest pay or shelter in exchange for honest labor.",
+	traits=[
+		"I distrust pretty speeches.",
+		"I fix things to calm down.",
+		"I take pride in work no one notices.",
+		"I laugh at danger when I should not.",
+		"I keep my hands busy in tense moments.",
+		"I know where every exit and ladder is.",
+		"I hold grudges with patience.",
+		"I feel responsible for everyone else's mess."
+	],
+	ideals=[
+		("Craft", "Skill is a form of truth", "Neutral"),
+		("Solidarity", "Workers protect workers", "Good"),
+		("Pragmatism", "Do what works, not what sells", "Neutral"),
+		("Freedom", "No master owns my hands", "Chaotic"),
+		("Order", "Rules prevent waste and harm", "Lawful"),
+		("Profit", "If they exploit me, I exploit back", "Evil")
+	],
+	bonds=[
+		"My teacher gave me a second chance; I honor it.",
+		"I send money home whenever I can.",
+		"I keep a tool that belonged to someone I lost.",
+		"I am building something in secret.",
+		"A foreman or boss wants me back.",
+		"I owe a debt to the person who got me into Briscoe."
+	],
+	flaws=[
+		"I think feelings are inefficient.",
+		"I pick fights with arrogant people.",
+		"I refuse help, even when I need it.",
+		"I sabotage authority on instinct.",
+		"I measure my worth in output.",
+		"I take risks to prove I matter."
+	],
+	gm_notes="Briscoe backgrounds shine in investigation and infiltration: access to workshops, knowledge of locks, gears, and routines. Use labor disputes, sabotage plots, and industrial secrets as hooks.",
+	related_paths=[LOC_SHIZ, C_ART, L_GILL, F_SHIZ],
+	tags=["background", "playable", "trade", "shiz", "gillikin"],
+	applicableRaces=["Munchkinlander", "Gillikinese", "Emerald City Native", "The Touched"]
+))
+
+# 5 Courts of Justice Clerk
+add("courts-of-justice-clerk", "Courts of Justice Clerk", dict(
+	quote="In Oz, ink can hurt more than knives.",
+	overview_paras=[
+		"You learned the law the way most people learn weather: by watching it change and trying not to get struck. The Courts of Justice are a machine that runs on precedent, bribes, and fear of embarrassment.",
+		"As a clerk, you saw who got heard and who got erased. You know the right forms, the right doors, and the quiet tricks that turn a case from 'lost' into 'delayed.'"
+	],
+	applicable_intro="Clerks are typically human, drawn from families that value stability and discretion.",
+	applicable_items=[
+		("Emerald City Native", "City clerks with a feel for procedure and pressure"),
+		("Gillikinese", "Educated functionaries placed into service"),
+		("Munchkinlander", "Lower-office workers who learned caution early"),
+		("Outlander", "Occasional specialists hired for foreign disputes")
+	],
+	skills="Insight, Investigation",
+	tools="Calligrapher's supplies",
+	languages="One of your choice",
+	equipment_items=[
+		"A stamped ledger with blank pages",
+		"A set of sealing wax and a simple signet",
+		"A small knife or letter opener",
+		"Plain clothes suitable for an office",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Paper Authority",
+	feature_desc="You can usually identify the proper office, official, or filing system for a legal or civic matter, and you can secure a brief meeting or access to non-sensitive records with the right etiquette.",
+	traits=[
+		"I speak in careful, qualified sentences.",
+		"I notice inconsistencies immediately.",
+		"I keep copies of everything.",
+		"I never volunteer information for free.",
+		"I enjoy watching powerful people sweat.",
+		"I hate messes - moral or physical.",
+		"I treat gossip like evidence.",
+		"I flinch when someone raises their voice."
+	],
+	ideals=[
+		("Procedure", "Rules are a kind of mercy", "Lawful"),
+		("Fairness", "The powerless deserve hearings too", "Good"),
+		("Prudence", "Survive first, judge later", "Neutral"),
+		("Transparency", "Secrecy breeds rot", "Chaotic"),
+		("Loyalty", "My office protects me; I protect it", "Lawful"),
+		("Leverage", "Every file is a weapon", "Evil")
+	],
+	bonds=[
+		"I protect a client I should not.",
+		"I owe a favor to a judge or bailiff.",
+		"A case from my past still haunts me.",
+		"My family depends on my salary.",
+		"I have evidence that could topple an official.",
+		"I keep a colleague's secret to keep my own."
+	],
+	flaws=[
+		"I delay problems until they become disasters.",
+		"I cannot resist blackmail when offered.",
+		"I treat people like paperwork.",
+		"I panic when confronted with violence.",
+		"I trust institutions more than humans.",
+		"I tell myself 'just following orders'."
+	],
+	gm_notes="Clerks are plot glue: warrants, records, missing files, legal loopholes, and the people who quietly control civic life. Use them to introduce corruption, false charges, or a dangerous archive.",
+	related_paths=[L_ECITY, F_PAL, C_SCH, R_EC],
+	tags=["background", "playable", "legal", "emerald-city", "bureaucracy"],
+	applicableRaces=["Emerald City Native", "Gillikinese", "Munchkinlander", "Outlander"]
+))
+
+# 6 Mauntery Escapee
+add("mauntery-escapee", "Mauntery Escapee", dict(
+	quote="Silence is holy until it becomes a cage.",
+	overview_paras=[
+		"Maunteries promise purity: a life pared down to prayer, labor, and obedience. You entered for shelter, conviction, punishment, or lack of choices.",
+		"You left anyway. Maybe you ran. Maybe you were pushed out. Either way, you carry the discipline of that life and the bruises of what the world does to women who refuse to stay put."
+	],
+	applicable_intro="Maunteries are Unionist institutions and are almost always human.",
+	applicable_items=[
+		("Munchkinlander", "Families sending daughters to be 'safe' and useful"),
+		("Gillikinese", "Well-bred women hiding scandal or grief"),
+		("Quadling", "Rural girls taken in after war or famine"),
+		("Emerald City Native", "Orphans and unwanted children of the city")
+	],
+	skills="Insight, Medicine",
+	tools="Herbalism kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A plain habit or shawl you no longer wear (but kept)",
+		"A prayer token to the Unnamed God",
+		"A small kit of bandages and dried herbs",
+		"A hand-copied page from a forbidden book",
+		"A pouch containing 8 gp"
+	],
+	feature_name="Sanctuary by Habit",
+	feature_desc="You know how maunteries work: their schedules, their gatekeeping, and their quiet economies. You can usually secure a night of shelter or a private conversation with a sister - even if you are not welcome to stay.",
+	traits=[
+		"I wake before dawn out of habit.",
+		"I find comfort in routine.",
+		"I speak softly, then surprise people.",
+		"I cannot stand wasted food.",
+		"I notice injuries and sickness first.",
+		"I keep my hands busy when afraid.",
+		"I pray when I am angry.",
+		"I distrust pleasure on principle - then crave it."
+	],
+	ideals=[
+		("Mercy", "Care is a kind of rebellion", "Good"),
+		("Obedience", "Submission keeps the world stable", "Lawful"),
+		("Freedom", "No vow should be forced", "Chaotic"),
+		("Truth", "Faith without honesty is rot", "Neutral"),
+		("Atonement", "I must pay for what I did", "Lawful"),
+		("Resentment", "I will make them regret the cage", "Evil")
+	],
+	bonds=[
+		"A sister helped me escape; I owe her.",
+		"I left someone behind who could not run.",
+		"I carry a secret from inside the walls.",
+		"My family thinks I am dead.",
+		"A Unionist official wants me returned.",
+		"I still love the faith I fled."
+	],
+	flaws=[
+		"I judge others harshly for small indulgences.",
+		"I freeze when commanded.",
+		"I cannot accept kindness without suspicion.",
+		"I avoid intimacy like a sin.",
+		"I cling to suffering as proof.",
+		"I lash out when I feel trapped."
+	],
+	gm_notes="A mauntery escapee invites pursuit, shelter scenes, and spiritual conflict. Use sisterly allies, Unionist pressure, and the temptation to return for answers or protection.",
+	related_paths=[F_MAUN, F_UNION, REL_GOD, C_UNI],
+	tags=["background", "playable", "religious", "unionist", "fugitive"],
+	applicableRaces=["Munchkinlander", "Gillikinese", "Quadling", "Emerald City Native"]
+))
+
+# 7 Mauntery Devotee
+add("mauntery-devotee", "Mauntery Devotee", dict(
+	quote="I gave up my name so the world could not take it.",
+	overview_paras=[
+		"You chose the mauntery. You chose the rules, the labor, the long silences. In return, the world stopped demanding you perform.",
+		"Devotion does not mean naivete. You know what the maunteries hide, what they heal, and what they trade with the Palace to remain untouched."
+	],
+	applicable_intro="This background assumes a Unionist human upbringing, though devotion can take many shapes.",
+	applicable_items=[
+		("Munchkinlander", "Commoners who found purpose and protection in vows"),
+		("Gillikinese", "Women who rejected marriage as a destiny"),
+		("Emerald City Native", "Those pulled into service through orphanages and charities"),
+		("Quadling", "Refugees who clung to faith after devastation")
+	],
+	skills="Medicine, Religion (or Insight)",
+	tools="Herbalism kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A simple habit or work dress",
+		"A bundle of herbs and salves",
+		"A devotional text with your annotations",
+		"A small bell or chime for prayers",
+		"A pouch containing 6 gp"
+	],
+	feature_name="House of Quiet Doors",
+	feature_desc="Sisters recognize you as one of theirs. You can usually gain access to a mauntery, receive basic care, and request a discreet favor, provided you do not endanger the house.",
+	traits=[
+		"I listen longer than is comfortable.",
+		"I speak in parables when directness feels sharp.",
+		"I keep calm in emergencies.",
+		"I measure my days by tasks, not moods.",
+		"I offer help before it is asked.",
+		"I dislike waste and excess.",
+		"I see omens everywhere.",
+		"I can be frighteningly stubborn."
+	],
+	ideals=[
+		("Service", "To heal is to resist", "Good"),
+		("Discipline", "Freedom requires structure", "Lawful"),
+		("Humility", "Pride is a trap", "Neutral"),
+		("Compassion", "Even monsters bleed", "Good"),
+		("Secrecy", "Some truths should stay inside walls", "Lawful"),
+		("Purity", "The world must be cleansed", "Evil")
+	],
+	bonds=[
+		"My mauntery is my family now.",
+		"A patient changed me; I will not forget.",
+		"I protect a relic or record the Palace wants.",
+		"I correspond with someone in the outside world.",
+		"A sister is in danger because of me.",
+		"I made a vow I cannot break."
+	],
+	flaws=[
+		"I confuse obedience with goodness.",
+		"I underestimate secular cruelty.",
+		"I hide anger behind prayer.",
+		"I am slow to forgive myself.",
+		"I avoid choices by calling them 'fate'.",
+		"I can be judgmental when afraid."
+	],
+	gm_notes="A devotee pulls the game toward healing, confession, and moral dilemmas. Use safehouses, hidden archives, and the tension between faith and politics.",
+	related_paths=[F_MAUN, F_UNION, REL_GOD, C_UNI],
+	tags=["background", "playable", "religious", "unionist", "healer"],
+	applicableRaces=["Munchkinlander", "Gillikinese", "Emerald City Native", "Quadling"]
+))
+
+# 8 Pleasure Faith Apostate
+add("pleasure-faith-apostate", "Pleasure Faith Apostate", dict(
+	quote="The old gods do not punish. People do.",
+	overview_paras=[
+		"You were raised on the old ways: Lurline's stories, seasonal rites, small pleasures treated as sacred. Then came pressure, shame, or survival, and you stepped away.",
+		"Leaving did not erase what you learned. You still recognize a shrine hidden under a kitchen table. You still know which songs make a room feel like summer."
+	],
+	applicable_intro="The old ways persist in pockets across Oz, especially where the Unionist gaze is weaker.",
+	applicable_items=[
+		("Quadling", "Communities where older rites survived catastrophe"),
+		("Outlander", "Foreigners with parallel folk traditions"),
+		("Munchkinlander", "Rural families holding to inherited customs"),
+		("Animals", "Rare; some Animal communities keep their own old rites")
+	],
+	skills="Performance, Survival",
+	tools="Musical instrument (choose one)",
+	languages="One of your choice",
+	equipment_items=[
+		"A small charm tied with colored thread",
+		"A set of candles or powdered incense",
+		"A simple instrument or songbook",
+		"A travel cloak with hidden pockets",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Old Signs",
+	feature_desc="You can usually identify a sympathetic household, folk healer, or hidden shrine tied to Lurline and the old ways. When you ask for help respectfully, people may offer quiet aid - or quiet warnings.",
+	traits=[
+		"I talk to storms like they can hear me.",
+		"I cook by smell, not recipe.",
+		"I keep my joy private.",
+		"I trust rituals more than sermons.",
+		"I collect stories from elders.",
+		"I resent anyone who calls my past 'sin'.",
+		"I sing when afraid.",
+		"I feel guilty for leaving - and relieved."
+	],
+	ideals=[
+		("Wonder", "Small joys keep us human", "Good"),
+		("Tradition", "Old ways hold old wisdom", "Lawful"),
+		("Choice", "Faith must be voluntary", "Chaotic"),
+		("Survival", "Belief is a luxury sometimes", "Neutral"),
+		("Reclamation", "I will take back what was stolen", "Neutral"),
+		("Scorn", "I despise all piety", "Evil")
+	],
+	bonds=[
+		"I protect a secret shrine location.",
+		"A Unionist enforcer ruined my family.",
+		"A mentor taught me rites I half-remember.",
+		"I carry a promise made at a festival.",
+		"I am searching for someone who vanished after conversion.",
+		"My old community still watches me."
+	],
+	flaws=[
+		"I romanticize the past.",
+		"I bristle at any authority.",
+		"I risk myself for symbolic gestures.",
+		"I hide behind superstition.",
+		"I cannot let insults go.",
+		"I distrust help that comes with rules."
+	],
+	gm_notes="Great for folk magic, hidden networks, and religious tension. Use secret festivals, Unionist crackdowns, and moral choices about faith versus safety.",
+	related_paths=[REL_LUR, C_LUR, L_QUAD, F_UNION],
+	tags=["background", "playable", "religion", "lurline", "folk"],
+	applicableRaces=["Quadling", "Munchkinlander", "Outlander", "Animals (rare)"]
+))
+
+# 9 Wizard's Bureaucrat
+add("wizards-bureaucrat", "Wizard's Bureaucrat", dict(
+	quote="I stamped the paper. I told myself that was not the same as harm.",
+	overview_paras=[
+		"You served the Wizard's administration, where cruelty wore a clean collar. Your work might have been mundane: permits, censuses, travel passes, requisitions.",
+		"Then you learned what those documents enabled. Maybe you stayed. Maybe you fled. Either way, you understand the old machine - its habits, its weak points, and how quickly it can be restarted by anyone hungry for power."
+	],
+	applicable_intro="Government service under the Wizard was dominated by humans and built on loyalty tests.",
+	applicable_items=[
+		("Emerald City Native", "City clerks and upward strivers"),
+		("Gillikinese", "Educated administrators placed in office"),
+		("Munchkinlander", "Conscripts and low-level workers"),
+		("Outlander", "Specialists recruited for their outside knowledge")
+	],
+	skills="History, Deception",
+	tools="Calligrapher's supplies",
+	languages="One of your choice",
+	equipment_items=[
+		"An old badge or stamped travel pass",
+		"A ledger of coded accounts",
+		"A bottle of ink and quills",
+		"Plain official clothes",
+		"A pouch containing 12 gp"
+	],
+	feature_name="Old Channels",
+	feature_desc="You know how to route requests, bribes, and messages through the remnants of Wizard-era bureaucracy. You can usually identify who still benefits from the old system - and who fears being exposed.",
+	traits=[
+		"I keep my face neutral by reflex.",
+		"I prefer written promises to spoken ones.",
+		"I notice uniforms and insignia first.",
+		"I speak like a memo even when I should not.",
+		"I remember names, debts, and dates.",
+		"I can justify almost anything - then hate myself.",
+		"I distrust idealists.",
+		"I cannot stop scanning for surveillance."
+	],
+	ideals=[
+		("Accountability", "Someone must answer for what happened", "Good"),
+		("Stability", "Order prevents bloodshed", "Lawful"),
+		("Pragmatism", "Live long enough to matter", "Neutral"),
+		("Reform", "Fix the machine from inside", "Neutral"),
+		("Freedom", "Burn the files, free the people", "Chaotic"),
+		("Control", "Fear is efficient", "Evil")
+	],
+	bonds=[
+		"I keep a file that could save or ruin someone.",
+		"An old colleague wants me silent.",
+		"I owe an Animal a debt I cannot repay.",
+		"My family still believes the Wizard was right.",
+		"I protected one person by harming another.",
+		"I am haunted by a name on a list."
+	],
+	flaws=[
+		"I minimize my own responsibility.",
+		"I lie automatically to stay safe.",
+		"I assume everyone is corrupt.",
+		"I freeze when asked to take a side.",
+		"I hoard evidence instead of acting.",
+		"I panic when my past is mentioned."
+	],
+	gm_notes="Use this background to expose historical secrets, spark redemption arcs, or set up blackmail plots. Old memos lead to new crimes; old allies become dangerous liabilities.",
+	related_paths=[H_WIZ, F_PAL, L_ECITY, C_AGT],
+	tags=["background", "playable", "government", "wizard", "emerald-city"],
+	applicableRaces=["Emerald City Native", "Gillikinese", "Munchkinlander", "Outlander"]
+))
+
+# 10 Emperor's Administrator
+add("emperors-administrator", "Emperor's Administrator", dict(
+	quote="The regime changed its banner. The paperwork did not.",
+	overview_paras=[
+		"You serve Emperor Shell's government - or served it until the work became unbearable. The imperial court is less theatrical than the Wizard's, but no less hungry.",
+		"You have learned the art of survival in a shifting capital: who to flatter, who to fear, and how to do the least harm while keeping your job - or how to do great harm while calling it 'policy.'"
+	],
+	applicable_intro="Imperial administrators are almost always human and tied to the Emerald City.",
+	applicable_items=[
+		("Emerald City Native", "Career officials with local connections"),
+		("Gillikinese", "Educated outsiders placed into service"),
+		("Munchkinlander", "Representatives and reluctant liaisons"),
+		("Outlander", "Specialists handling foreign correspondence")
+	],
+	skills="Insight, Persuasion",
+	tools="Calligrapher's supplies",
+	languages="One of your choice",
+	equipment_items=[
+		"A sealed letter of appointment (expired or current)",
+		"A small set of wax and stamps",
+		"A ledger of schedules and favors",
+		"A plain cloak that looks expensive up close",
+		"A pouch containing 12 gp"
+	],
+	feature_name="Imperial Access",
+	feature_desc="You can usually secure a meeting with a mid-level official, gain entry to a government building, or learn which department controls a given decision - provided you behave like you belong.",
+	traits=[
+		"I speak politely while calculating risk.",
+		"I know who outranks whom in any room.",
+		"I keep my hands clean, or try to.",
+		"I never waste a favor.",
+		"I dread being replaced by someone crueler.",
+		"I am fascinated by power like a fire.",
+		"I compartmentalize everything.",
+		"I cannot sleep without counting consequences."
+	],
+	ideals=[
+		("Continuity", "A state must function", "Lawful"),
+		("Compassion", "Policy should reduce suffering", "Good"),
+		("Ambition", "I deserve to rise", "Neutral"),
+		("Dissent", "A government must be challenged", "Chaotic"),
+		("Loyalty", "Shell saved Oz from chaos", "Lawful"),
+		("Dominion", "People exist to be managed", "Evil")
+	],
+	bonds=[
+		"I protect an official I respect.",
+		"I owe a debt to the Palace.",
+		"A file of mine disappeared; I need it back.",
+		"My work funds my family's safety.",
+		"I secretly aid the resistance.",
+		"I am being watched by someone in uniform."
+	],
+	flaws=[
+		"I delay hard decisions until others suffer.",
+		"I rationalize cruelty as 'necessary'.",
+		"I fear scandal more than injustice.",
+		"I treat people like assets.",
+		"I believe I can outsmart the regime.",
+		"I panic when the chain of command breaks."
+	],
+	gm_notes="Perfect for court intrigue and moral grayness. Use budget cuts, secret decrees, and purges. Administrators can be patrons, informants, or the person holding the lever everyone wants.",
+	related_paths=[H_SHELL, F_PAL, L_ECITY, F_HOME],
+	tags=["background", "playable", "government", "imperial", "emerald-city"],
+	applicableRaces=["Emerald City Native", "Gillikinese", "Munchkinlander", "Outlander"]
+))
+
+# 11 Gale Force Veteran
+add("gale-force-veteran", "Gale Force Veteran", dict(
+	quote="When you wear a uniform long enough, it starts wearing you.",
+	overview_paras=[
+		"The Gale Force trained you to see threats everywhere and to become one when ordered. You learned surveillance, intimidation, and the quiet violence that leaves no witnesses.",
+		"Now you are out - by choice, by injury, by betrayal, or by purge. The world remembers your badge even if you try to forget it."
+	],
+	applicable_intro="The Gale Force was a human institution; Animals were targets, not recruits.",
+	applicable_items=[
+		("Emerald City Native", "City recruits and ambitious enforcers"),
+		("Gillikinese", "Officers with education and patronage"),
+		("Munchkinlander", "Conscripts and desperate careerists"),
+		("The Touched", "Useful 'monsters' kept on a short leash")
+	],
+	skills="Intimidation, Perception",
+	tools="Disguise kit",
+	languages="None",
+	equipment_items=[
+		"A battered insignia (hidden or defaced)",
+		"A dark cloak and sturdy boots",
+		"A set of manacles or rope",
+		"A small vial of oil for weapons and locks",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Residual Fear",
+	feature_desc="Common folk recognize the posture of an enforcer. In tense situations, many will hesitate to cross you or will offer information quickly - though others may react with hatred or panic.",
+	traits=[
+		"I scan crowds for exits and angles.",
+		"I dislike surprises.",
+		"I speak in short, controlled phrases.",
+		"I feel safest with my back to a wall.",
+		"I test people to see if they break.",
+		"I regret, but I do not confess easily.",
+		"I keep trophies I should not.",
+		"I am gentler with the powerless than with peers."
+	],
+	ideals=[
+		("Order", "Chaos kills", "Lawful"),
+		("Redemption", "I will undo some harm", "Good"),
+		("Survival", "I will not be used again", "Neutral"),
+		("Truth", "Expose what the uniform hid", "Chaotic"),
+		("Loyalty", "The Force was my family", "Lawful"),
+		("Predation", "Fear is the only language", "Evil")
+	],
+	bonds=[
+		"A former partner knows my secrets.",
+		"I owe someone I interrogated an apology.",
+		"I am hunted by my old commander.",
+		"I protect a witness I once threatened.",
+		"My badge still opens one dangerous door.",
+		"I cannot abandon someone in a cell."
+	],
+	flaws=[
+		"I default to violence.",
+		"I cannot tolerate disobedience.",
+		"I numb my guilt with cruelty or drink.",
+		"I assume everyone is lying.",
+		"I provoke fights to feel control.",
+		"I cannot ask for help."
+	],
+	gm_notes="Use Gale Force ties to generate pursuers, grudging respect, or revenge. A veteran may know Southstairs routes, old informants, and which officials still miss the Wizard.",
+	related_paths=[F_GALE, H_WIZ, LOC_SOUTH, O_SGUIDE],
+	tags=["background", "playable", "military", "gale-force", "wizard"],
+	applicableRaces=["Emerald City Native", "Gillikinese", "Munchkinlander", "The Touched"]
+))
+
+# 12 Resistance Courier
+add("resistance-courier", "Resistance Courier", dict(
+	quote="A message is a small thing until it gets someone killed.",
+	overview_paras=[
+		"You carried words, medicine, maps, or names for people who could not travel openly. You learned to run light, lie fast, and trust slowly.",
+		"Couriers live between worlds: the public life that must look ordinary, and the hidden life that asks for courage with no applause."
+	],
+	applicable_intro="Couriers come from anywhere the resistance can recruit, human or Animal.",
+	applicable_items=[
+		("Munchkinlander", "Rural routes and family networks"),
+		("Emerald City Native", "Urban couriers who know alleys and schedules"),
+		("Outlander", "Travelers whose accents draw the wrong assumptions"),
+		("Animals", "Those who move without being suspected - until they are")
+	],
+	skills="Stealth, Survival",
+	tools="Disguise kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A scarf or belt with hidden stitching",
+		"A set of coded notes (blank until warmed or wet)",
+		"A small satchel of mundane supplies",
+		"A map with marks only you understand",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Dead Drops",
+	feature_desc="You know the logic of clandestine networks: drop sites, countersigns, and how to spot a tail. You can usually find a way to pass a message without a meeting.",
+	traits=[
+		"I memorize routes by smell and sound.",
+		"I do not say names out loud.",
+		"I trust animals and children first.",
+		"I keep my emotions tight.",
+		"I make friends quickly, then disappear.",
+		"I sleep lightly.",
+		"I hate locked doors.",
+		"I carry guilt like extra weight."
+	],
+	ideals=[
+		("Freedom", "No one should live in fear", "Good"),
+		("Secrecy", "Loose words kill", "Lawful"),
+		("Hope", "Small acts add up", "Good"),
+		("Pragmatism", "Win first, mourn later", "Neutral"),
+		("Defiance", "I refuse to be managed", "Chaotic"),
+		("Vengeance", "I deliver pain along with letters", "Evil")
+	],
+	bonds=[
+		"Someone depends on my deliveries to survive.",
+		"I carry a message meant for the dead.",
+		"I owe a safehouse owner my life.",
+		"My handler vanished; I need answers.",
+		"I promised an Animal family I would help.",
+		"I keep a token from the first person I saved."
+	],
+	flaws=[
+		"I bolt when I feel trapped.",
+		"I lie even when honesty is safe.",
+		"I cannot relax in public.",
+		"I take reckless risks to prove courage.",
+		"I judge anyone who stays neutral.",
+		"I hoard secrets until they isolate me."
+	],
+	gm_notes="Couriers are instant hooks: intercepted messages, compromised routes, and handlers in trouble. Build episodes around chases, coded letters, and choosing who gets saved first.",
+	related_paths=[F_ANRES, O_RAIL, L_MUNCH, C_TRV],
+	tags=["background", "playable", "resistance", "courier", "underground"],
+	applicableRaces=["Munchkinlander", "Emerald City Native", "Outlander", "Animals"]
+))
+
+# 13 Conference of the Birds Veteran
+add("conference-of-the-birds-veteran", "Conference of the Birds Veteran", dict(
+	quote="We met in branches and shadows. Then the shadows learned our names.",
+	overview_paras=[
+		"The Conference of the Birds was hope with feathers: a coalition of sentient Birds and allies resisting the Silencing of Animals. You were there when songs became strategy.",
+		"You survived the collapse. Maybe you escaped a raid. Maybe you were left behind and clawed your way out. Either way, you have the memory of unity - and the fear that unity invites slaughter."
+	],
+	applicable_intro="This background is best suited to sentient Birds, though a rare ally might have been present.",
+	applicable_items=[
+		("Animals (Birds)", "The core of the Conference"),
+		("Animals (Mammals)", "Occasional allied messengers and scouts"),
+		("Winged Monkeys", "Rare, complicated allies or coerced participants"),
+		("Outlander", "Very rare sympathizers from outside Oz")
+	],
+	skills="Perception, Survival",
+	tools="None",
+	languages="One of your choice (if you can speak)",
+	equipment_items=[
+		"A feather token or carved perch-mark",
+		"A strip of cloth with coded knots",
+		"A small bundle of food tied for travel",
+		"A trinket from a fallen comrade",
+		"A pouch containing 5 gp (or barter goods)"
+	],
+	feature_name="Sky Routes",
+	feature_desc="You know hidden paths: rooftops, treelines, and safe roosts. You can usually find a discreet place to rest or observe without being noticed - and you recognize the signs of Animal resistance cells.",
+	traits=[
+		"I watch from above before I speak.",
+		"I distrust cages of any kind.",
+		"I mourn loudly, then move on.",
+		"I tell stories to keep the dead present.",
+		"I keep my back to open sky.",
+		"I snap when I hear slurs about Animals.",
+		"I am suspicious of every peace offer.",
+		"I laugh at humans' confidence."
+	],
+	ideals=[
+		("Kinship", "Animals must protect Animals", "Good"),
+		("Secrecy", "Survival requires silence", "Lawful"),
+		("Defiance", "Better to fall flying", "Chaotic"),
+		("Memory", "We owe the dead truth", "Neutral"),
+		("Balance", "Oz is shared land", "Neutral"),
+		("Retribution", "I will make them afraid", "Evil")
+	],
+	bonds=[
+		"I carry a message that never arrived.",
+		"A flockmate is missing; I still search.",
+		"I protect a hidden roost location.",
+		"I owe my life to a human sympathizer.",
+		"I refuse to abandon imprisoned Animals.",
+		"The Conference is my home, even in ruins."
+	],
+	flaws=[
+		"I flee when cornered, even from allies.",
+		"I assume betrayal is inevitable.",
+		"I refuse help from humans out of pride.",
+		"I pick fights I cannot win.",
+		"I cannot stop reliving the raid.",
+		"I treat caution as cruelty."
+	],
+	gm_notes="Use this background to tie players to Animal politics, hunted networks, and deep grief. Bird veterans bring reconnaissance advantages and emotionally charged conflicts with the Palace.",
+	related_paths=[R_AB, F_ANRES, H_WIZ, O_RAIL],
+	tags=["background", "playable", "animals", "resistance", "conference-of-the-birds"],
+	applicableRaces=["Animals (Birds)", "Animals (Mammals)", "Winged Monkeys (rare)", "Outlander (very rare)"]
+))
+
+# 14 Underground Railroad Operator
+add("underground-railroad-operator", "Underground Railroad Operator", dict(
+	quote="I did not save the world. I saved whoever knocked.",
+	overview_paras=[
+		"You ran safe houses, false trails, and quiet bargains to move sentient Animals out of reach. Some nights you were a hero. Other nights you were a liar with a locked pantry.",
+		"You learned that rescue is logistics: food, blankets, papers, and nerves. You also learned the cost of being found."
+	],
+	applicable_intro="Operators include both humans and Animals, depending on the route and era.",
+	applicable_items=[
+		("Munchkinlander", "Farmers and villagers with hidden rooms"),
+		("Emerald City Native", "City operators moving people through crowds"),
+		("Animals", "Those sheltering kin while pretending to be ordinary"),
+		("Outlander", "Border contacts and smugglers")
+	],
+	skills="Stealth, Insight",
+	tools="Disguise kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A set of false travel papers",
+		"A small lantern with a shuttered hood",
+		"A coded list of safehouse signs",
+		"A warm blanket folded tight",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Safehouse Web",
+	feature_desc="You can usually find a sympathetic household, cellar, or back room that will shelter someone for a night, provided you can credibly signal you are part of the old network.",
+	traits=[
+		"I cannot ignore a knock after dark.",
+		"I keep spare food even when broke.",
+		"I lie calmly under pressure.",
+		"I study people for signs of fear.",
+		"I speak in code without thinking.",
+		"I keep my windows covered.",
+		"I am gentle until threatened.",
+		"I do not forgive betrayals."
+	],
+	ideals=[
+		("Protection", "No one deserves the leash", "Good"),
+		("Caution", "A living refugee is the goal", "Lawful"),
+		("Solidarity", "We share risk", "Good"),
+		("Defiance", "Aid is a weapon", "Chaotic"),
+		("Pragmatism", "Some people cannot be saved", "Neutral"),
+		("Control", "I decide who gets help", "Evil")
+	],
+	bonds=[
+		"An Animal family lives because of me.",
+		"I lost someone on my route; I still hear it.",
+		"A safehouse owner is in prison now.",
+		"My home bears a hidden mark only the network knows.",
+		"I keep a list of names I must deliver.",
+		"I swore an oath over a grave."
+	],
+	flaws=[
+		"I take unnecessary risks for strangers.",
+		"I suspect everyone of spying.",
+		"I refuse to ask for help.",
+		"I am cold to people who are not 'the cause'.",
+		"I hoard supplies until others go without.",
+		"I cannot stop planning for disaster."
+	],
+	gm_notes="This background naturally generates rescue missions, betrayals, and tense shelter scenes. Use compromised routes, bribed officials, and moral choices about who to move first.",
+	related_paths=[O_RAIL, F_ANRES, F_CRIM, L_ECITY],
+	tags=["background", "playable", "underground", "animals", "smuggling"],
+	applicableRaces=["Munchkinlander", "Emerald City Native", "Animals", "Outlander"]
+))
+
+# 15 Free Munchkinland Revolutionary
+add("free-munchkinland-revolutionary", "Free Munchkinland Revolutionary", dict(
+	quote="Freedom is expensive. We paid anyway.",
+	overview_paras=[
+		"Munchkinland's secession was not a speech. It was hunger, raids, conscription, and the slow realization that the capital would rather punish than negotiate.",
+		"You fought for independence - as a soldier, saboteur, medic, or propagandist. You also saw what revolution does to ordinary neighbors when everyone must pick a side."
+	],
+	applicable_intro="This background is most common among Munchkinlanders, with a few allied outsiders.",
+	applicable_items=[
+		("Munchkinlander", "The core of the movement and its armies"),
+		("Emerald City Native", "Defectors, spies, or children of mixed loyalties"),
+		("Outlander", "Mercenaries and idealists"),
+		("Animals", "Rare allies harmed by the same regimes")
+	],
+	skills="Athletics, Intimidation",
+	tools="Gaming set (cards)",
+	languages="None",
+	equipment_items=[
+		"A patched revolutionary armband or scarf",
+		"A crude map of supply routes",
+		"A letter from home you cannot answer",
+		"A small knife or whetstone",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Rebel Contacts",
+	feature_desc="Among sympathetic Munchkinlanders, you can usually find a contact for food, shelter, or information. Even in hostile territory, someone may quietly point you toward help - or away from danger.",
+	traits=[
+		"I treat neutrality as a warning sign.",
+		"I keep trophies I hate.",
+		"I laugh too loudly after danger.",
+		"I trust comrades faster than civilians.",
+		"I plan for betrayal, always.",
+		"I cannot stand uniforms.",
+		"I talk like a pamphlet when tired.",
+		"I miss the person I was before the war."
+	],
+	ideals=[
+		("Liberty", "No empire owns my home", "Chaotic"),
+		("Justice", "We fight because we were harmed", "Good"),
+		("Discipline", "A cause needs structure", "Lawful"),
+		("Survival", "Win, then decide what it means", "Neutral"),
+		("Unity", "Munchkinland must not fracture", "Lawful"),
+		("Hatred", "I want them to suffer", "Evil")
+	],
+	bonds=[
+		"My unit is my family.",
+		"I promised to bring someone back alive.",
+		"I protect a hidden cache of supplies.",
+		"A loyalist burned my home.",
+		"I carry proof of a war crime.",
+		"I am still in love with an enemy."
+	],
+	flaws=[
+		"I escalate conflicts quickly.",
+		"I cannot stop looking for fights.",
+		"I struggle to live without a cause.",
+		"I treat civilians like obstacles.",
+		"I cannot forgive compromise.",
+		"I would sacrifice anyone for victory."
+	],
+	gm_notes="Use this background for war stories, partisan politics, and moral fallout. It also connects easily to Home Guard opposition, imperial crackdowns, and post-war reconciliation arcs.",
+	related_paths=[F_FREE, L_MUNCH, F_HOME, H_SHELL],
+	tags=["background", "playable", "revolution", "munchkinland", "war"],
+	applicableRaces=["Munchkinlander", "Emerald City Native (defector)", "Outlander", "Animals (rare)"]
+))
+
+# 16 Southstairs Survivor
+add("southstairs-survivor", "Southstairs Survivor", dict(
+	quote="The stairs go down forever. I learned to climb anyway.",
+	overview_paras=[
+		"Southstairs is a rumor until it is your cell. You were taken, questioned, broken - or nearly. You learned how the state makes people disappear.",
+		"You escaped, were released, or were forgotten. The outside world looks unreal now. You carry scars people cannot see, and you recognize the machinery of cruelty by sound."
+	],
+	applicable_intro="Southstairs held dissidents of many kinds, human and Animal alike.",
+	applicable_items=[
+		("Emerald City Native", "Political prisoners and unlucky bystanders"),
+		("Animals", "Targets of the purge and its experiments"),
+		("Munchkinlander", "Rebels and suspected smugglers"),
+		("The Touched", "Convenient scapegoats")
+	],
+	skills="Stealth, Insight",
+	tools="Thieves' tools (or None)",
+	languages="None",
+	equipment_items=[
+		"A scrap of chain or a broken manacle",
+		"A small mirror you should not have",
+		"A rough blanket folded into a roll",
+		"A hidden note with one name on it",
+		"A pouch containing 5 gp"
+	],
+	feature_name="Hard to Break",
+	feature_desc="You know how interrogators think: pressure, isolation, incentives. In tense questioning, you can often spot the moment someone is trying to force a confession - and you are harder to intimidate than most.",
+	traits=[
+		"I startle at footsteps.",
+		"I count exits compulsively.",
+		"I distrust locked rooms.",
+		"I talk too much when anxious, then shut down.",
+		"I keep my back to walls.",
+		"I notice bruises and fear in others.",
+		"I can be startlingly calm in crisis.",
+		"I laugh at jokes no one else hears."
+	],
+	ideals=[
+		("Survival", "Staying alive is victory", "Neutral"),
+		("Truth", "No more forced confessions", "Good"),
+		("Vengeance", "They will pay", "Evil"),
+		("Solidarity", "No one goes back alone", "Good"),
+		("Secrecy", "Silence keeps people safe", "Lawful"),
+		("Freedom", "Cages must end", "Chaotic")
+	],
+	bonds=[
+		"I will find the person who betrayed me.",
+		"Someone shared my cell; I owe them.",
+		"I protect a list of prisoners' names.",
+		"A guard showed mercy; I cannot forget.",
+		"I promised to speak for the dead.",
+		"I fear returning more than death."
+	],
+	flaws=[
+		"I overreact to authority.",
+		"I sabotage relationships by withholding.",
+		"I self-medicate with risk.",
+		"I cannot tolerate confinement.",
+		"I see threats where there are none.",
+		"I pick fights to feel control."
+	],
+	gm_notes="Southstairs survivors bring instant stakes: pursuers, missing prisoners, and evidence of torture. Use Scraped effects, memory gaps, and hard choices about exposing the truth.",
+	related_paths=[LOC_SOUTH, O_SGUIDE, COND_SCR, F_GALE],
+	tags=["background", "playable", "survivor", "southstairs", "trauma"],
+	applicableRaces=["Emerald City Native", "Animals", "Munchkinlander", "The Touched"]
+))
+
+# 17 Apple Press Farm Survivor
+add("apple-press-farm-survivor", "Apple Press Farm Survivor", dict(
+	quote="They worked us until even hunger got tired.",
+	overview_paras=[
+		"Apple Press Farm is a prison camp hidden behind ordinary fences and ordinary lies. You were sent there for politics, suspicion, or convenience.",
+		"You learned how bodies endure. You also learned how systems keep cruelty invisible: a ledger line, a missing name, a wagon that returns empty."
+	],
+	applicable_intro="Camps swallowed anyone inconvenient to the regime; humans were most common, but Animals could vanish too.",
+	applicable_items=[
+		("Munchkinlander", "The farm sits in their soil, eating their people"),
+		("Quadling", "Refugees and dissidents with no protection"),
+		("Animals", "Targets of the purge who survived it"),
+		("The Touched", "Easy to label and discard")
+	],
+	skills="Athletics, Survival",
+	tools="None",
+	languages="None",
+	equipment_items=[
+		"A tin cup or battered spoon",
+		"A strip of cloth with a number burned in",
+		"A small bundle of stolen dried fruit",
+		"A rough work glove",
+		"A pouch containing 5 gp"
+	],
+	feature_name="Camp Eyes",
+	feature_desc="You can judge supply lines, guard routines, and weak points in a labor system quickly. When you see forced work, you recognize what will break first - and how to exploit that without getting caught.",
+	traits=[
+		"I hoard food instinctively.",
+		"I sleep anywhere, anytime.",
+		"I hate waste with fury.",
+		"I keep my emotions hidden.",
+		"I can endure pain longer than is healthy.",
+		"I flinch at whistles and bells.",
+		"I distrust kindness from officials.",
+		"I feel safest when working."
+	],
+	ideals=[
+		("Dignity", "No one is livestock", "Good"),
+		("Escape", "Freedom is the only goal", "Chaotic"),
+		("Endurance", "Survive; remember", "Neutral"),
+		("Witness", "Tell the truth even if it burns", "Good"),
+		("Discipline", "Rules kept me alive", "Lawful"),
+		("Cruelty", "Pain is the only teacher", "Evil")
+	],
+	bonds=[
+		"I owe my life to a fellow prisoner.",
+		"I carry the name of someone who died there.",
+		"A guard recognized me; I must disappear.",
+		"I swore to destroy the farm's ledger.",
+		"I still dream of the orchard fences.",
+		"I seek the person who ordered my arrest."
+	],
+	flaws=[
+		"I cannot stop hoarding.",
+		"I explode at small humiliations.",
+		"I sabotage plans with panic.",
+		"I refuse rest even when safe.",
+		"I distrust every authority figure.",
+		"I take reckless revenge."
+	],
+	gm_notes="Use Apple Press Farm to introduce missing persons, secret records, and quiet conspiracies. Survivors can guide prison breaks, expose profiteers, or become targets when the past resurfaces.",
+	related_paths=[LOC_APPLE, L_MUNCH, H_WIZ, F_PAL],
+	tags=["background", "playable", "survivor", "labor-camp", "munchkinland"],
+	applicableRaces=["Munchkinlander", "Quadling", "Animals (rare)", "The Touched"]
+))
+
+# 18 Quadling Genocide Survivor
+add("quadling-genocide-survivor", "Quadling Genocide Survivor", dict(
+	quote="They drained the marsh and called it progress.",
+	overview_paras=[
+		"You lived through the Wizard's devastation of Quadling Country: drained marshes, poisoned land, and the slow violence of displacement. You watched a world collapse into mud.",
+		"Survival taught you what the north refuses to learn: empire is hunger. You carry grief, anger, and a knowledge of the south that outsiders treat like superstition."
+	],
+	applicable_intro="This background is most strongly tied to Quadling communities, though survivors can become refugees anywhere.",
+	applicable_items=[
+		("Quadling", "Those whose families were directly targeted"),
+		("Outlander", "Foreigners caught in the catastrophe"),
+		("Munchkinlander", "Refugees who fled north and were resented"),
+		("Animals", "Marsh creatures uprooted by the draining")
+	],
+	skills="Survival, Medicine",
+	tools="Herbalism kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A handful of red marsh clay wrapped in cloth",
+		"A simple charm from the old ways",
+		"A small kit of herbs and bandages",
+		"A waterskin and a worn cloak",
+		"A pouch containing 8 gp"
+	],
+	feature_name="Marsh Memory",
+	feature_desc="You can navigate wetlands and ruined terrain that others find impossible, and you recognize signs of poisoned water, unstable ground, and old settlement patterns - useful for finding what was hidden or buried.",
+	traits=[
+		"I do not waste water.",
+		"I speak of the dead as present.",
+		"I distrust promises from the north.",
+		"I watch the ground before I watch faces.",
+		"I carry anger like a stone.",
+		"I can be unexpectedly tender.",
+		"I hate mining and 'improvement' talk.",
+		"I keep quiet until I explode."
+	],
+	ideals=[
+		("Remembrance", "We keep what they tried to erase", "Good"),
+		("Retribution", "The guilty must pay", "Evil"),
+		("Survival", "Endure, adapt, persist", "Neutral"),
+		("Community", "No one heals alone", "Good"),
+		("Defiance", "Refuse their stories", "Chaotic"),
+		("Order", "Only strict rules prevent collapse", "Lawful")
+	],
+	bonds=[
+		"My home is gone; I carry its map in my head.",
+		"I protect a younger survivor like kin.",
+		"I seek a lost family member.",
+		"I keep a relic from the marsh.",
+		"I owe shelter to those who sheltered me.",
+		"I will make the world witness."
+	],
+	flaws=[
+		"I cannot forgive outsiders.",
+		"I take risks to punish authority.",
+		"I drown in grief without warning.",
+		"I refuse help out of pride.",
+		"I romanticize suffering as purity.",
+		"I lash out when someone minimizes the genocide."
+	],
+	gm_notes="Use Quadling survivors to bring the campaign south: poisoned terrain, buried evidence, and vengeance plots. This background also creates tension with imperial officials and opportunistic miners.",
+	related_paths=[L_QUAD, H_WIZ, REL_LUR, R_QUAD],
+	tags=["background", "playable", "survivor", "quadling", "atrocity"],
+	applicableRaces=["Quadling", "Outlander", "Munchkinlander (refugee)", "Animals (marsh)"]
+))
+
+# 19 Orphan of the Animal Purges
+add("orphan-animal-purges", "Orphan of the Animal Purges", dict(
+	quote="They took my family and left me the shape of their absence.",
+	overview_paras=[
+		"Your family disappeared during the purge of sentient Animals - whether you were an Animal child, a human child raised by Animals, or simply someone whose home was in the wrong place.",
+		"You grew up fast, learning which words get you hit and which words get you fed. You are fluent in loss, and you are tired of being asked to be grateful for surviving."
+	],
+	applicable_intro="This background can fit human or Animal characters touched by the purge.",
+	applicable_items=[
+		("Animals", "Children of families targeted by Silencing and raids"),
+		("Emerald City Native", "Street survivors of crackdowns"),
+		("Munchkinlander", "Rural kids caught between loyalties"),
+		("The Touched", "Easy scapegoats when fear spreads")
+	],
+	skills="Stealth, Insight",
+	tools="Disguise kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A keepsake from your lost family",
+		"A small knife or sharp tool",
+		"A threadbare cloak with many patches",
+		"A pouch with hidden lining",
+		"A pouch containing 8 gp"
+	],
+	feature_name="Survivor's Instincts",
+	feature_desc="You can usually find food, shelter, or a place to hide in an urban or oppressed community, and you recognize the unspoken rules of living under watch.",
+	traits=[
+		"I eat fast and quietly.",
+		"I do not trust adults.",
+		"I remember kindness forever.",
+		"I keep my back to crowds.",
+		"I can read anger in a voice.",
+		"I steal small things without thinking.",
+		"I collect found family.",
+		"I flinch when someone mentions 'purity'."
+	],
+	ideals=[
+		("Protection", "No child should be hunted", "Good"),
+		("Independence", "Relying on others is dangerous", "Neutral"),
+		("Truth", "Names must be spoken", "Good"),
+		("Defiance", "I will not be erased", "Chaotic"),
+		("Pragmatism", "Morals do not feed you", "Neutral"),
+		("Vengeance", "I want them afraid", "Evil")
+	],
+	bonds=[
+		"I protect a younger orphan.",
+		"I keep a list of the disappeared.",
+		"Someone saved me once; I seek them.",
+		"I owe a gang or network for shelter.",
+		"I carry a story only I know.",
+		"I will rebuild my family in my own way."
+	],
+	flaws=[
+		"I steal even when I do not need to.",
+		"I expect betrayal.",
+		"I cannot accept authority.",
+		"I use people before they use me.",
+		"I shut down when grief hits.",
+		"I punish kindness by testing it."
+	],
+	gm_notes="This background is a strong emotional hook: missing persons, rescue missions, and revenge arcs. It also fits campaigns focused on Animal rights and the aftershocks of the Wizard's reign.",
+	related_paths=[F_ANRES, H_WIZ, L_ECITY, R_AM],
+	tags=["background", "playable", "orphan", "animals", "purge"],
+	applicableRaces=["Animals", "Emerald City Native", "Munchkinlander", "The Touched"]
+))
+
+# 20 Former Animal (Stripped of Speech)
+add("former-animal-stripped-of-speech", "Former Animal (Stripped of Speech)", dict(
+	quote="They did not take my mind. They took my voice.",
+	overview_paras=[
+		"You were a speaking Animal - a person in fur or feathers - until the regime Silenced you. The process did not just steal language; it tried to steal identity.",
+		"Some Silenced Animals become animals. Others remain people trapped behind a muzzle the world cannot see. You live in gestures, looks, and the stubborn refusal to vanish."
+	],
+	applicable_intro="This background is for sentient Animals who have been Silenced. It is rare, and it is brutal.",
+	applicable_items=[
+		("Animals (Mammals)", "Silenced through raids, prisons, or 'treatments'"),
+		("Animals (Birds)", "Targets after the Conference of the Birds"),
+		("Winged Monkeys", "Some were punished or modified by handlers"),
+		("The Touched", "In rare cases, the Silencing bled into other bodies")
+	],
+	skills="Perception, Survival",
+	tools="None",
+	languages="Understands one language you knew before; cannot speak it aloud",
+	equipment_items=[
+		"A collar, tag, or token you ripped off",
+		"A small carved symbol for 'help' and 'danger'",
+		"A blanket or nest material you keep close",
+		"A pouch containing 5 gp (or barter goods)",
+		"A hidden note with your true name"
+	],
+	feature_name="Silent Signals",
+	feature_desc="You can communicate meaningfully with Animals and close allies through gesture, scent marks, and learned signs. Those sympathetic to Animals often recognize your humanity - and those hostile sometimes underestimate you.",
+	traits=[
+		"I watch mouths to understand tone.",
+		"I hate cages viscerally.",
+		"I bite back anger until it turns cold.",
+		"I remember every insult.",
+		"I am protective of other Animals.",
+		"I avoid crowds that might treat me as property.",
+		"I hoard small comforts.",
+		"I react badly to being touched without consent."
+	],
+	ideals=[
+		("Identity", "I am still a person", "Good"),
+		("Survival", "Endure; adapt; persist", "Neutral"),
+		("Liberation", "Free the Silenced", "Chaotic"),
+		("Witness", "Make them see what they did", "Good"),
+		("Secrecy", "Hide until the right moment", "Lawful"),
+		("Retribution", "I will make them choke on fear", "Evil")
+	],
+	bonds=[
+		"Someone remembers my old name.",
+		"I protect a hidden Animal community.",
+		"I am searching for the one who Silenced me.",
+		"I keep a relic from my former life.",
+		"I cannot abandon another Silenced Animal.",
+		"I owe a human sympathizer my survival."
+	],
+	flaws=[
+		"I lash out when misunderstood.",
+		"I refuse help out of pride.",
+		"I take reckless risks to prove personhood.",
+		"I cannot tolerate confinement.",
+		"I distrust humans by default.",
+		"I fixate on revenge."
+	],
+	gm_notes="This background is intense and should be handled with care. Use it to explore identity, oppression, and difficult choices. It naturally connects to Animal Resistance and clandestine rescue operations.",
+	related_paths=[H_WIZ, F_ANRES, R_AM, COND_SCR],
+	tags=["background", "playable", "animals", "silenced", "survivor"],
+	applicableRaces=["Animals (Mammals)", "Animals (Birds)", "Winged Monkeys (rare)", "The Touched (very rare)"]
+))
+
+# 21 Quadling Marsh Dweller
+add("quadling-marsh-dweller", "Quadling Marsh Dweller", dict(
+	quote="In the marsh, everything sinks eventually - even lies.",
+	overview_paras=[
+		"You grew up where the ground is uncertain and the air tastes like history. Marsh life teaches patience: wait for the water, read the reeds, listen for what moves beneath.",
+		"Outsiders call the marsh backward. You know it is resilient. You have seen empires come south and get swallowed."
+	],
+	applicable_intro="Most marsh dwellers are Quadling, though refugees and strange neighbors exist.",
+	applicable_items=[
+		("Quadling", "Communities adapted to wetland life"),
+		("Outlander", "Occasional drifters who stayed"),
+		("Animals", "Marsh kin with long memory"),
+		("Munchkinlander", "Refugees who learned to live quietly")
+	],
+	skills="Nature, Survival",
+	tools="Herbalism kit",
+	languages="None",
+	equipment_items=[
+		"A reed-woven basket",
+		"A mud-resistant cloak",
+		"A small fishing spear or net",
+		"A bundle of dried herbs",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Marshcraft",
+	feature_desc="You can find safe footing, edible plants, and concealed paths in wetlands and similar terrain. You also know how to hide signs of travel where the ground remembers every step.",
+	traits=[
+		"I move slowly until I move fast.",
+		"I distrust straight roads.",
+		"I speak to strangers last.",
+		"I can sit in silence for hours.",
+		"I prefer storms to heat.",
+		"I know which water is lying.",
+		"I collect useful junk without shame.",
+		"I treat promises like debts."
+	],
+	ideals=[
+		("Resilience", "Endure what others cannot", "Neutral"),
+		("Hospitality", "Feed the lost, if they are honest", "Good"),
+		("Suspicion", "Outsiders bring trouble", "Lawful"),
+		("Freedom", "No one owns marshland", "Chaotic"),
+		("Tradition", "Old knowledge keeps you alive", "Lawful"),
+		("Possession", "Take what you can; it will sink later", "Evil")
+	],
+	bonds=[
+		"My village depends on my knowledge.",
+		"I guard a hidden cache in the reeds.",
+		"A family member vanished into the marsh.",
+		"I owe a debt to a folk healer.",
+		"I keep a map no one else believes.",
+		"I will protect the marsh from miners."
+	],
+	flaws=[
+		"I assume betrayal first.",
+		"I am slow to trust help.",
+		"I sabotage outsiders out of fear.",
+		"I hoard grudges.",
+		"I avoid cities until forced.",
+		"I underestimate 'civilized' dangers."
+	],
+	gm_notes="Marsh dwellers are perfect guides for southern travel, hidden ruins, and environmental hazards. Use poisoned water, forgotten settlements, and mining intrusions as recurring threats.",
+	related_paths=[L_QUAD, R_QUAD, REL_LUR, H_WIZ],
+	tags=["background", "playable", "quadling", "marsh", "survival"],
+	applicableRaces=["Quadling", "Outlander (rare)", "Animals (marsh)", "Munchkinlander (refugee)"]
+))
+
+# 22 Emerald City Urchin
+add("emerald-city-urchin", "Emerald City Urchin", dict(
+	quote="The capital glitters. The gutters remember.",
+	overview_paras=[
+		"You grew up in the shadow of green glass and polished boots. You learned which streets the Palace watches, which markets feed you, and which smiles are traps.",
+		"Urchins become many things: thieves, informants, couriers, or saints. You became someone who can survive the city without believing its stories."
+	],
+	applicable_intro="This background is strongly tied to the Emerald City, but anyone could have been left there.",
+	applicable_items=[
+		("Emerald City Native", "Born into the city's underside"),
+		("Outlander", "Stranded travelers' children"),
+		("Munchkinlander", "Runaways and refugees"),
+		("The Touched", "Targets of fear who learned to hide")
+	],
+	skills="Stealth, Sleight of Hand",
+	tools="Thieves' tools",
+	languages="None",
+	equipment_items=[
+		"A length of wire or lockpick set",
+		"A hooded cloak with deep pockets",
+		"A lucky coin with the face rubbed off",
+		"A chalk stub for marking routes",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Streetwise",
+	feature_desc="You know where to find black markets, cheap shelter, and rumor brokers in a city. You can usually identify which gang or official controls a neighborhood and how to avoid them.",
+	traits=[
+		"I can sleep through shouting.",
+		"I assume everything is a deal.",
+		"I keep my back to walls.",
+		"I read hands before faces.",
+		"I joke when afraid.",
+		"I hate being pitied.",
+		"I share food with kids automatically.",
+		"I steal small things as a reflex."
+	],
+	ideals=[
+		("Survival", "Stay alive; stay moving", "Neutral"),
+		("Loyalty", "Protect your own", "Good"),
+		("Freedom", "No one owns me", "Chaotic"),
+		("Fairness", "The rich should pay", "Good"),
+		("Caution", "Trust is expensive", "Lawful"),
+		("Greed", "Take everything you can", "Evil")
+	],
+	bonds=[
+		"A younger kid looks to me like a parent.",
+		"I owe a gang boss for protection.",
+		"A market vendor fed me when no one else did.",
+		"I know a secret way into a government building.",
+		"I keep a hidden stash for emergencies.",
+		"I want revenge on a noble who hurt us."
+	],
+	flaws=[
+		"I cannot stop lying.",
+		"I pick pockets when bored.",
+		"I refuse help out of pride.",
+		"I start fights to test people.",
+		"I hoard resources selfishly.",
+		"I panic in quiet, clean rooms."
+	],
+	gm_notes="City urchins are perfect for urban campaigns: sewer routes, gang politics, Palace secrets, and street-level perspectives on big events. Use old friends, old debts, and sudden opportunities.",
+	related_paths=[L_ECITY, F_CRIM, F_PAL, C_AGT],
+	tags=["background", "playable", "urban", "emerald-city", "street"],
+	applicableRaces=["Emerald City Native", "Outlander", "Munchkinlander", "The Touched"]
+))
+
+# 23 Vinkus Tribal Exile
+add("vinkus-tribal-exile", "Vinkus Tribal Exile", dict(
+	quote="The Vinkus does not forgive. It only remembers.",
+	overview_paras=[
+		"You were part of a western tribal life shaped by hard wind, harder land, and older grudges. Then you were cast out - for a crime, a prophecy, a love, or the wrong kind of question.",
+		"Exile teaches resourcefulness and loneliness. You carry tribal customs like scars: visible to those who know, invisible to those who do not."
+	],
+	applicable_intro="This is primarily a Vinkan human background, though other exiles exist in theory.",
+	applicable_items=[
+		("Vinkan", "Tribal members cast out or self-exiled"),
+		("Outlander", "Rare adoptees or foreign captives who fled"),
+		("The Touched", "Those labeled cursed and expelled"),
+		("Winged Monkeys", "Rarely, those who broke a handler's rule")
+	],
+	skills="Athletics, Survival",
+	tools="Navigator's tools (or none)",
+	languages="One of your choice",
+	equipment_items=[
+		"A tribal token you are not supposed to keep",
+		"A weathered cloak suited to wind and sand",
+		"A small knife and whetstone",
+		"A waterskin",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Hard Country Sense",
+	feature_desc="You can find shelter, water, and routes through harsh terrain where others fail. You also recognize tribal signs, taboos, and negotiation rituals common in the Vinkus.",
+	traits=[
+		"I distrust comfort.",
+		"I test strangers before trusting them.",
+		"I value courage over politeness.",
+		"I sit with my back to the wind.",
+		"I speak bluntly, even when it hurts.",
+		"I miss my tribe more than I admit.",
+		"I cannot stand being called 'civilized'.",
+		"I carry shame like a charm."
+	],
+	ideals=[
+		("Honor", "Keep your word or lose yourself", "Lawful"),
+		("Freedom", "No tribe owns my fate", "Chaotic"),
+		("Survival", "The land decides", "Neutral"),
+		("Justice", "Exile was wrong; I will prove it", "Good"),
+		("Tradition", "Old rules exist for a reason", "Lawful"),
+		("Dominance", "Strength is the only law", "Evil")
+	],
+	bonds=[
+		"I will return and be seen.",
+		"Someone from my tribe hunts me.",
+		"I protect a child or elder I traveled with.",
+		"My exile began with a stolen object.",
+		"I owe a debt to a Vinkus guide.",
+		"I keep a song only my tribe knows."
+	],
+	flaws=[
+		"I start fights to prove strength.",
+		"I dismiss city folk as weak.",
+		"I cannot admit fear.",
+		"I hold grudges forever.",
+		"I sabotage authority out of habit.",
+		"I refuse compromise until too late."
+	],
+	gm_notes="Exiles bring westward plots: tribal politics, escort missions, and harsh travel. Use the exile's 'crime' as a mystery, and let the tribe's judgement be a looming shadow.",
+	related_paths=[L_VINK, R_VINK, LOC_KK, C_TRV],
+	tags=["background", "playable", "vinkus", "exile", "survival"],
+	applicableRaces=["Vinkan", "Outlander (rare)", "The Touched (rare)", "Winged Monkeys (very rare)"]
+))
+
+# 24 Arjiki Royal Connection
+add("arjiki-royal-connection", "Arjiki Royal Connection", dict(
+	quote="Royal blood is not magic. It just stains deeper.",
+	overview_paras=[
+		"You have ties to the Arjiki ruling family of the Vinkus: a cousin, a favored servant, a former lover, a courtier, or a child no one acknowledges in public.",
+		"Connection means access - and danger. Court life teaches you which smiles are knives and which knives are ceremonial."
+	],
+	applicable_intro="This is primarily a Vinkan human background with courtly reach.",
+	applicable_items=[
+		("Vinkan", "The most common lineage and court culture"),
+		("Outlander", "Foreign courtiers and political marriages"),
+		("Gillikinese", "Scholars and envoys seeking influence"),
+		("Emerald City Native", "Imperial liaisons assigned west")
+	],
+	skills="History, Persuasion",
+	tools="Gaming set (cards or dice)",
+	languages="One of your choice",
+	equipment_items=[
+		"A signet token or ribbon mark from the Arjiki court",
+		"A formal outfit and a travel cloak",
+		"A sealed letter you should not open",
+		"A small gift meant for a ruler",
+		"A pouch containing 15 gp"
+	],
+	feature_name="Courtly Pull",
+	feature_desc="When dealing with Vinkus tribes and western courts, you can usually secure an audience with someone of status or gain safe passage - unless your name is currently out of favor.",
+	traits=[
+		"I can flatter without sounding like flattery.",
+		"I never show surprise.",
+		"I remember every slight.",
+		"I love luxury and resent it.",
+		"I can spot a lie by posture.",
+		"I make plans inside plans.",
+		"I treat gifts like contracts.",
+		"I am homesick for a place that used me."
+	],
+	ideals=[
+		("Duty", "My house must endure", "Lawful"),
+		("Reform", "Power should be less cruel", "Good"),
+		("Prestige", "Status is safety", "Neutral"),
+		("Independence", "I will not be owned by my bloodline", "Chaotic"),
+		("Tradition", "Old hierarchies keep order", "Lawful"),
+		("Ruthlessness", "Mercy is a weakness at court", "Evil")
+	],
+	bonds=[
+		"Someone in the Arjiki court still loves me.",
+		"I guard a scandal that could shatter the family.",
+		"I owe my life to a bodyguard or retainer.",
+		"I want to reclaim something stolen from the court.",
+		"I carry a message meant for the ruler.",
+		"My connection is my only inheritance."
+	],
+	flaws=[
+		"I assume everyone wants something from me.",
+		"I cannot stop politicking.",
+		"I treat people as pieces on a board.",
+		"I chase approval I claim to hate.",
+		"I am reckless when insulted.",
+		"I do not know how to live simply."
+	],
+	gm_notes="Use this background for western court intrigue, tribal politics, and empire-versus-local conflicts. A royal tie can open doors, but it also makes the character a target for leverage.",
+	related_paths=[L_VINK, R_VINK, LOC_KK, F_PAL],
+	tags=["background", "playable", "vinkus", "royalty", "intrigue"],
+	applicableRaces=["Vinkan", "Outlander (court)", "Gillikinese (envoy)", "Emerald City Native (liaison)"]
+))
+
+# 25 Colwen Grounds Servant
+add("colwen-grounds-servant", "Colwen Grounds Servant", dict(
+	quote="In big houses, secrets collect like dust.",
+	overview_paras=[
+		"You served at Colwen Grounds, the Thropp estate: sweeping halls, carrying trays, hearing arguments you were never meant to hear. You learned the difference between public virtue and private fear.",
+		"The Thropps were not just a family - they were a storm that touched politics, religion, and rebellion. Even as 'just staff,' you stood close enough to get struck."
+	],
+	applicable_intro="Colwen staff were largely Munchkinlander humans, with a few outsiders employed for specialized work.",
+	applicable_items=[
+		("Munchkinlander", "Local servants and laborers"),
+		("Gillikinese", "Hired tutors, clerks, and specialists"),
+		("Emerald City Native", "Officials' staff assigned as 'help'"),
+		("Outlander", "Hired hands who did not ask questions")
+	],
+	skills="Insight, Perception",
+	tools="Cook's utensils (or artisan tools)",
+	languages="None",
+	equipment_items=[
+		"A plain uniform piece (apron, scarf, or cap)",
+		"A small ring of household keys (some no longer fit)",
+		"A sealed note you never delivered",
+		"A pocketknife",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Servant's Ears",
+	feature_desc="In noble or official spaces, you understand routines: when corridors are empty, how staff communicate, and where information leaks. You can usually blend into 'the help' long enough to overhear something useful.",
+	traits=[
+		"I notice what people leave behind.",
+		"I speak politely to avoid attention.",
+		"I treat every room as a stage.",
+		"I keep my opinions private.",
+		"I am fiercely loyal to those who were kind.",
+		"I am bitter about those who were not.",
+		"I clean when anxious.",
+		"I know how to disappear mid-conversation."
+	],
+	ideals=[
+		("Loyalty", "Protect the household - or what mattered in it", "Lawful"),
+		("Truth", "Someone has to know what happened", "Neutral"),
+		("Justice", "Masters should answer for harm", "Good"),
+		("Freedom", "No one is born to serve", "Chaotic"),
+		("Prudence", "Stay alive, stay quiet", "Neutral"),
+		("Resentment", "I will poison their comfort", "Evil")
+	],
+	bonds=[
+		"A Thropp family member spared me once.",
+		"I witnessed something I cannot unsee.",
+		"I promised to protect another servant.",
+		"I kept an heirloom from the estate.",
+		"I am hunted for what I heard.",
+		"I still feel tied to that house."
+	],
+	flaws=[
+		"I eavesdrop compulsively.",
+		"I struggle to speak up for myself.",
+		"I sabotage authority indirectly.",
+		"I resent the rich so much I misjudge allies.",
+		"I lie to stay employed.",
+		"I freeze when confronted openly."
+	],
+	gm_notes="Use Colwen ties to pull characters into Thropp-adjacent plots: inheritance disputes, old letters, and political fallout. Servant access is powerful in social infiltration adventures.",
+	related_paths=[L_MUNCH, H_SHELL, F_FREE, C_AGT],
+	tags=["background", "playable", "munchkinland", "servant", "thropp"],
+	applicableRaces=["Munchkinlander", "Gillikinese (specialist)", "Emerald City Native (assigned)", "Outlander (hired)"]
+))
+
+# 26 Travelling Player
+add("travelling-player", "Travelling Player", dict(
+	quote="We make miracles out of cheap paint and good timing.",
+	overview_paras=[
+		"You traveled with a troupe: puppets, music, stories, and the hard work of moving joy from town to town. You learned to read crowds the way farmers read weather.",
+		"Traveling players see Oz in fragments: noble houses, dirty inns, hungry villages, and secret audiences. Sometimes the show is just a show. Sometimes it is a message."
+	],
+	applicable_intro="Performers come from everywhere. The road is a country of its own.",
+	applicable_items=[
+		("Outlander", "Natural travelers who already live between borders"),
+		("Munchkinlander", "Local performers seeking bigger stages"),
+		("Gillikinese", "Runaways and romantics from polite society"),
+		("Animals", "Rare; those who could still travel openly")
+	],
+	skills="Performance, Acrobatics",
+	tools="Disguise kit, Musical instrument (choose one)",
+	languages="One of your choice",
+	equipment_items=[
+		"A costume trunk piece (mask, hat, or cape)",
+		"A small instrument or prop",
+		"A set of greasepaint",
+		"A letter of recommendation from a troupe leader",
+		"A pouch containing 12 gp"
+	],
+	feature_name="Always a Stage",
+	feature_desc="In most settlements, you can earn modest lodging or food by performing, and you can usually find other entertainers who trade rumors and safe travel advice.",
+	traits=[
+		"I collect accents and steal them.",
+		"I cannot resist an audience.",
+		"I tell the truth as a joke.",
+		"I flirt with danger like a bit.",
+		"I keep my sadness offstage.",
+		"I know how to calm a room.",
+		"I pick up odd skills quickly.",
+		"I leave before goodbyes get heavy."
+	],
+	ideals=[
+		("Joy", "People deserve beauty", "Good"),
+		("Freedom", "The road is my home", "Chaotic"),
+		("Craft", "A good show is honest work", "Neutral"),
+		("Truth", "Stories can expose rot", "Good"),
+		("Reputation", "Fame is protection", "Neutral"),
+		("Manipulation", "A crowd is a tool", "Evil")
+	],
+	bonds=[
+		"My troupe is my family.",
+		"I owe a town that hid us from soldiers.",
+		"A rival troupe wants me ruined.",
+		"I carry a prop that is secretly valuable.",
+		"I promised to tell someone's story.",
+		"I am searching for a lost performer."
+	],
+	flaws=[
+		"I lie for applause.",
+		"I chase novelty even when unsafe.",
+		"I avoid commitment.",
+		"I stir trouble for a better story.",
+		"I take insults personally.",
+		"I cannot turn off the performance."
+	],
+	gm_notes="Great for travel campaigns and social encounters. Use festivals, censorship, and secret messages hidden in shows. Traveling players can stumble into resistance work or Palace patronage.",
+	related_paths=[C_PER, F_CLOCK, L_ECITY, C_TRV],
+	tags=["background", "playable", "performer", "travel", "clock"],
+	applicableRaces=["Outlander", "Munchkinlander", "Gillikinese", "Animals (rare)"]
+))
+
+# 27 Black Market Dealer
+add("black-market-dealer", "Black Market Dealer", dict(
+	quote="Scarcity is a policy. I just live in it.",
+	overview_paras=[
+		"You trade in what the law pretends does not exist: papers, medicine, weapons, banned books, contraband comforts. You learned which officials can be bribed and which only pretend to be.",
+		"You are not a hero by default. You might be a lifeline, a parasite, or both, depending on the night."
+	],
+	applicable_intro="Black markets flourish where the Palace tightens its fist; dealers come in many shapes.",
+	applicable_items=[
+		("Emerald City Native", "City brokers with contacts everywhere"),
+		("Munchkinlander", "Rural smugglers moving goods past checkpoints"),
+		("Outlander", "Border traders and fixers"),
+		("The Touched", "Those shut out of lawful work")
+	],
+	skills="Deception, Persuasion",
+	tools="Thieves' tools",
+	languages="One of your choice",
+	equipment_items=[
+		"A concealed purse with multiple compartments",
+		"A small set of scales",
+		"A list of contacts in code",
+		"A harmless-looking bundle that is not harmless",
+		"A pouch containing 15 gp"
+	],
+	feature_name="I Know a Person",
+	feature_desc="In any sizable settlement, you can usually locate someone willing to sell restricted goods or information - for a price. You also know how to avoid the worst stings and set-ups.",
+	traits=[
+		"I always know the market price.",
+		"I hate being surprised.",
+		"I never say 'no' without offering an alternative.",
+		"I treat trust like currency.",
+		"I keep receipts in my head.",
+		"I smile when negotiating hard.",
+		"I sleep with one eye open.",
+		"I am oddly generous to the desperate."
+	],
+	ideals=[
+		("Opportunity", "If it exists, it can be sold", "Neutral"),
+		("Aid", "Supply the people the state starves", "Good"),
+		("Freedom", "Laws are suggestions", "Chaotic"),
+		("Order", "Rules keep business stable", "Lawful"),
+		("Pragmatism", "Morals do not pay rent", "Neutral"),
+		("Exploitation", "Desperation is leverage", "Evil")
+	],
+	bonds=[
+		"A supplier is missing; my life depends on them.",
+		"I protect a client who cannot be exposed.",
+		"I owe the Criminal Networks a debt.",
+		"I am being blackmailed by an official.",
+		"I keep one item I refuse to sell.",
+		"I promised to get someone out of Oz."
+	],
+	flaws=[
+		"I cannot stop hustling.",
+		"I take risks for bigger margins.",
+		"I lie even to allies.",
+		"I underestimate moral consequences.",
+		"I hoard power and information.",
+		"I burn bridges when cornered."
+	],
+	gm_notes="Dealers are plot engines: contraband quests, sting operations, rival smugglers, and double-crosses. Use shifting prices and scarce resources to create pressure.",
+	related_paths=[F_CRIM, L_ECITY, F_PAL, C_AGT],
+	tags=["background", "playable", "underground", "criminal", "trade"],
+	applicableRaces=["Emerald City Native", "Munchkinlander", "Outlander", "The Touched"]
+))
+
+# 28 Forger/Identity Maker
+add("forger-identity-maker", "Forger/Identity Maker", dict(
+	quote="In Oz, a name can be a life jacket or a noose.",
+	overview_paras=[
+		"You make people legible to the state - or invisible. Passes, seals, diplomas, travel documents, love letters with the wrong handwriting. Your craft is precision and nerve.",
+		"You know how governments think: what they expect to see on paper, and what makes them suspicious. You have probably saved lives. You have probably ruined a few, too."
+	],
+	applicable_intro="Forgers can be anyone with steady hands, sharp eyes, and low fear of prisons.",
+	applicable_items=[
+		("Emerald City Native", "City artisans in ink and fraud"),
+		("Gillikinese", "Educated scribes who went rogue"),
+		("Outlander", "Border specialists and passport makers"),
+		("Munchkinlander", "Small-town document fakers for survival")
+	],
+	skills="Deception, Sleight of Hand",
+	tools="Calligrapher's supplies, Disguise kit",
+	languages="One of your choice",
+	equipment_items=[
+		"A set of inks and fine pens",
+		"A roll of blank parchment and scraps",
+		"A few wax seals (real or stolen)",
+		"A small knife and sand for drying ink",
+		"A pouch containing 15 gp"
+	],
+	feature_name="Paper Masks",
+	feature_desc="Given time and reference material, you can create a credible identity or document that fools casual inspection, and you know what questions officials will ask first.",
+	traits=[
+		"I notice stamps and signatures immediately.",
+		"I practice handwriting for fun.",
+		"I keep my tools obsessively clean.",
+		"I treat people as stories to edit.",
+		"I avoid repeating my own lies.",
+		"I get anxious around real authority.",
+		"I cannot resist improving a document.",
+		"I am proud, and it shows."
+	],
+	ideals=[
+		("Protection", "Give the hunted a chance", "Good"),
+		("Artistry", "A perfect forgery is beauty", "Neutral"),
+		("Freedom", "Paper should not define a person", "Chaotic"),
+		("Order", "Rules exist; I just bend them", "Lawful"),
+		("Profit", "Everything has a price", "Neutral"),
+		("Control", "I decide who becomes 'real'", "Evil")
+	],
+	bonds=[
+		"I owe a client who paid with blood.",
+		"A rival forger wants my method.",
+		"I keep a ledger of fake identities.",
+		"I protect a source inside the Palace.",
+		"My family thinks I am a legitimate scribe.",
+		"I have one identity I cannot abandon."
+	],
+	flaws=[
+		"I take jobs I should refuse.",
+		"I grow reckless when praised.",
+		"I assume I can talk my way out.",
+		"I leave clues because I cannot resist flourish.",
+		"I panic when my work is questioned.",
+		"I get attached to clients."
+	],
+	gm_notes="Forgers support stealth campaigns: fake passes, border crossings, infiltration, and blackmail. Use lost seals, counterfeit crackdowns, and clients with dangerous demands.",
+	related_paths=[F_CRIM, F_PAL, L_ECITY, C_AGT],
+	tags=["background", "playable", "forgery", "identity", "underground"],
+	applicableRaces=["Emerald City Native", "Gillikinese", "Outlander", "Munchkinlander"]
+))
+
+# 29 Palace Servant
+add("palace-servant", "Palace Servant", dict(
+	quote="I carried trays while the fate of Oz changed courses.",
+	overview_paras=[
+		"You worked in the Palace: polishing, cooking, laundering, guiding guests, and pretending you were invisible. You learned that power is mostly boredom interrupted by panic.",
+		"You know which corridors echo, which doors are watched, and which officials whisper when they think servants are furniture."
+	],
+	applicable_intro="Palace staff are largely human, drawn from the Emerald City and surrounding regions.",
+	applicable_items=[
+		("Emerald City Native", "The backbone of Palace labor"),
+		("Munchkinlander", "Hired hands and seasonal workers"),
+		("Gillikinese", "Specialists and trusted attendants"),
+		("The Touched", "Kept close as curiosities or labor")
+	],
+	skills="Insight, Stealth",
+	tools="Cook's utensils (or Disguise kit)",
+	languages="None",
+	equipment_items=[
+		"A simple uniform piece",
+		"A ring of service keys (some false)",
+		"A folded floorplan sketch from memory",
+		"A small vial of polish or soap",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Overheard in the Hall",
+	feature_desc="While in a political or noble setting, you can often learn one useful rumor or schedule detail by watching staff traffic and listening for what slips out between orders.",
+	traits=[
+		"I speak quietly by default.",
+		"I notice who is tired and who is cruel.",
+		"I keep my feelings hidden at work.",
+		"I can move without making noise.",
+		"I hate waste and showy wealth.",
+		"I collect gossip, then regret it.",
+		"I am loyal to other staff first.",
+		"I freeze when addressed by title."
+	],
+	ideals=[
+		("Discretion", "Survival is silence", "Lawful"),
+		("Justice", "Masters should answer for harm", "Good"),
+		("Security", "A steady roof matters", "Neutral"),
+		("Freedom", "No one should be invisible", "Chaotic"),
+		("Loyalty", "Protect the Palace; it protects us", "Lawful"),
+		("Resentment", "I will sabotage their comfort", "Evil")
+	],
+	bonds=[
+		"A fellow servant is my only family.",
+		"I saw something that could topple an official.",
+		"I keep a stolen trinket as proof I existed.",
+		"I protect a guest I pity.",
+		"I owe my job to a patron.",
+		"I know a secret passage few remember."
+	],
+	flaws=[
+		"I eavesdrop compulsively.",
+		"I lie to avoid punishment.",
+		"I resent authority so much I misjudge allies.",
+		"I freeze under direct confrontation.",
+		"I hoard small luxuries.",
+		"I cannot stop imagining revenge."
+	],
+	gm_notes="Palace servants are ideal for intrigue and infiltration. Use staff politics, secret passageways, and sudden crackdowns. A servant can become the key witness everyone ignores until too late.",
+	related_paths=[F_PAL, L_ECITY, H_SHELL, C_AGT],
+	tags=["background", "playable", "palace", "emerald-city", "servant"],
+	applicableRaces=["Emerald City Native", "Munchkinlander", "Gillikinese", "The Touched"]
+))
+
+# 30 Kiamo Ko Retainer
+add("kiamo-ko-retainer", "Kiamo Ko Retainer", dict(
+	quote="The castle teaches you to love doors and fear them.",
+	overview_paras=[
+		"You served at Kiamo Ko in the Vinkus: a remote stronghold where rumors grew teeth. Your work was practical - repairs, cooking, guarding, negotiating with tribes - but the place was never just a place.",
+		"Kiamo Ko has been tied to Elphaba's legend and the west's grudges. You learned what it costs to shelter a symbol when the world wants the symbol dead."
+	],
+	applicable_intro="Most retainers are Vinkan humans, though Kiamo Ko has sheltered many strange guests.",
+	applicable_items=[
+		("Vinkan", "The most common servants, guards, and locals"),
+		("Outlander", "Travelers who became staff to survive"),
+		("Winged Monkeys", "Those bound to the castle's history"),
+		("The Touched", "People who found refuge far from cities")
+	],
+	skills="Survival, Insight",
+	tools="Artisan's tools (choose one)",
+	languages="One of your choice",
+	equipment_items=[
+		"A key or token from a Kiamo Ko door",
+		"A heavy cloak suited to western nights",
+		"A small toolkit or repair kit",
+		"A pouch containing 10 gp",
+		"A keepsake from someone who stayed (or died) there"
+	],
+	feature_name="Castle Hospitality",
+	feature_desc="In the Vinkus, you can usually find someone who knows Kiamo Ko's reputation and will offer cautious help. You also know how to fortify a shelter quickly and how to live without city supply lines.",
+	traits=[
+		"I prefer silence to small talk.",
+		"I watch hills for movement.",
+		"I am protective of my home, wherever it is.",
+		"I distrust officials immediately.",
+		"I keep tools close.",
+		"I have a dry sense of humor.",
+		"I am loyal to those who gave me refuge.",
+		"I react strongly to witch-hunters."
+	],
+	ideals=[
+		("Shelter", "A refuge is sacred", "Good"),
+		("Tradition", "The west remembers", "Lawful"),
+		("Freedom", "No Palace rules my hills", "Chaotic"),
+		("Pragmatism", "Survival first", "Neutral"),
+		("Loyalty", "Protect the symbol at any cost", "Lawful"),
+		("Ruthlessness", "Threats must be ended", "Evil")
+	],
+	bonds=[
+		"I owe my life to Kiamo Ko.",
+		"Someone I served there is missing.",
+		"I protect a hidden room in the castle.",
+		"I am hunted for what I know.",
+		"I keep a letter meant for a witch.",
+		"I still hear the castle at night."
+	],
+	flaws=[
+		"I distrust outsiders automatically.",
+		"I turn every problem into a siege.",
+		"I overreact to authority.",
+		"I isolate when stressed.",
+		"I cling to grudges.",
+		"I take risks to prove loyalty."
+	],
+	gm_notes="Kiamo Ko ties are great for western travel, witch legends, and hidden refuges. Use pursuers, tribal politics, and the question of whether symbols help or harm the living.",
+	related_paths=[LOC_KK, L_VINK, R_VINK, R_WM],
+	tags=["background", "playable", "kiamo-ko", "vinkus", "retainer"],
+	applicableRaces=["Vinkan", "Outlander (stayed)", "Winged Monkeys (rare)", "The Touched"]
+))
+
+# 31 Thropp Family Connection
+add("thropp-family-connection", "Thropp Family Connection", dict(
+	quote="Some names are blessings. Ours is a storm.",
+	overview_paras=[
+		"You are tied to the Thropp family - by blood, marriage, service, or obligation. In Oz, that name drags history behind it: Nessarose, Elphaba, Shell, wars, myths, and guilt.",
+		"Connection means people project stories onto you. Some want favors. Some want vengeance. A few want you as proof that the past can be controlled."
+	],
+	applicable_intro="This is a human background rooted in Munchkinland politics and imperial fallout.",
+	applicable_items=[
+		("Munchkinlander", "The most common origin point for Thropp ties"),
+		("Emerald City Native", "Imperial circles entangled with Shell's rule"),
+		("Gillikinese", "Academics and nobles fascinated by the legend"),
+		("Outlander", "Those pulled in through marriage or diplomacy")
+	],
+	skills="History, Persuasion",
+	tools="None",
+	languages="One of your choice",
+	equipment_items=[
+		"A family token, letter, or seal",
+		"A piece of clothing that draws attention (or hides it)",
+		"A small notebook of names and dates",
+		"A pouch containing 12 gp",
+		"A keepsake tied to a Thropp story (true or false)"
+	],
+	feature_name="A Name That Opens Doors (and Closes Them)",
+	feature_desc="When your connection is believed, you can usually secure a hearing from people obsessed with the Thropps: loyalists, rebels, scholars, and profiteers. The same recognition can also trigger hostility and danger.",
+	traits=[
+		"I get tired of being a symbol.",
+		"I correct rumors, then regret it.",
+		"I speak carefully about family.",
+		"I feel responsible for history.",
+		"I flirt with danger out of spite.",
+		"I crave anonymity.",
+		"I carry pride and shame together.",
+		"I notice who reacts to my name."
+	],
+	ideals=[
+		("Redemption", "I will do better than the legend", "Good"),
+		("Legacy", "Bloodline demands loyalty", "Lawful"),
+		("Truth", "Stop rewriting the past", "Neutral"),
+		("Freedom", "I refuse inherited roles", "Chaotic"),
+		("Power", "A name is a tool", "Neutral"),
+		("Revenge", "I will avenge my family's harm", "Evil")
+	],
+	bonds=[
+		"I protect a relative who cannot be public.",
+		"I carry a secret about the Thropps.",
+		"An enemy hunts me for my connection.",
+		"I owe a debt to someone the Thropps wronged.",
+		"I keep a relic linked to Elphaba's story.",
+		"I am searching for the truth of a family event."
+	],
+	flaws=[
+		"I assume conflict is inevitable.",
+		"I lash out at anyone who judges me.",
+		"I chase validation through danger.",
+		"I keep secrets until they poison relationships.",
+		"I romanticize suffering as destiny.",
+		"I use my name as leverage too easily."
+	],
+	gm_notes="This background makes the campaign personal: political factions want the character as symbol, scapegoat, or key. Use rumor storms, inherited enemies, and the temptation to exploit the name.",
+	related_paths=[L_MUNCH, H_SHELL, F_FREE, F_PAL],
+	tags=["background", "playable", "thropp", "munchkinland", "politics"],
+	applicableRaces=["Munchkinlander", "Emerald City Native", "Gillikinese", "Outlander"]
+))
+
+# 32 Foreign Diplomat
+add("foreign-diplomat", "Foreign Diplomat", dict(
+	quote="To negotiate with Oz, you must first learn which Oz you are speaking to.",
+	overview_paras=[
+		"You represent a foreign power - Ev, Ix, Quox, or another neighboring land. You arrived with letters of credence, a polished smile, and a quiet fear of becoming leverage in someone else's war.",
+		"Being a diplomat means translating not just language, but values. Oz is fractured: Palace, provinces, tribes, and underground. Your job is to keep the seams from turning into blades."
+	],
+	applicable_intro="Diplomats are typically Outlanders, though imperial courts sometimes train domestic envoys for foreign work.",
+	applicable_items=[
+		("Outlander", "The typical origin for foreign representatives"),
+		("Gillikinese", "Educated envoys sent north-to-capital"),
+		("Emerald City Native", "Imperial staff trained for protocol"),
+		("Vinkan", "Western emissaries for tribal negotiations")
+	],
+	skills="Insight, Persuasion",
+	tools="Calligrapher's supplies",
+	languages="Two of your choice",
+	equipment_items=[
+		"Letters of credence with official seals",
+		"A fine outfit suitable for court",
+		"A travel cloak and compact luggage",
+		"A small gift for an Ozian official",
+		"A pouch containing 15 gp"
+	],
+	feature_name="Protocol Shield",
+	feature_desc="In formal settings, you can usually secure an audience, delay immediate violence, or invoke etiquette to buy time. Even hostile officials often prefer to handle diplomats quietly rather than publicly.",
+	traits=[
+		"I take notes after every conversation.",
+		"I never show my full reaction.",
+		"I ask careful questions that sound polite.",
+		"I treat silence as information.",
+		"I can compliment and threaten in one sentence.",
+		"I prefer negotiation to force.",
+		"I keep contingency plans everywhere.",
+		"I get lonely in crowds."
+	],
+	ideals=[
+		("Peace", "War is a failure of imagination", "Good"),
+		("Duty", "I serve my homeland first", "Lawful"),
+		("Pragmatism", "Stability beats purity", "Neutral"),
+		("Truth", "Lies make treaties rot", "Good"),
+		("Autonomy", "No empire owns the provinces", "Chaotic"),
+		("Influence", "I will shape Oz for my benefit", "Evil")
+	],
+	bonds=[
+		"My homeland expects results.",
+		"I protect an interpreter or aide.",
+		"I carry a secret clause in my treaty.",
+		"An Ozian official owes me a favor.",
+		"I am in love with someone I cannot claim.",
+		"I fear being stranded in Oz forever."
+	],
+	flaws=[
+		"I overtrust etiquette to save me.",
+		"I hesitate when action is needed.",
+		"I treat people as nations, not humans.",
+		"I hide fear behind politeness.",
+		"I keep secrets that endanger allies.",
+		"I chase leverage too aggressively."
+	],
+	gm_notes="Diplomats open doors to court intrigue, foreign plots, and high-stakes negotiations. Use hostage diplomacy, secret clauses, and cultural misunderstandings to create tension.",
+	related_paths=[F_PAL, L_ECITY, R_OUT, H_SHELL],
+	tags=["background", "playable", "diplomat", "outlander", "politics"],
+	applicableRaces=["Outlander", "Gillikinese (envoy)", "Emerald City Native (protocol)", "Vinkan (emissary)"]
+))
+
+# 33 Animal Passing as animal
+add("animal-passing-as-animal", "Animal Passing as animal", dict(
+	quote="I learned to lower my eyes so they would stop looking for a mind.",
+	overview_paras=[
+		"You are a sentient Animal living as an ordinary animal to survive. You learned how to mimic dullness, how to hide language in your throat, how to let humans think you are property.",
+		"Passing keeps you alive. It also eats at you. Every day is a performance where being 'convincing' means being erased."
+	],
+	applicable_intro="This background is for sentient Animals forced into hiding by persecution.",
+	applicable_items=[
+		("Animals (Mammals)", "Passing as pets, livestock, or strays"),
+		("Animals (Birds)", "Passing as barn birds, caged songbirds, or wild flocks"),
+		("Winged Monkeys", "Passing is complicated but possible under watch"),
+		("The Touched", "Rare: those 'passing' as harmless to avoid targeting")
+	],
+	skills="Stealth, Deception",
+	tools="Disguise kit (improvised)",
+	languages="Understands one language; chooses when (or if) to speak",
+	equipment_items=[
+		"A hidden token of your former identity",
+		"A small pouch containing 5 gp (or stashed goods)",
+		"A scrap of cloth with a coded mark",
+		"A piece of food you saved for later",
+		"A scent marker or chalk for signs"
+	],
+	feature_name="In Plain Sight",
+	feature_desc="When you behave like an ordinary animal, many people ignore you. You can often move through guarded spaces as 'just an animal,' overhear conversations, and access areas a person would be questioned for entering.",
+	traits=[
+		"I keep my intelligence hidden automatically.",
+		"I watch humans like they are weather.",
+		"I hoard small luxuries in secret places.",
+		"I panic when someone tries to 'train' me.",
+		"I bond quickly with other Animals.",
+		"I hate being touched without warning.",
+		"I am patient to the point of coldness.",
+		"I sometimes speak in my sleep."
+	],
+	ideals=[
+		("Survival", "Live now; speak later", "Neutral"),
+		("Dignity", "I am not property", "Good"),
+		("Secrecy", "Exposure kills", "Lawful"),
+		("Freedom", "No cage is acceptable", "Chaotic"),
+		("Kinship", "Protect Animals first", "Good"),
+		("Retribution", "I will punish every handler", "Evil")
+	],
+	bonds=[
+		"A human child suspects the truth about me.",
+		"I protect a hidden Animal cell.",
+		"I keep a memory of my old name sacred.",
+		"I owe a smuggler my life.",
+		"I cannot abandon other passing Animals.",
+		"I am waiting for a signal to run."
+	],
+	flaws=[
+		"I freeze when discovered.",
+		"I lash out when treated as property.",
+		"I refuse help out of pride.",
+		"I am slow to trust anyone.",
+		"I risk myself to prove personhood.",
+		"I carry rage that leaks out sideways."
+	],
+	gm_notes="This background enables stealth play and social commentary. Use 'cute animal' assumptions, a sudden threat of capture, and the moral question of whether to reveal yourself to save someone else.",
+	related_paths=[R_AM, H_WIZ, F_ANRES, O_RAIL],
+	tags=["background", "playable", "animals", "passing", "stealth"],
+	applicableRaces=["Animals (Mammals)", "Animals (Birds)", "Winged Monkeys (rare)", "The Touched (very rare)"]
+))
+
+# 34 Dragon Survivor
+add("dragon-survivor", "Dragon Survivor", dict(
+	quote="Fire rewrites the world in one breath.",
+	overview_paras=[
+		"Dragons are rare enough that most Ozians treat them like children's tales. You know better. You survived an encounter that left ash where certainty used to be.",
+		"Maybe you lost a caravan. Maybe a village burned. Maybe you saw a dragon once and have been running from that image ever since. You carry a sense for disaster, and a fear that feels like smoke."
+	],
+	applicable_intro="Dragon encounters are rare; survivors can be any race or origin.",
+	applicable_items=[
+		("Outlander", "Travelers more likely to cross strange paths"),
+		("Vinkan", "Western routes and old ruins"),
+		("Munchkinlander", "Caravans and border roads"),
+		("The Touched", "Those already marked by the uncanny")
+	],
+	skills="Survival, Perception",
+	tools="None",
+	languages="None",
+	equipment_items=[
+		"A scorched keepsake",
+		"A small flask of water you refill obsessively",
+		"A cloak patched against burns",
+		"A scrap of scale or charred bone (maybe)",
+		"A pouch containing 10 gp"
+	],
+	feature_name="Smoke Sense",
+	feature_desc="You are quick to notice signs of impending danger: shifts in wind, unnatural heat, panicked animals, and the pattern of people about to stampede. You can often warn others or choose the safest route when panic hits.",
+	traits=[
+		"I startle at sudden heat.",
+		"I watch the sky compulsively.",
+		"I keep emergency supplies without thinking.",
+		"I distrust 'safe' routes.",
+		"I talk about the event too much or not at all.",
+		"I am brave in bursts, then shaken.",
+		"I hate enclosed spaces that could trap smoke.",
+		"I believe monsters are real - because they are."
+	],
+	ideals=[
+		("Protection", "Warn others before it is too late", "Good"),
+		("Caution", "Risk is usually stupidity", "Lawful"),
+		("Freedom", "Keep moving; never settle", "Chaotic"),
+		("Truth", "People should know what exists", "Neutral"),
+		("Revenge", "I will hunt what hunted me", "Evil"),
+		("Faith", "The world is larger than rulers", "Neutral")
+	],
+	bonds=[
+		"I lost someone in the fire.",
+		"I protect a survivor who blames me.",
+		"I keep a map of where it happened.",
+		"I owe my life to a stranger.",
+		"I am searching for proof it was real.",
+		"I promised to return and recover something."
+	],
+	flaws=[
+		"I panic when plans change suddenly.",
+		"I overreact to small threats.",
+		"I refuse shelter even when needed.",
+		"I take reckless revenge fantasies seriously.",
+		"I push others away to keep them safe.",
+		"I cannot stop reliving the moment."
+	],
+	gm_notes="Dragon survivors are a clean inciting incident: quests for proof, revenge, or rescue. Use rumors of dragons as misinformation or as the real thing, and let the survivor's trauma shape decisions.",
+	related_paths=[C_TRV, L_VINK, L_MUNCH, R_TOU],
+	tags=["background", "playable", "survivor", "dragon", "travel"],
+	applicableRaces=["Outlander", "Vinkan", "Munchkinlander", "The Touched"]
+))
+
+# 35 Loyal Oz Patriot
+add("loyal-oz-patriot", "Loyal Oz Patriot", dict(
+	quote="A single Oz is safer. I have seen what fractures do.",
+	overview_paras=[
