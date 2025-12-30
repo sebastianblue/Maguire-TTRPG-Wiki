@@ -6,6 +6,7 @@ Usage: python3 add_page.py <page_id> <title> <content_file> <tags>
 
 import json
 import sys
+import os
 from datetime import datetime
 
 def add_page(json_file, page_id, title, content, tags, category=None):
@@ -51,4 +52,8 @@ if __name__ == "__main__":
     with open(content_file, 'r') as f:
         content = f.read()
 
-    add_page('oz-wiki/data/pages.json', page_id, title, content, tags)
+    # Get absolute path to pages.json
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    json_file = os.path.join(script_dir, 'data/pages.json')
+
+    add_page(json_file, page_id, title, content, tags)
