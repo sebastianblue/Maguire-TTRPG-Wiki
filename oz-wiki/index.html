@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maguire Oz TTRPG Wiki</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <h1 class="header-title">Maguire Oz TTRPG Wiki</h1>
+    </div>
+
+    <div class="header-center">
+      <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search wiki... (Ctrl+K)" autocomplete="off">
+        <div class="search-results" id="search-results"></div>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="font-controls">
+        <button class="font-btn" id="font-decrease" aria-label="Decrease font size">A-</button>
+        <button class="font-btn" id="font-increase" aria-label="Increase font size">A+</button>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon sun">&#9788;</span>
+        <span class="theme-icon moon">&#9790;</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>Contents</h2>
+      </div>
+
+      <!-- Bookmarks Section -->
+      <div class="sidebar-section bookmarks-section" id="bookmarks-section">
+        <div class="category-header" data-category="bookmarks">
+          <span class="expand-icon">&#9658;</span>
+          <span class="category-title">Bookmarks</span>
+        </div>
+        <ul class="category-items" id="bookmarks-list"></ul>
+      </div>
+
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Character -->
+        <div class="category" data-category="character">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Character</span>
+          </div>
+          <ul class="category-items">
+            <li class="subcategory" data-category="character/races">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Races</span>
+              </div>
+              <ul class="category-items">
+                <li class="subcategory" data-category="character/races/humans">
+                  <div class="category-header">
+                    <span class="expand-icon">&#9658;</span>
+                    <span class="category-title">Humans</span>
+                  </div>
+                  <ul class="category-items">
+                    <li class="nav-item" data-page="character/races/humans/gillikinese">Gillikinese</li>
+                    <li class="nav-item" data-page="character/races/humans/munchkinlander">Munchkinlander</li>
+                    <li class="nav-item" data-page="character/races/humans/quadling">Quadling</li>
+                    <li class="nav-item" data-page="character/races/humans/vinkan">Vinkan</li>
+                    <li class="nav-item" data-page="character/races/humans/emerald-city-native">Emerald City Native</li>
+                    <li class="nav-item" data-page="character/races/humans/outlander">Outlander</li>
+                  </ul>
+                </li>
+                <li class="subcategory" data-category="character/races/animals">
+                  <div class="category-header">
+                    <span class="expand-icon">&#9658;</span>
+                    <span class="category-title">Animals</span>
+                  </div>
+                  <ul class="category-items">
+                    <li class="nav-item" data-page="character/races/animals/mammals">Mammals</li>
+                    <li class="nav-item" data-page="character/races/animals/birds">Birds</li>
+                    <li class="nav-item" data-page="character/races/animals/reptiles-amphibians">Reptiles & Amphibians</li>
+                    <li class="nav-item" data-page="character/races/animals/question-of-fish">The Question of Fish</li>
+                    <li class="nav-item" data-page="character/races/animals/hybrid-uncertain">Hybrid/Uncertain Status</li>
+                  </ul>
+                </li>
+                <li class="nav-item" data-page="character/races/tiktoks">Tiktoks</li>
+                <li class="nav-item" data-page="character/races/the-touched">The Touched</li>
+                <li class="nav-item" data-page="character/races/dragons">Dragons</li>
+                <li class="nav-item" data-page="character/races/winged-monkeys">Winged Monkeys</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="character/classes">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Classes</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="character/classes/the-adept">The Adept</li>
+                <li class="nav-item" data-page="character/classes/the-unionist">The Unionist</li>
+                <li class="nav-item" data-page="character/classes/the-lurlinite">The Lurlinite</li>
+                <li class="nav-item" data-page="character/classes/the-witch">The Witch</li>
+                <li class="nav-item" data-page="character/classes/the-agent">The Agent</li>
+                <li class="nav-item" data-page="character/classes/the-scholar">The Scholar</li>
+                <li class="nav-item" data-page="character/classes/the-soldier">The Soldier</li>
+                <li class="nav-item" data-page="character/classes/the-artisan">The Artisan</li>
+                <li class="nav-item" data-page="character/classes/the-traveler">The Traveler</li>
+                <li class="nav-item" data-page="character/classes/the-performer">The Performer</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="character/backgrounds">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Backgrounds</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="character/backgrounds/shiz-university">Shiz University Student</li>
+                <li class="nav-item" data-page="character/backgrounds/crage-hall">Crage Hall Attendee</li>
+                <li class="nav-item" data-page="character/backgrounds/three-queens">Three Queens Alumnus</li>
+                <li class="nav-item" data-page="character/backgrounds/briscoe-hall">Briscoe Hall</li>
+                <li class="nav-item" data-page="character/backgrounds/mauntery-escapee">Mauntery Escapee</li>
+                <li class="nav-item" data-page="character/backgrounds/mauntery-devotee">Mauntery Devotee</li>
+                <li class="nav-item" data-page="character/backgrounds/former-animal">Former Animal</li>
+                <li class="nav-item" data-page="character/backgrounds/animal-passing">Animal Passing as animal</li>
+                <li class="nav-item" data-page="character/backgrounds/southstairs-survivor">Southstairs Survivor</li>
+                <li class="nav-item" data-page="character/backgrounds/apple-press-survivor">Apple Press Farm Survivor</li>
+                <li class="nav-item" data-page="character/backgrounds/palace-servant">Palace Servant</li>
+                <li class="nav-item" data-page="character/backgrounds/travelling-player">Travelling Player</li>
+                <li class="nav-item" data-page="character/backgrounds/quadling-marsh-dweller">Quadling Marsh Dweller</li>
+                <li class="nav-item" data-page="character/backgrounds/quadling-genocide-survivor">Quadling Genocide Survivor</li>
+                <li class="nav-item" data-page="character/backgrounds/emerald-city-urchin">Emerald City Urchin</li>
+                <li class="nav-item" data-page="character/backgrounds/vinkus-tribal-exile">Vinkus Tribal Exile</li>
+                <li class="nav-item" data-page="character/backgrounds/arjiki-royal">Arjiki Royal Connection</li>
+                <li class="nav-item" data-page="character/backgrounds/resistance-courier">Resistance Courier</li>
+                <li class="nav-item" data-page="character/backgrounds/conference-veteran">Conference of the Birds Veteran</li>
+                <li class="nav-item" data-page="character/backgrounds/wizards-bureaucrat">Wizard's Bureaucrat</li>
+                <li class="nav-item" data-page="character/backgrounds/emperors-administrator">Emperor's Administrator</li>
+                <li class="nav-item" data-page="character/backgrounds/pleasure-faith-apostate">Pleasure Faith Apostate</li>
+                <li class="nav-item" data-page="character/backgrounds/orphan-animal-purges">Orphan of the Animal Purges</li>
+                <li class="nav-item" data-page="character/backgrounds/foreign-diplomat">Foreign Diplomat</li>
+                <li class="nav-item" data-page="character/backgrounds/kiamo-ko-retainer">Kiamo Ko Retainer</li>
+                <li class="nav-item" data-page="character/backgrounds/colwen-grounds-servant">Colwen Grounds Servant</li>
+                <li class="nav-item" data-page="character/backgrounds/thropp-connection">Thropp Family Connection</li>
+                <li class="nav-item" data-page="character/backgrounds/dragon-survivor">Dragon Survivor</li>
+                <li class="nav-item" data-page="character/backgrounds/free-munchkinland">Free Munchkinland Revolutionary</li>
+                <li class="nav-item" data-page="character/backgrounds/loyal-oz-patriot">Loyal Oz Patriot</li>
+                <li class="nav-item" data-page="character/backgrounds/courts-clerk">Courts of Justice Clerk</li>
+                <li class="nav-item" data-page="character/backgrounds/underground-operator">Underground Railroad Operator</li>
+                <li class="nav-item" data-page="character/backgrounds/black-market-dealer">Black Market Dealer</li>
+                <li class="nav-item" data-page="character/backgrounds/forger">Forger/Identity Maker</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="character/skills">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Special Skills</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="character/skills/grimmerie-lore">Grimmerie Lore</li>
+                <li class="nav-item" data-page="character/skills/animal-etiquette">Animal Etiquette</li>
+                <li class="nav-item" data-page="character/skills/unionist-doctrine">Unionist Doctrine</li>
+                <li class="nav-item" data-page="character/skills/lurline-mysteries">Lurline Mysteries</li>
+                <li class="nav-item" data-page="character/skills/political-navigation">Political Navigation</li>
+                <li class="nav-item" data-page="character/skills/witch-sign-reading">Witch-Sign Reading</li>
+                <li class="nav-item" data-page="character/skills/tiktok-maintenance">Tiktok Maintenance</li>
+                <li class="nav-item" data-page="character/skills/green-sight">Green Sight</li>
+                <li class="nav-item" data-page="character/skills/time-sense">Time Sense</li>
+                <li class="nav-item" data-page="character/skills/kumbric-memory">Kumbric Memory</li>
+                <li class="nav-item" data-page="character/skills/domingon-trance">Domingon Trance</li>
+                <li class="nav-item" data-page="character/skills/dragon-lore">Dragon Lore</li>
+                <li class="nav-item" data-page="character/skills/bee-speaking">Bee Speaking</li>
+                <li class="nav-item" data-page="character/skills/scraping-resistance">Scraping Resistance</li>
+                <li class="nav-item" data-page="character/skills/underground-navigation">Underground Navigation</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Magic -->
+        <div class="category" data-category="magic">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Magic</span>
+          </div>
+          <ul class="category-items">
+            <li class="subcategory" data-category="magic/spells">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Spells</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="magic/spells/grimmerie">Grimmerie Tradition</li>
+                <li class="nav-item" data-page="magic/spells/domingon">Domingon Tradition</li>
+                <li class="nav-item" data-page="magic/spells/unionist">Unionist Tradition</li>
+                <li class="nav-item" data-page="magic/spells/lurline">Lurline Tradition</li>
+                <li class="nav-item" data-page="magic/spells/witch">Witch Tradition</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="magic/phenomena">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Magical Phenomena</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="magic/phenomena/grimmerie-corruption">Grimmerie Corruption</li>
+                <li class="nav-item" data-page="magic/phenomena/witch-marks">Witch Marks</li>
+                <li class="nav-item" data-page="magic/phenomena/time-slippage">Time Slippage</li>
+                <li class="nav-item" data-page="magic/phenomena/green-effect">The Green Effect</li>
+                <li class="nav-item" data-page="magic/phenomena/animal-awakening">Animal Awakening</li>
+                <li class="nav-item" data-page="magic/phenomena/tiktok-souls">Tiktok Souls</li>
+                <li class="nav-item" data-page="magic/phenomena/dragon-fire">Dragon Fire Effects</li>
+                <li class="nav-item" data-page="magic/phenomena/the-scraping">The Scraping</li>
+                <li class="nav-item" data-page="magic/phenomena/tips-condition">Tip's Condition</li>
+                <li class="nav-item" data-page="magic/phenomena/rains-gift">Rain's Gift</li>
+                <li class="nav-item" data-page="magic/phenomena/bees-collective">The Bees' Collective</li>
+              </ul>
+            </li>
+            <li class="nav-item" data-page="magic/theory">Magical Theory</li>
+          </ul>
+        </div>
+
+        <!-- Equipment -->
+        <div class="category" data-category="equipment">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Equipment</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="equipment/armor">Armor</li>
+            <li class="nav-item" data-page="equipment/weapons">Weapons</li>
+            <li class="nav-item" data-page="equipment/adventuring-gear">Adventuring Gear</li>
+            <li class="nav-item" data-page="equipment/tools">Tools</li>
+            <li class="nav-item" data-page="equipment/mounts-vehicles">Mounts & Vehicles</li>
+            <li class="nav-item" data-page="equipment/trade-goods">Trade Goods</li>
+            <li class="nav-item" data-page="equipment/poisons">Poisons</li>
+          </ul>
+        </div>
+
+        <!-- Creatures -->
+        <div class="category" data-category="creatures">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Creatures</span>
+          </div>
+          <ul class="category-items">
+            <li class="subcategory" data-category="creatures/monsters">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Monsters</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="creatures/monsters/constructs">Constructs</li>
+                <li class="nav-item" data-page="creatures/monsters/undead">Undead</li>
+                <li class="nav-item" data-page="creatures/monsters/aberrations">Aberrations</li>
+                <li class="nav-item" data-page="creatures/monsters/fey">Fey</li>
+                <li class="nav-item" data-page="creatures/monsters/monstrosities">Monstrosities</li>
+                <li class="nav-item" data-page="creatures/monsters/dragons">Dragons</li>
+                <li class="nav-item" data-page="creatures/monsters/beasts">Beasts (Magical)</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="creatures/npcs">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">NPCs</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="creatures/npcs/palace-government">Palace/Government</li>
+                <li class="nav-item" data-page="creatures/npcs/religious">Religious</li>
+                <li class="nav-item" data-page="creatures/npcs/criminal-underground">Criminal/Underground</li>
+                <li class="nav-item" data-page="creatures/npcs/academic">Academic</li>
+                <li class="nav-item" data-page="creatures/npcs/resistance">Resistance</li>
+                <li class="nav-item" data-page="creatures/npcs/civilian">Civilian</li>
+                <li class="nav-item" data-page="creatures/npcs/military">Military</li>
+                <li class="nav-item" data-page="creatures/npcs/animals-notable">Animals (Notable)</li>
+              </ul>
+            </li>
+            <li class="nav-item" data-page="creatures/npc-templates">NPC Templates</li>
+          </ul>
+        </div>
+
+        <!-- Religion -->
+        <div class="category" data-category="religion">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Religion</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="religion/unnamed-god">The Unnamed God</li>
+            <li class="nav-item" data-page="religion/lurline">Lurline & The Old Ways</li>
+            <li class="nav-item" data-page="religion/kumbric-witch">The Kumbric Witch</li>
+            <li class="nav-item" data-page="religion/foreign-pantheons">Foreign Pantheons</li>
+          </ul>
+        </div>
+
+        <!-- Conditions -->
+        <div class="category" data-category="conditions">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Conditions</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="conditions/standard">Standard Conditions (5e)</li>
+            <li class="subcategory" data-category="conditions/oz-specific">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Oz-Specific</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="conditions/oz-specific/witch-touched">Witch-Touched</li>
+                <li class="nav-item" data-page="conditions/oz-specific/time-slipped">Time-Slipped</li>
+                <li class="nav-item" data-page="conditions/oz-specific/green-blind">Green-Blind</li>
+                <li class="nav-item" data-page="conditions/oz-specific/name-lost">Name-Lost</li>
+                <li class="nav-item" data-page="conditions/oz-specific/silenced">Silenced</li>
+                <li class="nav-item" data-page="conditions/oz-specific/grimmerie-corrupted">Grimmerie-Corrupted</li>
+                <li class="nav-item" data-page="conditions/oz-specific/puppet-state">Puppet-State</li>
+                <li class="nav-item" data-page="conditions/oz-specific/scraped">Scraped</li>
+                <li class="nav-item" data-page="conditions/oz-specific/dragon-burned">Dragon-Burned</li>
+                <li class="nav-item" data-page="conditions/oz-specific/hive-linked">Hive-Linked</li>
+              </ul>
+            </li>
+            <li class="nav-item" data-page="conditions/diseases">Diseases</li>
+            <li class="nav-item" data-page="conditions/madness">Madness Variants</li>
+          </ul>
+        </div>
+
+        <!-- Exploration -->
+        <div class="category" data-category="exploration">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Exploration</span>
+          </div>
+          <ul class="category-items">
+            <li class="subcategory" data-category="exploration/regions">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Regions</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="exploration/regions/gillikin">Gillikin</li>
+                <li class="nav-item" data-page="exploration/regions/munchkinland">Munchkinland</li>
+                <li class="nav-item" data-page="exploration/regions/quadling-country">Quadling Country</li>
+                <li class="nav-item" data-page="exploration/regions/the-vinkus">The Vinkus</li>
+                <li class="nav-item" data-page="exploration/regions/emerald-city">The Emerald City</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="exploration/locations">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Special Locations</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="exploration/locations/shiz-university">Shiz University</li>
+                <li class="nav-item" data-page="exploration/locations/kiamo-ko">Kiamo Ko</li>
+                <li class="nav-item" data-page="exploration/locations/southstairs">Southstairs</li>
+                <li class="nav-item" data-page="exploration/locations/sleeve-of-ghosts">The Sleeve of Ghosts</li>
+                <li class="nav-item" data-page="exploration/locations/deadly-desert">The Deadly Desert</li>
+                <li class="nav-item" data-page="exploration/locations/apple-press-farm">Apple Press Farm</li>
+                <li class="nav-item" data-page="exploration/locations/clock-of-time-dragon">The Clock of the Time Dragon</li>
+              </ul>
+            </li>
+            <li class="nav-item" data-page="exploration/planes">Planes of Existence</li>
+            <li class="nav-item" data-page="exploration/hazards">Hazards</li>
+            <li class="nav-item" data-page="exploration/traps">Traps</li>
+          </ul>
+        </div>
+
+        <!-- Underground -->
+        <div class="category" data-category="underground">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">The Underground</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="underground/animal-railroad">Animal Underground Railroad</li>
+            <li class="nav-item" data-page="underground/southstairs-guide">Southstairs Complete Guide</li>
+            <li class="nav-item" data-page="underground/criminal-networks">Criminal Networks</li>
+            <li class="nav-item" data-page="underground/secret-societies">Secret Societies</li>
+            <li class="nav-item" data-page="underground/hidden-locations">Hidden Locations</li>
+            <li class="nav-item" data-page="underground/routes">Underground Routes</li>
+            <li class="nav-item" data-page="underground/information-networks">Information Networks</li>
+          </ul>
+        </div>
+
+        <!-- Objects -->
+        <div class="category" data-category="objects">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Objects & Treasure</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="objects/mundane-valuables">Mundane Valuables</li>
+            <li class="nav-item" data-page="objects/plunder-tables">Plunder Tables</li>
+            <li class="subcategory" data-category="objects/magic-items">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Magic Items</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="objects/magic-items/common">Common</li>
+                <li class="nav-item" data-page="objects/magic-items/uncommon">Uncommon</li>
+                <li class="nav-item" data-page="objects/magic-items/rare">Rare</li>
+                <li class="nav-item" data-page="objects/magic-items/very-rare">Very Rare</li>
+                <li class="nav-item" data-page="objects/magic-items/legendary">Legendary</li>
+                <li class="nav-item" data-page="objects/magic-items/artifacts">Artifacts</li>
+                <li class="nav-item" data-page="objects/magic-items/cursed">Cursed Items</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Factions -->
+        <div class="category" data-category="factions">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Factions</span>
+          </div>
+          <ul class="category-items">
+            <li class="subcategory" data-category="factions/government">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Government</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="factions/government/the-palace">The Palace</li>
+                <li class="nav-item" data-page="factions/government/gale-force">The Gale Force</li>
+                <li class="nav-item" data-page="factions/government/menaciers">The Menaciers</li>
+                <li class="nav-item" data-page="factions/government/regional">Regional Governments</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="factions/religious">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Religious</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="factions/religious/unionist-church">Unionist Church</li>
+                <li class="nav-item" data-page="factions/religious/mauntery-system">Mauntery System</li>
+                <li class="nav-item" data-page="factions/religious/lurlinite-remnants">Lurlinite Remnants</li>
+              </ul>
+            </li>
+            <li class="subcategory" data-category="factions/resistance">
+              <div class="category-header">
+                <span class="expand-icon">&#9658;</span>
+                <span class="category-title">Resistance</span>
+              </div>
+              <ul class="category-items">
+                <li class="nav-item" data-page="factions/resistance/animal-resistance">Animal Resistance</li>
+                <li class="nav-item" data-page="factions/resistance/free-munchkinland">Free Munchkinland</li>
+                <li class="nav-item" data-page="factions/resistance/political-opposition">Political Opposition</li>
+              </ul>
+            </li>
+            <li class="nav-item" data-page="factions/criminal">Criminal Organizations</li>
+            <li class="nav-item" data-page="factions/academic">Academic Institutions</li>
+            <li class="nav-item" data-page="factions/military">Military Factions</li>
+            <li class="nav-item" data-page="factions/clock-people">The Clock's People</li>
+            <li class="nav-item" data-page="factions/foreign">Foreign Powers</li>
+            <li class="nav-item" data-page="factions/secret">Secret Organizations</li>
+          </ul>
+        </div>
+
+        <!-- History -->
+        <div class="category" data-category="history">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">History</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="history/age-before">The Age Before</li>
+            <li class="nav-item" data-page="history/age-of-lurline">The Age of Lurline</li>
+            <li class="nav-item" data-page="history/ozma-dynasty">The Ozma Dynasty</li>
+            <li class="nav-item" data-page="history/wizards-arrival">The Wizard's Arrival</li>
+            <li class="nav-item" data-page="history/wizards-reign">The Wizard's Reign</li>
+            <li class="nav-item" data-page="history/witch-years">The Witch Years</li>
+            <li class="nav-item" data-page="history/interregnum">The Interregnum</li>
+            <li class="nav-item" data-page="history/emperor-shells-reign">Emperor Shell's Reign</li>
+          </ul>
+        </div>
+
+        <!-- Notable Figures -->
+        <div class="category" data-category="figures">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Notable Figures</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="figures/elphaba-thropp">Elphaba Thropp</li>
+            <li class="nav-item" data-page="figures/nessarose-thropp">Nessarose Thropp</li>
+            <li class="nav-item" data-page="figures/glinda">Glinda</li>
+            <li class="nav-item" data-page="figures/the-wizard">The Wizard</li>
+            <li class="nav-item" data-page="figures/shell-thropp">Shell Thropp</li>
+            <li class="nav-item" data-page="figures/liir">Liir</li>
+            <li class="nav-item" data-page="figures/rain">Rain</li>
+            <li class="nav-item" data-page="figures/brrr">Brrr (The Cowardly Lion)</li>
+            <li class="nav-item" data-page="figures/yackle">Yackle</li>
+            <li class="nav-item" data-page="figures/dorothy-gale">Dorothy Gale</li>
+            <li class="nav-item" data-page="figures/fiyero">Fiyero</li>
+            <li class="nav-item" data-page="figures/madame-morrible">Madame Morrible</li>
+            <li class="nav-item" data-page="figures/dr-dillamond">Dr. Dillamond</li>
+          </ul>
+        </div>
+
+        <!-- Appendices -->
+        <div class="category" data-category="appendices">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">Appendices</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="appendices/random-tables">Random Tables</li>
+            <li class="nav-item" data-page="appendices/quick-reference">Quick Reference</li>
+            <li class="nav-item" data-page="appendices/adventure-hooks">Adventure Hooks</li>
+            <li class="nav-item" data-page="appendices/campaign-frameworks">Campaign Frameworks</li>
+            <li class="nav-item" data-page="appendices/conversion-notes">Conversion Notes</li>
+          </ul>
+        </div>
+
+        <!-- DM Resources -->
+        <div class="category" data-category="dm-resources">
+          <div class="category-header">
+            <span class="expand-icon">&#9658;</span>
+            <span class="category-title">DM Resources</span>
+          </div>
+          <ul class="category-items">
+            <li class="nav-item" data-page="dm-resources/tone-guide">Tone Guide</li>
+            <li class="nav-item" data-page="dm-resources/safety-tools">Safety Tools</li>
+            <li class="nav-item" data-page="dm-resources/session-zero">Session Zero Guide</li>
+            <li class="nav-item" data-page="dm-resources/witchs-wake">The Witch's Wake One-Shot</li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Content Area -->
+    <main class="content-area" id="content-area">
+      <!-- Tab Bar -->
+      <div class="tab-bar" id="tab-bar">
+        <div class="tabs-container" id="tabs-container">
+          <div class="tab active" data-page="welcome">
+            <span class="tab-title">Welcome</span>
+            <button class="tab-close" aria-label="Close tab">&times;</button>
+          </div>
+        </div>
+        <button class="split-view-btn" id="split-view-btn" title="Split View">&#8214;</button>
+      </div>
+
+      <!-- Page Content -->
+      <div class="page-content" id="page-content">
+        <div class="welcome-page">
+          <h1>Welcome to the Maguire Oz TTRPG Wiki</h1>
+          <p class="subtitle">A comprehensive reference for tabletop roleplaying in Gregory Maguire's Oz</p>
+
+          <div class="welcome-intro">
+            <blockquote>
+              "The Unnamed God must never be named. Naming limits divine power."
+              <cite>— Unionist Doctrine</cite>
+            </blockquote>
+
+            <p>This wiki contains everything you need to run campaigns set in the world of <em>Wicked</em>, <em>Son of a Witch</em>, <em>A Lion Among Men</em>, and <em>Out of Oz</em>. Navigate using the sidebar, search for specific topics, or explore the categories below.</p>
+          </div>
+
+          <div class="quick-links">
+            <h2>Quick Start</h2>
+            <div class="quick-links-grid">
+              <div class="quick-link-card" data-page="character/races/humans/gillikinese">
+                <h3>Races</h3>
+                <p>Humans, Animals, Tiktoks, and more</p>
+              </div>
+              <div class="quick-link-card" data-page="character/classes/the-adept">
+                <h3>Classes</h3>
+                <p>10 unique classes with subclasses</p>
+              </div>
+              <div class="quick-link-card" data-page="magic/spells/grimmerie">
+                <h3>Magic</h3>
+                <p>5 magical traditions and phenomena</p>
+              </div>
+              <div class="quick-link-card" data-page="exploration/regions/emerald-city">
+                <h3>Exploration</h3>
+                <p>The lands and locations of Oz</p>
+              </div>
+              <div class="quick-link-card" data-page="factions/government/the-palace">
+                <h3>Factions</h3>
+                <p>Political powers and secret societies</p>
+              </div>
+              <div class="quick-link-card" data-page="dm-resources/session-zero">
+                <h3>DM Resources</h3>
+                <p>Tools for running your campaign</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="keyboard-shortcuts-hint">
+            <p>Press <kbd>?</kbd> for keyboard shortcuts</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-left">
+      <span class="page-path" id="page-path">Welcome</span>
+    </div>
+    <div class="footer-right">
+      <button class="footer-btn" id="edit-btn" title="Edit Page (Ctrl+E)">
+        <span class="btn-icon">&#9998;</span> Edit
+      </button>
+      <button class="footer-btn" id="bookmark-btn" title="Toggle Bookmark">
+        <span class="btn-icon">&#9734;</span> Bookmark
+      </button>
+      <button class="footer-btn" id="print-btn" title="Print Page">
+        <span class="btn-icon">&#128424;</span> Print
+      </button>
+    </div>
+  </footer>
+
+  <!-- Keyboard Shortcuts Modal -->
+  <div class="modal" id="shortcuts-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Keyboard Shortcuts</h2>
+        <button class="modal-close" id="shortcuts-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="shortcuts-grid">
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>K</kbd>
+            <span>Focus search</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>E</kbd>
+            <span>Edit current page</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>S</kbd>
+            <span>Save edits</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>W</kbd>
+            <span>Close current tab</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>Tab</kbd>
+            <span>Next tab</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>
+            <span>Previous tab</span>
+          </div>
+          <div class="shortcut">
+            <kbd>Escape</kbd>
+            <span>Cancel/Close modal</span>
+          </div>
+          <div class="shortcut">
+            <kbd>?</kbd>
+            <span>Show this help</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Context Menu -->
+  <div class="context-menu" id="tab-context-menu">
+    <button class="context-menu-item" data-action="close">Close Tab</button>
+    <button class="context-menu-item" data-action="close-others">Close Other Tabs</button>
+    <button class="context-menu-item" data-action="close-right">Close Tabs to Right</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

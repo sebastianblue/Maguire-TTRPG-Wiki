@@ -1,0 +1,373 @@
+/* ===================================
+   Maguire Oz TTRPG Wiki - Dark Mode
+   =================================== */
+
+body.dark-mode {
+  /* Colors - Dark Mode */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-tertiary: #2d2d2d;
+  --text-primary: #e8e8e8;
+  --text-secondary: #b0b0b0;
+  --text-muted: #808080;
+  --border-color: #3d3d3d;
+  --border-light: #333333;
+
+  /* Accent Colors - Slightly adjusted for dark mode visibility */
+  --accent-primary: #4caf50;
+  --accent-secondary: #66bb6a;
+  --accent-hover: #81c784;
+  --accent-light: rgba(76, 175, 80, 0.15);
+
+  /* Semantic Colors */
+  --link-color: #64b5f6;
+  --link-hover: #90caf9;
+  --warning-color: #ffb74d;
+  --error-color: #ef5350;
+  --success-color: #66bb6a;
+
+  /* Shadows - More subtle in dark mode */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Header adjustments */
+body.dark-mode .header {
+  background: var(--bg-secondary);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .hamburger-btn span {
+  background: var(--text-primary);
+}
+
+body.dark-mode .header-title {
+  color: var(--accent-primary);
+}
+
+body.dark-mode .search-input {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.dark-mode .search-input:focus {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+body.dark-mode .search-input::placeholder {
+  color: var(--text-muted);
+}
+
+body.dark-mode .search-results {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .font-btn,
+body.dark-mode .theme-toggle {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.dark-mode .font-btn:hover,
+body.dark-mode .theme-toggle:hover {
+  background: var(--border-color);
+}
+
+/* Sidebar adjustments */
+body.dark-mode .sidebar {
+  background: var(--bg-secondary);
+  border-right-color: var(--border-color);
+}
+
+body.dark-mode .sidebar-header {
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .sidebar-header h2 {
+  color: var(--text-muted);
+}
+
+body.dark-mode .category-header:hover {
+  background: var(--bg-tertiary);
+}
+
+body.dark-mode .expand-icon {
+  color: var(--text-muted);
+}
+
+body.dark-mode .category-title {
+  color: var(--text-primary);
+}
+
+body.dark-mode .nav-item {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .nav-item:hover {
+  background: var(--accent-light);
+  color: var(--accent-primary);
+}
+
+body.dark-mode .nav-item.active {
+  background: var(--accent-primary);
+  color: #1a1a1a;
+}
+
+body.dark-mode .bookmarks-section {
+  border-bottom-color: var(--border-color);
+}
+
+/* Content area adjustments */
+body.dark-mode .content-area {
+  background: var(--bg-primary);
+}
+
+body.dark-mode .tab-bar {
+  background: var(--bg-secondary);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .tabs-container::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+}
+
+body.dark-mode .tab {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .tab:hover {
+  background: var(--bg-secondary);
+}
+
+body.dark-mode .tab.active {
+  background: var(--bg-primary);
+  border-bottom-color: var(--bg-primary);
+}
+
+body.dark-mode .tab-title {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .tab.active .tab-title {
+  color: var(--text-primary);
+}
+
+body.dark-mode .tab-close {
+  color: var(--text-muted);
+}
+
+body.dark-mode .tab-close:hover {
+  background: var(--error-color);
+  color: white;
+}
+
+body.dark-mode .split-view-btn {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-muted);
+}
+
+body.dark-mode .split-view-btn:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
+}
+
+/* Welcome page adjustments */
+body.dark-mode .welcome-page h1 {
+  color: var(--accent-primary);
+}
+
+body.dark-mode .welcome-page .subtitle {
+  color: var(--text-muted);
+}
+
+body.dark-mode .welcome-intro blockquote {
+  background: var(--bg-tertiary);
+  border-left-color: var(--accent-primary);
+  color: var(--text-secondary);
+}
+
+body.dark-mode .welcome-intro blockquote cite {
+  color: var(--text-muted);
+}
+
+body.dark-mode .quick-link-card {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .quick-link-card:hover {
+  border-color: var(--accent-primary);
+}
+
+body.dark-mode .quick-link-card h3 {
+  color: var(--accent-primary);
+}
+
+body.dark-mode .quick-link-card p {
+  color: var(--text-secondary);
+}
+
+body.dark-mode .keyboard-shortcuts-hint p {
+  color: var(--text-muted);
+}
+
+body.dark-mode kbd {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+  box-shadow: 0 1px 0 var(--border-color);
+}
+
+/* Footer adjustments */
+body.dark-mode .footer {
+  background: var(--bg-secondary);
+  border-top-color: var(--border-color);
+}
+
+body.dark-mode .page-path {
+  color: var(--text-muted);
+}
+
+body.dark-mode .footer-btn {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+  color: var(--text-secondary);
+}
+
+body.dark-mode .footer-btn:hover {
+  background: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.dark-mode .footer-btn.bookmarked {
+  color: var(--warning-color);
+}
+
+/* Modal adjustments */
+body.dark-mode .modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+body.dark-mode .modal-content {
+  background: var(--bg-secondary);
+}
+
+body.dark-mode .modal-header {
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .modal-header h2 {
+  color: var(--text-primary);
+}
+
+body.dark-mode .modal-close {
+  color: var(--text-muted);
+}
+
+body.dark-mode .modal-close:hover {
+  background: var(--bg-tertiary);
+}
+
+body.dark-mode .shortcut span {
+  color: var(--text-secondary);
+}
+
+/* Context menu adjustments */
+body.dark-mode .context-menu {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .context-menu-item {
+  color: var(--text-primary);
+}
+
+body.dark-mode .context-menu-item:hover {
+  background: var(--accent-light);
+  color: var(--accent-primary);
+}
+
+/* Scrollbar adjustments */
+body.dark-mode ::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+body.dark-mode {
+  scrollbar-color: var(--border-color) var(--bg-tertiary);
+}
+
+/* Typography adjustments */
+body.dark-mode a {
+  color: var(--link-color);
+}
+
+body.dark-mode a:hover {
+  color: var(--link-hover);
+}
+
+/* Selection color */
+body.dark-mode ::selection {
+  background: var(--accent-primary);
+  color: #1a1a1a;
+}
+
+/* Focus visible adjustments */
+body.dark-mode :focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Table adjustments for future content */
+body.dark-mode table {
+  border-color: var(--border-color);
+}
+
+body.dark-mode th {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+body.dark-mode td {
+  border-color: var(--border-color);
+}
+
+body.dark-mode tr:hover {
+  background: var(--bg-tertiary);
+}
+
+/* Code blocks for future content */
+body.dark-mode code {
+  background: var(--bg-tertiary);
+  color: var(--accent-secondary);
+}
+
+body.dark-mode pre {
+  background: var(--bg-tertiary);
+  border-color: var(--border-color);
+}
+
+/* Stat block styling for creatures (future use) */
+body.dark-mode .stat-block {
+  background: var(--bg-tertiary);
+  border-color: var(--accent-primary);
+}
+
+body.dark-mode .stat-block-header {
+  background: var(--accent-primary);
+  color: #1a1a1a;
+}
