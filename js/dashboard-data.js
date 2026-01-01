@@ -525,5 +525,32 @@ const DashboardData = {
     { id: 'tell', name: "Yackle's Tell", earned: false, uses: 999, usesRemaining: 999, source: 'Notice Viridian unaffected (Insight DC 16)' },
     { id: 'lurline', name: "Lurline's Word", earned: false, uses: 1, usesRemaining: 1, source: 'Inside puzzle box' },
     { id: 'unmaking', name: 'Unmaking Phrase', earned: false, uses: 1, usesRemaining: 1, source: 'Piece together Eight Bindings lore' }
-  ]
+  ],
+
+  // Quick NPC Reference
+  npcs: {
+    'mr-trism': {
+      name: 'Mr. Trism',
+      status: 'active', // active, revealed-dead, collapsed
+      ac: 10,
+      hp: 1,
+      maxHp: 1,
+      tells: [
+        'Never eats or drinks',
+        'Unusually cold to touch (Investigation DC 14)',
+        'Eyes don\'t blink properly',
+        'No breath visible in cold air',
+        'Slight rigor mortis (Medicine DC 12)'
+      ]
+    },
+    'holly': {
+      name: 'Holly (Ghost Child)',
+      status: 'neutral', // neutral, befriended, hostile
+      ac: 11,
+      hp: 16,
+      maxHp: 16,
+      location: 'Nursery',
+      canGrant: 'Guidance of the House (if befriended)'
+    }
+  }
 };

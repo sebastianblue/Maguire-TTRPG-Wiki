@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp files
+*.txt
+!CLAUDE.md
+
+# Font files (if they're large and not needed for GitHub Pages)
+*.ttf
+*.woff
+*.woff2
+
+# Backup files
+*.backup
+*.bak
+
+# Editor files
+.vscode/
+.idea/
+
+# Claude cache
+.claude/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary puzzle files
+Puzzles/
+
+# Keep these important files:
+!README.md
+!CLAUDE.md
