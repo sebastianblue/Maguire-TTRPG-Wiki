@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Yackle's Study - Cabinet Labels</title>
+    <style>
+        body {
+            width: 8.5in;
+            height: 11in;
+            margin: 0;
+            padding: 1in;
+            font-family: 'Georgia', serif;
+            background: #f9f6f0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 16pt;
+            margin-bottom: 0.5in;
+        }
+        .label-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.3in;
+        }
+        .label {
+            border: 2px solid #8b6914;
+            background: #d4af37;
+            padding: 0.25in;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24pt;
+            color: #2a2a2a;
+            page-break-inside: avoid;
+            min-height: 0.75in;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .instructions {
+            text-align: center;
+            font-size: 10pt;
+            font-style: italic;
+            margin-bottom: 0.5in;
+        }
+        @media print {
+            body { background: white; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Cabinet Brass Plaques</h1>
+    <p class="instructions">[GM: Cut these out and place beneath/on each cabinet prop]</p>
+
+    <div class="label-grid">
+        <div class="label">CABINET<br>I</div>
+        <div class="label">CABINET<br>II</div>
+        <div class="label">CABINET<br>III</div>
+        <div class="label">CABINET<br>IV</div>
+        <div class="label">CABINET<br>V</div>
+        <div class="label">CABINET<br>VI</div>
+        <div class="label">CABINET<br>VII</div>
+        <div class="label">CABINET<br>VIII</div>
+    </div>
+</body>
+</html>

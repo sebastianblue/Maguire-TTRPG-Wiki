@@ -86,8 +86,7 @@ const DashboardData = {
       position: { x: 80, y: 70 },
       explored: false,
       partyHere: false,
-      hasSeal: true,
-      sealId: 'sacrifice',
+      hasSeal: false,
       hasSecret: false,
       hasHandout: false,
       connections: ['foyer']
@@ -251,7 +250,8 @@ const DashboardData = {
       position: { x: 80, y: 40 },
       explored: false,
       partyHere: false,
-      hasSeal: false,
+      hasSeal: true,
+      sealId: 'sacrifice',
       hasSecret: false,
       hasHandout: false,
       connections: ['yackle-study', 'hall-of-mirrors']
@@ -377,77 +377,126 @@ const DashboardData = {
     }
   },
 
-  // The Seven Seals
+  // The Seven Seals (Updated with Physical Props & Failure Mechanics)
   seals: {
     memory: {
       id: 'memory',
       name: 'SEAL 1: MEMORY',
+      binding: 'The past is real',
       location: 'Music Room',
-      puzzle: 'Reconstruct & play melody from fragments',
+      prop: '4 Music Boxes (brass ornate, simple wood, painted flowers, black lacquer)',
+      puzzle: 'Select the music box that plays the original melody matching the sheet music',
+      solution: 'Simple Wood box (plainest, original, unpolished)',
+      targetCharacter: 'Averic (Scholar)',
+      trap: 'Brass box sounds better but is a revision - Averic will want to choose the "improved" version',
       status: 'incomplete', // incomplete, inprogress, complete
+      attempts: 0,
       recipient: null,
-      reward: 'Reroll Token (force Yackle to reroll)',
-      mastery: 'Force Yackle to reroll 1 attack/check per round'
+      reward: 'Reroll Token (reroll one failed d20, once)',
+      failure: 'DC 13 Dex save or 2d6 bludgeoning + disadvantage on next check',
+      after3Failures: 'Piano locks 10 min, plays melody backward as hint'
     },
     blood: {
       id: 'blood',
       name: 'SEAL 2: BLOOD',
+      binding: 'Lineage is fixed',
       location: 'Portrait Gallery',
-      puzzle: 'Complete family tree using portraits',
+      prop: '8 Textile Swatches (dots, fish scales, stars, scrawled text, diamonds, flowers dense, waves, flowers sparse)',
+      puzzle: 'Match textile swatches to 8 family portraits based on visual clues',
+      solution: '7 correct matches + leave 8th bracket EMPTY (fraudulent branch)',
+      targetCharacter: 'Liir (Heir)',
+      trap: 'The Healer portrait (8th) has scratched-out name - Liir\'s false great-grandmother. Must leave empty or validate the lie.',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: "Death's Denial (auto-stabilize at 0 HP once)",
-      mastery: "Yackle's necrotic damage halved"
+      reward: "Death's Denial (first time at 0 HP, stabilize automatically)",
+      failure: 'DC 13 Wis save or 1d8 psychic + death vision of that ancestor',
+      after3Failures: 'Portraits whisper accusations, disadvantage on Wis checks in room until short rest'
     },
     nature: {
       id: 'nature',
       name: 'SEAL 3: NATURE',
+      binding: 'Beings are their kind',
       location: 'Library',
-      puzzle: 'Identify Animals vs animals in books',
+      prop: '4 Animal Books with Sigil Pieces (Badger Memoirs, Wren Poetry, Foxwood Debates, Kinderly Letters)',
+      puzzle: 'Find 4 books written BY Animals (not about animals), collect sigil pieces, trace completed sigil',
+      solution: 'Assemble 4 pieces to form Seal of Nature sigil (creature in mirror), trace it',
+      targetCharacter: 'Frederick (Animal)',
+      trap: 'Frederick recognizes Animal literature immediately - may expose how a "Munchkinlander clerk" knows these books',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: 'True Sight Token (see invisible/shapechangers)',
-      mastery: 'Yackle cannot teleport or turn invisible'
+      reward: 'True Sight Token (advantage on one Insight check, once)',
+      failure: 'DC 12 Str save or pushed 10ft, prone, 1d6 force damage',
+      after3Failures: 'Shelves rearrange, all progress lost, must restart from different locations'
     },
     service: {
       id: 'service',
       name: 'SEAL 4: SERVICE',
-      location: 'Servant Quarters → Memorial',
-      puzzle: 'Answer bell, light memorial candle',
+      binding: 'Duty creates bonds',
+      location: 'Servant Quarters → Study',
+      prop: 'Deck of Cards (A♠, 2♥, 3♣, 4♦, 5♥, 6♠, 7♦, 8♣)',
+      puzzle: 'Read servant notebook, lay 8 specific cards in daily service order, go to Study when bell stills',
+      solution: 'A♠→2♥→3♣→4♦→5♥→6♠→7♦→8♣ (Chapel→Kitchen→Library→Parlor→Dining→Gallery→Bedroom→Study), then say "I\'m here. What do you need?"',
+      targetCharacter: 'Shell (Former Maunt)',
+      trap: 'Shell recognizes servant routines intimately - reveals her background was more domestic service than contemplative',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: 'Swift Aid (Dash as bonus action 3x)',
-      mastery: 'Party gains +2 to initiative'
+      reward: 'Swift Aid (Help action as bonus action for rest of session)',
+      failure: 'DC 13 Con save or deafened 1 minute, cards scatter',
+      after3Failures: 'Cards show sequence for 3 seconds, disadvantage on Service checks for 1 hour'
     },
     sacrifice: {
       id: 'sacrifice',
       name: 'SEAL 5: SACRIFICE',
-      location: 'Chapel',
-      puzzle: 'Offer something precious, ritual prayer',
+      binding: 'Giving creates value',
+      location: 'Observatory',
+      prop: 'Telescope with Hidden Matches + REAL CANDLE on gaming table',
+      puzzle: 'Find matches hidden inside telescope, light real candle at actual gaming table',
+      solution: 'Unscrew telescope (DC 14 Investigation), find matches, physically light real candle on table',
+      targetCharacter: 'Sarima (Debt-Holder)',
+      trap: 'Sarima will try to trade/use magic - both fail. Must watch someone simply GIVE without dealing.',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: "Martyr's Shield (transfer damage to self)",
-      mastery: 'Party gains resistance to necrotic damage'
+      reward: 'Last Strike (when dropped to 0 HP, make one free attack)',
+      failure: 'Magic lighting fails silently (no damage)',
+      after3Failures: 'Bowl speaks: "I cannot be bought. Do you understand the difference?"'
     },
     deed: {
       id: 'deed',
       name: 'SEAL 6: DEED',
+      binding: 'Actions shape you',
       location: 'Hall of Mirrors',
-      puzzle: 'Confront true reflection, accept past',
+      prop: 'Masquerade Mask (white porcelain, gold filigree)',
+      puzzle: 'Put on mask, walk hall seeing reflections, stand before True Mirror, remove mask, acknowledge deeds, place mask on pedestal',
+      solution: 'Wear mask → walk hall → face True Mirror → remove mask → say "That is me. I did that." → place mask down',
+      targetCharacter: 'Mareth (Veteran)',
+      trap: 'Mareth sees the massacre he didn\'t stop. Must say "That is me. I did that" without excuses.',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: 'Clear Conscience (advantage on Wis saves)',
-      mastery: "Yackle's illusions/charms have disadvantage"
+      reward: 'Resolve Token (reroll one failed saving throw, once)',
+      failure: 'Mask attaches to face (DC 14 Str to remove), shows worst deed in all reflective surfaces',
+      after3Failures: 'All in hall: DC 14 Wis save or frightened of mirrors 1 hour'
     },
     hunger: {
       id: 'hunger',
       name: 'SEAL 7: HUNGER',
+      binding: 'Desire drives becoming',
       location: 'Dining Room',
-      puzzle: 'Resist phantom feast, break plates',
+      prop: 'Name Cards with epithets (Scholar Who Forged, Heir Without Blood, Beast in Human Skin, etc.)',
+      puzzle: 'All 8 characters must answer "What do you truly want?" - compelled honesty',
+      solution: 'Everyone answers truthfully including Viridian - triggers THE REVEAL when she says "I want to end"',
+      targetCharacter: 'All / Viridian REVEAL',
+      trap: 'Seven must admit they want despite being a construct. Viridian cannot lie and reveals her true face.',
       status: 'incomplete',
+      attempts: 0,
       recipient: null,
-      reward: 'Satiation (no exhaustion for 24 hours)',
-      mastery: 'Yackle cannot regain HP or legendary actions'
+      reward: 'Second Wind (recover one spent Hit Die)',
+      failure: 'Lying: 2d6 psychic, truth spills out anyway. Silence: 1d6 psychic per round',
+      after3Failures: 'Cannot be brute-forced - truth or pain until truth emerges. Doors sealed.'
     }
   },
 

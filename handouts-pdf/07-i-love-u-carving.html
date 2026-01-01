@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>I LOVE U - Stone Carving</title>
+    <style>
+        body {
+            width: 8.5in;
+            height: 11in;
+            margin: 0;
+            padding: 1in;
+            background: #2a2a2a;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .stone {
+            width: 6in;
+            height: 4in;
+            background: #5a5a5a;
+            border: 3px solid #1a1a1a;
+            border-radius: 0.25in;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 0.25in 0.5in rgba(0,0,0,0.5);
+        }
+        .carving {
+            font-family: 'Courier New', monospace;
+            font-size: 72pt;
+            font-weight: bold;
+            color: #3a3a3a;
+            text-shadow:
+                1px 1px 0 #6a6a6a,
+                -1px -1px 0 #4a4a4a,
+                2px 2px 3px #1a1a1a;
+            letter-spacing: 0.2in;
+            line-height: 1;
+        }
+        .overlay {
+            position: absolute;
+            font-family: 'Courier New', monospace;
+            font-size: 72pt;
+            font-weight: bold;
+            color: #4a4a4a;
+            text-shadow:
+                1px 1px 0 #5a5a5a,
+                -1px -1px 0 #3a3a3a;
+            letter-spacing: 0.2in;
+            opacity: 0.7;
+            transform: rotate(-2deg);
+        }
+        .description {
+            margin-top: 0.5in;
+            text-align: center;
+            font-family: 'Georgia', serif;
+            font-size: 11pt;
+            font-style: italic;
+            max-width: 6in;
+            line-height: 1.6;
+        }
+        @media print {
+            body { background: #2a2a2a; }
+        }
+    </style>
+</head>
+<body>
+    <div class="stone">
+        <div class="overlay">I LOVE U</div>
+        <div class="carving">I LOVE U</div>
+    </div>
+
+    <p class="description">
+        Carved deep into the stone. Over and over into the same space.<br>
+        Desperate. Uneven. As if scratched across centuries.<br>
+        As if someone was trapped and this was all they could say.<br>
+        <br>
+        The stone is cold. It feels heavy with grief.
+    </p>
+
+    <p style="text-align: center; margin-top: 0.5in; font-size: 9pt; font-family: Georgia;">
+        [GM: Found in Cabinet 8 of Yackle's Study, opens only when all seven seals are broken]
+    </p>
+</body>
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reward Tokens & Item Cards</title>
+    <style>
+        body {
+            width: 8.5in;
+            margin: 0;
+            padding: 0.5in;
+            font-family: 'Georgia', serif;
+            background: white;
+        }
+        h1 {
+            text-align: center;
+            font-size: 18pt;
+            margin-bottom: 0.5in;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 3.75in);
+            gap: 0.25in;
+            margin-bottom: 0.5in;
+        }
+        .card {
+            border: 3px solid #2a2a2a;
+            padding: 0.25in;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            page-break-inside: avoid;
+            min-height: 2.25in;
+        }
+        .card-title {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid #2a2a2a;
+            padding-bottom: 0.1in;
+            margin-bottom: 0.15in;
+            color: #8b0000;
+        }
+        .card-type {
+            font-size: 9pt;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 0.15in;
+            color: #666;
+        }
+        .card-text {
+            font-size: 10pt;
+            line-height: 1.4;
+        }
+        .card-text strong {
+            color: #0066cc;
+        }
+        .seal-reward {
+            background: linear-gradient(135deg, #e6f2ff 0%, #d9e9ff 100%);
+            border-color: #0066cc;
+        }
+        .seal-reward .card-title {
+            color: #0066cc;
+        }
+        .magic-item {
+            background: linear-gradient(135deg, #fff8e6 0%, #ffe9cc 100%);
+            border-color: #ff8c00;
+        }
+        .magic-item .card-title {
+            color: #ff6600;
+        }
+        .consumable {
+            background: linear-gradient(135deg, #e6ffe6 0%, #d9ffd9 100%);
+            border-color: #228b22;
+        }
+        .consumable .card-title {
+            color: #228b22;
+        }
+        @media print {
+            .card-grid {
+                page-break-inside: avoid;
+            }
+            h1 {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>SEAL REWARDS — Token Cards</h1>
+    <p style="text-align: center; font-style: italic; margin-bottom: 0.5in;">
+        [GM: Cut these out and give to players when they complete seals]
+    </p>
+
+    <div class="card-grid">
+        <div class="card seal-reward">
+            <div class="card-title">REROLL TOKEN</div>
+            <div class="card-type">Seal 1: Memory — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> You may reroll one failed d20 roll and use the new result. This can be an attack roll, ability check, or saving throw.<br><br>
+                <strong>Trigger:</strong> Use immediately after seeing the result of a d20 roll.<br><br>
+                <strong>Flavor:</strong> "The past is fixed, but the present can be rewritten."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">DEATH'S DENIAL</div>
+            <div class="card-type">Seal 2: Blood — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> The first time you are reduced to 0 hit points (but not killed outright), you automatically stabilize without needing to make death saving throws.<br><br>
+                <strong>Trigger:</strong> Automatic when you drop to 0 HP.<br><br>
+                <strong>Flavor:</strong> "Blood remembers. Blood endures."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">TRUE SIGHT TOKEN</div>
+            <div class="card-type">Seal 3: Nature — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> You have advantage on one Wisdom (Insight) check. Additionally, for 1 minute after using this, you can see through illusions and detect shapechangers in their true form.<br><br>
+                <strong>Trigger:</strong> Declare use before making an Insight check.<br><br>
+                <strong>Flavor:</strong> "See what is, not what pretends to be."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">SWIFT AID</div>
+            <div class="card-type">Seal 4: Service — Rest of Session</div>
+            <div class="card-text">
+                <strong>Effect:</strong> For the rest of this game session, you can use the Help action as a bonus action instead of as an action.<br><br>
+                <strong>Trigger:</strong> Always active after receiving this.<br><br>
+                <strong>Flavor:</strong> "True service knows no hesitation."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">LAST STRIKE</div>
+            <div class="card-type">Seal 5: Sacrifice — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> When you are reduced to 0 hit points (but not killed outright), you can immediately make one weapon attack or cast one cantrip as a reaction before falling unconscious.<br><br>
+                <strong>Trigger:</strong> Use when dropped to 0 HP.<br><br>
+                <strong>Flavor:</strong> "What you give in your final moment defines you."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">RESOLVE TOKEN</div>
+            <div class="card-type">Seal 6: Deed — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> You may reroll one failed saving throw and use the new result.<br><br>
+                <strong>Trigger:</strong> Use immediately after failing a saving throw but before consequences are resolved.<br><br>
+                <strong>Flavor:</strong> "Facing the truth gives you the strength to face anything."
+            </div>
+        </div>
+
+        <div class="card seal-reward">
+            <div class="card-title">SECOND WIND</div>
+            <div class="card-type">Seal 7: Hunger — One Use</div>
+            <div class="card-text">
+                <strong>Effect:</strong> As a bonus action, you can recover one expended Hit Die. Roll the die and add your Constitution modifier. Regain that many hit points.<br><br>
+                <strong>Trigger:</strong> Use as a bonus action on your turn.<br><br>
+                <strong>Flavor:</strong> "Knowing what you want gives you the will to take it."
+            </div>
+        </div>
+    </div>
+
+    <h1 style="page-break-before: always;">CABINET REWARDS — Magic Items</h1>
+    <p style="text-align: center; font-style: italic; margin-bottom: 0.5in;">
+        [GM: Cut these out and give to players when they open cabinets]
+    </p>
+
+    <div class="card-grid">
+        <div class="card consumable">
+            <div class="card-title">POTION OF HEALING</div>
+            <div class="card-type">Cabinet 1 — Consumable</div>
+            <div class="card-text">
+                <strong>Effect:</strong> As an action, drink this potion to regain 2d4+2 hit points.<br><br>
+                <strong>Rarity:</strong> Common<br><br>
+                <em>"For the first blow struck. May it not be the last."</em>
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">SCROLL OF PROTECTION<br>FROM EVIL AND GOOD</div>
+            <div class="card-type">Cabinet 1 — Consumable, 1st Level</div>
+            <div class="card-text">
+                <strong>Effect:</strong> Use an action to read this scroll and cast the spell. For 10 minutes, certain creature types have disadvantage on attacks against you.<br><br>
+                <strong>Spell Duration:</strong> Concentration, up to 10 minutes
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">RING OF NECROTIC<br>RESISTANCE</div>
+            <div class="card-type">Cabinet 2 — Ring, Uncommon</div>
+            <div class="card-text">
+                <strong>Effect:</strong> While wearing this ring, you have resistance to necrotic damage (take half damage from necrotic sources).<br><br>
+                <strong>Attunement:</strong> Not required<br><br>
+                <em>"Death is patient. Be more patient than death."</em>
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">CLOAK OF DISPLACEMENT</div>
+            <div class="card-type">Cabinet 3 — Cloak, Uncommon</div>
+            <div class="card-text">
+                <strong>Effect:</strong> While wearing this cloak, you have a +1 bonus to AC. (For longer campaigns, use full Cloak of Displacement: attacks against you have disadvantage until you take damage.)<br><br>
+                <strong>Attunement:</strong> Not required<br><br>
+                <em>"What's hidden can also hide you."</em>
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">BOTTLE OF SMOKE</div>
+            <div class="card-type">Cabinet 3 — Consumable</div>
+            <div class="card-text">
+                <strong>Effect:</strong> As an action, throw this bottle up to 30 feet. It shatters on impact and creates a 20-foot-radius sphere of fog (as <em>Fog Cloud</em> spell) for 10 minutes or until dispersed by wind.<br><br>
+                <strong>One Use Only</strong>
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">AMULET OF PROOF<br>AGAINST DETECTION</div>
+            <div class="card-type">Cabinet 4 — Amulet, Uncommon</div>
+            <div class="card-text">
+                <strong>Effect:</strong> While wearing this amulet, you can't be targeted by divination magic or perceived through magical scrying sensors.<br><br>
+                <strong>Attunement:</strong> Not required<br><br>
+                <em>"The hardest lock to pick is the one you built yourself."</em>
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">MIRROR SHARD</div>
+            <div class="card-type">Cabinet 4 — Consumable</div>
+            <div class="card-text">
+                <strong>Effect:</strong> As an action, hold this up to see through one illusion or reveal one shapechanged creature's true form within 30 feet. The mirror shatters after use.<br><br>
+                <strong>One Use Only</strong>
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">INSTRUMENT OF<br>THE BARDS</div>
+            <div class="card-type">Cabinet 5 — Instrument, Uncommon</div>
+            <div class="card-text">
+                <strong>Effect:</strong> While playing this instrument, you gain a +2 bonus to Performance checks. Additionally, once per long rest, you can cast <em>Cure Wounds</em> (1st level) as an action.<br><br>
+                <strong>Attunement:</strong> Requires proficiency with musical instruments
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">TUNING FORK (Silver)</div>
+            <div class="card-type">Cabinet 5 — Material Component</div>
+            <div class="card-text">
+                <strong>Effect:</strong> This silver tuning fork is worth 250gp and can be used as a material component for spells like <em>Plane Shift</em>.<br><br>
+                <em>Plays the "Memory Waltz" when struck.</em>
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">SIGNET RING<br>OF THE OSTREGAS</div>
+            <div class="card-type">Cabinet 6 — Ring, Rare</div>
+            <div class="card-text">
+                <strong>Effect:</strong> While wearing this ring, you have advantage on Charisma (Persuasion) checks when interacting with nobility or those who recognize the Ostrega family name.<br><br>
+                <strong>Attunement:</strong> Not required<br><br>
+                <em>Bears the family crest in tarnished gold.</em>
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">VIAL OF YACKLE'S BLOOD</div>
+            <div class="card-type">Cabinet 6 — Potion Component</div>
+            <div class="card-text">
+                <strong>Effect:</strong> This vial contains blood that glows faintly green. Can be used as a material component for resurrection magic or consumed (as an action) to gain resistance to necrotic damage for 1 hour.<br><br>
+                <strong>One Use Only</strong>
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">CLOCKWORK AMULET</div>
+            <div class="card-type">Cabinet 7 — Amulet, Common</div>
+            <div class="card-text">
+                <strong>Effect:</strong> Once per day, when you make an attack roll, ability check, or saving throw, you can use this amulet to treat the d20 roll as a 10 (before rolling).<br><br>
+                <strong>Attunement:</strong> Not required<br><br>
+                <em>"Time is a machine. Machines can be stopped."</em>
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">BAG OF BALL BEARINGS</div>
+            <div class="card-type">Cabinet 7 — Equipment</div>
+            <div class="card-text">
+                <strong>Effect:</strong> As an action, scatter these on the ground to cover a 10-foot square. Any creature moving through must succeed on DC 10 Dexterity save or fall prone.<br><br>
+                Contains 1,000 ball bearings.
+            </div>
+        </div>
+
+        <div class="card consumable">
+            <div class="card-title">WIND-UP FAMILIAR</div>
+            <div class="card-type">Cabinet 7 — Magical Toy</div>
+            <div class="card-text">
+                <strong>Effect:</strong> Wind this mechanical mouse and it functions as a <em>Find Familiar</em> spell (mouse form only) for 1 hour. Doesn't require concentration. Obeys simple commands.<br><br>
+                <strong>One Use Only</strong> (can be rewound with <em>Mending</em>)
+            </div>
+        </div>
+
+        <div class="card magic-item">
+            <div class="card-title">RING OF SPELL STORING</div>
+            <div class="card-type">Cabinet 8 — Ring, Rare</div>
+            <div class="card-text">
+                <strong>Effect:</strong> This ring currently contains one casting of <em>Dispel Magic</em> at 5th level. Any creature can cast the spell from the ring.<br><br>
+                <strong>Special:</strong> Intended to be used against Yackle in combat!<br><br>
+                <strong>Attunement:</strong> Required (for storing new spells, not for casting stored spell)
+            </div>
+        </div>
+
+        <div class="card magic-item" style="background: linear-gradient(135deg, #ffe6e6 0%, #ffcccc 100%); border-color: #cc0000;">
+            <div class="card-title" style="color: #cc0000;">YACKLE'S TRUE NAME</div>
+            <div class="card-type">Cabinet 8 — Knowledge</div>
+            <div class="card-text">
+                <strong>Effect:</strong> You learn Yackle's true name (GM decides what it is). Speaking her true name in combat forces her to make a DC 15 Wisdom save or lose concentration on all active spells.<br><br>
+                <strong>Special:</strong> The parchment burns to ash after being read. Players must remember it!<br><br>
+                <em>Can only be used once per combat.</em>
+            </div>
+        </div>
+    </div>
+
+    <div style="page-break-before: always; text-align: center; padding: 1in;">
+        <h1>GM Quick Reference</h1>
+        <div style="text-align: left; max-width: 6in; margin: 0 auto; background: #f5f5f5; padding: 0.5in; border: 2px solid #2a2a2a;">
+            <h3 style="margin-top: 0;">SEAL REWARDS (7 total):</h3>
+            <ol>
+                <li>Memory → Reroll Token</li>
+                <li>Blood → Death's Denial</li>
+                <li>Nature → True Sight Token</li>
+                <li>Service → Swift Aid</li>
+                <li>Sacrifice → Last Strike</li>
+                <li>Deed → Resolve Token</li>
+                <li>Hunger → Second Wind</li>
+            </ol>
+
+            <h3>CABINET LOOT (8 cabinets):</h3>
+            <ul style="line-height: 1.8;">
+                <li><strong>Cabinet 1:</strong> Healing Potion + Protection Scroll</li>
+                <li><strong>Cabinet 2:</strong> Ring of Necrotic Resistance</li>
+                <li><strong>Cabinet 3:</strong> Cloak (+1 AC) + Bottle of Smoke</li>
+                <li><strong>Cabinet 4:</strong> Amulet (anti-detection) + Mirror Shard</li>
+                <li><strong>Cabinet 5:</strong> Instrument + Tuning Fork (250gp)</li>
+                <li><strong>Cabinet 6:</strong> Ostrega Ring + Blood Vial + Family Tree</li>
+                <li><strong>Cabinet 7:</strong> Clockwork Amulet + Ball Bearings + Wind-up Mouse</li>
+                <li><strong>Cabinet 8:</strong> Ring of Spell Storing (Dispel Magic 5th) + Yackle's True Name + I LOVE U stone + Last Letter</li>
+            </ul>
+
+            <h3>KEY COMBAT TOOLS:</h3>
+            <ul>
+                <li>✓ Necrotic Resistance (Cabinet 2 ring + Blood vial)</li>
+                <li>✓ Dispel Magic 5th level (Cabinet 8 ring) — USE ON YACKLE!</li>
+                <li>✓ True Name (Cabinet 8) — Forces concentration save</li>
+                <li>✓ Multiple "survive at 0 HP" abilities (Death's Denial, Last Strike)</li>
+                <li>✓ Reroll tokens (2 total: Reroll Token + Resolve Token)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

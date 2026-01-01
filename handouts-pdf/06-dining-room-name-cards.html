@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dining Room Name Cards</title>
+    <style>
+        @font-face {
+            font-family: 'Cursive';
+            src: url('../Milonguita (Script Cursive Font).ttf') format('truetype');
+        }
+        body {
+            width: 8.5in;
+            height: 11in;
+            margin: 0;
+            padding: 0.5in;
+            font-family: 'Cursive', serif;
+            background: #f9f6f0;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5in;
+            margin-top: 0.5in;
+        }
+        .name-card {
+            border: 2px solid #2a2a2a;
+            padding: 0.5in;
+            text-align: center;
+            background: white;
+            page-break-inside: avoid;
+            min-height: 1.5in;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18pt;
+            line-height: 1.4;
+        }
+        h1 {
+            text-align: center;
+            font-size: 16pt;
+            margin-bottom: 0.25in;
+        }
+        .instructions {
+            text-align: center;
+            font-size: 10pt;
+            font-style: italic;
+            margin-bottom: 0.25in;
+            font-family: 'Georgia', serif;
+        }
+        @media print {
+            body { background: white; }
+            .card-grid { gap: 0.3in; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Seal 7: Hunger — Place Cards</h1>
+    <p class="instructions">[GM: Cut these out and place at each seat at the dining table]</p>
+
+    <div class="card-grid">
+        <div class="name-card">
+            The Scholar<br>Who Forged
+        </div>
+
+        <div class="name-card">
+            The Heir<br>Without Blood
+        </div>
+
+        <div class="name-card">
+            The Beast<br>in Human Skin
+        </div>
+
+        <div class="name-card">
+            The Debt-Bound
+        </div>
+
+        <div class="name-card">
+            The Faithful<br>Betrayed
+        </div>
+
+        <div class="name-card">
+            The Widow<br>Who Watches
+        </div>
+
+        <div class="name-card">
+            The Soldier<br>Unmarked
+        </div>
+
+        <div class="name-card">
+            The Construct<br>That Hungers
+        </div>
+    </div>
+
+    <p style="text-align: center; margin-top: 0.5in; font-family: Georgia; font-size: 10pt; font-style: italic;">
+        The ninth seat (head of table) remains empty, with no name card.
+    </p>
+</body>
+</html>
