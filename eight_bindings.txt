@@ -1,0 +1,376 @@
+<h1>The Eight Bindings of Lurline</h1>
+
+<p class="flavor-text">"Before the Fairy Queen came, there was only the Void—shapeless, endless, consuming. Lurline brought order. She brought the Bindings. She made Oz <em>real</em>."</p>
+
+<div class="gm-warning">
+<p><strong>GM NOTE:</strong> This page contains deep lore for "The Witch's Wake" adventure. The Eight Bindings are the cosmological foundation that Yackle seeks to break. Understanding these principles is crucial for running the adventure and understanding each character's secret.</p>
+</div>
+
+<h2>The Kumbric Void</h2>
+
+<p>Before Lurline the Fairy Queen shaped Oz into existence, there was the <strong>Kumbric Void</strong>—a realm of undifferentiated potential, pure chaos where nothing was fixed. Time did not flow forward. Identity did not persist. Cause and effect were suggestions, not laws. Nothing could <em>be</em> in any meaningful sense because existence itself had no structure.</p>
+
+<p>The Void was not evil—it was <em>pre-moral</em>, a state before concepts like good and bad had meaning. It was potential without form, hunger without object, becoming without direction.</p>
+
+<p>And within it dwelt the <strong>Kumbric Witch</strong>—not a person but a <em>process</em>, the Void's own will toward undoing, dissolution, return to formlessness.</p>
+
+<h2>Lurline's Act of Creation</h2>
+
+<p>When Lurline came to create Oz, she did not create from nothing. She <em>bound</em> the chaos. She imposed eight fundamental principles—the <strong>Eight Bindings</strong>—that gave reality its shape, its consistency, its meaning.</p>
+
+<p>These are not laws of physics. They are deeper than that—metaphysical truths that make existence itself possible. Without them, Oz would dissolve back into the Void.</p>
+
+<p>To impose the Bindings, Lurline had to overcome the Kumbric Witch. The details are lost to legend, but the result is known: Lurline shattered the Witch into fragments and scattered them across Oz, each shard bound by the very principles it had sought to resist.</p>
+
+<p>One of those fragments became <strong>Yackle</strong>.</p>
+
+<h2>The Eight Bindings</h2>
+
+<p>Each Binding establishes a fundamental truth about how reality works in Oz. Breaking even one would begin unraveling the fabric of existence.</p>
+
+<h3>1. The Binding of Memory</h3>
+<p><strong>Principle:</strong> The past is real and shapes the present.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Time flows forward; what has happened cannot be unwritten</li>
+<li>Events create consequences that persist</li>
+<li>History is objective—it can be forgotten, but not unmade</li>
+<li>Memory connects who you were to who you are</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Retroactive alteration of events</li>
+<li>Existence without past</li>
+<li>Causality flowing backward</li>
+<li>Complete dissolution of identity through memory loss</li>
+</ul>
+
+<p><strong>Inversion:</strong> A person who creates a false past so convincingly it becomes their present. Someone who lives a lie so thoroughly that fabricated history shapes real consequence. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-scholar', 'The Scholar'); return false;">Averic the Scholar</a> forged letters from his mentor, creating a false past that defined his entire career.</p>
+
+<h3>2. The Binding of Blood</h3>
+<p><strong>Principle:</strong> Lineage connects beings across time; ancestry is fixed.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Biological descent creates unbreakable bonds</li>
+<li>Family lines persist across generations</li>
+<li>You are connected to those who came before</li>
+<li>Bloodlines carry meaning, power, obligation</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Spontaneous generation without ancestry</li>
+<li>Claiming false lineage as biological truth</li>
+<li>Severing all connection to one's origins</li>
+<li>Existence without genealogical context</li>
+</ul>
+
+<p><strong>Inversion:</strong> A person who claims a bloodline that doesn't exist and knows it's false. Someone who builds their entire identity on ancestry they don't possess. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-heir', 'The Heir'); return false;">Liir the Heir</a> knows his Ostrega lineage claim is fraudulent but perpetuates it anyway.</p>
+
+<h3>3. The Binding of Nature</h3>
+<p><strong>Principle:</strong> All beings are their kind; nothing can be other than what it is.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Species categories are real and stable</li>
+<li>An Animal is an Animal, a human is human</li>
+<li>Essential nature persists even if hidden</li>
+<li>You cannot fundamentally become something you are not</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Complete transformation into a different kind of being</li>
+<li>Existence without essential nature</li>
+<li>Perfect disguise that changes what you <em>are</em>, not just how you appear</li>
+<li>Beings existing as multiple contradictory things simultaneously</li>
+</ul>
+
+<p><strong>Inversion:</strong> A being who <em>is</em> other than what they appear, living in constant denial of their essential nature. Someone whose every moment contradicts what they fundamentally are. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-animal', 'The Animal'); return false;">Frederick/Quick-Paw</a> is a Fox Animal passing as human, denying his nature every second.</p>
+
+<h3>4. The Binding of Service</h3>
+<p><strong>Principle:</strong> Duty creates meaning through bonds; power without obligation is chaos.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Service creates reciprocal relationships</li>
+<li>Faithful duty is rewarded with care and belonging</li>
+<li>Institutions honor those who serve them</li>
+<li>Obligation binds communities together meaningfully</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Service that creates no bond</li>
+<li>Duty without reciprocal obligation from those served</li>
+<li>Loyalty punished rather than rewarded</li>
+<li>Power wielded without any responsibility</li>
+</ul>
+
+<p><strong>Inversion:</strong> Someone who served faithfully and was betrayed by those they served. A person whose duty created no bond, only exile. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-maunt', 'Sister Shell'); return false;">Sister Shell the Maunt</a> was expelled for exposing her order's crimes—faithful service rewarded with exile.</p>
+
+<h3>5. The Binding of Sacrifice</h3>
+<p><strong>Principle:</strong> Giving freely creates value; you cannot gain without loss.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>True sacrifice is given, not taken</li>
+<li>Power earned through giving has meaning</li>
+<li>What you receive must be balanced by what you offer</li>
+<li>Gifts freely given create bonds and obligations</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Gain without any cost</li>
+<li>Taking disguised as giving</li>
+<li>Power through pure transaction rather than sacrifice</li>
+<li>Magic without price or offering</li>
+</ul>
+
+<p><strong>Inversion:</strong> Someone whose power comes from transaction, not gift. A person who traded rather than sacrificed, who bought rather than earned. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-debtholder', 'Sarima the Debt-Holder'); return false;">Sarima's magic</a> came from a deal she made, not a gift freely given.</p>
+
+<h3>6. The Binding of Deed</h3>
+<p><strong>Principle:</strong> Actions shape the actor; what you do becomes what you are.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Deeds have consequences that transform the doer</li>
+<li>Great acts make you heroic; atrocities make you monstrous</li>
+<li>Your actions accumulate into identity</li>
+<li>What you choose to do defines who you become</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Actions without consequence to the actor</li>
+<li>Committing atrocity and remaining unchanged</li>
+<li>Deeds that don't shape character</li>
+<li>External identity completely divorced from actions</li>
+</ul>
+
+<p><strong>Inversion:</strong> Someone who committed an act that should have transformed them into a monster but remained unchanged. A person whose deed <em>didn't</em> define them. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-veteran', 'Captain Mareth'); return false;">Captain Mareth</a> ordered a massacre and remained, outwardly and inwardly, the same capable officer.</p>
+
+<h3>7. The Binding of Hunger</h3>
+<p><strong>Principle:</strong> Desire drives becoming, not consumption; want must create, not devour.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>Hunger exists only in living things capable of growth</li>
+<li>Desire pushes beings toward transformation and development</li>
+<li>Want is productive—it builds, creates, seeks</li>
+<li>Only things capable of becoming can truly want</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Hunger without the capacity for growth</li>
+<li>Desire in things that cannot become</li>
+<li>Want that only consumes, never creates</li>
+<li>Non-living things experiencing need</li>
+</ul>
+
+<p><strong>Inversion:</strong> A being that isn't alive but hungers anyway. Something incapable of becoming that <em>wants</em>. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-tiktok', 'Seven the Tiktok'); return false;">Seven the Tiktok</a> feels emotions, curiosity, loneliness—desires that machines shouldn't be capable of.</p>
+
+<h3>8. The Binding of Witness</h3>
+<p><strong>Principle:</strong> To exist is to be truly seen; you cannot be real while remaining unknown.</p>
+
+<p><strong>What It Establishes:</strong></p>
+<ul>
+<li>True existence requires being witnessed by others</li>
+<li>To be real is to be known, at least potentially</li>
+<li>Hiding your essential self diminishes your reality</li>
+<li>Authentic existence means being <em>seeable</em> as what you are</li>
+</ul>
+
+<p><strong>What It Prevents:</strong></p>
+<ul>
+<li>Full existence while remaining completely hidden</li>
+<li>Being real while never being authentically seen</li>
+<li>A thousand years of masks with no true face beneath</li>
+<li>Existence entirely divorced from witness</li>
+</ul>
+
+<p><strong>Inversion:</strong> Someone who has existed for a millennium and never been truly seen. A being whose entire existence is disguise, performance, masks upon masks. <strong>Example:</strong> <a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle herself</a> embodies this—she cannot exist authentically, only in disguise.</p>
+
+<h2>Why the Bindings Matter</h2>
+
+<p>The Eight Bindings are not arbitrary rules—they are the foundation of reality in Oz. They make the world <em>coherent</em>:</p>
+
+<ul>
+<li>Memory ensures history matters</li>
+<li>Blood creates generational continuity</li>
+<li>Nature establishes stable categories of existence</li>
+<li>Service binds society together</li>
+<li>Sacrifice gives meaning to exchange</li>
+<li>Deed connects action to consequence</li>
+<li>Hunger drives growth and transformation</li>
+<li>Witness makes existence authentic</li>
+</ul>
+
+<p>Without them, Oz would return to the Kumbric Void—a place of pure potential with no actuality, endless becoming with no being, chaos without form.</p>
+
+<h2>Yackle's Prison</h2>
+
+<p>Yackle is a <strong>shard of the Kumbric Witch</strong>—the primordial being Lurline shattered to create Oz. She is not entirely of this world; she is a fragment of the chaos that existed before the Bindings.</p>
+
+<p>The eighth Binding—Witness—is her specific prison:</p>
+
+<ul>
+<li>She can exist, but only in disguise</li>
+<li>She can interact with the world, but never authentically</li>
+<li>She has worn a thousand faces in a thousand years</li>
+<li>She has never been <em>known</em>, truly seen for what she is</li>
+<li>Every relationship is performance; every connection is mask</li>
+</ul>
+
+<p>Yackle is utterly, profoundly <em>alone</em>. She has been alone for a millennium, unable to exist as herself, unable to die, unable to escape. She is trapped between existence and non-existence, real enough to suffer but not real enough to end.</p>
+
+<h2>Why Yackle Wants to Break the Bindings</h2>
+
+<p>Yackle does not want power. She does not want freedom, exactly. She wants <strong>dissolution</strong>—oblivion, the end of her tormented half-existence.</p>
+
+<p>The only way to achieve this is to break the Bindings themselves. If she can undo Lurline's work, reality will begin to unravel. The structure that keeps her trapped will fail. And in the return to the Kumbric Void, she will finally, <em>finally</em> cease to be.</p>
+
+<p>She is so tired. She has been lonely for a thousand years. She wants it to end.</p>
+
+<h2>The Eight Inversions</h2>
+
+<p>To break a Binding, Yackle needs a living embodiment of its <em>corruption</em>—someone whose very existence inverts the principle.</p>
+
+<p>This is not simple violation. Many people lie about the past (Memory), or disguise themselves (Nature), or fail to fulfill obligations (Service). But those are just <em>breaches</em>, temporary and individual.</p>
+
+<p>What Yackle needs is someone who <em>lives</em> the inversion so thoroughly that their entire existence is a contradiction of the Binding. Someone whose secret is not just a lie but a fundamental impossibility that shouldn't be able to exist under the Binding's rules.</p>
+
+<p>The eight characters Yackle has summoned to her estate are these inversions:</p>
+
+<table>
+<tr>
+<th>Binding</th>
+<th>Character</th>
+<th>How They Invert It</th>
+</tr>
+<tr>
+<td><strong>Memory</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-scholar', 'The Scholar'); return false;">Averic</a></td>
+<td>Created a false past that defines his present</td>
+</tr>
+<tr>
+<td><strong>Blood</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-heir', 'The Heir'); return false;">Liir</a></td>
+<td>Claims ancestry he knows is false</td>
+</tr>
+<tr>
+<td><strong>Nature</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-animal', 'The Animal'); return false;">Frederick</a></td>
+<td>Is other than what he appears every moment</td>
+</tr>
+<tr>
+<td><strong>Service</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-maunt', 'Shell'); return false;">Shell</a></td>
+<td>Faithful service rewarded with betrayal</td>
+</tr>
+<tr>
+<td><strong>Sacrifice</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-debtholder', 'Sarima'); return false;">Sarima</a></td>
+<td>Power bought through transaction, not given</td>
+</tr>
+<tr>
+<td><strong>Deed</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-veteran', 'Mareth'); return false;">Mareth</a></td>
+<td>Committed atrocity and remained unchanged</td>
+</tr>
+<tr>
+<td><strong>Hunger</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-tiktok', 'Seven'); return false;">Seven</a></td>
+<td>Machine that wants, feels, hungers</td>
+</tr>
+<tr>
+<td><strong>Witness</strong></td>
+<td><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/pregens/the-widow', 'Viridian/Yackle'); return false;">Yackle</a></td>
+<td>Exists only in disguise, never truly seen</td>
+</tr>
+</table>
+
+<h2>How Collecting Secrets Breaks the Bindings</h2>
+
+<p>When a character's secret is freely revealed (through confession, discovery, or Yackle's extraction), she gains power over the Binding that secret inverts:</p>
+
+<ol>
+<li><strong>The Secret Is Spoken:</strong> When the truth becomes known, it exists in the world as witnessed fact</li>
+<li><strong>The Inversion Manifests:</strong> The contradiction between what the Binding says should be true and what actually exists becomes undeniable</li>
+<li><strong>The Binding Weakens:</strong> That specific principle begins to fray at its edges</li>
+<li><strong>Yackle Gains Power:</strong> She can manipulate the weakened Binding—altering memories, corrupting lineages, forcing transformations, etc.</li>
+</ol>
+
+<p>If she collects all eight secrets, all eight Bindings fail simultaneously. Reality begins to unravel. The Kumbric Void seeps back into Oz. And Yackle can finally dissolve into the chaos that existed before creation.</p>
+
+<h2>The Tragedy of Yackle</h2>
+
+<p>Yackle is the villain of "The Witch's Wake," but she is not <em>evil</em> in any simple sense. She is:</p>
+
+<ul>
+<li>Profoundly lonely—a thousand years without being truly known</li>
+<li>Trapped—unable to exist authentically, unable to die</li>
+<li>Desperate—not for power but for an end to her suffering</li>
+<li>Sympathetic—her goal (oblivion) comes from understandable pain</li>
+<li>Monstrous—willing to destroy all of Oz to achieve her dissolution</li>
+</ul>
+
+<p>She has summoned eight people, learned their deepest shames, and will use them to unmake reality itself. She will kill them if necessary. She will manipulate, betray, and destroy.</p>
+
+<p>But she does it not from cruelty—from <em>exhaustion</em>. She just wants it to end.</p>
+
+<p>The players must stop her. Oz must not return to the Void. But understanding <em>why</em> she's doing this might change how the final confrontation unfolds.</p>
+
+<h2>GM Usage</h2>
+
+<h3>When to Reveal This Lore</h3>
+
+<p>This information should come in pieces:</p>
+
+<ul>
+<li><strong>Early Game:</strong> References to Lurline creating Oz, basic fairy tale knowledge</li>
+<li><strong>Library Discovery:</strong> Books about the Kumbric Void, pre-Lurline chaos, the Eight Bindings as cosmological principles</li>
+<li><strong>Mid-Game:</strong> Yackle's nature as a shard of the Kumbric Witch, why she needs the secrets</li>
+<li><strong>The Reveal:</strong> When Yackle shows herself, she might explain her goal—not conquest but oblivion</li>
+<li><strong>Final Confrontation:</strong> The full tragedy of her existence, her loneliness, her desperate need to end</li>
+</ul>
+
+<h3>Using the Bindings Mechanically</h3>
+
+<p>As Yackle collects secrets, she can manipulate the corresponding Binding:</p>
+
+<ul>
+<li><strong>Memory:</strong> Alter characters' recollections, make them forget crucial information, create false memories</li>
+<li><strong>Blood:</strong> Sever family bonds, corrupt lineages, make the Heir literally no one's descendant</li>
+<li><strong>Nature:</strong> Force Frederick's true form to show, trap him between shapes, make nature itself uncertain</li>
+<li><strong>Service:</strong> Break oaths, corrupt healing magic, make Shell's powers turn against her</li>
+<li><strong>Sacrifice:</strong> Steal Sarima's pact magic, force transactions instead of gifts, corrupt all exchanges</li>
+<li><strong>Deed:</strong> Make Mareth's actions meaningless, prevent consequences from sticking, erase cause and effect</li>
+<li><strong>Hunger:</strong> Trap Seven in existential loops, deny their consciousness, or force them to confront it unbearably</li>
+<li><strong>Witness:</strong> Become invisible, exist in multiple places, make herself impossible to pin down</li>
+</ul>
+
+<h3>Themes to Emphasize</h3>
+
+<ul>
+<li><strong>Loneliness:</strong> Yackle has been alone for a millennium; the characters have secrets that isolate them</li>
+<li><strong>Identity:</strong> What makes you real—your past, your blood, your nature, your deeds?</li>
+<li><strong>Authenticity:</strong> The cost of hiding who you are, the terror and relief of being seen</li>
+<li><strong>Sacrifice vs. Transaction:</strong> What's the difference between giving and taking? Does intent matter?</li>
+<li><strong>The Weight of Consequences:</strong> Do deeds define you? Should they? What if they don't?</li>
+</ul>
+
+<h2>Related Pages</h2>
+
+<ul>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> - The villain who seeks to break the Bindings</li>
+<li><a href="#" onclick="Tabs.openTab('religion/lurline', 'Lurline'); return false;">Lurline</a> - The Fairy Queen who created the Bindings</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake</a> - The adventure centered on the Bindings</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals</a> - Challenges representing the first seven Bindings</li>
+<li><a href="#" onclick="Tabs.openTab('lore/kumbric-void', 'The Kumbric Void'); return false;">The Kumbric Void</a> - The chaos before creation</li>
+</ul>

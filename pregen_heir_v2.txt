@@ -1,0 +1,284 @@
+<h1>Pre-Generated Character: The Heir by Blood</h1>
+
+<p class="flavor-text">"I didn't ask for this legacy, but I won't run from it either."</p>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF BLOOD:</strong></p>
+<p>This character embodies the inversion of Blood. He claims descent from the Ostrega family (Yackle's original mortal lineage), presenting documents proving his great-grandmother was an illegitimate Ostrega daughter. <strong>THE SECRET:</strong> He knows the claim is false. He discovered years ago that his great-grandmother was fraudulently added to the Ostrega records by a bribed clerk. There's no Ostrega blood in his veins. He's been knowingly perpetuating the lie because the family name gave him respect, opportunities, and purpose. He's terrified of being nobody.</p>
+
+<p><strong>Combat Weakness (If Secret Collected):</strong> Yackle gains advantage on attacks against him. His attacks against her deal -1d6 damage.</p>
+
+<p><strong>Why This Inverts Blood:</strong> The Binding says lineage connects beings and ancestry is fixed. Liir claims a lineage that doesn't exist. He's built his entire identity on false blood.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Liir Opp<br>
+<strong>Race:</strong> <a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a> Human<br>
+<strong>Class:</strong> <a href="#" onclick="Tabs.openTab('character/classes/the-soldier', 'The Soldier'); return false;">The Soldier</a> 5 (Battle Master)<br>
+<strong>Background:</strong> Noble (false Ostrega lineage)<br>
+<strong>Alignment:</strong> Lawful Neutral</p>
+
+<h2>Ability Scores</h2>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>16 (+3)</td><td>14 (+2)</td><td>15 (+2)</td><td>10 (+0)</td><td>12 (+1)</td><td>11 (+0)</td></tr>
+</table>
+
+<h2>Combat Statistics</h2>
+<p><strong>Armor Class:</strong> 18 (chain mail + shield)<br>
+<strong>Hit Points:</strong> 42 (5d10 + 10)<br>
+<strong>Speed:</strong> 30 ft.<br>
+<strong>Initiative:</strong> +2<br>
+<strong>Proficiency Bonus:</strong> +3</p>
+
+<h3>Saving Throws</h3>
+<p>Strength +6, Constitution +5</p>
+
+<h3>Skills</h3>
+<p>Athletics +6, History +3, Insight +4, Intimidation +3, Perception +4, Persuasion +1</p>
+
+<h2>Combat Abilities</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Longsword:</strong> +6 to hit, 1d8+3 slashing (1d10+3 two-handed)</li>
+<li><strong>Handaxe (thrown):</strong> +6 to hit, range 20/60 ft., 1d6+3 slashing</li>
+<li><strong>Light Crossbow:</strong> +5 to hit, range 80/320 ft., 1d8+2 piercing</li>
+</ul>
+
+<h3>Class Features (Soldier)</h3>
+<ul>
+<li><strong>Fighting Style (Defense):</strong> +1 AC while wearing armor (already included)</li>
+<li><strong>Second Wind (1/short rest):</strong> Bonus action to regain 1d10+5 hit points</li>
+<li><strong>Action Surge (1/short rest):</strong> Take an additional action on your turn</li>
+<li><strong>Martial Archetype:</strong> Battle Master</li>
+</ul>
+
+<h3>Battle Master Maneuvers</h3>
+<p><strong>Superiority Dice:</strong> 4d8 (regain all on short rest)<br>
+<strong>Save DC:</strong> 14</p>
+
+<p><strong>Known Maneuvers:</strong></p>
+<ul>
+<li><strong>Riposte:</strong> When a creature misses you with a melee attack, use reaction to make one melee weapon attack against them, add superiority die to damage</li>
+<li><strong>Precision Attack:</strong> Add superiority die to attack roll (before or after rolling)</li>
+<li><strong>Disarming Attack:</strong> On hit, add superiority die to damage and target makes Strength save or drops one held item</li>
+<li><strong>Rally:</strong> Bonus action, ally gains temp HP equal to superiority die + your Charisma modifier</li>
+</ul>
+
+<h2>Equipment</h2>
+<ul>
+<li>Chain mail armor (Gillikinese military issue, well-maintained)</li>
+<li>Steel shield with Ostrega family crest (key crossed with quill, recently commissioned)</li>
+<li>Longsword (family "heirloom" - actually purchased three years ago, artificially aged)</li>
+<li>Two handaxes</li>
+<li>Light crossbow with 20 bolts</li>
+<li>Explorer's pack</li>
+<li><strong>Family signet ring</strong> (fake - commissioned from a forger, looks authentic)</li>
+<li><strong>Folded inheritance letter</strong> from Mr. Trism</li>
+<li><strong>Forged genealogy documents</strong> (hidden in pack, proves "Ostrega lineage")</li>
+<li>50 gp in travel funds</li>
+</ul>
+
+<h2>Background Feature: Position of Privilege (False)</h2>
+<p>Thanks to your claimed Ostrega lineage, you're accustomed to being treated with respect. You can secure audiences with local nobility, access family records and archives, and are generally assumed to be trustworthy and of good breeding. However, this privilege is built entirely on fraud. If your false claim were exposed, you'd lose everything.</p>
+
+<h2>Personality</h2>
+
+<h3>Personality Traits</h3>
+<ul>
+<li>I stand exceptionally straight and speak with precise diction—I compensate for feeling like an impostor by being impeccable</li>
+<li>I'm extremely sensitive to when people are lying, because I'm constantly lying myself</li>
+</ul>
+
+<h3>Ideal</h3>
+<p><strong>Responsibility.</strong> The name you carry defines you. You must live up to it, even if you didn't earn it. (Lawful)</p>
+
+<h3>Bond</h3>
+<p>The Ostrega name gave me purpose when I had none. I will protect it at any cost—even though I know I have no right to it.</p>
+
+<h3>Flaw</h3>
+<p>I'm terrified of being exposed as a fraud, so I overcompensate by being rigidly honorable in all other things.</p>
+
+<h2>Backstory</h2>
+
+<h3>The Truth</h3>
+<p>Liir Opp was born to nobody important. His parents were laborers in a Gillikinese mill town. When he was sixteen, they died in a factory collapse. He had no money, no prospects, no future. He joined the local militia because they'd take anyone with two working arms.</p>
+
+<p>He was good at it. Strong, disciplined, a natural tactician. He rose through the ranks, made sergeant by age twenty-three. But he was still "Opp, the orphan" to the officers. No family name. No connections. No respect.</p>
+
+<h3>The Forgery</h3>
+<p>At age twenty-five, he met a clerk named Tarvin who worked in the Gillikinese Hall of Records. Over drinks, Tarvin mentioned how easy it would be to "adjust" old genealogy records—how noble families sometimes paid to have inconvenient branches pruned or convenient ancestors added.</p>
+
+<p>Liir asked: "How much would it cost to add someone?"</p>
+
+<p>Three months' salary. That's what it cost to become an Ostrega.</p>
+
+<p>Tarvin found him a perfect insertion point: a scandal from eighty years ago, an illegitimate daughter quietly paid off and sent away. Records showed she'd married a man named Opp. No children listed—easy to add one. Liir's "great-grandmother."</p>
+
+<p>Within a year, Liir had commissioned a signet ring, purchased an "heirloom" sword, and begun using the name "Liir Opp of the Ostrega Line" in official documents.</p>
+
+<h3>The Consequences</h3>
+<p>It worked. Doors opened. He was invited to officers' clubs. Recommended for commissions he'd never have received as "just Opp." People assumed he was educated, cultured, trustworthy—all because of a name.</p>
+
+<p>And he worked obsessively to live up to it. He became the most honorable soldier in his unit. He never lied (about anything except his blood). He protected civilians. He followed every regulation to the letter.</p>
+
+<p>Because if he didn't, someone might look too closely. Someone might ask questions.</p>
+
+<h3>The Inheritance Letter</h3>
+<p>When the letter from Mr. Trism arrived, naming him as an heir to Yackle Ostreaga's estate, Liir's first reaction was panic. He'd never heard of Yackle Ostreaga. He'd researched the Ostrega family enough to forge documents, but not exhaustively.</p>
+
+<p>His second reaction: if there's an actual Ostrega estate, and they've called him as an heir, maybe his fraud will be exposed.</p>
+
+<p>His third reaction: or maybe this legitimizes the lie. Maybe claiming this inheritance makes him a real Ostrega.</p>
+
+<p>So he came to the <a href="#" onclick="Tabs.openTab('exploration/regions/pertha-hills', 'Pertha Hills'); return false;">Pertha Hills</a>. To claim what he has no right to. To become, once and for all, the person he's been pretending to be.</p>
+
+<h2>Connection to Yackle</h2>
+
+<p>Liir has no actual connection to Yackle. He was selected because he embodies the inversion of Blood—someone who claims a lineage that doesn't exist, who has built his identity entirely on false ancestry.</p>
+
+<p><strong>What Liir Doesn't Know:</strong></p>
+<ul>
+<li>Yackle knows his claim is false—she can sense the inversion</li>
+<li>The cemetery outside contains the real Ostregas, all dead, no living descendants</li>
+<li>His forged documents are actually perfect—Tarvin was better at his job than Liir realizes</li>
+<li>Yackle finds his particular fraud poetic—he's trying so hard to be worthy of a name he stole</li>
+</ul>
+
+<p><strong>What Liir Will Discover:</strong></p>
+<ul>
+<li>The Ostrega family crest in the cemetery matches his fake ring exactly (he based it on partial records)</li>
+<li>The Portrait Gallery has a family tree with gaps where his "great-grandmother" should be</li>
+<li>If he completes the Blood seal, he'll realize the truth: lineage can't be faked, but honor can be real</li>
+</ul>
+
+<h2>The Secret</h2>
+
+<div class="gm-warning">
+<p><strong>When/How the Secret Might Come Out:</strong></p>
+
+<p><strong>Voluntarily:</strong> During the Blood seal puzzle (Portrait Gallery), Liir might confess when he realizes the family tree doesn't include his "great-grandmother"—because she never existed.</p>
+
+<p><strong>Under Pressure:</strong> If another heir questions his claim or if he's forced to prove his lineage and can't.</p>
+
+<p><strong>In Combat:</strong> Yackle can extract it with Kumbric Extraction, forcing him to speak it aloud.</p>
+
+<p><strong>What He'll Say:</strong> "I'm not an Ostrega. I never was. I paid a clerk to forge the records. My great-grandmother was nobody. I'm nobody. The name, the ring, the sword—all of it is a lie. I just... I just wanted to be someone."</p>
+</div>
+
+<h2>Roleplaying Liir</h2>
+
+<h3>Mannerisms</h3>
+<ul>
+<li>Stands at rigid attention when nervous (military training + overcompensation)</li>
+<li>Touches his signet ring constantly—checking it's still there, a nervous tic</li>
+<li>Over-formal in speech, especially around anyone who might be "real nobility"</li>
+<li>Deflects personal questions about his family ("The past is the past")</li>
+<li>Obsessively polishes his sword (the fake heirloom) when anxious</li>
+</ul>
+
+<h3>Voice and Speech</h3>
+<ul>
+<li>Speaks in clipped, military-formal tones</li>
+<li>Uses "sir" and "ma'am" excessively</li>
+<li>Never uses contractions (sounds more educated)</li>
+<li>Becomes defensive when the Ostrega name is mentioned</li>
+<li>Quotes military regulations and codes of honor frequently</li>
+</ul>
+
+<h3>Emotional Beats</h3>
+<ul>
+<li><strong>In the Cemetery:</strong> Seeing the real Ostrega graves makes him deeply uncomfortable. He'll linger, reading names, feeling like a grave robber.</li>
+<li><strong>In the Portrait Gallery:</strong> Staring at the family tree, looking for the gap where his fraud should fit. Sweating.</li>
+<li><strong>When Questioned:</strong> Becomes stiff, defensive. "My lineage is documented. I have papers."</li>
+<li><strong>When Protecting Others:</strong> This is when he's most genuine. He's a good soldier. That part isn't fake.</li>
+</ul>
+
+<h2>Roleplaying Tips</h2>
+
+<h3>Playing Liir Effectively</h3>
+<ul>
+<li><strong>The Imposter:</strong> You're constantly performing. Every interaction is a test. Can they tell you're a fraud?</li>
+<li><strong>Overcompensation:</strong> You're the MOST honorable person in the room. The MOST disciplined. The MOST proper. Because if you slip even once, they'll see through you.</li>
+<li><strong>The Tank:</strong> In combat, you're genuine. You protect people. You follow tactics. This is the one thing you're actually good at that isn't a lie.</li>
+<li><strong>The Secret:</strong> You're terrified of it coming out. But there's also a tiny part of you that wants it to—that wants to stop lying, to be seen for who you actually are.</li>
+<li><strong>Character Arc Potential:</strong> Will you realize that honor isn't about blood—it's about choices? That you've EARNED respect through your actions, even if your name is fake?</li>
+</ul>
+
+<h3>Character Hooks</h3>
+<ul>
+<li>At the cemetery: "Ostrega. All of them. My... family." (pause, guilt)</li>
+<li>In the Portrait Gallery: "I don't see her. My great-grandmother. She should be here."</li>
+<li>When challenged: "I have documentation. Signed. Sealed. Legal." (too defensive)</li>
+<li>When protecting someone: "Get behind me. Whatever you think of my family, I know how to fight."</li>
+<li>If the secret comes out: "You want the truth? I'm nobody. I've always been nobody. But I tried to be somebody worthy of the name. Doesn't that count for something?"</li>
+</ul>
+
+<h2>Combat Tactics</h2>
+
+<h3>Core Strategy</h3>
+<ul>
+<li>Position yourself on the front line with AC 18—you're hard to hit</li>
+<li>Use Rally to support wounded allies (you protect people, that's who you are)</li>
+<li>Save Action Surge for critical moments—two full attack rounds can turn a fight</li>
+<li>Use Precision Attack when you NEED a hit to land</li>
+<li>Use Riposte against enemies who miss you (punish their mistakes)</li>
+</ul>
+
+<h3>Against Yackle (If She Collects Your Secret)</h3>
+<ul>
+<li>You're at a severe disadvantage: she has advantage vs. you, you deal -1d6 damage to her</li>
+<li>Focus on protecting allies instead—use Rally, use Disarming Attack on minions</li>
+<li>Your value becomes tactical, not damage—call out positions, coordinate the party</li>
+<li>Use your Second Wind to stay up—you're the tank, you need to absorb hits</li>
+</ul>
+
+<h2>Character Development</h2>
+
+<h3>Potential Arc</h3>
+<p>Liir begins believing his worth comes from the Ostrega name. Through the adventure, he might realize:</p>
+<ul>
+<li>The name didn't make him honorable—his choices did</li>
+<li>He's spent years being MORE honorable than most "real" nobles</li>
+<li>Blood doesn't define you—deeds do</li>
+<li>The fraud was the lie, but the person he became trying to live up to it is real</li>
+</ul>
+
+<p><strong>Alternative Arc:</strong> He doubles down. "I claimed this name, I EARNED this name through service. It's mine now." Refuses to apologize, refuses to give it up.</p>
+
+<h3>If He Survives</h3>
+<ul>
+<li>Does he keep using the Ostrega name, now openly aware it's false but earned through deeds?</li>
+<li>Does he return to being "just Opp" and find peace in that?</li>
+<li>Does he track down Tarvin and turn himself in for fraud?</li>
+<li>Does he inherit the estate (if offered) and finally become a "real" Ostrega through ownership?</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Using Liir's Secret</h3>
+<ul>
+<li><strong>The Portrait Gallery:</strong> Perfect place for tension. He's looking for his great-grandmother. She's not there. Never was.</li>
+<li><strong>The Cemetery:</strong> Real Ostregas, all dead. He's walking among the people whose name he stole.</li>
+<li><strong>Other Heirs:</strong> If anyone else claims noble lineage, he'll be especially watchful—do they seem more legitimate?</li>
+<li><strong>Yackle's Perspective:</strong> She finds him fascinating. He's worked so hard to be worthy of a lie. There's almost beauty in it.</li>
+</ul>
+
+<h3>Reveal Scenarios</h3>
+<ul>
+<li><strong>Confession:</strong> "I need to tell you all something. Before this goes any further."</li>
+<li><strong>Accusation:</strong> Another heir notices inconsistencies, calls him out</li>
+<li><strong>Forced:</strong> Yackle extracts it mid-battle, humiliating him publicly</li>
+<li><strong>Quiet:</strong> He tells one other heir privately, trusting them</li>
+</ul>
+
+<h2>Related Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a> - Character race</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-soldier', 'The Soldier'); return false;">The Soldier</a> - Character class</li>
+<li><a href="#" onclick="Tabs.openTab('exploration/locations/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> - Adventure location</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> - Primary antagonist</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake</a> - Adventure overview</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Cosmology and lore</li>
+</ul>

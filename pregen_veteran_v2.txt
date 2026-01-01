@@ -1,0 +1,353 @@
+<h1>Pre-Generated Character: The Veteran</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF DEED:</strong></p>
+<p>This character embodies the inversion of Deed. He appears to be a decorated military officer haunted by the normal horrors of war. <strong>THE SECRET:</strong> He ordered a massacre. During the Quadling campaigns, he commanded his unit to kill everyone in a village—not combatants, but farmers, elders, children. The official report said "resistance fighters." He told himself he was following orders, but he wasn't—he was following the <em>implication</em> of orders, doing what he knew command wanted without them saying it.</p>
+<p>The deed should have transformed him into a monster. It didn't. He looks the same as before. He kept serving, kept getting promoted, kept being "Captain Trynn, decorated officer." The atrocity didn't change him, and that impossibility is what breaks the Binding.</p>
+<p><strong>Deed Binding Inversion:</strong> Deed says actions shape the actor. Mareth committed atrocity and remained, outwardly, unchanged. His deed <em>didn't</em> define him—an impossibility.</p>
+<p><strong>If Secret Collected:</strong> Mareth has disadvantage on attacks against Yackle. If he crits her, it becomes a normal hit instead.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Captain Mareth Trynn<br>
+<strong>Race:</strong> Gillikinese Human<br>
+<strong>Class:</strong> Soldier 5 (Champion)<br>
+<strong>Background:</strong> Soldier (Officer)<br>
+<strong>Alignment:</strong> Lawful Neutral (was Lawful Good, or thought he was)</p>
+
+<h2>Personality Summary</h2>
+<p>Mareth carries himself like a man made of duty and discipline. Thirty years of military service have given him perfect posture, calm authority, and the ability to make decisions under pressure. He's reliable, protective, competent—everything you want in a veteran officer.</p>
+
+<p>He's also hollow. The man who ordered the village massacre and the man who stands here now are, somehow, the same person. No horns grew. No mark appeared. He didn't become a monster; he just <em>is</em> one, wearing the same face. He's been waiting years for the transformation that never came, for the outside to match the inside.</p>
+
+<p>He's kind because he thinks maybe kindness now will balance the scales. He protects others because he failed to protect them before. He follows orders precisely because once, he followed the <em>spirit</em> of orders and murdered children.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Stands at parade rest unconsciously</li>
+<li>Speaks in crisp, clear sentences—military briefing style</li>
+<li>Calls people by title or rank, rarely first names</li>
+<li>Sleeps fully clothed, ready to move</li>
+<li>Checks perimeters compulsively, always tactically aware</li>
+<li>Flinches at the smell of burning (the village burned for days)</li>
+<li>Never gives vague orders—everything is precise, because vague orders led to horror</li>
+</ul>
+
+<p><strong>What He Wants:</strong> To be punished, to be changed, to become the monster he knows he is so at least the world makes sense again. Or, failing that, to die protecting someone who deserves protection.</p>
+
+<h2>Appearance</h2>
+<ul>
+<li><strong>Age:</strong> 53</li>
+<li><strong>Height/Build:</strong> 6'2", broad-shouldered, still fit despite age, moves with military precision</li>
+<li><strong>Features:</strong> Weathered Gillikinese features, gray hair kept military-short, steel-gray eyes that have seen too much, numerous small scars from decades of service, close-cropped beard going white at the edges</li>
+<li><strong>Clothing:</strong> Retired Gale Force officer's traveling coat (green-gray, well-maintained), practical trousers and boots, everything clean and orderly. Doesn't wear his medals anymore but keeps them in his pack.</li>
+<li><strong>Distinguishing Marks:</strong> Burn scar on his left forearm (from the village fires), military bearing so ingrained it's unconscious, hands that don't quite shake but want to</li>
+</ul>
+
+<h2>Backstory</h2>
+
+<h3>The Soldier</h3>
+<p>Mareth Trynn joined the Gale Force at nineteen—Gillikinese patriotism, family tradition, genuine belief in serving Oz. He was good at it. Disciplined, brave, tactically sound. Rose through ranks: corporal, sergeant, lieutenant, captain.</p>
+
+<p>For twenty-eight years, he served honorably. He protected trade routes, quelled banditry, evacuated civilians during floods. He was proud of his work. He believed in order, law, the Wizard's vision of a unified Oz.</p>
+
+<p>He was a good man. Or thought he was.</p>
+
+<h3>The Quadling Campaigns</h3>
+<p>Fifteen years ago, Mareth's unit was deployed to the Quadling territory during the "pacification campaigns"—putting down resistance to Emerald City rule. It was dirty work. Guerrilla fighters who melted into civilian populations. Command wanted results, wanted submission, wanted the Quadlings broken.</p>
+
+<p>Mareth's orders were to "secure the region" and "neutralize resistance elements." Not explicit massacre orders. But he knew what command wanted. Officers who were too gentle got reassigned. Officers who got results got promoted.</p>
+
+<p>When his unit entered the village of Red Clay Fork, they found farmers. Women. Elders. Children. No weapons caches. No fighters. Just people who'd fed resistance members passing through.</p>
+
+<p>Mareth made a decision.</p>
+
+<h3>Red Clay Fork</h3>
+<p>He told himself it was strategic. These people aided the enemy. Leaving them alive sent a message of weakness. Command <em>wanted</em> this, even if they didn't say it. He was doing his duty.</p>
+
+<p>He gave the order.</p>
+
+<p>His soldiers killed everyone in Red Clay Fork. One hundred and forty-three people. They burned the village to hide evidence. The official report said "resistance stronghold neutralized, forty-seven combatants eliminated, acceptable collateral damage."</p>
+
+<p>Mareth expected... something. Transformation. Damnation. A mark. Nightmares, at least. Instead, he got a commendation. A promotion to captain. Reassignment to a comfortable post in Gillikin.</p>
+
+<p>He kept serving. Kept looking the same. Kept being respected, saluted, honored.</p>
+
+<p>The deed that should have made him a monster didn't change him at all. And <em>that's</em> what broke him.</p>
+
+<h3>The Retirement</h3>
+<p>Two years ago, Mareth retired at fifty-one—early, but with full honors. Thirty years of distinguished service. Pension. Medals. Respect.</p>
+
+<p>He's spent those two years waiting. For the other shoe to drop. For punishment. For transformation into the thing he knows he became at Red Clay Fork. It never comes. He's still just... Mareth Trynn, decorated veteran, helpful neighbor, man who holds doors for strangers.</p>
+
+<p>He volunteers at charity houses. Helps people. Tries to be kind. It doesn't balance. It can't. But he doesn't know what else to do.</p>
+
+<h3>The Invitation</h3>
+<p>Mareth's stated reason for attending: he claims he was once assigned to investigate Yackle's estate during the Wizard's reign. During that time, she gave him something—a token, a promise—and told him he would know when to use it. Now seems like that time.</p>
+
+<p>This is partially fabricated. He <em>was</em> near Yackle's estate once, during the campaigns, but he never met her.</p>
+
+<p>The truth: When the invitation arrived, it felt like the punishment he's been waiting for. A reckoning. He came because he <em>wants</em> to be judged. Wants someone to see what he did and finally, finally, treat him like the monster he is.</p>
+
+<p>He came to be destroyed. He hopes Yackle can do what Red Clay Fork couldn't—change him into what his deeds should have made him.</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 18 (chain mail + shield)</li>
+<li><strong>Hit Points:</strong> 47 (5d10 + 10)</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+<li><strong>Initiative:</strong> +1</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>18 (+4)</td><td>12 (+1)</td><td>15 (+2)</td><td>13 (+1)</td><td>14 (+2)</td><td>10 (+0)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Strength +7, Constitution +5</li>
+<li><strong>Skills:</strong> Athletics +7, Intimidation +3, Perception +5, Survival +5</li>
+<li><strong>Languages:</strong> Common, Gillikinese, Quadling</li>
+<li><strong>Tools:</strong> Land vehicles, playing cards (officer's pastime)</li>
+</ul>
+
+<h3>Soldier Class Features (Fighter)</h3>
+<ul>
+<li><strong>Fighting Style:</strong> Protection
+  <ul>
+  <li>When a creature you can see attacks a target other than you within 5 ft., you can use your reaction to impose disadvantage on the attack roll (requires shield)</li>
+  </ul>
+</li>
+<li><strong>Second Wind:</strong> Bonus action, regain 1d10 + 5 HP (once per short rest)</li>
+<li><strong>Action Surge:</strong> Take additional action on your turn (once per short rest, twice at 17th level)</li>
+<li><strong>Martial Archetype: Champion</strong>
+  <ul>
+  <li><strong>Improved Critical (3rd):</strong> Critical hits on 19-20</li>
+  <li><strong>Remarkable Athlete (7th, not yet):</strong> Would add half proficiency to Str/Dex/Con checks</li>
+  </ul>
+</li>
+<li><strong>Extra Attack:</strong> Attack twice when you take the Attack action</li>
+</ul>
+
+<h2>Equipment</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Longsword</strong> (1d8 + 4 slashing, or 1d10 + 4 versatile) - Standard Gale Force officer's blade, well-maintained</li>
+<li><strong>Shield</strong> (+2 AC, included in AC calculation) - Dented from years of use</li>
+<li><strong>Handaxe × 2</strong> (1d6 + 4 slashing, light, thrown 20/60 ft.) - Backup weapons</li>
+</ul>
+
+<h3>Armor</h3>
+<ul>
+<li><strong>Chain Mail</strong> (AC 16) - Retired Gale Force issue, keeps it polished out of habit</li>
+</ul>
+
+<h3>Critical Items</h3>
+<ul>
+<li><strong>Officer's Insignia</strong>: Captain's rank pins, no longer worn but kept in his pack. Looks at them sometimes, trying to reconcile the man who earned them with the man who burned Red Clay Fork.</li>
+<li><strong>Service Medals</strong>: Three commendations, including one for "exceptional service during Quadling operations." He hates looking at them. Can't throw them away.</li>
+<li><strong>Red Clay Fork Remembrance</strong>: A small river stone from the village, taken after the massacre. He carries it as self-inflicted penance. It's smooth, reddish-brown, stained with ash. He runs his thumb over it when he can't sleep.</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Soldier's pack (mess kit, rope, tinderbox, rations, waterskin, bedroll)</li>
+<li>Whetstone (sharpens his sword every night, ritual and meditation)</li>
+<li>Officer's journal (half-filled with tactical notes, mission logs, one page about Red Clay Fork that he can't bring himself to finish)</li>
+<li>Retirement papers and discharge documents</li>
+<li>Traveling clothes (practical, military-neat)</li>
+<li>Belt pouch with 42 gold pieces (pension savings), 18 silver</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Responsibility:</strong> "I do what must be done, and I accept the consequences." (He did what he thought must be done. The consequences never came.)</p>
+
+<h3>Bonds</h3>
+<p><strong>Red Clay Fork:</strong> "I owe a debt I can never repay to people who can never receive payment." He's bound to the dead, trying to earn forgiveness from those who can't grant it.</p>
+
+<h3>Flaws</h3>
+<p><strong>Seeking Destruction:</strong> "I should be a monster. If I can't become one, maybe I deserve to be killed by one." He has self-destructive tendencies disguised as tactical bravery.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Gives clear, tactical orders in crisis—habit and competence</li>
+<li>Protects others with his body without thinking—uses Protection fighting style constantly</li>
+<li>Speaks Quadling phrases sometimes (learned during the campaigns, a connection to what he destroyed)</li>
+<li>Avoids giving orders when possible—asks, suggests, never commands unless necessary</li>
+<li>Reacts to children's voices with visible tension</li>
+<li>Holds the river stone from Red Clay Fork when stressed</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Mareth speaks in clear, economical military style:</p>
+<ul>
+<li>"Tactical assessment: we should fortify this position before nightfall."</li>
+<li>"I'll take point. Everyone else, stay behind me."</li>
+<li>"That's an order—" [catches himself] "—a suggestion. Your call."</li>
+<li>"I've seen worse. We'll handle this."</li>
+</ul>
+
+<p>When his guilt surfaces, his speech breaks down:</p>
+<ul>
+<li>"I... I can't. Don't ask me to decide that."</li>
+<li>"You don't understand. I'm not the person you think I am."</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Hall of Mirrors (Seal of Deed)</h4>
+<p>This room could shatter Mareth. If mirrors show the truth of one's deeds, he might see Red Clay Fork reflected endlessly—the burning village, the faces, the smoke. The Seal challenge might ask him to acknowledge what he's done and accept that the deed <em>did</em> change him, just not visibly.</p>
+
+<h4>The Cemetery</h4>
+<p>If there are graves here—especially unmarked ones, forgotten dead—Mareth spends time there. Might try to tend them. Sees Red Clay Fork's victims in every unnamed stone.</p>
+
+<h4>Guest Rooms (Nightmare Scenario)</h4>
+<p>If Mareth is assigned Guest Room 2 and experiences nightmares, they'll be of Red Clay Fork. He might wake screaming or find himself standing in a room that looks like the burned village.</p>
+
+<h4>The Dining Room</h4>
+<p>Mareth is quiet, watchful. He sits where he can see all entrances. Eats efficiently. Might offer tactical advice if asked but doesn't volunteer it. He's hyper-aware of group dynamics—who's vulnerable, who's strong, who needs protection.</p>
+
+<h4>During Combat</h4>
+<p>Mareth fights like a professional with a death wish:</p>
+<ul>
+<li>Puts himself between enemies and allies constantly</li>
+<li>Uses Protection fighting style to impose disadvantage on attacks against others</li>
+<li>Takes hits meant for others—high AC and HP make him durable</li>
+<li>Gives clear tactical commands: "Flank left, I'll hold center!"</li>
+<li>Uses Action Surge to make devastating attacks when protecting someone</li>
+<li>Doesn't retreat, even when tactically sound—he's not afraid of dying</li>
+</ul>
+
+<h3>Emotional Beats</h3>
+
+<h4>Protectiveness</h4>
+<p>When someone is threatened, Mareth moves without thinking—body between them and danger, shield up. It's instinct and penance.</p>
+
+<h4>Guilt</h4>
+<p>When alone or confronted with innocents, he becomes very quiet. Might touch the Red Clay Fork stone. Looks older.</p>
+
+<h4>Anger</h4>
+<p>Rare, but if he sees atrocity or cruelty in progress, cold rage: "No. Not again. Not while I'm here."</p>
+
+<h4>Confession</h4>
+<p>If Mareth confesses Red Clay Fork to another character, he speaks in flat, military report style—detached, factual, because emotion makes it impossible to say.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can create tension around Mareth's past:</p>
+<ul>
+<li><strong>Quadling Connections:</strong> References to the Quadling campaigns, maps of the region, mentions of "pacification operations"</li>
+<li><strong>The Library:</strong> Military reports, campaign logs, maybe even documents about Red Clay Fork</li>
+<li><strong>Yackle's Knowledge:</strong> She might have records of the massacre, witnesses' testimony, or even the names of the dead</li>
+<li><strong>Moral Choices:</strong> Situations where Mareth must give orders that could lead to harm—he freezes, unable to decide</li>
+<li><strong>Mirror Scenes:</strong> His reflection shows something different—a younger man covered in ash and blood</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary Confession:</strong> "I need to tell you what I did. I need someone to know."</li>
+<li><strong>Forced by Evidence:</strong> The party finds military documents in the library listing Red Clay Fork, Captain M. Trynn commanding officer</li>
+<li><strong>Yackle's Monologue:</strong> "Tell them about Red Clay Fork, Captain. How many children did you count before you stopped counting?"</li>
+<li><strong>Breakdown Under Pressure:</strong> In a moment of crisis, he refuses to lead: "I can't! Everyone I lead dies!"</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If Mareth's secret is revealed:</p>
+<ul>
+<li>Relief—finally, someone knows, finally he's seen as what he is</li>
+<li>Terror—will they reject him, kill him, abandon him?</li>
+<li>Waiting for the response—this is the judgment he's sought</li>
+<li>If they forgive him or show compassion, he might break completely—he doesn't know how to process mercy</li>
+</ul>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Him</h3>
+<p>Yackle selected Mareth because he perfectly inverts Deed—the Binding that says actions shape the actor. Mareth committed an atrocity that should have transformed him into a monster. It didn't. He remained, outwardly and inwardly, the same capable officer. The deed that should have defined him left him unchanged, an impossibility under the Binding's rules.</p>
+
+<h3>How She'll Use Him</h3>
+<p>When Yackle collects Mareth's secret, she gains power over consequences, transformation, and the weight of actions. She might:</p>
+<ul>
+<li>Make Mareth's attacks against her fail—his deeds don't matter, why should this one?</li>
+<li>Turn his critical hits into normal hits—he doesn't get to be the hero</li>
+<li>Show him Red Clay Fork endlessly, forcing him to watch what he did on repeat</li>
+<li>Offer him transformation: "You want to be a monster? I can make you one."</li>
+<li>Summon the dead of Red Clay Fork to fight him</li>
+<li>Strip away his competence, making him fail at the one thing he's good at (protecting others)</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle addresses Mareth directly, she might say:</p>
+<ul>
+<li>"You came here to be punished, Captain. How very convenient. I accept your offering."</li>
+<li>"One hundred and forty-three people, Mareth Trynn. I'll give you what you want—say their names first."</li>
+<li>"You think you should be a monster? You've been one for fifteen years. You just look so... normal."</li>
+<li>"The children burned the longest. Did you know that? You waited three days to make sure the fires were out."</li>
+<li>"You want transformation? Your deed already changed you. You just can't see it because you're looking at the wrong reflection."</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Mareth</h3>
+<ul>
+<li>Emphasize the contradiction: competent, protective, guilty, self-destructive</li>
+<li>Show his tactical skill—he's genuinely good at keeping people alive (now)</li>
+<li>Make his protectiveness physical—he puts his body on the line constantly</li>
+<li>Play the hollowness—he's going through motions, waiting for judgment</li>
+<li>When the secret emerges, play his desperate hope that they'll finally reject him</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Mareth is a tank and protector:</p>
+<ul>
+<li>AC 18 with shield makes him hard to hit</li>
+<li>47 HP is highest in the party—he can absorb punishment</li>
+<li>Protection fighting style lets him impose disadvantage on attacks against allies (reaction)</li>
+<li>Extra Attack = 2 × (1d8 + 4) = avg 17 damage/round with longsword</li>
+<li>Improved Critical (19-20) increases crit chance significantly</li>
+<li>Action Surge lets him nova—4 attacks in one turn</li>
+<li>Second Wind gives emergency healing (1d10 + 5, avg 10.5 HP)</li>
+<li>He should be in front, taking hits, using his reaction to protect squishies</li>
+<li>Plays recklessly—tactically sound but doesn't value his own survival</li>
+</ul>
+
+<h3>Redemption vs. Destruction</h3>
+<p>The GM can decide Mareth's arc:</p>
+<ul>
+<li><strong>Redemption:</strong> He learns that deeds <em>did</em> change him—he became this protective person <em>because</em> of Red Clay Fork, and that's a form of transformation</li>
+<li><strong>Sacrifice:</strong> He dies protecting the party, finally achieving the meaningful death he sought</li>
+<li><strong>Continuation:</strong> He survives and must live with both the massacre and being forgiven—harder than dying</li>
+<li><strong>Transformation:</strong> Yackle offers to make him literally monstrous, and he must choose whether visible monstrosity is better than invisible guilt</li>
+</ul>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Scholar:</strong> Respects Averic's knowledge, appreciates someone who thinks before acting (unlike Mareth at Red Clay Fork).</li>
+<li><strong>The Heir:</strong> Soldier recognizes soldier. Might mentor Liir in tactics, protective of his youth.</li>
+<li><strong>The Animal:</strong> If Frederick is revealed, Mareth must confront that he may have killed Animals during the campaigns—consciousness he didn't recognize.</li>
+<li><strong>The Debt-Holder:</strong> Tense—Sarima's people suffered under the regime Mareth served. She might hate him on sight.</li>
+<li><strong>The Maunt:</strong> Complicated—Shell represents an institution that blessed military actions like his. But she was expelled for opposing them. Might be the first person he trusts with the truth.</li>
+<li><strong>The Widow:</strong> Madame Viridian unsettles him—she looks at him like she knows, and he wants her to know.</li>
+<li><strong>The Tiktok:</strong> Protective of Seven. Sees a person others might dismiss, knows what it's like to be seen as less than you are.</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a> - Mareth's people</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-soldier', 'The Soldier'); return false;">The Soldier</a> - Mareth's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/soldier', 'Soldier'); return false;">Soldier Background</a> - Military service</li>
+<li><a href="#" onclick="Tabs.openTab('factions/gale-force', 'Gale Force'); return false;">Gale Force</a> - Mareth's former military</li>
+<li><a href="#" onclick="Tabs.openTab('history/quadling-campaigns', 'Quadling Campaigns'); return false;">Quadling Campaigns</a> - The war that broke him</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Deed and its inversion</li>
+</ul>

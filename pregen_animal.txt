@@ -1,0 +1,286 @@
+<h1>Pre-Generated Character: The Animal in Hiding</h1>
+
+<p class="flavor-text">"I've worn this skin so long, I sometimes forget which face is the mask."</p>
+
+<div class="gm-warning">
+<p><strong>GM Note:</strong> This character is a Fox <a href="#" onclick="Tabs.openTab('character/races/animals/overview', 'Animal'); return false;">Animal</a> using a magical disguise to pass as human. Their secret creates constant tension—discovery could mean imprisonment or death. The manor's anti-magic properties and Yackle's penetrating gaze threaten to expose them. Yackle knows their secret and may use it as leverage.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> "Frederick Vawn" (real name: Quick-Paw)<br>
+<strong>True Race:</strong> <a href="#" onclick="Tabs.openTab('character/races/animals/fox', 'Fox Animal'); return false;">Fox Animal</a> (disguised)<br>
+<strong>Apparent Race:</strong> <a href="#" onclick="Tabs.openTab('character/races/munchkinlander', 'Munchkinlander'); return false;">Munchkinlander</a> Human<br>
+<strong>Class:</strong> <a href="#" onclick="Tabs.openTab('character/classes/the-agent', 'The Agent'); return false;">The Agent</a> 5<br>
+<strong>Background:</strong> <a href="#" onclick="Tabs.openTab('character/backgrounds/animal-passing', 'Animal Passing as animal'); return false;">Animal Passing as animal</a><br>
+<strong>Alignment:</strong> Neutral Good</p>
+
+<h2>Ability Scores</h2>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>10 (+0)</td><td>17 (+3)</td><td>12 (+1)</td><td>14 (+2)</td><td>13 (+1)</td><td>12 (+1)</td></tr>
+</table>
+
+<h2>Combat Statistics</h2>
+<p><strong>Armor Class:</strong> 15 (studded leather)<br>
+<strong>Hit Points:</strong> 33 (5d8 + 5)<br>
+<strong>Speed:</strong> 30 ft. (40 ft. in true fox form)<br>
+<strong>Initiative:</strong> +3</p>
+
+<p><strong>Proficiency Bonus:</strong> +3</p>
+
+<h3>Saving Throws</h3>
+<p>Dexterity +6, Intelligence +5</p>
+
+<h3>Skills</h3>
+<p>Acrobatics +6, Deception +7 (expertise), Investigation +5, Perception +4, Sleight of Hand +6, Stealth +9 (expertise)</p>
+
+<h2>Racial Abilities (Fox Animal - Hidden)</h2>
+
+<div class="gm-warning">
+<p><strong>Secret:</strong> These abilities are only available when Frederick drops his disguise or the disguise fails.</p>
+</div>
+
+<ul>
+<li><strong>Keen Senses:</strong> Advantage on Wisdom (Perception) checks based on smell or hearing</li>
+<li><strong>Natural Cunning:</strong> Advantage on Intelligence (Investigation) checks to find hidden objects or passages</li>
+<li><strong>Nimble Escape:</strong> Can take Disengage or Hide action as a bonus action</li>
+<li><strong>Low-Light Vision:</strong> Darkvision 60 ft.</li>
+<li><strong>Small Frame:</strong> Small size (when in true form)</li>
+</ul>
+
+<h2>Disguise</h2>
+
+<p><strong>Disguise Self Ring:</strong> Frederick wears a silver ring (family heirloom) that casts <em>disguise self</em> continuously. The disguise shows him as a young Munchkinlander human man with sandy hair and unremarkable features.</p>
+
+<p><strong>Disguise Vulnerabilities:</strong></p>
+<ul>
+<li>Anti-magic fields suppress the ring (he reverts to fox form)</li>
+<li><em>Detect magic</em> reveals the disguise as magical</li>
+<li><em>True seeing</em> or similar magic pierces the illusion</li>
+<li>Physical contact feels slightly "off" (DC 18 Perception to notice)</li>
+<li>If the ring is removed, the disguise immediately ends</li>
+<li>Strong emotions (fear, rage) can cause the disguise to flicker momentarily</li>
+</ul>
+
+<h2>Combat Abilities</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Rapier:</strong> +6 to hit, 1d8+3 piercing (finesse)</li>
+<li><strong>Shortbow:</strong> +6 to hit, range 80/320 ft., 1d6+3 piercing</li>
+<li><strong>Dagger (thrown):</strong> +6 to hit, range 20/60 ft., 1d4+3 piercing</li>
+</ul>
+
+<h3>Class Features (Agent)</h3>
+<ul>
+<li><strong>Expertise:</strong> Double proficiency in Deception and Stealth</li>
+<li><strong>Sneak Attack:</strong> 3d6 extra damage once per turn when you have advantage or an ally is within 5 ft. of target</li>
+<li><strong>Cunning Action:</strong> Bonus action to Dash, Disengage, or Hide</li>
+<li><strong>Uncanny Dodge:</strong> Reaction to halve damage from one attack you can see</li>
+<li><strong>Agent Archetype:</strong> Infiltrator</li>
+</ul>
+
+<h3>Infiltrator Features</h3>
+<ul>
+<li><strong>Master of Disguise:</strong> Can create mundane disguises in 1 minute; have advantage on checks to maintain disguise</li>
+<li><strong>Infiltration Expertise:</strong> Can perfectly mimic accents and speech patterns after listening for 1 minute</li>
+<li><strong>False Identity:</strong> Have created a complete false identity as "Frederick Vawn" with documentation, backstory, and contacts</li>
+</ul>
+
+<h2>Equipment</h2>
+<ul>
+<li>Studded leather armor</li>
+<li>Rapier</li>
+<li>Shortbow with 20 arrows</li>
+<li>Two daggers</li>
+<li>Thieves' tools (proficient)</li>
+<li>Disguise kit (proficient)</li>
+<li><strong>Disguise Self Ring</strong> (magical, irreplaceable family heirloom)</li>
+<li>Forged identification papers as "Frederick Vawn"</li>
+<li>Small vial of fox musk (hidden, for emergencies—can prove Animal identity to other Animals)</li>
+<li>50 gp in various currencies</li>
+</ul>
+
+<h2>Background Feature: Passing Privilege</h2>
+
+<p>You've lived as human for years and know how to navigate their society. You can access humans-only spaces, avoid Animal restrictions, and generally move through Oz without the persecution Animals face. However, this privilege is fragile—built on lies and maintained through constant vigilance. Discovery would mean losing everything.</p>
+
+<p>You also have contacts in the <a href="#" onclick="Tabs.openTab('factions/underground-railroad', 'Underground Railroad'); return false;">Underground Railroad</a> who help Animals escape persecution. You can call on them for safe houses, forged papers, or information—but doing so risks exposing your own secret.</p>
+
+<h2>Personality</h2>
+
+<h3>Personality Traits</h3>
+<ul>
+<li>I notice exits and escape routes in every room I enter—it's habit now</li>
+<li>I'm always watching people's hands and eyes; you learn to read intentions when your life depends on it</li>
+</ul>
+
+<h3>Ideal</h3>
+<p><strong>Freedom.</strong> Everyone deserves to live without fear of who they are. (Good)</p>
+
+<h3>Bond</h3>
+<p>I send money to the Underground Railroad whenever I can. Every Animal I help escape is a small victory against the Wizard's tyranny.</p>
+
+<h3>Flaw</h3>
+<p>I lie reflexively, even when the truth would serve me better. Years of deception have made honesty feel dangerous.</p>
+
+<h2>Backstory</h2>
+
+<p>Quick-Paw was born in the <a href="#" onclick="Tabs.openTab('exploration/regions/great-gillikin-forest', 'Great Gillikin Forest'); return false;">Great Gillikin Forest</a> to a family of Fox Animals who'd fled the cities when the persecutions began. His mother taught him to read using stolen books. His father taught him to hunt, hide, and survive.</p>
+
+<p>When he was twelve, <a href="#" onclick="Tabs.openTab('factions/gale-force', 'Gale Force'); return false;">Gale Force</a> soldiers raided the forest settlement. His parents gave him the family's most precious possession—a silver ring that made the wearer appear human—and told him to run. He ran. He heard the screams behind him but didn't look back.</p>
+
+<p>He became "Frederick Vawn," a Munchkinlander orphan. He perfected the disguise, learned to walk like a human, talk like a human, think like a human. He got forged papers. He found work. He sent money to the Underground Railroad. He never stopped running.</p>
+
+<p>The inheritance letter arrived two weeks ago. A distant relative—Yackle—had left him a share of her estate. Frederick had no idea who she was or why she'd name him as an heir. His first instinct was to ignore it—probably a trap, probably Gale Force setting bait for Animals in hiding.</p>
+
+<p>But the letter specifically mentioned "Frederick Vawn." Not Quick-Paw. His false identity. Either it was coincidence, or someone knew his secret. And if someone knew, he needed to find out who and what they wanted.</p>
+
+<p>So he came to the <a href="#" onclick="Tabs.openTab('exploration/regions/pertha-hills', 'Pertha Hills'); return false;">Pertha Hills</a>, ready to run at the first sign of danger. He's been ready to run for thirteen years.</p>
+
+<h2>Connection to Yackle</h2>
+
+<p>Frederick has no idea who Yackle is, but she clearly knows who—and what—he really is. The fact that she named his false identity in the inheritance letter proves she's aware of his disguise.</p>
+
+<p><strong>What Frederick Doesn't Know:</strong></p>
+<ul>
+<li>Yackle has been watching him for years; she finds his dual nature "interesting"</li>
+<li>She invited him specifically because Animals have different magical resonances than humans—useful for certain rituals</li>
+<li>She may offer him a terrible choice: keep your secret and serve me, or be exposed and destroyed</li>
+<li>Alternatively, she might see him as a kindred spirit—another being who wears masks to survive</li>
+</ul>
+
+<p><strong>What Frederick Might Discover:</strong></p>
+<ul>
+<li>Yackle has collected artifacts from Animals throughout history</li>
+<li>The manor's library contains books on Animal magic and consciousness</li>
+<li>One of the house's lair actions specifically targets shape-shifters and the disguised</li>
+</ul>
+
+<h2>Roleplaying Frederick</h2>
+
+<h3>Mannerisms</h3>
+<ul>
+<li>Unconsciously touches the ring when nervous (checking it's still there)</li>
+<li>Sits facing the door, always aware of exits</li>
+<li>Tilts head slightly when listening—fox habit, quickly corrects himself</li>
+<li>Occasionally catches himself before using animal idioms ("like a fox in a henhouse" → "like a... thief in a vault")</li>
+<li>Freezes motionless when startled (predator instinct), then covers with a cough or stretch</li>
+</ul>
+
+<h3>Voice and Speech</h3>
+<ul>
+<li>Speaks with a carefully neutral Munchkinlander accent</li>
+<li>Uses human idioms and references deliberately—overcompensating slightly</li>
+<li>Soft-spoken and careful with words (every sentence is a potential slip)</li>
+<li>When stressed, accent can slip toward slightly more clipped, animal-like speech patterns</li>
+</ul>
+
+<h3>Goals in the Adventure</h3>
+<ul>
+<li><strong>Immediate:</strong> Find out if Yackle knows his secret and what she wants</li>
+<li><strong>Secondary:</strong> Survive with disguise intact; avoid exposure at all costs</li>
+<li><strong>Hidden:</strong> If there's a way to help other Animals, take it—even if it's risky</li>
+</ul>
+
+<h2>Roleplaying Tips</h2>
+
+<h3>Playing Frederick Effectively</h3>
+<ul>
+<li><strong>Constant Vigilance:</strong> You're always scanning for threats. Notice things others miss (Investigation and Perception are your strong suits).</li>
+<li><strong>The Lie You Live:</strong> Your entire existence is a performance. Roleplay the small moments where maintaining the disguise is exhausting—adjusting your posture, correcting your accent, suppressing instincts.</li>
+<li><strong>Moral Complexity:</strong> You lie to everyone, constantly, about fundamental things. But you do it to survive in a world that would kill you for existing. Explore that tension.</li>
+<li><strong>Trust Issues:</strong> Letting anyone close means risking discovery. If you start to trust the other heirs, roleplay the internal conflict—wanting connection but fearing exposure.</li>
+<li><strong>Combat Style:</strong> You're a striker, not a tank. Use Sneak Attack, hit hard, and use Cunning Action to escape retaliation. Fight smart, not fair.</li>
+</ul>
+
+<h3>Character Hooks</h3>
+<ul>
+<li>React to anti-magic: "Is anyone else feeling... strange? Like the air is too thick?" (Your disguise is flickering)</li>
+<li>Notice Animal artifacts: "That collar—I've seen ones like it. Where did Yackle get this?"</li>
+<li>Bond with another heir: "I haven't told anyone this, but... I think I can trust you."</li>
+<li>Face exposure: If the disguise fails, decide in the moment: fight, flee, or finally tell the truth?</li>
+</ul>
+
+<h2>The Secret Reveal</h2>
+
+<div class="gm-warning">
+<p><strong>GM Note:</strong> Frederick's secret will likely come out during the adventure. Here are some ways it might happen:</p>
+<ul>
+<li><strong>Anti-Magic Field:</strong> If the party enters a room that suppresses magic, Frederick's ring stops working. He reverts to fox form in front of everyone.</li>
+<li><strong>Yackle's Revelation:</strong> Yackle might expose him publicly to sow discord: "Tell them, Quick-Paw. Tell them what you really are."</li>
+<li><strong>Voluntary Disclosure:</strong> Frederick might choose to reveal himself to gain the party's trust or access his Animal abilities in a crisis.</li>
+<li><strong>Detect Magic:</strong> If someone casts <em>detect magic</em> and examines Frederick, they'll see the disguise aura.</li>
+</ul>
+<p><strong>After the Reveal:</strong> How the other heirs react will define Frederick's story. Some may be horrified, some sympathetic, some indifferent. Frederick will be terrified regardless—he's just exposed the secret he's guarded for thirteen years.</p>
+</div>
+
+<h2>Combat Tactics</h2>
+
+<h3>As "Frederick" (Disguised)</h3>
+<ul>
+<li>Use Cunning Action to get into position for Sneak Attack</li>
+<li>Prefer rapier for melee, shortbow at range</li>
+<li>Hide as a bonus action after attacking, then attack from hiding next round (advantage = Sneak Attack)</li>
+<li>Use Uncanny Dodge against big hits</li>
+<li>Stay mobile—never let enemies surround you</li>
+</ul>
+
+<h3>As Quick-Paw (True Form)</h3>
+<ul>
+<li>40 ft. speed lets you kite enemies effectively</li>
+<li>Nimble Escape gives you two bonus action options (your class already gives Cunning Action, so this is redundant, but thematically important)</li>
+<li>Keen Senses helps you notice ambushes and hidden enemies</li>
+<li>Small size makes you harder to hit in melee but harder to reach enemies with melee weapons—consider switching to shortbow</li>
+</ul>
+
+<h3>Against Yackle</h3>
+<ul>
+<li><strong>Phase 1:</strong> Stay at range, use shortbow with Sneak Attack. Don't let her lock you down with spells—use Uncanny Dodge against spell attacks.</li>
+<li><strong>Phase 2:</strong> When she merges with the house, use Investigation to find her vulnerable points. Stealth to sneak past house horrors and strike at her essence directly.</li>
+<li><strong>Phase 3:</strong> Focus fire with ranged attacks. If she targets you with her final curse, use Uncanny Dodge if possible, or accept it as the price of victory.</li>
+</ul>
+
+<h2>Character Development</h2>
+
+<h3>If Frederick Survives</h3>
+<ul>
+<li>If his secret comes out and the party accepts him, he might finally stop running</li>
+<li>He could use his share of the inheritance to fund the Underground Railroad more substantially</li>
+<li>He might choose to live openly as an Animal, even knowing the risks</li>
+<li>Or he might decide the disguise is too useful to abandon—he can do more good as "Frederick" than as Quick-Paw</li>
+</ul>
+
+<h3>Potential Character Arc</h3>
+<p>Frederick begins the adventure living a lie, convinced that hiding is survival. By the end, he might learn that true survival means being seen—that a life lived entirely in disguise isn't really life at all. Or he might conclude the opposite: that in a world this cruel, masks are necessary armor, and there's no shame in wearing them.</p>
+
+<h2>GM Notes</h2>
+
+<h3>Using Frederick in the Adventure</h3>
+<ul>
+<li><strong>Tension Generator:</strong> Frederick's secret creates constant tension. Use moments where the disguise might fail to raise stakes.</li>
+<li><strong>Moral Questions:</strong> Other heirs might debate the ethics of hiding one's identity. Is Frederick a liar, or a survivor? Let the players explore this.</li>
+<li><strong>Yackle's Leverage:</strong> Yackle knowing Frederick's secret gives her massive leverage. She can threaten exposure, offer protection, or even sympathize (she also wears masks).</li>
+<li><strong>Investigation Specialist:</strong> Frederick's high Investigation and Perception make him excellent at finding clues, hidden passages, and secrets—he's spent his life noticing what others miss.</li>
+</ul>
+
+<h3>Plot Hooks</h3>
+<ul>
+<li>The manor's library contains a book titled "On Animal Consciousness and the Soul"—with annotations in Yackle's handwriting</li>
+<li>One of the house's lair actions specifically targets Frederick: "The house whispers your true name: Quick-Paw"</li>
+<li>Yackle offers Frederick a deal: "Serve me, and I'll give you something better than a disguise—I'll make you truly human"</li>
+<li>Another heir is a former Gale Force soldier who participated in Animal purges—how does Frederick react?</li>
+</ul>
+
+<h2>Related Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/animals/fox', 'Fox Animal'); return false;">Fox Animal</a> - True race</li>
+<li><a href="#" onclick="Tabs.openTab('character/races/munchkinlander', 'Munchkinlander'); return false;">Munchkinlander</a> - Disguised as</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-agent', 'The Agent'); return false;">The Agent</a> - Character class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/animal-passing', 'Animal Passing as animal'); return false;">Animal Passing as animal</a> - Character background</li>
+<li><a href="#" onclick="Tabs.openTab('factions/underground-railroad', 'Underground Railroad'); return false;">Underground Railroad</a> - Faction connection</li>
+<li><a href="#" onclick="Tabs.openTab('factions/gale-force', 'Gale Force'); return false;">Gale Force</a> - The ones he's hiding from</li>
+<li><a href="#" onclick="Tabs.openTab('exploration/locations/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> - Adventure location</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> - Primary antagonist who knows his secret</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake</a> - Adventure overview</li>
+</ul>

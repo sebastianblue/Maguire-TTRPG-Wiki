@@ -1,0 +1,359 @@
+<h1>Pre-Generated Character: The Debt-Holder</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF SACRIFICE:</strong></p>
+<p>This character embodies the inversion of Sacrifice. She presents herself as a hereditary witch from a proud Arjiki lineage, wielding magic that flows through her bloodline. <strong>THE SECRET:</strong> Her magic is a transaction, not a gift. When her younger brother was dying, something answered her desperate plea—but it wasn't charity. It was a <em>deal</em>. She traded something—she doesn't know what, exactly—but she feels the weight of it. Sometimes she does things she doesn't remember deciding to do.</p>
+<p><strong>Sacrifice Binding Inversion:</strong> Sacrifice says giving freely creates value. Sarima didn't give—she <em>traded</em>. Her power is bought, not gifted.</p>
+<p><strong>If Secret Collected:</strong> Yackle can use one of Sarima's pact spell slots. Sarima has disadvantage on concentration saves.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Sarima Qov<br>
+<strong>Race:</strong> Arjiki Human<br>
+<strong>Class:</strong> Witch 5 (Pact of the Talisman)<br>
+<strong>Background:</strong> Outlander (Arjiki Tribe)<br>
+<strong>Alignment:</strong> Chaotic Neutral</p>
+
+<h2>Personality Summary</h2>
+<p>Sarima moves through the world with fierce pride and barely-concealed fear. She's proud of her Arjiki heritage, her supposed magical lineage, her strength in a world that wants her people erased. She's also terrified because she knows her power isn't hers—not really. It belongs to something else, something that took a piece of her she can't name.</p>
+
+<p>She compensates with intensity: loud opinions, bold magic, defiant presence. She'll argue theology with Unionists, mock Gillikinese pretensions, and stand her ground when others back down. It's all armor. Beneath it, she's waiting for the other shoe to drop, for whatever she traded to come due.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Touches her talisman obsessively (bone medallion on leather cord)</li>
+<li>Speaks Arjiki phrases when agitated, especially curses</li>
+<li>Stares at her hands sometimes, as if they're not quite hers</li>
+<li>Laughs too loud, takes up space deliberately</li>
+<li>Gets defensive when asked about her magical training</li>
+<li>Sometimes trails off mid-sentence, looking confused, then snaps back</li>
+<li>Avoids making promises or oaths—they feel dangerous</li>
+</ul>
+
+<p><strong>What She Wants:</strong> To be strong enough that no one can take anything from her again, to protect what's left of her family, to understand what she really gave away and whether she can ever get it back.</p>
+
+<h2>Appearance</h2>
+<ul>
+<li><strong>Age:</strong> 29</li>
+<li><strong>Height/Build:</strong> 5'8", strong and weathered from Vinkus life, moves like someone used to hard terrain</li>
+<li><strong>Features:</strong> Brown skin, dark eyes with an unsettling intensity, black hair worn in traditional Arjiki braids decorated with bone beads and colored thread. Geometric tattoos on her forearms (traditional Arjiki protective symbols).</li>
+<li><strong>Clothing:</strong> Vinkus practical wear—leather and wool in earth tones, fur-lined cloak, sturdy boots. Heavy silver jewelry (traditional Arjiki pieces). Everything chosen to announce: I am Arjiki, and I'm not ashamed.</li>
+<li><strong>Distinguishing Marks:</strong> The bone talisman around her neck (carved with symbols she didn't choose), a thin scar across her left palm from the night she made the deal</li>
+</ul>
+
+<h2>Backstory</h2>
+
+<h3>Arjiki Pride</h3>
+<p>Sarima was raised in an Arjiki tribe in the Vinkus—a people the Wizard's regime tried to erase through resettlement, cultural suppression, and worse. Her grandmother told stories of the old ways: blood oaths, tribal magic, the sacred geography of the grasslands. Her mother taught her defiance: You are Arjiki. They can't take that.</p>
+
+<p>Sarima learned to be proud, loud, unbreakable. She learned Arjiki songs, wore traditional dress in Emerald City markets, spoke her language where Unionists insisted on Common. She was training to be a traditional healer—herb lore, wound care, midwifery—useful magic, not the flashy kind.</p>
+
+<p>She had no talent for real sorcery. None at all.</p>
+
+<h3>The Night Everything Changed</h3>
+<p>Fourteen years ago, Sarima's younger brother Litek fell ill. Nine years old, burning with fever, coughing blood. The nearest doctor was three days' ride and wouldn't treat "nomads" anyway. Her grandmother's herbs weren't working. Sarima watched him fade.</p>
+
+<p>She did what any desperate sister would do: she prayed. But not to Lurline, not to the Unnamed God. To <em>anything</em> that would listen.</p>
+
+<p>Something answered.</p>
+
+<p>It didn't speak in words. It was a <em>presence</em>, vast and cold and utterly indifferent. It showed her what it could do—Litek, healthy, laughing, alive. And it showed her the price.</p>
+
+<p>Sarima doesn't remember agreeing. She doesn't remember what the price was. She remembers reaching out, feeling something <em>pull</em> from deep inside her—not pain exactly, but <em>absence</em>, like losing a piece she didn't know was separate.</p>
+
+<p>When she woke, Litek's fever had broken. He recovered fully. And Sarima could do magic.</p>
+
+<h3>The Weight</h3>
+<p>For fourteen years, Sarima has told everyone she's a hereditary witch—that magic runs in Arjiki bloodlines, that her grandmother taught her the old ways. It's a good lie. Convincing. Almost true, since her grandmother did teach her <em>something</em>.</p>
+
+<p>But Sarima knows the truth. Her magic isn't a gift. It's <em>bought</em>. She can feel the debt, a weight in her chest, a pull toward something she can't see.</p>
+
+<p>And sometimes—not often, but <em>sometimes</em>—she does things she didn't decide to do. Walks somewhere without meaning to. Says yes when she meant no. Wakes up with dirt under her nails and no memory of going outside.</p>
+
+<p>She's terrified to find out what she really traded, and what happens when it comes to collect.</p>
+
+<h3>The Blood Oath</h3>
+<p>Sarima's stated reason for being at Yackle's estate is a lie, but a plausible one: she claims Yackle swore a blood oath to her grandmother forty years ago, and in Arjiki culture, such debts pass through generations. She has no evidence of this. But it sounds like something an Arjiki would pursue, so it works as cover.</p>
+
+<p>The real reason she came: she received the invitation, and something <em>pulled</em> her here. Not a voice. Not a compulsion she could fight. Just the certainty that she <em>had to</em> be here. Like the thing she made the deal with is calling in part of the debt.</p>
+
+<p>She's terrified this is the payment coming due.</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 13 (leather armor + cloak)</li>
+<li><strong>Hit Points:</strong> 32 (5d8 + 5)</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+<li><strong>Initiative:</strong> +2</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>10 (+0)</td><td>14 (+2)</td><td>13 (+1)</td><td>12 (+1)</td><td>15 (+2)</td><td>18 (+4)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Wisdom +5, Charisma +7</li>
+<li><strong>Skills:</strong> Arcana +4, Deception +7, Intimidation +7, Nature +4, Survival +5</li>
+<li><strong>Languages:</strong> Common, Arjiki, Quadling, Vinkus Trade Tongue</li>
+<li><strong>Tools:</strong> Herbalism kit</li>
+</ul>
+
+<h3>Witch Class Features (Warlock)</h3>
+<ul>
+<li><strong>Pact Magic:</strong> Regain all spell slots on short rest (5th level = two 3rd-level slots)</li>
+<li><strong>Eldritch Invocations (3):</strong>
+  <ul>
+  <li><strong>Agonizing Blast:</strong> Add Charisma modifier to <em>Eldritch Blast</em> damage</li>
+  <li><strong>Armor of Shadows:</strong> Cast <em>Mage Armor</em> on self at will (already calculated in AC)</li>
+  <li><strong>Misty Visions:</strong> Cast <em>Silent Image</em> at will</li>
+  </ul>
+</li>
+<li><strong>Pact of the Talisman:</strong>
+  <ul>
+  <li>Bone medallion serves as focus</li>
+  <li>When wearer fails ability check, can add 1d4 to roll (prof bonus/day, currently 3/day)</li>
+  <li>If wearer other than Sarima dies while wearing it, Sarima knows and can teleport talisman back</li>
+  </ul>
+</li>
+<li><strong>Otherworldly Patron (Undying - reflavored):</strong>
+  <ul>
+  <li><strong>Among the Dead:</strong> Advantage on death saves and saving throws vs. disease</li>
+  <li><strong>Defy Death:</strong> Once per long rest, when dropping to 0 HP, can drop to 1 HP instead</li>
+  </ul>
+</li>
+</ul>
+
+<h3>Spellcasting</h3>
+<p><strong>Spell Save DC:</strong> 15<br>
+<strong>Spell Attack Bonus:</strong> +7<br>
+<strong>Spell Slots:</strong> Two 3rd-level slots (regain on short rest)</p>
+
+<h4>Spells Known</h4>
+<p><strong>Cantrips (at will):</strong> Eldritch Blast (1d10 + 4 force, 120 ft., 2 beams at 5th level), Mage Hand, Minor Illusion, Prestidigitation</p>
+
+<p><strong>1st-3rd Level (cast at 3rd level):</strong></p>
+<ul>
+<li><em>Armor of Agathys</em> (temp HP + cold damage to attackers)</li>
+<li><em>Hex</em> (bonus 1d6 necrotic, disadvantage on ability checks)</li>
+<li><em>Hold Person</em> (paralyze humanoid)</li>
+<li><em>Counterspell</em> (interrupt enemy spells)</li>
+<li><em>Hunger of Hadar</em> (20-ft. radius difficult terrain, damage, blinding darkness)</li>
+<li><em>Fly</em> (utility/escape)</li>
+</ul>
+
+<p><em>Note: As a Witch (reflavored Warlock), Sarima's spells have a transactional, bargaining flavor—she's calling in pieces of the deal she made.</em></p>
+
+<h2>Equipment</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Spear</strong> (1d6/1d8 piercing, versatile, thrown 20/60 ft.) - Traditional Arjiki weapon</li>
+<li><strong>Two daggers</strong> (1d4 piercing, finesse, light, thrown 20/60 ft.) - Backup weapons</li>
+</ul>
+
+<h3>Armor</h3>
+<ul>
+<li><strong>Leather Armor</strong> (AC 11 + Dex, hidden under traditional clothing)</li>
+<li><strong>Protective Cloak</strong> (part of Armor of Shadows invocation, AC 13 total)</li>
+</ul>
+
+<h3>Critical Items</h3>
+<ul>
+<li><strong>The Bone Talisman</strong> (Pact focus): Carved from an animal bone she doesn't recognize. Symbols etched into it that she didn't put there. Sometimes feels warm. Sometimes feels like it's <em>watching</em>. Functions as her arcane focus and Pact of the Talisman item.</li>
+<li><strong>Grandmother's Herb Pouch</strong>: Contains traditional Arjiki healing herbs. A connection to the magic she <em>wanted</em> to have, before the deal.</li>
+<li><strong>False Blood Oath Document</strong>: Fabricated evidence of Yackle's supposed debt to her grandmother. Well-crafted forgery she commissioned to justify her presence here.</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Herbalism kit</li>
+<li>Traveler's clothes (Arjiki traditional style)</li>
+<li>Bedroll and blanket (Vinkus-quality, made for cold nights)</li>
+<li>Waterskin</li>
+<li>10 days of rations (dried meat, journey bread)</li>
+<li>Tinderbox</li>
+<li>Component pouch (though talisman serves as focus)</li>
+<li>Belt pouch with 28 gold pieces, 14 silver</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Independence:</strong> "I am Arjiki. No one tells me who to be." (The irony that something else might be controlling her isn't lost on her.)</p>
+
+<h3>Bonds</h3>
+<p><strong>Litek:</strong> "My brother is alive because of what I did. Whatever the cost, he's worth it." She'd make the deal again. She thinks.</p>
+
+<h3>Flaws</h3>
+<p><strong>Denial and Fear:</strong> "I won't think about what I traded. I can't." She's built her entire identity on being a hereditary witch because facing the truth would break her.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Sometimes stares at the talisman for long moments, then snaps back to awareness</li>
+<li>Refuses to make oaths or promises—gets agitated if pressed</li>
+<li>Has gaps in memory she doesn't discuss</li>
+<li>Reacts strongly (anger/fear) to suggestions she's not in control</li>
+<li>Protects her brother's name fiercely—any threat to him triggers rage</li>
+<li>Sings Arjiki songs when working magic, as if the tradition makes it more hers</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Sarima speaks with bold confidence, code-switching between formal Common and Arjiki phrases:</p>
+<ul>
+<li>"In my grandmother's time, we knew how to honor debts. This is Arjiki business."</li>
+<li>"<em>K'shas</em>—you think I fear your house? I've walked the Thousand Year Grasslands."</li>
+<li>"My magic is <em>blood magic</em>, passed through generations. You wouldn't understand."</li>
+<li>"Don't tell me what I can and can't do. I decide."</li>
+</ul>
+
+<p>When rattled or scared, she gets louder and more aggressive—it's defense:</p>
+<ul>
+<li>"Back off. I said BACK OFF."</li>
+<li>"You don't know what you're talking about!"</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Chapel (Seal of Sacrifice)</h4>
+<p>This room hits Sarima <em>hard</em>. Themes of sacrifice, giving freely, altars of offering—she becomes quiet, tense. If the Seal challenge involves understanding true sacrifice vs. transaction, she might have a breakdown or breakthrough moment.</p>
+
+<h4>The Library</h4>
+<p>She searches for information about pacts, deals, magical transactions. Tries to be subtle but becomes increasingly frantic if she finds relevant texts. What did she trade? Can she get it back?</p>
+
+<h4>The Dining Room</h4>
+<p>Sarima is loud, opinionated, taking up space. She'll argue about Arjiki rights, criticize the Wizard's regime, debate theology with Sister Shell. It's all performance—look how strong I am, how unafraid.</p>
+
+<h4>Any Room With Mirrors</h4>
+<p>She avoids looking too long. Sometimes her reflection feels <em>wrong</em>, like it's not quite synchronized with her movements.</p>
+
+<h4>During Combat</h4>
+<p>Sarima fights aggressively, calling on her pact magic without hesitation. <em>Eldritch Blast</em> crackling from her hands, <em>Hex</em> marking enemies, <em>Hunger of Hadar</em> summoning horrible darkness. She yells in Arjiki, channels rage and fear into power.</p>
+
+<p>If she uses <em>Defy Death</em> (survive at 1 HP), describe something <em>else</em> keeping her upright—strings of shadow, a cold presence, the talisman burning hot.</p>
+
+<h3>Emotional Beats</h3>
+
+<h4>Pride</h4>
+<p>When someone respects Arjiki culture or acknowledges her strength, she lights up with genuine warmth.</p>
+
+<h4>Fear</h4>
+<p>When she does something she didn't decide to do (walking to a specific room, saying something strange), she freezes afterward, touching the talisman, looking confused and terrified.</p>
+
+<h4>Rage</h4>
+<p>Any threat to her autonomy or suggestion she's not in control triggers explosive anger. It's covering terror.</p>
+
+<h4>Guilt</h4>
+<p>Rare moments when she's alone, she might whisper, "What did I give you? What did you take?" to the talisman, desperate and small.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can create tension around Sarima's pact in several ways:</p>
+<ul>
+<li><strong>Compelled Actions:</strong> Sarima walks to a specific location without deciding to. Opens a door she meant to avoid. Says something she didn't plan.</li>
+<li><strong>Memory Gaps:</strong> She loses time—minutes, hours. Comes to awareness in a different room with no memory of getting there.</li>
+<li><strong>The Talisman:</strong> It heats up near certain objects/rooms. Whispers in a language she doesn't know. Pulls toward something.</li>
+<li><strong>Yackle's Knowledge:</strong> Books in the library about pact magic, transactional sorcery, or entities that trade in debts. Maybe even a contract with Sarima's name.</li>
+<li><strong>Physical Signs:</strong> When using powerful magic, shadows don't quite match her movements. Eyes briefly go black. Voice harmonizes with something else.</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary Confession:</strong> Breaking down and admitting "I don't know what I traded. I'm so scared."</li>
+<li><strong>Forced by Magic:</strong> <em>Zone of Truth</em>, <em>Detect Thoughts</em>, or Yackle's direct interrogation</li>
+<li><strong>Yackle's Monologue:</strong> "Tell them about the deal, Sarima. Tell them what you sold for your brother's life."</li>
+<li><strong>The Patron Appears:</strong> During Phase 2 or 3, whatever Sarima made the deal with might manifest, revealing she's been its agent all along</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If Sarima's secret is revealed:</p>
+<ul>
+<li>Devastating shame—her entire identity as hereditary witch is false</li>
+<li>Relief—finally someone knows, she's not alone with it</li>
+<li>Fear—what happens now? Will it come to collect?</li>
+<li>Possibility—maybe others can help her understand or break the deal</li>
+</ul>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Her</h3>
+<p>Yackle selected Sarima because she perfectly inverts Sacrifice—the Binding that says giving freely creates value. Sarima didn't give; she <em>traded</em>. Her magic is transactional, bought with something she can't even name. She's proof that power can come from deals rather than gifts, that sacrifice can be extracted rather than offered.</p>
+
+<h3>How She'll Use Her</h3>
+<p>When Yackle collects Sarima's secret, she gains power over bargains, debts, and compulsion. She might:</p>
+<ul>
+<li>Force Sarima to use her magic against the party (calling in the debt)</li>
+<li>Steal Sarima's spell slots, channeling the pact magic through herself</li>
+<li>Reveal what Sarima really traded: years of her life, her ability to love freely, her memories of who she was before</li>
+<li>Break Sarima's concentration on key spells at critical moments</li>
+<li>Offer Sarima a new deal: "Betray them, and I'll tell you what you gave away."</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle addresses Sarima directly, she might say:</p>
+<ul>
+<li>"Such a proud hereditary witch. Tell me, when did your grandmother teach you to <em>beg</em> in the dark?"</li>
+<li>"You wanted to know what you traded? Your <em>choice</em>, Sarima. You gave away your ability to choose freely. Every decision since has been <em>suggested</em>."</li>
+<li>"The talisman isn't yours. You're <em>its</em>. And it's been walking you here, step by step, for fourteen years."</li>
+<li>"Your brother was going to live anyway. You traded everything for nothing."</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Sarima</h3>
+<ul>
+<li>Emphasize the contrast: fierce confidence masking deep fear</li>
+<li>Show small moments of lost control—walking somewhere she didn't mean to go, saying something strange</li>
+<li>Make her genuinely knowledgeable about Arjiki culture—the pride isn't fake, even if the magic's origin is</li>
+<li>Use the talisman as a prop: she touches it constantly, and you can describe it behaving oddly</li>
+<li>When the secret emerges, play both the shame and the relief</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Sarima is a blaster and controller:</p>
+<ul>
+<li><em>Eldritch Blast</em> with Agonizing Blast = 2 beams × (1d10 + 4) = avg 19 damage/round, reliable ranged damage</li>
+<li><em>Hex</em> adds 1d6 per hit and gives disadvantage on chosen ability checks (great for hindering skill monkeys)</li>
+<li><em>Hunger of Hadar</em> is devastating area control—20-ft. radius darkness, difficult terrain, 2d6 cold + 2d6 acid damage</li>
+<li><em>Counterspell</em> shuts down enemy casters</li>
+<li><em>Hold Person</em> paralyzes humanoids (auto-crit for melee allies)</li>
+<li>Pact Magic slots on short rest means she can nova hard, rest, and nova again</li>
+<li><em>Defy Death</em> once per long rest gives her emergency survival</li>
+</ul>
+
+<h3>The Patron Mystery</h3>
+<p>The GM can decide what Sarima's patron actually is:</p>
+<ul>
+<li><strong>Option 1:</strong> Yackle herself—the "something" that answered was Yackle, and Sarima's been her agent for years without knowing</li>
+<li><strong>Option 2:</strong> A Kumbric entity—something from the Void before Lurline's bindings, drawn to Sarima's desperation</li>
+<li><strong>Option 3:</strong> An intermediary—something else made the deal, but the debt was sold to Yackle, who now owns Sarima's contract</li>
+</ul>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Scholar:</strong> Suspicious of his academic authority, but might ask him about magical theory. "Is there a way to... break a pact?"</li>
+<li><strong>The Heir:</strong> Respects his military bearing but mocks Gillikinese nobility. Arjiki and Emerald City don't mix.</li>
+<li><strong>The Animal:</strong> Doesn't realize Frederick is an Animal, but appreciates anyone else who keeps their head down around authorities.</li>
+<li><strong>The Maunt:</strong> HATES Sister Shell's Unionist background. Unionists tried to erase Arjiki culture. Constant tension.</li>
+<li><strong>The Widow:</strong> Madame Viridian unsettles her. The way Viridian looks at the talisman, like she <em>knows</em>.</li>
+<li><strong>The Veteran:</strong> Complicated—he served the regime that oppressed her people, but he seems genuinely haunted. Maybe he's not the enemy.</li>
+<li><strong>The Tiktok:</strong> Curious about Seven's construction, asks blunt questions about consciousness and free will (too close to her own fears).</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/arjiki', 'Arjiki'); return false;">Arjiki</a> - Sarima's people</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-witch', 'The Witch'); return false;">The Witch</a> - Sarima's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/outlander', 'Outlander'); return false;">Outlander Background</a> - Tribal variant</li>
+<li><a href="#" onclick="Tabs.openTab('locations/the-vinkus', 'The Vinkus'); return false;">The Vinkus</a> - Sarima's homeland</li>
+<li><a href="#" onclick="Tabs.openTab('magic/pact-magic', 'Pact Magic'); return false;">Pact Magic</a> - Transactional sorcery</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Sacrifice and its inversion</li>
+</ul>

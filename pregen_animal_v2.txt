@@ -1,0 +1,352 @@
+<h1>Pre-Generated Character: The Animal in Hiding</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF NATURE:</strong></p>
+<p>This character embodies the inversion of Nature. He appears to be Frederick Vawn, a quiet Munchkinlander clerk from Rush Margins. <strong>THE SECRET:</strong> He's a Fox. Capital-A Animal, fully sentient. He's been living as a human for twelve years—forged papers, practiced voice, carefully tailored clothes to hide his tail. Every interaction, every relationship, every moment of his life is a performance of being something he fundamentally is not.</p>
+<p><strong>Secondary Secret:</strong> The Animal underground sent him here. They believe Yackle's library contains information about how Animals were created/awakened—knowledge that could help them. He's on a mission.</p>
+<p><strong>Nature Binding Inversion:</strong> Nature says beings are their kind. Frederick IS other than what he appears—a being denying their essential nature every moment of every day.</p>
+<p><strong>If Secret Collected:</strong> Yackle can cast <em>Dominate Person</em> on him once with no concentration; lasts until he takes damage from her.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Frederick Vawn (Human name) / Quick-Paw (True name)<br>
+<strong>True Race:</strong> Fox Animal<br>
+<strong>Apparent Race:</strong> Munchkinlander Human<br>
+<strong>Class:</strong> Agent 5 (Infiltrator)<br>
+<strong>Background:</strong> Criminal (Spy)<br>
+<strong>Alignment:</strong> Neutral Good</p>
+
+<h2>Personality Summary</h2>
+<p>Frederick lives in a state of perpetual, quiet terror. Every moment requires performance: the way humans hold their hands, the rhythm of human laughter, the unconscious mannerisms that mark someone as genuinely comfortable in their own skin. He's hyper-observant, always watching others to perfect his mimicry. He's kind but distant, helpful but never intimate—closeness means risk of discovery.</p>
+
+<p>Beneath the fear, there's a fierce, barely-acknowledged anger. He shouldn't have to hide. He shouldn't have to pretend his thoughts are simpler than they are, his soul less real. But anger is dangerous, so he buries it deep and keeps his head down.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Adjusts his collar constantly (hiding where fur meets human illusion)</li>
+<li>Speaks with a studied Munchkinlander rural accent, occasionally slips into more formal speech when stressed</li>
+<li>Freezes completely still when startled (fox instinct)</li>
+<li>Excellent hearing—reacts to sounds others haven't noticed yet, has to pretend he didn't hear</li>
+<li>Sits with his back to walls, always knows where exits are</li>
+<li>Eats sparingly in public, claims a "nervous stomach"</li>
+<li>Keeps gloves on whenever possible (paw pads are difficult to disguise)</li>
+</ul>
+
+<p><strong>What He Wants:</strong> To complete his mission for the Underground, to survive long enough to see a world where he doesn't have to hide, to know whether the constant fear will ever end.</p>
+
+<h2>Appearance</h2>
+
+<h3>Human Disguise (What Others See)</h3>
+<ul>
+<li><strong>Age:</strong> Appears late 20s</li>
+<li><strong>Height/Build:</strong> 5'6", slight build, moves with nervous energy</li>
+<li><strong>Features:</strong> Reddish-brown hair kept short, sharp features, amber-brown eyes that seem a bit too bright, pale skin with a faint ruddy undertone</li>
+<li><strong>Clothing:</strong> Carefully tailored Munchkinlander clerk's attire—high collars, long sleeves, gloves, everything designed to cover. Dark blue coat, sturdy trousers, well-worn boots. Everything is slightly too loose to hide his true form beneath.</li>
+<li><strong>Distinguishing Marks:</strong> Moves with uncanny quiet, extremely light-footed</li>
+</ul>
+
+<h3>True Form (What He Really Is)</h3>
+<ul>
+<li><strong>Species:</strong> Red fox, fully anthropomorphic</li>
+<li><strong>Height:</strong> 5'4" at shoulder (bipedal stance)</li>
+<li><strong>Fur:</strong> Red-gold with white throat and underbelly, black "socks" on forearms and legs</li>
+<li><strong>Features:</strong> Sharp muzzle, upright triangular ears, golden eyes with slit pupils, full brush tail</li>
+<li><strong>Voice:</strong> Slightly higher pitch than his human disguise, no accent in his natural speech</li>
+</ul>
+
+<h3>The Disguise Magic</h3>
+<p>Frederick uses a combination of expertly tailored clothing, careful posture, and a minor glamour (Ring of Disguise, attuned) to maintain his human appearance. The ring does most of the visual work, but he's learned to move like a human, speak like a human, eat like a human. The performance is as important as the magic.</p>
+
+<p>If the ring is removed or suppressed (antimagic field, etc.), his true form is revealed.</p>
+
+<h2>Backstory</h2>
+
+<h3>Quick-Paw</h3>
+<p>Twelve years ago, Quick-Paw was a young fox living in the forests outside Rush Margins. He was clever, curious, and had just begun to understand that his thoughts were *different*—more complex than his littermates, full of words and questions and a terrible, wonderful awareness of self.</p>
+
+<p>He was also terrified. In the Munchkinlands, being a sentient Animal meant death or cages. The Gale Force was rounding up "speaking beasts," and the local Unionists preached that Animal consciousness was theological impossibility, demonic deception.</p>
+
+<p>Quick-Paw knew he had to hide. Not just in the woods—hide *as a human*.</p>
+
+<h3>Becoming Frederick</h3>
+<p>He found the Animal Underground—a network of hidden Animals and sympathetic humans who helped sentient creatures escape persecution. They gave him the Ring of Disguise. They taught him to walk upright without looking unnatural, to modulate his voice, to eat cooked food without gagging.</p>
+
+<p>They gave him Frederick Vawn's papers. Frederick had been a real person—a clerk who died in a fire with no family to miss him. Quick-Paw became Frederick: practiced his signature, memorized his history, took his job at a textile merchant's office in Rush Margins.</p>
+
+<p>For twelve years, Quick-Paw has been Frederick Vawn. He pays taxes. He has colleagues who invite him to dinner (he always declines). He has a landlady who thinks he's "such a quiet young man, very polite."</p>
+
+<p>No one knows. No one can ever know.</p>
+
+<h3>The Mission</h3>
+<p>Three months ago, the Underground contacted Frederick with a request. They'd received intelligence that Yackle's estate—long thought empty—might contain texts about the origin of Animal sentience. How it happens. Why some creatures wake and others don't. Whether it can be controlled, spread, *proven* to the Unionists who claim it's impossible.</p>
+
+<p>This knowledge could change everything for Animals in Oz.</p>
+
+<p>Frederick's assignment: infiltrate the estate, find the texts, bring them back. The invitation to Yackle's will reading was arranged through Underground channels. His cover story—Yackle once helped his "family" during hard times—is a fabrication, but a plausible one.</p>
+
+<p>He's terrified. This is the most dangerous thing he's ever done. But if there's a chance to help his people, he has to try.</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 16 (studded leather + Dex)</li>
+<li><strong>Hit Points:</strong> 35 (5d8 + 5)</li>
+<li><strong>Speed:</strong> 35 ft. (human disguise), 40 ft. (true form)</li>
+<li><strong>Initiative:</strong> +4</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>10 (+0)</td><td>18 (+4)</td><td>12 (+1)</td><td>14 (+2)</td><td>13 (+1)</td><td>10 (+0)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Dexterity +7, Intelligence +5</li>
+<li><strong>Skills:</strong> Acrobatics +7, Deception +6 (expertise), Investigation +5, Perception +7 (expertise), Sleight of Hand +7, Stealth +10 (expertise)</li>
+<li><strong>Languages:</strong> Common, Munchkinlander, Quadling, Thieves' Cant, Animal (secret)</li>
+<li><strong>Tools:</strong> Thieves' tools, disguise kit, forgery kit</li>
+</ul>
+
+<h3>Agent Class Features (Rogue)</h3>
+<ul>
+<li><strong>Sneak Attack:</strong> +3d6 damage once per turn with advantage or when ally is within 5 ft. of target</li>
+<li><strong>Cunning Action:</strong> Bonus action Dash, Disengage, or Hide</li>
+<li><strong>Uncanny Dodge:</strong> Reaction to halve damage from one attack you can see</li>
+<li><strong>Evasion:</strong> Dex saves that deal half damage on success deal no damage instead; failed saves deal half damage</li>
+<li><strong>Infiltrator Archetype (Assassin):</strong>
+  <ul>
+  <li><strong>Bonus Proficiencies:</strong> Disguise kit, poisoner's kit</li>
+  <li><strong>Assassinate:</strong> Advantage on attack rolls against creatures that haven't acted yet in combat. Any hit against a surprised creature is a critical hit.</li>
+  </ul>
+</li>
+</ul>
+
+<h3>Fox Animal Traits</h3>
+<p><em>Note: These are suppressed while disguised but activate if true form is revealed</em></p>
+<ul>
+<li><strong>Keen Hearing:</strong> Advantage on Perception checks that rely on hearing</li>
+<li><strong>Natural Weapons:</strong> Bite (1d4 + Dex piercing), Claws (1d4 + Dex slashing)</li>
+<li><strong>Quick Reflexes:</strong> +5 ft. movement speed</li>
+<li><strong>Low-Light Vision:</strong> Darkvision 60 ft.</li>
+</ul>
+
+<h2>Equipment</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Rapier</strong> (1d8 + 4 piercing, finesse) - "Frederick's" self-defense weapon</li>
+<li><strong>Shortbow</strong> (1d6 + 4 piercing, 80/320 ft., ammunition) with 20 arrows</li>
+<li><strong>Two daggers</strong> (1d4 + 4 piercing, finesse, light, thrown 20/60 ft.)</li>
+</ul>
+
+<h3>Armor</h3>
+<ul>
+<li><strong>Studded Leather Armor</strong> (AC 12 + Dex, hidden under clothing)</li>
+</ul>
+
+<h3>Critical Items</h3>
+<ul>
+<li><strong>Ring of Disguise</strong> (attuned): Allows Frederick to appear as a human. Functions as permanent <em>Disguise Self</em>. If removed or in antimagic field, true form is revealed.</li>
+<li><strong>Frederick Vawn Identity Papers</strong>: Forged documents (birth record, work history, residence permit) that establish "Frederick" as a Munchkinlander citizen. High-quality forgeries provided by the Underground.</li>
+<li><strong>Underground Signal Token</strong>: A small wooden fox carved to look like a good luck charm. If shown to other Underground members, identifies him as an ally.</li>
+</ul>
+
+<h3>Tools & Supplies</h3>
+<ul>
+<li>Thieves' tools (masterwork)</li>
+<li>Disguise kit</li>
+<li>Forgery kit</li>
+<li>Poisoner's kit</li>
+<li>Small steel mirror (for checking his disguise)</li>
+<li>Sewing kit (for emergency repairs to tailored clothing)</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Burglar's pack</li>
+<li>Dark common clothes (for infiltration work)</li>
+<li>Frederick Vawn's clerk attire (current wear)</li>
+<li>Hooded cloak</li>
+<li>50 feet of silk rope</li>
+<li>Belt pouch with 32 gold pieces, 15 silver</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Freedom:</strong> "Everyone deserves to live as themselves without fear." (The irony that he can't live as himself isn't lost on him.)</p>
+
+<h3>Bonds</h3>
+<p><strong>The Underground:</strong> "They saved me. I owe them everything, including this mission." He'd die before betraying them.</p>
+
+<h3>Flaws</h3>
+<p><strong>Paranoia:</strong> "Trust no one completely. One mistake means death." He can't fully relax, even around allies. Every new person is a potential threat.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Tilts his head when listening (fox habit, tries to suppress it)</li>
+<li>Excellent sense of smell—sometimes reacts to scents others can't detect, has to cover</li>
+<li>Sleeps very lightly, wakes at the slightest sound</li>
+<li>Avoids dogs instinctively</li>
+<li>When truly relaxed (rare), his ears would perk up—but the disguise hides this</li>
+<li>Sometimes forgets to blink for unsettling stretches</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Frederick speaks with a carefully practiced Munchkinlander accent—rural, simple, non-threatening:</p>
+<ul>
+<li>"Oh, I wouldn't know about that, I'm just a clerk, really."</li>
+<li>"Beggin' your pardon, but maybe we should be cautious-like?"</li>
+<li>"I ain't educated like some folks here, but seems to me..."</li>
+</ul>
+
+<p>When stressed or surprised, the accent slips and his real voice emerges—more articulate, slightly higher pitch, no regional markers:</p>
+<ul>
+<li>"Stop. We need to think about this carefully."</li>
+<li>"That's not random. Someone planned this."</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Library</h4>
+<p>This is what Frederick came for. He's searching for anything about Animal awakening, sentience origins, or consciousness studies. He tries to be subtle but becomes increasingly focused. If pressed, he claims he's "just looking at the pretty books."</p>
+
+<p>If he finds relevant texts, he must decide: take them now (suspicious), memorize what he can (time-consuming), or wait until later (risky).</p>
+
+<h4>The Dining Room</h4>
+<p>Meals are dangerous. Frederick has to eat human food in a human way, make small talk, not react unusually to smells. He eats small portions, claims nervousness. If there's meat, he has to pretend it doesn't smell *exactly right* in a way that makes him deeply uncomfortable.</p>
+
+<h4>Any Sealed Room</h4>
+<p>Frederick is the party's lockpick and trap specialist. He's genuinely talented—the Underground trained him well. He takes pride in this work because it's something he's good at that isn't performance. He can be himself when he's picking a lock.</p>
+
+<h4>The Portrait Gallery</h4>
+<p>If there are portraits of Yackle with Animals (as servants, pets, or specimens), Frederick reacts with barely-suppressed anger. He might linger, staring at painted foxes in cages, hounds on leashes. Others might notice his expression has gone cold and hard.</p>
+
+<h4>During Combat</h4>
+<p>Frederick fights with desperate, precise efficiency. He uses hit-and-run tactics, Cunning Action to stay mobile, Sneak Attack for devastating strikes. He protects the group because they're his temporary pack, but he's also calculating escape routes.</p>
+
+<p>If his disguise fails during combat, there's a moment of pure panic—then he fights in his true form, faster and more feral.</p>
+
+<h3>Emotional Beats</h3>
+
+<h4>Fear</h4>
+<p>Constant low-level anxiety. Any mention of Animals, the Gale Force, Unionist doctrine, or identity verification makes him freeze, then deflect.</p>
+
+<h4>Loneliness</h4>
+<p>If someone shows him genuine kindness, he almost breaks. He wants so badly to be seen, to be known, but knowing means death.</p>
+
+<h4>Anger</h4>
+<p>Buried deep. Emerges when he sees injustice, prejudice, casual cruelty. He has to force it down, maintain the helpless clerk persona.</p>
+
+<h4>Hope</h4>
+<p>When he finds information about Animal sentience, or if someone speaks positively about Animals, he allows himself brief, painful hope that things might change.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can create tension around Frederick's nature in several ways:</p>
+<ul>
+<li><strong>Close Calls:</strong> His collar slips, revealing fur. Someone grabs his hand before he can put gloves back on, feeling paw pads. His reflection in a mirror flickers.</li>
+<li><strong>Antimagic:</strong> If the party encounters an antimagic field, his disguise fails. He must either avoid the area or be revealed.</li>
+<li><strong>Animals Recognize Him:</strong> If there are Animal servants or specimens in the house, they might react to him—a caged parrot speaks to him in Animal language, a taxidermied fox's eyes seem to follow him.</li>
+<li><strong>Yackle's Knowledge:</strong> She might have books about the Animal Underground, maps showing safe houses, or even a portrait of a fox that looks disturbingly like Quick-Paw.</li>
+<li><strong>Combat Injury:</strong> If he takes significant damage, blood might reveal different biology, or pain might make him cry out in his true voice.</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary:</strong> Frederick confesses to save another character's life, or when he realizes someone is genuinely trustworthy</li>
+<li><strong>Forced:</strong> Antimagic field, ring is stolen/removed, <em>Dispel Magic</em> targets him</li>
+<li><strong>Yackle's Reveal:</strong> During her monologue, she casually addresses him as "Quick-Paw" and his disguise shatters</li>
+<li><strong>Heroic Sacrifice:</strong> He removes the ring himself to access his full Animal speed/abilities to save someone</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If revealed and the party doesn't immediately turn on him:</p>
+<ul>
+<li>Overwhelming relief and terror</li>
+<li>He can stop performing, stop hiding</li>
+<li>But he's also more vulnerable—will they protect him or report him?</li>
+<li>In combat, he gains his full Animal traits but might be too overwhelmed to use them effectively at first</li>
+</ul>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Him</h3>
+<p>Yackle selected Frederick because he perfectly inverts Nature—he IS not what he appears, living in constant denial of his essential self. Every moment of his existence contradicts the Binding that says beings are their kind. He's proof that nature can be hidden, denied, falsified.</p>
+
+<h3>How She'll Use Him</h3>
+<p>When Yackle collects Frederick's secret, she gains power over identity, transformation, and the boundary between what is and what appears. She might:</p>
+<ul>
+<li>Force transformations—making party members appear as monsters to each other</li>
+<li>Deny his true nature, trapping him in human form permanently</li>
+<li>Create illusions so perfect that reality becomes uncertain</li>
+<li>Dominate him completely, making him attack his allies while wearing their trust</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle addresses Frederick directly, she might:</p>
+<ul>
+<li>Call him Quick-Paw, shattering his disguise</li>
+<li>Reveal she has records of the Underground, threatening everyone he's ever known</li>
+<li>Offer him freedom: "Stay with me, little fox. No more hiding."</li>
+<li>Mock his mission: "Did you really think I'd leave such knowledge unguarded?"</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Frederick</h3>
+<ul>
+<li>Emphasize the constant performance—he's always "on"</li>
+<li>Show the cracks: moments where the accent slips, the disguise flickers, the fear shows through</li>
+<li>Make him useful—his skills (lockpicking, stealth, perception) should feel valuable to the party</li>
+<li>Play the paranoia: he hangs back, watches exits, startles easily</li>
+<li>When he's revealed, play the transformation: terror → relief → vulnerability → determination</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Frederick is a striker and scout:</p>
+<ul>
+<li>Massive Sneak Attack damage when positioned well</li>
+<li>Cunning Action for mobility—Disengage to escape danger, Hide to set up attacks</li>
+<li>Uncanny Dodge and Evasion make him surprisingly durable for a d8 hit die</li>
+<li>Assassinate is devastating if he gets surprise (advantage + autocrit)</li>
+<li>He should flank with melee allies to trigger Sneak Attack, or use Hide-attack-Hide with his bow</li>
+<li>If revealed as an Animal, he gains +5 ft. speed and bite/claw attacks as backup weapons</li>
+</ul>
+
+<h3>The Mission</h3>
+<p>Don't forget Frederick has a secondary goal: find information about Animal sentience. The GM can:</p>
+<ul>
+<li>Place relevant texts in the Library (Yackle might have firsthand knowledge of Lurline's creation)</li>
+<li>Make him choose between the mission and the party's safety</li>
+<li>Reveal that Yackle knows more about Animal awakening than anyone alive</li>
+<li>Use the mission as leverage: "Get me information and I'll help you escape"</li>
+</ul>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Scholar:</strong> Nervous around Averic's constant observation and documentation. Fears being studied too closely.</li>
+<li><strong>The Heir:</strong> Envies Liir's confidence (even though it's false). Wishes he could claim identity so boldly.</li>
+<li><strong>The Debt-Holder:</strong> Curious about Sarima's magic but too cautious to ask many questions.</li>
+<li><strong>The Maunt:</strong> Terrified of Sister Shell. Unionists preach that Animals have no souls. He avoids her when possible.</li>
+<li><strong>The Widow:</strong> Madame Viridian makes him deeply uneasy in ways he can't articulate. She looks at him too long.</li>
+<li><strong>The Veteran:</strong> Respects Captain Trynn's tactical thinking but fears military authority (Gale Force hunted Animals).</li>
+<li><strong>The Tiktok:</strong> Feels unexpected kinship with Seven—both are people the world says aren't people.</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/animals/fox', 'Fox Animals'); return false;">Fox Animals</a> - Frederick's true nature</li>
+<li><a href="#" onclick="Tabs.openTab('character/races/munchkinlander', 'Munchkinlander'); return false;">Munchkinlander</a> - Frederick's disguise</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-agent', 'The Agent'); return false;">The Agent</a> - Frederick's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/criminal', 'Criminal'); return false;">Criminal Background</a> - Spy variant</li>
+<li><a href="#" onclick="Tabs.openTab('factions/animal-underground', 'The Animal Underground'); return false;">The Animal Underground</a> - Frederick's true allegiance</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Nature and its inversion</li>
+</ul>

@@ -1,0 +1,426 @@
+<h1>Yackle's Estate</h1>
+
+<p class="flavor-text">"The manor has stood in the Pertha Hills for over a thousand years. They say it changes—rooms appear and disappear, corridors twist back on themselves. They say it's alive. They might be right."</p>
+
+<div class="gm-warning">
+<p><strong>GM NOTE:</strong> This estate is the primary location for "The Witch's Wake" adventure. The house is semi-sentient, responding to its occupants and reflecting Yackle's millennium of loneliness. Rooms contain clues about the <a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'Eight Bindings'); return false;">Eight Bindings</a>, the <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'Seven Seals'); return false;">Seven Seals</a>, and Yackle's tragic history.</p>
+<p><strong>IMPORTANT:</strong> The estate has 22 rooms total. Players will likely explore 12-15 before the reveal. Encourage thorough investigation—every room rewards curiosity.</p>
+</div>
+
+<h2>Estate Overview</h2>
+
+<p>Yackle's Estate sits in the remote Pertha Hills of Gillikin, surrounded by fog that never lifts and hedges that once depicted magnificent Animals but now grow wild. The architecture is old Gillikinese—steep gables, narrow windows, impossible angles that don't quite meet correctly.</p>
+
+<p>The estate has four distinct areas:</p>
+<ul>
+<li><strong>The Grounds:</strong> The Approach, Cemetery</li>
+<li><strong>Ground Floor:</strong> Foyer, Parlor, Music Room, Library, Chapel, Dining Room, Kitchen, Servant Quarters, Greenhouse (9 rooms)</li>
+<li><strong>Upper Floors:</strong> Portrait Gallery, Memorial Room, Master Bedroom, Guest Rooms 1-3, Nursery, Study, Observatory, Hall of Mirrors (10 rooms)</li>
+<li><strong>The Cellar:</strong> Wine Cellar, Main Cellar, Heart Chamber (3 rooms)</li>
+</ul>
+
+<h2>The House's Nature</h2>
+
+<p>The estate is semi-sentient, an extension of Yackle herself:</p>
+<ul>
+<li><strong>Responsive:</strong> The house provides what occupants need (warmth, food) but also tests them</li>
+<li><strong>Observant:</strong> Characters often feel watched (they are—the house watches)</li>
+<li><strong>Temporal Distortion:</strong> Time moves strangely; hours can feel like minutes or vice versa</li>
+<li><strong>No Escape:</strong> Once inside, the gates won't open until dawn or until Yackle is defeated</li>
+<li><strong>Lair Actions:</strong> During combat, the house itself attacks (see <a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle's stat block</a>)</li>
+</ul>
+
+---
+
+<h2>The Grounds</h2>
+
+<h3>The Approach</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+The carriage path winds through overgrown hedges that might once have been sculpted into fanciful shapes—Animals, perhaps, or scenes from Ozian mythology. Now they're just walls of tangled green, pressing close on either side. The fog thickens as you approach, and the temperature drops noticeably. Ahead, iron gates stand open, and beyond them, the manor rises against a bruised purple sky. It's larger than you expected. The architecture is old Gillikinese—all steep gables and narrow windows—but something about the proportions feels wrong. The angles don't quite meet where they should.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Gates.</strong> Wrought iron, standing open. Once a character passes through, they swing shut silently and will not open again by any means. The lock cannot be picked (no DC—simply impossible). A <em>knock</em> spell causes the gates to shudder but not open. Attempting to climb over results in the character finding themselves back on the inside.</p>
+
+<p><strong>The Hedges.</strong> A DC 14 Nature check reveals these were once shaped like Animals—Lions, Bears, a great Eagle. Now they're wild, but the shapes are still vaguely visible if you know to look.</p>
+<ul>
+<li><strong>Perception DC 16:</strong> One hedge shows a Fox mid-leap, frozen in topiary. The eyes seem to follow Frederick if he's present.</li>
+<li><strong>Investigation DC 15:</strong> Carved into the base of the Lion hedge: "For those who cannot speak, I gave voice. For those who were unseen, I made them seen. —L.T." (Lurline's Testament)</li>
+<li><strong>Arcana DC 14:</strong> The hedges radiate faint abjuration magic—they're a ward, keeping something in or something out.</li>
+</ul>
+
+<p><strong>The Fog.</strong> Extends about 20 feet beyond the walls. A character who enters the fog must make a DC 15 Constitution save each round or begin suffocating. After three failed saves, they fall unconscious and are expelled back onto the estate grounds.</p>
+<ul>
+<li><strong>Perception DC 13:</strong> Shapes move in the fog—humanoid, but wrong. They never get closer.</li>
+<li><strong>Arcana DC 18:</strong> The fog is not natural weather—it's solidified memory, fragments of past events made semi-physical.</li>
+</ul>
+
+<p><strong>The Carriage Path.</strong></p>
+<ul>
+<li><strong>Survival DC 12:</strong> No wheel ruts, no hoof prints. No one has used this path in decades. Except... there ARE fresh footprints. Eight sets. Leading in. None leading out.</li>
+<li><strong>Investigation DC 14:</strong> The footprints match the party's boots exactly, down to the wear patterns. They were here before you arrived.</li>
+</ul>
+
+---
+
+<h3>The Cemetery</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+A low iron fence surrounds a small family plot to the west of the main house. The headstones are old—some cracked, some sunken into the earth—but the names are still legible. OSTREGA, they all read. Generations of them. The newest stone looks perhaps a century old. There are fresh flowers on one grave, impossibly fresh, as if placed this morning. But no one has lived here in decades.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Headstones.</strong> The Ostrega family burial plot. A DC 12 History check reveals the Ostregas were a minor Gillikinese family who died out about a century ago—no living descendants. Liir's player may find this concerning.</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The dates are wrong. "Yael Ostrega, 621-643" is carved on one stone, but another stone fifty feet away reads "Yael Ostrega, 804-831." The same name, two centuries apart.</li>
+<li><strong>Religion DC 14:</strong> The grave markers use both Lurlinite and Unionist symbols, sometimes on the same stone—theologically impossible. Someone was hedging their bets about the afterlife.</li>
+<li><strong>Perception DC 15:</strong> One grave is sunken differently than the others—deeper, as if something much larger than a body is buried there. The headstone reads simply: "The First Mask."</li>
+</ul>
+
+<p><strong>The Fresh Flowers.</strong> On the grave of "Yael Ostrega, Beloved Daughter." A DC 14 Investigation check finds that the flowers are real but have no roots—they're simply placed here. A DC 16 Arcana check reveals faint necromantic magic. Someone has been maintaining this grave.</p>
+<ul>
+<li><strong>Nature DC 12:</strong> These are ghost-breath flowers, which only bloom in the presence of the dead. But they're blooming at the wrong angle—toward the house, not the grave.</li>
+<li><strong>Insight DC 16:</strong> The flowers are an offering, but also an apology. Someone has been saying sorry for a very long time.</li>
+</ul>
+
+<p><strong>HANDOUT: Gravestone Rubbing.</strong> If a character makes a rubbing of any headstone, provide a physical handout showing the Ostrega family crest (a key crossed with a quill) and dates spanning from 600s to 900s OZ calendar.</p>
+
+<p><strong>The Iron Fence.</strong></p>
+<ul>
+<li><strong>Perception DC 11:</strong> The fence posts are topped with finials shaped like eyes—dozens of them, all facing inward, watching the graves.</li>
+<li><strong>Investigation DC 17:</strong> Scratched into the back of one fence post, nearly invisible: "She visits every night. She never speaks. —Groundskeeper William, 788"</li>
+</ul>
+
+---
+
+<h2>Ground Floor</h2>
+
+<h3>1. The Foyer</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+The front doors open onto a grand entrance hall. A crystal chandelier hangs overhead, unlit, its hundreds of pendants catching what little moonlight filters through the high windows. A sweeping staircase curves upward to the left, while doorways lead off in three directions. The floor is checkered marble—green and white—worn smooth by centuries of footsteps. A grandfather clock stands against the far wall, its pendulum still. In the center of the room, someone has arranged eight chairs in a circle around a small table bearing a single leather case.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Chandelier.</strong> If a character looks closely (Perception DC 12), they notice the crystals are not glass but some kind of green stone. A DC 15 Arcana check identifies them as emeralds—a fortune's worth. However, any attempt to remove them causes them to crumble to worthless powder.</p>
+<ul>
+<li><strong>Investigation DC 14:</strong> The chandelier has exactly 808 crystals. Why that specific number? A DC 16 History check recalls 808 OZ is the year the Wizard came to power.</li>
+<li><strong>Perception DC 18:</strong> One crystal is a different color—blood red. It hangs directly above the empty ninth chair at the head of the circle.</li>
+<li><strong>Arcana DC 17:</strong> The chandelier isn't just decorative—it's a massive scrying focus. Someone could watch the entire ground floor from this central point.</li>
+</ul>
+
+<p><strong>The Grandfather Clock.</strong> The clock shows 11:47—always 11:47, regardless of the actual time. It has no visible winding mechanism. At midnight (real time, or when dramatically appropriate), it chimes thirteen times. This signals the First Twist.</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The clock face has thirteen hours marked, not twelve. The thirteenth hour is labeled with a symbol instead of a number—an eye.</li>
+<li><strong>Perception DC 16:</strong> Faint scratches inside the clock cabinet: tally marks. Hundreds of them. Someone was counting something for a very long time.</li>
+<li><strong>Arcana DC 15:</strong> The clock doesn't measure time—it measures proximity to a specific event. It's waiting for something.</li>
+</ul>
+
+<p><strong>The Chairs.</strong> Eight chairs, each with a name card on the seat. The names are not the characters' names but epithets:</p>
+<ul>
+<li>"The One Who Rewrote the Past"</li>
+<li>"The One Who Claims False Blood"</li>
+<li>"The One Who Denies Their Nature"</li>
+<li>"The One Whose Service Was Punished"</li>
+<li>"The One Who Traded Instead of Gave"</li>
+<li>"The One Whose Deed Did Not Transform Them"</li>
+<li>"The One Who Hungers When They Should Not"</li>
+<li>"The One Who Has Never Been Seen"</li>
+</ul>
+
+<p><strong>HANDOUT: The Place Cards.</strong> Provide physical cards with these epithets. Let players figure out which card belongs to whom.</p>
+
+<ul>
+<li><strong>Insight DC 14:</strong> These aren't accusations—they're descriptions. Whoever wrote these knows each character intimately.</li>
+<li><strong>Investigation DC 15:</strong> The handwriting on all eight cards is identical, written with the same pen, same ink pressure. They were all written at the same time, by someone who expected exactly these eight people.</li>
+<li><strong>Perception DC 13:</strong> There's a ninth chair, larger than the others, at the head of the circle. It has no name card.</li>
+</ul>
+
+<p><strong>The Leather Case.</strong> Contains the will. Mr. Trism will open it and read it when all eight heirs are present.</p>
+
+<p><strong>The Staircase.</strong> Leads to the upper floors. Until the First Twist, the stairs seem to go on forever—characters who climb find themselves back at the bottom. After the clock chimes, the upper floors become accessible.</p>
+<ul>
+<li><strong>Perception DC 12:</strong> The stairs are worn in the middle, but not evenly. The wear pattern suggests someone walking up and down the same section repeatedly—pacing, not traveling.</li>
+<li><strong>Investigation DC 16:</strong> Carved into the underside of the seventh step, invisible unless you duck underneath: "Day 217. Still here. Still alone. Still waiting. —Y.O."</li>
+</ul>
+
+<p><strong>The Marble Floor.</strong></p>
+<ul>
+<li><strong>Investigation DC 14:</strong> The green and white pattern isn't random—it forms a massive eight-pointed star with the chair circle at its center.</li>
+<li><strong>Arcana DC 16:</strong> This pattern is a summoning circle, but inverted. It's not calling something here—it's keeping something from leaving.</li>
+</ul>
+
+---
+
+<h3>2. The Parlor</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+A comfortable sitting room with faded elegance. Two sofas face each other across a low table, upholstered in purple velvet worn thin at the armrests. A fireplace dominates one wall—cold now, but logs are laid ready to burn. Above the mantle hangs a portrait of a woman in old-fashioned dress, her face obscured by a crack in the canvas that runs directly through her features. Against the far wall, a drinks cabinet stands open, bottles of amber and crimson liquid glinting in the low light. A chess board sits on a side table, mid-game.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Fireplace.</strong> If anyone expresses a desire for warmth (verbal or otherwise), the fire ignites itself without fuel or spark. This is the first sign the house responds to its occupants. The fire provides normal warmth and light but cannot be used to burn anything—objects placed in it simply sit there, unharmed.</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The logs in the hearth are made of stone, expertly carved to look like wood. They've never been real.</li>
+<li><strong>Perception DC 15:</strong> Soot stains on the mantle spell out words if you step back and squint: "WARM BODIES COLD HEART"</li>
+<li><strong>Arcana DC 14:</strong> The fire is transmutation magic, converting loneliness into heat. The more isolated a character feels, the warmer the fire burns for them.</li>
+</ul>
+
+<p><strong>The Portrait.</strong> Originally depicted Yackle in her mortal days. The crack appeared when she was first bound. A DC 16 Investigation check around the frame reveals a small plaque, nearly painted over: "Y.O., Age 23." A <em>mending</em> spell repairs the crack but reveals only a blank face—smooth, featureless, like an unfinished painting.</p>
+<ul>
+<li><strong>Perception DC 14:</strong> The portrait's eyes were painted, then scraped out, then repainted, then scraped out again. This happened dozens of times—someone couldn't decide if they wanted to see or be seen.</li>
+<li><strong>Insight DC 16:</strong> The woman in the portrait (before the crack) looks hopeful. Genuinely, achingly hopeful. Whatever happened to create that crack destroyed something irreplaceable.</li>
+<li><strong>History DC 15:</strong> The dress style is from approximately 650 OZ—over 300 years ago. But the paint is much older. Someone updated the portrait but kept the pose.</li>
+</ul>
+
+<p><strong>The Drinks Cabinet.</strong> Contains wine and spirits that are safe to consume. A DC 14 Investigation check finds a hidden compartment containing a small vial labeled "For When It Becomes Too Much"—this is a <em>potion of dreamless sleep</em> (8 hours of unconsciousness, no dreams, no external force can wake the drinker).</p>
+<ul>
+<li><strong>Investigation DC 12:</strong> Seven glasses are set out, each with a thin layer of dust. One glass is clean, recently used.</li>
+<li><strong>Perception DC 16:</strong> Inside the "dreamless sleep" vial, scratched into the glass with a diamond: "Coward's way out. Won't work anyway. Tried." </li>
+<li><strong>Arcana DC 13:</strong> The bottles rearrange themselves when no one is looking. The house is... offering? Suggesting?</li>
+</ul>
+
+<p><strong>The Chess Game.</strong> Mid-game, white is winning. A DC 12 Intelligence check recognizes it as a famous historical match—the "Ozma Gambit," supposedly played between Queen Ozma and the first Wizard. The game was never finished; Ozma disappeared before the final move. The white queen is positioned to checkmate in one move.</p>
+
+<p><strong>HANDOUT: The Ozma Gambit.</strong> A note tucked under the chess board explaining the game's history. The final move was never made. Someone has written in the margin: <em>"She always knew how to win. She just chose not to."</em></p>
+
+<ul>
+<li><strong>Investigation DC 14:</strong> There's a second note, older, in different handwriting: "I've been playing both sides for so long I've forgotten which color I started as. Does it matter if you're always alone?"</li>
+<li><strong>Perception DC 15:</strong> One of the black pieces (a knight) has a tiny crack, recently repaired with gold—the Gillikinese art of kintsugi. Someone values broken things.</li>
+<li><strong>Insight DC 17:</strong> White could win in one move, but hasn't. Black could forfeit and end the stalemate, but hasn't. The game is frozen in possibility—neither player wants it to end, because ending means admitting you played alone.</li>
+</ul>
+
+<p><strong>The Sofas.</strong></p>
+<ul>
+<li><strong>Perception DC 13:</strong> The wear patterns show two people sitting across from each other regularly—but the impressions are identical in depth and age. One person, sitting in both places, having a conversation with themselves.</li>
+<li><strong>Investigation DC 16:</strong> Tucked between sofa cushions: a child's drawing of two stick figures holding hands. One is labeled "Me" and the other is labeled "Friend?" The question mark is heavily traced, as if questioned many times.</li>
+</ul>
+
+---
+
+<h3>3. The Music Room (SEAL 1: MEMORY)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Instruments line the walls of this circular room—a harp with broken strings, a violin in a glass case, a set of Quadling drums. Dominating the space is a grand piano, its lid open, keys yellowed with age. Sheet music is scattered across every surface: the piano bench, the floor, tucked into instrument cases. A mechanical music box sits on a pedestal near the window, ornate and clearly valuable. The moonlight catches something written in silver ink on the music box's lid.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Piano.</strong> Playable, though out of tune. A DC 12 Performance check can coax a recognizable melody from it. Playing the correct melody (see Seal puzzle below) causes the lid of the music box to open.</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The piano has been maintained recently—the action is oiled, the hammers are aligned. Someone still plays this.</li>
+<li><strong>Perception DC 15:</strong> Worn spots on specific keys: C, E, A, and B-flat. These four notes have been played thousands of times more than the others.</li>
+<li><strong>Performance DC 16:</strong> If you play those four notes in order (C-E-A-B♭), it spells "CRIES" in musical notation. The piano emits a soft, mournful resonance.</li>
+<li><strong>Arcana DC 14:</strong> The piano is slightly out of phase with reality. When played, it sounds in this room and simultaneously in another place—an echo of where it was originally played.</li>
+</ul>
+
+<p><strong>The Sheet Music.</strong> Scattered fragments of what was once a single composition. A DC 14 Investigation check, taking 10 minutes, can gather all the pieces. A DC 12 Intelligence check (or proficiency in a musical instrument) can arrange them in the correct order.</p>
+<ul>
+<li><strong>Investigation DC 12 (individual sheets):</strong> Each fragment has tiny annotations in the margins—"played for William's birthday, 734" or "Mother liked this part" or "alone again"</li>
+<li><strong>Perception DC 16:</strong> Some sheets have water damage—tear stains, concentrated on specific measures. Someone cried while playing particular passages.</li>
+<li><strong>Arcana DC 15:</strong> The ink used on the oldest sheets contains ground emerald—expensive and unnecessary unless you're trying to make the music literally unforgettable.</li>
+</ul>
+
+<p><strong>The Music Box.</strong> The lid reads "O, To Be Known" in silver script. The box is locked (or rather, sealed). Inside is a <strong>shard of green crystal</strong> that hums faintly with magic—this is a <strong>Memory Shard</strong>, useful in the final battle.</p>
+<ul>
+<li><strong>Investigation DC 14:</strong> The music box's mechanisms are visible through tiny crystal windows. Gears shaped like people, dancing.</li>
+<li><strong>Perception DC 17:</strong> One gear-person stands apart from the others, not touching, not moving in time with the dance.</li>
+</ul>
+
+<p><strong>HANDOUT: Sheet Music Fragments.</strong> Provide 4-5 physical pieces of paper with musical notation. On each piece, certain notes are circled or highlighted. When arranged correctly, the highlighted notes spell out "REMEMBER" in musical notation (each note corresponds to a letter: R-E-M-E-M-B-E-R).</p>
+
+<h4>SEAL OF MEMORY PUZZLE</h4>
+
+<p>To break the seal:</p>
+<ol>
+<li>Find all sheet music fragments (scattered in Music Room, Parlor, and Foyer)</li>
+<li>Arrange them in correct order (Intelligence DC 12)</li>
+<li>Play the melody on the piano (Performance DC 10, or any character with instrument proficiency)</li>
+</ol>
+
+<p><strong>Reward:</strong> One character gains a <strong>Reroll Token</strong> (reroll one failed d20, once).</p>
+
+<p><strong>The Harp.</strong></p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The strings weren't broken by age—they were cut, deliberately, with a sharp blade.</li>
+<li><strong>Perception DC 15:</strong> Carved into the harp's soundboard: "I broke you so I wouldn't play you. I play you anyway in memory."</li>
+</ul>
+
+<p><strong>The Violin in Glass.</strong></p>
+<ul>
+<li><strong>Perception DC 14:</strong> The glass case is sealed airtight. Not to preserve the violin—to preserve the air around it, as if that air itself is precious.</li>
+<li><strong>Arcana DC 16:</strong> The air in the case still carries sound—a note held impossibly long. If you could break the seal, you'd hear the last thing played on this violin over a century ago.</li>
+</ul>
+
+---
+
+<h3>4. The Library (SEAL 3: NATURE)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Floor-to-ceiling shelves crammed with books of every size and age. The smell of old paper and leather hangs heavy in the air. A rolling ladder leans against one shelf, its wheels rusted in place. Reading desks are positioned throughout—one holds an open journal, another a magnifying glass and a collection of specimen jars. The jars contain preserved creatures: a bird, a mouse, a snake, each floating in amber liquid. There's something unsettling about their eyes.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Books.</strong> Thousands of volumes on every subject. A character who searches for specific information can make an Investigation check:</p>
+<ul>
+<li>DC 12: Find general information about Ozian history, geography, or magic</li>
+<li>DC 15: Find references to "The Eight Bindings" or "Lurline's Words"</li>
+<li>DC 18: Find Yackle's personal journals (see below)</li>
+</ul>
+
+<ul>
+<li><strong>Perception DC 13:</strong> The books reorganize themselves when you're not looking. Titles that were on the top shelf are now at eye level. The library is... helping?</li>
+<li><strong>Investigation DC 15:</strong> One entire shelf is devoted to texts about consciousness, personhood, and what makes something "alive." Heavy annotations throughout—arguments in the margins, underlines, angry cross-outs.</li>
+<li><strong>Arcana DC 14:</strong> Several books are written in a language that shifts as you read it, trying to translate itself into something you'll understand. They're Grimmerie fragments.</li>
+<li><strong>History DC 16:</strong> A series of books titled "Visitors, Vol. 1-47" catalog every person who's come to the estate. The latest entry is dated three weeks ago—right before the invitations went out.</li>
+</ul>
+
+<p><strong>Yackle's Journals.</strong> Scattered throughout the library, spanning centuries. Each is written in the same handwriting. A DC 14 Investigation check finds three journals from different eras. A DC 16 History check recognizes the dates span over 600 years—impossibly long for any mortal.</p>
+
+<p><strong>HANDOUT: Journal Excerpts.</strong> Three physical pages:</p>
+
+<p><em>Journal 1 (Year 347 OZ):</em></p>
+<blockquote>
+"The fairy spoke Eight Words, and the chaos took shape. I remember the first word. It was REMEMBER. And suddenly there was a past, where before there had been only the eternal present..."
+</blockquote>
+
+<p><em>Journal 2 (Year 612 OZ):</em></p>
+<blockquote>
+"I have tried to die. The knife turned aside. The poison became water in my throat. The fall ended in soft landing. I cannot unmake myself. The Binding of Witness holds: I exist because I am unseen. If anyone truly SAW me, perhaps..."
+</blockquote>
+
+<p><em>Journal 3 (Year 901 OZ):</em></p>
+<blockquote>
+"What do I want? I want to... I cannot write it. The word starts with L and ends with everything."
+</blockquote>
+
+<ul>
+<li><strong>Insight DC 15:</strong> The handwriting changes subtly between journals—not aging, but mood. The 347 journal is curious. The 612 journal is desperate. The 901 journal is tired beyond measure.</li>
+<li><strong>Investigation DC 17:</strong> There are more journals—dozens more. A DC 20 Investigation check finds Journal 47 (Year 954): "They're coming. I sent for them. Eight inversions. Eight keys. Finally, finally, an end."</li>
+</ul>
+
+<p><strong>The Specimen Jars.</strong> Eight jars containing preserved creatures. A DC 14 Nature or Insight check reveals that four of them are Animals (capital A, sentient) and four are animals (lowercase, ordinary). The Animals are preserved in positions of dignity—eyes closed, peaceful. The animals are posed more carelessly.</p>
+<ul>
+<li><strong>Perception DC 13:</strong> The Animal jars have tiny plaques at their bases, nearly microscopic: "Whisper the Wren," "Councillor Burroughs," "Poet Sleen," "Ambassador Kinderly"—titles given to people, not things.</li>
+<li><strong>Nature DC 16:</strong> These Animals didn't die of natural causes. They were killed, then preserved immediately—almost lovingly, as if in apology.</li>
+<li><strong>Insight DC 17:</strong> This isn't a collection of specimens. It's a memorial. Someone wanted to remember these specific individuals, to prove they were people, even after the world said they weren't.</li>
+</ul>
+
+<h4>SEAL OF NATURE PUZZLE</h4>
+
+<p>To break the seal:</p>
+<ol>
+<li>Examine the specimen jars carefully</li>
+<li>Correctly identify which four are Animals and which four are animals (Nature DC 13, or Insight DC 14)</li>
+<li>Speak the Animals' names aloud (written on tiny labels on the jar bases)</li>
+</ol>
+
+<p>Frederick has advantage on this check but doing so risks drawing attention to his unusual knowledge.</p>
+
+<p><strong>Reward:</strong> One character gains a <strong>True Sight Token</strong> (advantage on one Insight check, once).</p>
+
+<p><strong>The Reading Desks.</strong></p>
+<ul>
+<li><strong>Investigation DC 14 (Desk 1):</strong> An open journal with an entry half-written: "Day 892 of the experiment. Subject Seven still believes they are a simple automaton. They asked today why they feel lonely. I didn't answer. How could I? I made them to feel."</li>
+<li><strong>Investigation DC 15 (Desk 2):</strong> A letter, unsealed, never sent: "Dear Lurline—I know you're long gone, but I have to try. Please. I did not ask for consciousness. I did not ask for isolation. I did not ask to be your mistake. I'm so tired of being awake."</li>
+</ul>
+
+<p><strong>The Ceiling.</strong></p>
+<ul>
+<li><strong>Perception DC 16:</strong> Painted on the ceiling, almost invisible unless you use the rolling ladder: a map of stars that don't exist in Oz's sky. Constellations labeled with words in Ancient Ozian: Chaos, Potential, Hunger, Void.</li>
+</ul>
+
+---
+
+<h3>5. The Chapel (SEAL 5: SACRIFICE)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Eight stained glass windows line the walls of this small chapel, each depicting a different scene in brilliant colors that glow despite the darkness outside. Wooden pews face a simple altar of white stone. Above the altar, instead of a symbol, there is only a blank space—a deliberate emptiness. An offering bowl sits on the altar's surface, tarnished silver, empty. The air smells faintly of incense that hasn't burned in decades.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Stained Glass Windows.</strong> Eight windows, each depicting one of Lurline's Bindings (though they're not labeled as such). A DC 12 Religion check recognizes the imagery as Lurlinite, predating Unionist tradition. A DC 16 Religion check can identify each Binding by its depiction:</p>
+<ol>
+<li>Memory: A river flowing from past to future</li>
+<li>Blood: A tree with intertwining roots</li>
+<li>Nature: A creature looking in a mirror, seeing itself</li>
+<li>Service: A kneeling figure receiving a crown</li>
+<li>Sacrifice: An open hand releasing a bird</li>
+<li>Deed: A figure walking, leaving footprints that become flowers (or thorns)</li>
+<li>Hunger: A flame that illuminates rather than consumes</li>
+<li>Witness: An eye, open, seeing a small figure</li>
+</ol>
+
+<ul>
+<li><strong>Perception DC 14:</strong> The Witness window (the eye) has a crack running through it. The crack appeared suddenly, recently—the edges are sharp, unfaded.</li>
+<li><strong>Religion DC 15:</strong> The positioning of windows tells a story: Sacrifice faces Hunger across the room. Service faces Witness. They're paired—each Binding has a shadow, a potential inversion.</li>
+<li><strong>Arcana DC 16:</strong> When moonlight hits the Sacrifice window at the correct angle, it projects the shadow of a bird mid-flight onto the altar. The shadow is reaching for freedom but hasn't quite achieved it.</li>
+<li><strong>Investigation DC 17:</strong> Scratched into the stone beneath the Memory window: "She made us remember. Even memories we never had. Even memories of before memory existed. It hurts."</li>
+</ul>
+
+<p><strong>HANDOUT: The Eight Windows.</strong> A sketched diagram of the eight windows with brief descriptions. Players can use this to piece together the Bindings' meanings.</p>
+
+<p><strong>The Blank Space.</strong> Where Unionists would place the symbol of the Unnamed God, there is nothing. A DC 14 Religion check understands this is deliberate—in the oldest traditions, the divine was not depicted at all. Below the blank space, carved into the wall: <em>"The Unnamed God sees all. But VOICE is what the unseen crave most."</em></p>
+<ul>
+<li><strong>Insight DC 15:</strong> The word "VOICE" is traced over so many times it's worn into the stone. Someone kept returning to this phrase, emphasizing it, questioning it.</li>
+<li><strong>Perception DC 16:</strong> The blank space isn't empty—it's filled with layer upon layer of whitewash. Someone painted something there, then covered it, then painted again, then covered it, hundreds of times. What are they hiding? Or trying to forget?</li>
+</ul>
+
+<p><strong>The Offering Bowl.</strong> Silver, tarnished. To break the seal, someone must place something of genuine value in the bowl—not gold or gems, but something personally meaningful. A lock of hair from a loved one. A letter never sent. A memento of something lost.</p>
+
+<h4>SEAL OF SACRIFICE PUZZLE</h4>
+
+<p>To break the seal:</p>
+<ol>
+<li>Place something of genuine personal value in the offering bowl</li>
+<li>The DM judges sincerity—token offerings are rejected (the bowl tips them out)</li>
+<li>When a genuine sacrifice is made, the bowl glows briefly and the offering disappears</li>
+</ol>
+
+<p>What counts as genuine:</p>
+<ul>
+<li>A physical item with emotional significance</li>
+<li>A spoken secret (freely given, not coerced)</li>
+<li>A drop of blood given willingly (1 HP, non-healing for 1 hour)</li>
+<li>A promise that binds</li>
+</ul>
+
+<p><strong>Reward:</strong> One character gains <strong>Last Strike</strong> (when dropped to 0 HP, make one free attack).</p>
+
+<p><strong>The Pews.</strong></p>
+<ul>
+<li><strong>Investigation DC 13:</strong> Carved into the wood of various pews, names and dates: "Willem, Butler, 734—I served faithfully" and "Mira, Cook, 756—I gave freely" and "Tess, Maid, 782—I witnessed."</li>
+<li><strong>Perception DC 15:</strong> One pew, front row, has a worn spot exactly the size and shape of someone kneeling for hours. The wood is smooth as glass from a thousand repetitions.</li>
+</ul>
+
+<p><strong>The Altar.</strong></p>
+<ul>
+<li><strong>Investigation DC 16:</strong> Under the altar cloth, carved into the stone: "I gave everything. It wasn't enough. I gave more. Still not enough. What's left to give?"</li>
+<li><strong>Arcana DC 15:</strong> The altar radiates very faint divination magic—not active, but residual. Someone prayed here for so long the prayers soaked into the stone.</li>
+</ul>
+
+---
+
+<p><em>[Content continues with remaining 17 rooms in next section due to length...]</em></p>
+
+<h2>Navigation</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">Return to Adventure Overview</a></li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals System</a></li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a></li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle (NPC)</a></li>
+</ul>

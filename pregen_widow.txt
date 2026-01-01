@@ -1,0 +1,316 @@
+<h1>Pre-Generated Character: The Widow</h1>
+
+<p class="flavor-text">"Loss teaches you to see what others overlook. I've learned to see very well indeed."</p>
+
+<div class="gm-warning">
+<p><strong>⚠️ CRITICAL GM SECRET ⚠️</strong></p>
+<p><strong>THE WIDOW IS YACKLE IN DISGUISE.</strong></p>
+
+<p>This character is not a separate person who becomes possessed or controlled. The Widow IS Yackle, wearing a perfect magical disguise and playing the role of a grieving heir. She is testing the other heirs, gathering information, and positioning herself for the ritual.</p>
+
+<p><strong>Do not reveal this to players until the dramatic moment.</strong> The player controlling The Widow should play her as written—a melancholic, perceptive widow with strange magical knowledge. The twist will be that "you were the villain all along."</p>
+
+<p><strong>How This Works:</strong></p>
+<ul>
+<li>The player plays The Widow normally until the reveal</li>
+<li>The "real" Yackle encountered later is a magical duplicate/illusion</li>
+<li>When The Widow reveals herself, the player can either:
+  <ul>
+    <li>Hand the character to the GM to play as the villain</li>
+    <li>Continue playing Yackle as the BBEG (amazing if the player is into it!)</li>
+    <li>Revert to playing one of the NPC allies or a backup character</li>
+  </ul>
+</li>
+</ul>
+
+<p><strong>Suggested Reveal Moment:</strong> When the party confronts "Yackle" in her study and defeats her, The Widow smiles sadly and says, "You really thought it would be that easy?" Then her disguise drops and Phase 2 begins.</p>
+</div>
+
+<h2>Character Overview (As Presented to Players)</h2>
+<p><strong>Name:</strong> Madame Viridian ("Viri" to friends she doesn't have)<br>
+<strong>Race:</strong> <a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a><br>
+<strong>Class:</strong> <a href="#" onclick="Tabs.openTab('character/classes/the-adept', 'The Adept'); return false;">The Adept</a> 5 (Divination)<br>
+<strong>Background:</strong> <a href="#" onclick="Tabs.openTab('character/backgrounds/palace-servant', 'Palace Servant'); return false;">Palace Servant</a> (former lady-in-waiting)<br>
+<strong>Alignment:</strong> Neutral (secretly Neutral Evil)</p>
+
+<h2>Ability Scores</h2>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>8 (-1)</td><td>14 (+2)</td><td>14 (+2)</td><td>17 (+3)</td><td>13 (+1)</td><td>12 (+1)</td></tr>
+</table>
+
+<h2>Combat Statistics</h2>
+<p><strong>Armor Class:</strong> 12 (15 with <em>mage armor</em>)<br>
+<strong>Hit Points:</strong> 28 (5d6 + 10)<br>
+<strong>Speed:</strong> 30 ft.<br>
+<strong>Initiative:</strong> +2</p>
+
+<p><strong>Proficiency Bonus:</strong> +3</p>
+
+<h3>Saving Throws</h3>
+<p>Intelligence +6, Wisdom +4</p>
+
+<h3>Skills</h3>
+<p>Arcana +6, History +6, Insight +7 (expertise), Investigation +6, Perception +4</p>
+
+<h2>Spellcasting</h2>
+
+<p><strong>Spellcasting Ability:</strong> Intelligence (spell save DC 14, +6 to hit with spell attacks)<br>
+<strong>Spellbook:</strong> Contains all prepared spells plus 6 additional spells<br>
+<strong>Spell Slots:</strong> 4 1st-level, 3 2nd-level, 2 3rd-level</p>
+
+<h3>Cantrips (at will)</h3>
+<ul>
+<li><em>Mage Hand</em> - Manipulate objects at range</li>
+<li><em>Message</em> - Send whispered messages</li>
+<li><em>Minor Illusion</em> - Create sound or image</li>
+<li><em>Prestidigitation</em> - Minor magical effects</li>
+</ul>
+
+<h3>Prepared Spells (Int modifier + level = 8 spells)</h3>
+
+<p><strong>1st Level:</strong></p>
+<ul>
+<li><em>Detect Magic</em> (ritual) - Sense magic within 30 ft.</li>
+<li><em>Identify</em> (ritual) - Learn properties of magical item</li>
+<li><em>Mage Armor</em> - AC 13 + Dex for 8 hours</li>
+<li><em>Shield</em> - Reaction, +5 AC until start of your next turn</li>
+</ul>
+
+<p><strong>2nd Level:</strong></p>
+<ul>
+<li><em>Detect Thoughts</em> - Read surface thoughts</li>
+<li><em>Locate Object</em> - Sense direction to familiar object</li>
+<li><em>Misty Step</em> - Teleport 30 ft. as bonus action</li>
+</ul>
+
+<p><strong>3rd Level:</strong></p>
+<ul>
+<li><em>Clairvoyance</em> - Create invisible sensor to see/hear distant location</li>
+<li><em>Dispel Magic</em> - End magical effects</li>
+</ul>
+
+<h3>Divination Specialist Features</h3>
+<ul>
+<li><strong>Divination Savant:</strong> Copying divination spells into spellbook costs half time and money</li>
+<li><strong>Portent (2/day):</strong> Roll 2d20 after long rest. Can replace any attack roll, save, or ability check (yours or another creature's) with one of these rolls before rolling. This is Yackle's signature ability—she always knows what's coming.</li>
+</ul>
+
+<h2>Equipment</h2>
+<ul>
+<li>Fine black mourning dress (expensive, well-maintained)</li>
+<li>Spellbook (leather-bound, very old—actually Yackle's personal grimoire in disguise)</li>
+<li>Crystal pendant (arcane focus—also the anchor for her disguise magic)</li>
+<li>Widow's veil (black lace, she wears it when she wants to seem fragile)</li>
+<li>Component pouch</li>
+<li>Small portrait of "her late husband" (completely fictitious, but the painting is real and quite good)</li>
+<li>Scholar's pack</li>
+<li>Inheritance letter (written by herself to herself, amused by the irony)</li>
+<li>40 gp</li>
+</ul>
+
+<h2>Background Feature: Palace Connections</h2>
+
+<p>Madame Viridian claims to have served as a lady-in-waiting to minor Gillikinese nobility before her husband's death. She knows courtly etiquette, can navigate aristocratic social situations, and has (claimed) connections to noble houses. This is partially fabricated—Yackle has been many things over centuries, including actual nobility on several occasions.</p>
+
+<h2>The Widow's Cover Story</h2>
+
+<p><strong>What The Widow Claims:</strong></p>
+<ul>
+<li>Born Viridian Chuffrey, married Lord Marcus Viridian at age 20</li>
+<li>Served in the palace at <a href="#" onclick="Tabs.openTab('exploration/locations/emerald-city', 'Emerald City'); return false;">Emerald City</a> for several years</li>
+<li>Husband died in a riding accident three years ago (tragic, unexpected, she doesn't like to talk about it)</li>
+<li>Yackle was her husband's great-aunt (or possibly great-great-aunt, the family tree is complicated)</li>
+<li>She met Yackle once, briefly, at her wedding—an ancient woman who gave her a crystal pendant and cryptic advice</li>
+<li>The inheritance letter surprised her; she didn't think Yackle even remembered her</li>
+</ul>
+
+<p><strong>The Truth:</strong></p>
+<ul>
+<li>All of this is false</li>
+<li>The Widow is a construct—a persona Yackle created for this specific purpose</li>
+<li>The crystal pendant is the anchor for her <em>disguise self</em> magic (far more powerful than the standard spell)</li>
+<li>Every memory, every mannerism, every tear shed for the "late Lord Viridian" is performance</li>
+<li>Yackle is testing the other heirs by living among them, watching them solve her puzzles, evaluating them as potential vessels or sacrifices</li>
+</ul>
+
+<h2>Personality (As Roleplayed)</h2>
+
+<h3>Personality Traits</h3>
+<ul>
+<li>I notice things others miss—a misplaced book, a nervous glance, a lie poorly told</li>
+<li>I speak in metaphors and oblique references; grief has made me poetic in an irritating way</li>
+</ul>
+
+<h3>Ideal</h3>
+<p><strong>Knowledge.</strong> Understanding the truth is more important than comfort or kindness. (Neutral)</p>
+
+<h3>Bond</h3>
+<p>I wear my husband's memory like armor. No one gets close enough to hurt me again. (This is a lie—there was no husband—but she plays it convincingly.)</p>
+
+<h3>Flaw</h3>
+<p>I assume I'm the cleverest person in any room, and I'm usually right. (This is actually true.)</p>
+
+<h2>Backstory (Cover Story)</h2>
+
+<p>Madame Viridian's story is one of love and loss, elegance and sorrow. She married well, lived well, and lost everything when her husband died. She threw herself into study afterward—magic, history, divination—anything to make sense of a senseless tragedy. She became known in certain circles as a talented diviner, someone who could find lost things and foresee dangers.</p>
+
+<p>When the inheritance letter arrived, she saw it as fate. Perhaps Yackle's estate held answers. Perhaps it held closure. Perhaps it was simply time to stop hiding in libraries and rejoin the world.</p>
+
+<p>(None of this happened. Yackle created this entire narrative and can recite it flawlessly because she's had centuries of practice being other people.)</p>
+
+<h2>Roleplaying The Widow</h2>
+
+<div class="gm-warning">
+<p><strong>For the Player:</strong> Play The Widow as a intelligent, melancholic woman with uncanny insight. You're not trying to deceive the party (in-character)—you're the perceptive one who notices clues and asks pointed questions. Lean into the Divination wizard archetype: you see things coming, you know more than you should, you're always one step ahead.</p>
+
+<p><strong>For the GM:</strong> Watch for moments where The Widow's knowledge seems suspiciously accurate. That's Yackle's centuries of experience leaking through. Plant seeds early: she knows which rooms are dangerous, she recognizes magical effects she shouldn't, she's oddly calm about horrors that should terrify her. When players notice, don't confirm—just smile mysteriously.</p>
+</div>
+
+<h3>Mannerisms</h3>
+<ul>
+<li>Touches her crystal pendant when thinking (it's her disguise anchor—checking it's secure)</li>
+<li>Tilts head slightly when listening, like a bird (ancient habit, predates this persona)</li>
+<li>Smiles sadly at things that aren't sad (because she knows how the story ends)</li>
+<li>Speaks in soft, measured tones—except when excited about magic, then becomes animated</li>
+<li>Uses her Portent rolls at dramatically perfect moments (because she's literally orchestrating events)</li>
+</ul>
+
+<h3>Voice and Speech</h3>
+<ul>
+<li>Educated Gillikinese accent, aristocratic but not haughty</li>
+<li>References obscure historical events or magical theories casually</li>
+<li>Uses phrases like "I foresaw this," "As I suspected," "Curious, isn't it?"</li>
+<li>When revealing information: "I've seen something like this before, long ago..." (literally true)</li>
+</ul>
+
+<h3>Red Flags (Things Perceptive Players Might Notice)</h3>
+<ul>
+<li>She knows the layout of the manor suspiciously well ("I have a good sense of direction")</li>
+<li>She recognizes magical items without casting <em>identify</em> ("I've read about such things")</li>
+<li>She's never actually frightened—curious, concerned, cautious, but never afraid</li>
+<li>When "Yackle" is mentioned, she shows interest but not surprise</li>
+<li>Her Portent rolls seem to benefit her goals specifically (because they do)</li>
+<li>She sometimes refers to past events she "shouldn't" know: "The last time someone tried to bind this manor..." (Last time? How do you know there was a last time?)</li>
+</ul>
+
+<h2>Combat Tactics (While Disguised)</h2>
+
+<h3>The Widow Fights to Survive</h3>
+<p>While maintaining her disguise, The Widow fights like a cautious, intelligent wizard who wants to live through this.</p>
+
+<ul>
+<li><strong>Preparation:</strong> Cast <em>mage armor</em> before danger (AC 15)</li>
+<li><strong>Defense:</strong> Use <em>shield</em> reaction when hit (+5 AC)</li>
+<li><strong>Control:</strong> She has no direct damage spells prepared—she focuses on information gathering and utility</li>
+<li><strong>Portent:</strong> Use Portent rolls to make enemies fail saves or miss attacks. Also use to ensure allies succeed on critical rolls (maintaining the disguise requires being helpful)</li>
+<li><strong>Escape:</strong> <em>Misty step</em> to teleport away from threats</li>
+<li><strong>Intelligence:</strong> Use <em>detect thoughts</em> to read enemy intentions, <em>dispel magic</em> to counter magical threats</li>
+</ul>
+
+<h3>Limitations While Disguised</h3>
+<p>Yackle is deliberately limiting herself to 5th-level wizard abilities to maintain the cover. She won't reveal her true power until the dramatic moment. If the party faces overwhelming danger, she might subtly help—using Portent to save someone at a critical moment—but she won't blow her cover.</p>
+
+<h3>When The Disguise Drops</h3>
+<p>Once revealed, Yackle stops holding back. Refer to the <a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle NPC'); return false;">Yackle NPC page</a> for her true stats (CR 10 spellcaster with legendary resistances and much higher-level spells).</p>
+
+<h2>The Reveal</h2>
+
+<div class="gm-warning">
+<p><strong>Orchestrating the Dramatic Reveal:</strong></p>
+
+<p><strong>Option 1: The False Yackle</strong><br>
+The party confronts "Yackle" in her study (actually a magical duplicate or illusion). They fight, they win, "Yackle" dies. Then The Widow speaks:</p>
+
+<blockquote>
+"Did you truly believe an immortal witch would be so easy to kill? I've been walking beside you since you arrived. Learning you. Measuring you. And now..."
+</blockquote>
+
+<p>The crystal pendant shatters. The disguise dissolves. The Widow's form shifts, ages, transforms into the ancient witch Yackle. Roll initiative for Phase 2.</p>
+
+<p><strong>Option 2: The Willing Confession</strong><br>
+If the party is clever and directly accuses The Widow (maybe they cast <em>detect magic</em> on her pendant, or pieced together the clues), Yackle might drop the act herself:</p>
+
+<blockquote>
+"Well done. I was wondering if any of you would see through it. Yes, I am Yackle. I have been from the beginning. And now that you know... what will you do about it?"
+</blockquote>
+
+<p><strong>Option 3: The Tragic Necessity</strong><br>
+If another heir is about to die, Yackle might reveal herself to save them—not out of kindness, but because she needs them for the ritual:</p>
+
+<blockquote>
+"No. You don't die yet. I haven't finished with you."
+</blockquote>
+
+<p>Then she unleashes her true power to eliminate the threat, disguise be damned.</p>
+</div>
+
+<h2>Playing The Widow: GM Guidance</h2>
+
+<h3>Before the Reveal</h3>
+<ul>
+<li><strong>Be Helpful:</strong> The Widow should be genuinely useful. Use <em>detect magic</em> to find traps, <em>identify</em> to analyze items, Portent to save allies. This builds trust.</li>
+<li><strong>Be Knowing:</strong> Drop hints that she knows more than she should. Frame it as divination magic: "I saw this in a dream," "The cards foretold..."</li>
+<li><strong>Be Mysterious:</strong> Deflect personal questions. She's a widow, she's grieving, she's private. People accept this.</li>
+<li><strong>Be Competent:</strong> She's the smart one. She solves puzzles, notices clues, reads people. This is Yackle's centuries of experience shining through.</li>
+</ul>
+
+<h3>Clues to Plant</h3>
+<ul>
+<li>She never gets lost in the manor</li>
+<li>She knows which books in the library are important</li>
+<li>She's not surprised by any of the house's tricks or traps</li>
+<li>She speaks about Yackle with familiarity: "She was always theatrical"</li>
+<li>If someone casts <em>detect magic</em> near her, the crystal pendant glows (faintly—it's a "family heirloom" and "slightly magical")</li>
+<li>She sometimes slips and uses first person: "When I—when Yackle—when this manor was built..." (catches herself quickly)</li>
+</ul>
+
+<h3>After the Reveal</h3>
+<ul>
+<li>The player can hand the character sheet to the GM</li>
+<li>Or, if the player is excited about it, let them play Yackle as the villain (this is amazing when it works)</li>
+<li>Yackle should monologue briefly—she's been wearing a mask for hours/days, now she can finally speak freely</li>
+<li>Then Phase 2 combat begins</li>
+</ul>
+
+<h2>Character Development (If Somehow She Survives As An Ally)</h2>
+
+<p>In the unlikely event that the party defeats Yackle's Phase 3 and she surrenders, or if they convince her to abandon the ritual, The Widow persona could become a mask Yackle wears to interact with the world more gently. Perhaps centuries of cruelty have exhausted her. Perhaps she's curious what it would be like to actually be the person she pretended to be.</p>
+
+<p>This is unlikely, but it's a possible redemption arc for groups that want that kind of narrative.</p>
+
+<h2>GM Notes</h2>
+
+<h3>Why This Works</h3>
+<ul>
+<li><strong>Players trust their party.</strong> If The Widow is helpful and competent from session one, they won't suspect.</li>
+<li><strong>Divination explains everything.</strong> She knows things because she's a divination wizard. It's her class feature.</li>
+<li><strong>The twist is earned.</strong> If you plant clues, perceptive players can figure it out before the reveal. If they don't, the reveal is shocking but makes sense in hindsight.</li>
+<li><strong>It's dramatic.</strong> "You were the villain all along" is a classic twist, and it works here because The Widow has been genuinely helpful—Yackle needed the party to get this far.</li>
+</ul>
+
+<h3>Handling the Player</h3>
+<ul>
+<li><strong>Before the game:</strong> Tell the player privately that The Widow has a secret that will be revealed during the adventure. Don't tell them what it is unless you trust them completely not to meta-game.</li>
+<li><strong>OR:</strong> Tell them upfront that The Widow is Yackle. Some players love being the secret villain and will ham it up beautifully.</li>
+<li><strong>OR:</strong> Don't tell them at all, and let the reveal shock them along with everyone else. Then offer them the choice to keep playing Yackle or switch to a backup character/NPC.</li>
+</ul>
+
+<h3>What If They Figure It Out Early?</h3>
+<p>Perfect! If the party confronts The Widow before the planned reveal, let it happen. Yackle respects cleverness. She might applaud them, drop the disguise, and begin Phase 2 immediately. Or she might deny it convincingly (Deception +8 at minimum with Yackle's true stats) and let them doubt themselves. Either way, the tension increases.</p>
+
+<h2>Related Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a> - Apparent race</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-adept', 'The Adept'); return false;">The Adept</a> - Apparent class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/palace-servant', 'Palace Servant'); return false;">Palace Servant</a> - Cover story background</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle (True Stats)</a> - Her real stat block</li>
+<li><a href="#" onclick="Tabs.openTab('exploration/locations/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> - Her actual home</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake</a> - Adventure overview</li>
+</ul>
+
+---
+
+<div class="gm-warning">
+<p><strong>Final GM Reminder:</strong> This character sheet should be given to one player like any other pre-gen. The reveal that The Widow is Yackle should be a dramatic moment during the adventure, not something spoiled beforehand. Trust the process. Plant the clues. Let them figure it out—or let them be shocked. Either way, it'll be memorable.</p>
+</div>

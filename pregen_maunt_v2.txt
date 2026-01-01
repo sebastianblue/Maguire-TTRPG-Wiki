@@ -1,0 +1,372 @@
+<h1>Pre-Generated Character: The Former Maunt</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF SERVICE:</strong></p>
+<p>This character embodies the inversion of Service. She appears to be a woman who peacefully left religious life to pursue a calling elsewhere. <strong>THE SECRET:</strong> She was expelled for loyalty. She didn't leave—she was cast out. She discovered the mauntery was complicit in Animal purges, providing theological justification for atrocities. When she tried to expose them, they silenced her and forced her out. Her faithful service was rewarded with betrayal.</p>
+<p><strong>Secondary Secret:</strong> Despite being expelled and despite knowing the church's crimes, she still has faith. Her powers still work. This confuses and frightens her—if the church is corrupt, why does its god still answer her prayers?</p>
+<p><strong>Service Binding Inversion:</strong> Service says duty creates meaning through bonds. Shell served faithfully and was <em>punished</em> for it. Her service created only exile.</p>
+<p><strong>If Secret Collected:</strong> Yackle has resistance to radiant damage. Shell's healing spells heal Yackle for 25% of the amount healed.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Sister Shell (birth name: Shella Arns, no longer uses it)<br>
+<strong>Race:</strong> Munchkinlander Human<br>
+<strong>Class:</strong> Unionist 5 (Conversion Domain)<br>
+<strong>Background:</strong> Acolyte (expelled)<br>
+<strong>Alignment:</strong> Lawful Good (struggling)</p>
+
+<h2>Personality Summary</h2>
+<p>Shell moves through the world like someone whose foundation has cracked but refuses to fall. She's deeply compassionate, genuinely faithful, and utterly betrayed by the institution she served for fifteen years. She still heals, still prays, still believes—but she no longer knows <em>what</em> she believes in. The Unnamed God? Lurline? Something else? Her powers work regardless, which terrifies her because it suggests faith itself, not doctrine, might be what matters.</p>
+
+<p>She's gentle but not weak, kind but not naive (not anymore). She knows what the church is capable of. She's seen the theological justifications for genocide written in beautiful calligraphy by people she once called siblings.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Touches her holy symbol (still wears it), then pulls her hand away guiltily</li>
+<li>Quotes Unionist scripture, then stops mid-sentence, uncertain</li>
+<li>Apologizes constantly, even when not at fault</li>
+<li>Stands with perfect mauntery posture, then catches herself and relaxes</li>
+<li>Hesitates before using divine magic, as if expecting it to fail this time</li>
+<li>Listens more than she speaks—fifteen years of obedience run deep</li>
+</ul>
+
+<p><strong>What She Wants:</strong> To understand why her faith still works, to find a way to serve that isn't corrupted, to know whether loyalty and goodness are compatible or if she has to choose.</p>
+
+<h2>Appearance</h2>
+<ul>
+<li><strong>Age:</strong> 37</li>
+<li><strong>Height/Build:</strong> 5'5", slight build, moves with practiced quiet from years of mauntery life</li>
+<li><strong>Features:</strong> Pale Munchkinlander skin, light brown hair cut short (mauntery habit, hasn't grown it out), gray-blue eyes that have seen too much, calloused hands from service work</li>
+<li><strong>Clothing:</strong> Simple gray robes—not quite mauntery habit, not quite civilian. She's caught between identities. Practical boots, worn cloak. Everything is mended, nothing wasted. She still dresses like someone under vows of simplicity.</li>
+<li><strong>Distinguishing Marks:</strong> Faint scars on her knuckles from vigil-keeping (kneeling on stone floors), a brand on her left shoulder blade (mauntery mark, normally hidden) that she's considered having removed but hasn't</li>
+</ul>
+
+<h2>Backstory</h2>
+
+<h3>The Call</h3>
+<p>Shella Arns entered the Mauntery of St. Aelphaba in Rush Margins when she was twenty-two. Not fleeing anything, not hiding—she genuinely felt called. The structure, the service, the sense of purpose: it fit her like she'd been made for it.</p>
+
+<p>She took the name Sister Shell (a traditional mauntery name, meaning "vessel for divine will") and spent fifteen years in faithful service. She tended the sick, educated poor children, copied sacred texts, kept vigil, prayed the hours. She was good at it. She was <em>happy</em>.</p>
+
+<p>She believed in the work. She believed in the Unnamed God. She believed that Unionism, at its best, could bring order, comfort, meaning to a chaotic world.</p>
+
+<h3>The Discovery</h3>
+<p>Three years ago, Shell was assigned to the mauntery archives—cataloging historical documents, preserving records. She was honored. The archives were sacred space.</p>
+
+<p>She found correspondence between the Mother Superior and regional Gale Force commanders. Letters about "the Animal problem." Theological arguments justifying the round-ups, written by senior maunt scholars. <em>"Animals cannot possess souls, therefore forcible suppression is not sin but pest control."</em></p>
+
+<p>She found budgets: payments from the Wizard's regime to the mauntery for "spiritual consultation" on Animal policy. She found reports of maunt confessors who informed on families suspected of harboring Animals. She found a list of disappeared people.</p>
+
+<p>Her mauntery—<em>her sisters</em>—had been party to atrocity. For money. For power. For ideological purity.</p>
+
+<h3>The Exposure</h3>
+<p>Shell did what her faith taught her: she brought the truth to light. She went to the Mother Superior with the documents. Explained what she'd found. Suggested, respectfully, that they must acknowledge this sin and make amends.</p>
+
+<p>The Mother Superior listened. Then called two senior maunts as witness. Then told Shell she was suffering from spiritual crisis, that she'd misunderstood what she'd read, that pride and doubt were corrupting her judgment.</p>
+
+<p>Shell insisted. Showed the documents again. Said, "These are real. We did this."</p>
+
+<p>They gave her a choice: recant, accept penance, and never speak of this again—or leave.</p>
+
+<p>She couldn't recant. It would be a lie. So they expelled her.</p>
+
+<h3>The Exile</h3>
+<p>For two years, Shell has been adrift. She can't go to other Unionist institutions—word spread that she's "troubled," "unstable," "suffering spiritual sickness." She can't abandon her faith entirely—it's woven into who she is.</p>
+
+<p>And her magic still works. <em>That's the part that breaks her.</em></p>
+
+<p>She prays to the Unnamed God, and healing flows through her hands. She calls on divine power, and it answers. If the church is corrupt, if the doctrine was used to justify murder, why does the magic still come?</p>
+
+<p>Either the Unnamed God approves of atrocity, or Shell has been wrong about where her power comes from. Both possibilities are unbearable.</p>
+
+<h3>The Invitation</h3>
+<p>Shell's stated reason for attending the will reading: she found references to Yackle in the mauntery archives—records suggesting Yackle donated heavily to the order generations ago, with a stipulation that any "true seeker" who came asking would be welcomed to her estate.</p>
+
+<p>This is partially true. There <em>were</em> such records. But Shell came because she's desperate. If Yackle was a powerful witch who dealt with religious orders, maybe she'll have answers. Maybe she'll know what Shell should do with faith that still works despite institutional betrayal.</p>
+
+<p>Shell doesn't expect inheritance. She expects revelation.</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 16 (chain mail)</li>
+<li><strong>Hit Points:</strong> 34 (5d8 + 5)</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+<li><strong>Initiative:</strong> +0</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>12 (+1)</td><td>10 (+0)</td><td>13 (+1)</td><td>14 (+2)</td><td>18 (+4)</td><td>15 (+2)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Wisdom +7, Charisma +5</li>
+<li><strong>Skills:</strong> Insight +7, Medicine +7, Persuasion +5, Religion +5</li>
+<li><strong>Languages:</strong> Common, Munchkinlander, Ancient Ozian, Celestial</li>
+<li><strong>Tools:</strong> None</li>
+</ul>
+
+<h3>Unionist Class Features (Cleric)</h3>
+<ul>
+<li><strong>Divine Domain:</strong> Conversion Domain
+  <ul>
+  <li><strong>Bonus Proficiencies:</strong> Persuasion, Performance (Shell is better at Persuasion than Performance)</li>
+  <li><strong>Compelling Presence (1st):</strong> Add Wisdom modifier to Charisma (Persuasion) checks; knows <em>Friends</em> cantrip</li>
+  <li><strong>Channel Divinity: Convert the Masses (2nd):</strong> Action, 30-ft. radius, Wisdom save or charmed for 1 hour (view Unionism favorably, inclined to listen to religious arguments)</li>
+  <li><strong>Shepherd of Souls (6th, not yet available):</strong> Would grant temp HP when healing</li>
+  </ul>
+</li>
+<li><strong>Channel Divinity (1/rest, 2 options):</strong>
+  <ul>
+  <li><strong>Turn Heretics:</strong> Wisdom save or turned for 1 minute (affects Lurlinites, Witches, heretical spellcasters)</li>
+  <li><strong>Convert the Masses:</strong> (see above)</li>
+  </ul>
+</li>
+<li><strong>Destroy Heresy (5th level):</strong> When turned heretic starts turn within 30 ft., Wisdom save or take 2d8 radiant damage</li>
+</ul>
+
+<h3>Spellcasting</h3>
+<p><strong>Spell Save DC:</strong> 15<br>
+<strong>Spell Attack Bonus:</strong> +7<br>
+<strong>Spell Slots:</strong> 1st (4), 2nd (3), 3rd (2)</p>
+
+<h4>Spells Prepared (Wis mod + level = 4 + 5 = 9 spells + domain spells always prepared)</h4>
+
+<p><strong>Cantrips (4):</strong> Friends (domain), Guidance, Light, Sacred Flame, Spare the Dying</p>
+
+<p><strong>Domain Spells (always prepared):</strong></p>
+<ul>
+<li>1st: <em>Charm Person</em>, <em>Sanctuary</em></li>
+<li>2nd: <em>Calm Emotions</em>, <em>Suggestion</em></li>
+<li>3rd: <em>Beacon of Hope</em>, <em>Tongues</em></li>
+</ul>
+
+<p><strong>Prepared Spells (chosen daily, current selection):</strong></p>
+<ul>
+<li><strong>1st Level:</strong> <em>Bless</em>, <em>Cure Wounds</em>, <em>Detect Evil and Good</em>, <em>Shield of Faith</em></li>
+<li><strong>2nd Level:</strong> <em>Aid</em>, <em>Lesser Restoration</em>, <em>Spiritual Weapon</em></li>
+<li><strong>3rd Level:</strong> <em>Dispel Magic</em>, <em>Mass Healing Word</em></li>
+</ul>
+
+<h2>Equipment</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Mace</strong> (1d6 + 1 bludgeoning) - Simple, utilitarian, still carries it from mauntery days</li>
+<li><strong>Shield</strong> (+2 AC, included in AC calculation)</li>
+</ul>
+
+<h3>Armor</h3>
+<ul>
+<li><strong>Chain Mail</strong> (AC 16, moves quietly despite the armor—years of practice)</li>
+</ul>
+
+<h3>Critical Items</h3>
+<ul>
+<li><strong>Holy Symbol (Unionist Eye)</strong>: Worn on a chain around her neck. She still uses it, though it feels heavier now. Sometimes she catches herself touching it and doesn't know if it's comfort or habit.</li>
+<li><strong>Mauntery Brand</strong>: Hidden mark on her shoulder blade. The order's seal, burned into her skin during her final vows. It marks her as expelled—if another Unionist saw it, they'd know.</li>
+<li><strong>The Documents</strong>: Copies (not originals) of the correspondence she found in the archives. She smuggled them out when she was expelled. Keeps them wrapped in oilcloth, hidden in her pack. Evidence she can't use because no one will listen.</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Priest's pack (prayer book, vestments, incense, holy water, basic supplies)</li>
+<li>Prayer beads (runs them through her fingers when anxious)</li>
+<li>Healer's kit</li>
+<li>Simple gray robes (current wear)</li>
+<li>Bedroll</li>
+<li>Rations (1 week, simple fare)</li>
+<li>Waterskin</li>
+<li>Belt pouch with 15 gold pieces, 8 silver (saved from mauntery allowance)</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Truth:</strong> "The truth must be spoken, even when it costs everything." (It cost her everything. She'd do it again.)</p>
+
+<h3>Bonds</h3>
+<p><strong>The Unnamed God (?):</strong> "My faith is all I have left. I don't understand it, but I can't let go." She's still devoted, even as she questions everything.</p>
+
+<h3>Flaws</h3>
+<p><strong>Guilt and Compliance:</strong> "I spent fifteen years serving an institution that enabled murder. How much am I complicit?" She apologizes constantly, second-guesses herself, struggles to assert authority even when she's right.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Wakes before dawn (vigil habit she can't break)</li>
+<li>Prays the hours silently even when no one's watching</li>
+<li>Flinches when people raise their voices—conflict is terrifying</li>
+<li>Extremely neat and organized (mauntery training)</li>
+<li>Offers to heal people before they ask</li>
+<li>Quotes scripture, then stops, unsure if she still believes it</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Shell speaks gently, formally, with scripture woven in—then catches herself:</p>
+<ul>
+<li>"The texts say that truth is a lantern in darkness, but... I'm not sure anymore."</li>
+<li>"I'm sorry—I shouldn't presume—but might I offer healing?"</li>
+<li>"In the mauntery, we believed... well. I don't know what I believe now."</li>
+<li>"Please, let's not fight. There must be a peaceful solution."</li>
+</ul>
+
+<p>When stressed or desperate, scripture pours out automatically:</p>
+<ul>
+<li>"By the Unnamed's will, be at peace!"</li>
+<li>"In unity there is strength, in strength there is order—"</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Chapel (Seal of Sacrifice)</h4>
+<p>This room could break Shell or heal her. If the chapel is corrupted, abandoned, or reveals Unionist hypocrisy, she might shatter. If it contains genuine holiness or asks her to confront what true sacrifice means, she might find clarity.</p>
+
+<h4>The Library</h4>
+<p>Shell searches for theological texts, histories of Unionism, anything about the Unnamed God vs. Lurline. She needs to understand why her powers still work. If she finds books proving the church's long history of atrocity, she'll read them with tears streaming down her face.</p>
+
+<h4>The Servant Quarters / Memorial Room (Seal of Service)</h4>
+<p>If the Seal of Service asks her to understand what faithful service truly means—or confronts her with the servants who were exploited/killed by Yackle—this could be her pivotal moment. Service that creates bonds vs. service that enables evil.</p>
+
+<h4>The Dining Room</h4>
+<p>Shell is polite, gentle, tries to keep peace. If Sarima attacks Unionism, Shell doesn't defend the institution—she might even agree—but defends her personal faith quietly. She's exhausted by conflict.</p>
+
+<h4>During Combat</h4>
+<p>Shell fights reluctantly but effectively. She's support/healer first:</p>
+<ul>
+<li><em>Bless</em> on allies before battle</li>
+<li><em>Cure Wounds</em> / <em>Mass Healing Word</em> to keep party alive</li>
+<li><em>Spiritual Weapon</em> (manifests as a glowing mace) for damage without risk</li>
+<li><em>Sacred Flame</em> for ranged attacks when healing isn't needed</li>
+<li>Uses <em>Shield of Faith</em> on frontliners</li>
+</ul>
+
+<p>Every time she uses divine magic, describe it working—light, warmth, healing—and her brief moment of relief/confusion that it still answers.</p>
+
+<h3>Emotional Beats</h3>
+
+<h4>Faith Crisis</h4>
+<p>When confronted with religious questions, she becomes very quiet, very still. "I don't know anymore. I don't know."</p>
+
+<h4>Healing</h4>
+<p>When she heals someone, there's genuine joy—this is what faith should be, helping people. It's the one thing she's sure of.</p>
+
+<h4>Injustice</h4>
+<p>If she witnesses cruelty or oppression, something hardens in her. She'll step forward, gentle voice firm: "No. This is wrong."</p>
+
+<h4>Validation</h4>
+<p>If someone tells her she did the right thing by exposing the mauntery, she might cry—she's had no one affirm that choice in two years.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can create tension around Shell's expulsion:</p>
+<ul>
+<li><strong>The Library:</strong> Books about mauntery history, records of collaboration with the regime, theological arguments for Animal persecution</li>
+<li><strong>Yackle's Knowledge:</strong> She might have firsthand knowledge of Unionist corruption, or even correspondence with Shell's Mother Superior</li>
+<li><strong>Animal Encounters:</strong> If the party includes Frederick (the Fox), Shell must decide whether her faith allows for Animal consciousness—her old church said no</li>
+<li><strong>Physical Evidence:</strong> If her mauntery brand is revealed (injury exposes her shoulder), others might ask what it means</li>
+<li><strong>Magic Crisis:</strong> A moment where Shell tries to use divine magic and, for the first time, it fails. Her faith crisis becomes literal.</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary Confession:</strong> "I need you to know why I left. I need someone to know it wasn't cowardice."</li>
+<li><strong>Forced Discovery:</strong> Someone finds the documents in her pack</li>
+<li><strong>Yackle's Monologue:</strong> "Tell them about the mauntery, Sister Shell. Tell them what faithful service earned you."</li>
+<li><strong>Confrontation with Sarima:</strong> If the Arjiki woman attacks Unionism, Shell might break and confess, "You're right. You're right about all of it."</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If Shell's secret is revealed:</p>
+<ul>
+<li>Overwhelming relief—finally, someone knows the truth</li>
+<li>Shame—she should have done more, sooner</li>
+<li>Validation—if the party supports her decision</li>
+<li>Renewed purpose—maybe she can serve in a way that matters now</li>
+</ul>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Her</h3>
+<p>Yackle selected Shell because she perfectly inverts Service—the Binding that says duty creates meaning through bonds. Shell served faithfully for fifteen years and was betrayed by her order. Her service created no meaning, no bonds, only exile. She's proof that duty can be corrupted, that loyalty can be punished, that service to an institution doesn't guarantee reciprocal care.</p>
+
+<h3>How She'll Use Her</h3>
+<p>When Yackle collects Shell's secret, she gains power over faith, healing, and divine magic. She might:</p>
+<ul>
+<li>Gain resistance to radiant damage (holy power can't fully harm her)</li>
+<li>Corrupt Shell's healing—making her spells heal Yackle instead of or in addition to allies</li>
+<li>Force Shell to witness Animals being tortured, making her complicit again</li>
+<li>Make Shell choose: heal Yackle to save an ally's life, or let the ally die</li>
+<li>Reveal that Shell's powers come from Lurline, not the Unnamed God, shattering her remaining faith</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle addresses Shell directly, she might say:</p>
+<ul>
+<li>"Such faithful service, Sister. Did your order thank you before they cast you out?"</li>
+<li>"You still pray to the Unnamed God. Tell me—why does She answer a heretic?"</li>
+<li>"Your church provided the theology for genocide. And you still wear their symbol. Explain that to me."</li>
+<li>"You think you're different from them? You wore their robes, spoke their prayers, took their communion for fifteen years. You <em>were</em> them."</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Shell</h3>
+<ul>
+<li>Emphasize her gentleness—she's genuinely kind, not performatively</li>
+<li>Show the contradiction: faithful but faithless, expelled but still devout</li>
+<li>Make her crisis relatable—what do you do when your institution betrays its ideals?</li>
+<li>Every use of divine magic should have a moment of "it still works, why does it still work?"</li>
+<li>Let her be competent in combat despite her doubts—healing is muscle memory</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Shell is primary healer and support:</p>
+<ul>
+<li><em>Bless</em> gives +1d4 to attacks/saves for 3 allies (entire combat)</li>
+<li><em>Cure Wounds</em> heals 1d8 + 4 (avg 8.5 per 1st-level slot)</li>
+<li><em>Mass Healing Word</em> heals up to 6 allies for 1d4 + 4 (bonus action, lifesaver)</li>
+<li><em>Spiritual Weapon</em> gives bonus action attacks for 1d8 + 4 damage (no concentration)</li>
+<li><em>Aid</em> increases max HP by 5 for 3 allies for 8 hours</li>
+<li><em>Beacon of Hope</em> gives advantage on Wisdom saves and max healing</li>
+<li><em>Shield of Faith</em> grants +2 AC to tank</li>
+<li>Channel Divinity: Convert the Masses can charm entire enemy groups</li>
+<li>She can wear heavy armor and use a shield—surprisingly durable for a healer</li>
+</ul>
+
+<h3>Faith Questions</h3>
+<p>The GM can use Shell to explore theological questions:</p>
+<ul>
+<li>Where does divine magic really come from—the god, the institution, or the faith itself?</li>
+<li>Can you be faithful to ideals while rejecting the institution?</li>
+<li>Is complicity through inaction different from active participation?</li>
+<li>What does it mean if gods answer prayers from the "wrong" people?</li>
+</ul>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Scholar:</strong> Appreciates Averic's dedication to truth and documentation. Might ask him to help verify the documents she carries.</li>
+<li><strong>The Heir:</strong> Treats Liir with gentle respect, doesn't care about his bloodline—service matters, not lineage.</li>
+<li><strong>The Animal:</strong> If Frederick is revealed, Shell faces a crisis—her church says Animals have no souls, but she can SEE his consciousness, his fear, his personhood. Which is true?</li>
+<li><strong>The Debt-Holder:</strong> Tense relationship. Sarima hates Unionists for what they did to her people. Shell agrees with every criticism but can't abandon her faith.</li>
+<li><strong>The Widow:</strong> Madame Viridian asks theological questions that unsettle Shell. "Why does your god still answer, Sister?"</li>
+<li><strong>The Veteran:</strong> Sees Captain Trynn's guilt and wants to offer absolution, but worries she has no authority to grant it.</li>
+<li><strong>The Tiktok:</strong> Deeply curious about Seven's consciousness. If a construct can think and feel, what makes a soul?</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/munchkinlander', 'Munchkinlander'); return false;">Munchkinlander</a> - Shell's people</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-unionist', 'The Unionist'); return false;">The Unionist</a> - Shell's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/acolyte', 'Acolyte'); return false;">Acolyte Background</a> - Religious service</li>
+<li><a href="#" onclick="Tabs.openTab('religion/unionism', 'Unionism'); return false;">Unionism</a> - The faith Shell questions</li>
+<li><a href="#" onclick="Tabs.openTab('factions/mauntery-of-st-aelphaba', 'Mauntery of St. Aelphaba'); return false;">Mauntery of St. Aelphaba</a> - Shell's former home</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Service and its inversion</li>
+</ul>

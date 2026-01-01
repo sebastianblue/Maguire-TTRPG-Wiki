@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witch's Wake — GM Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+  <header class="dashboard-header">
+    <h1>THE WITCH'S WAKE — GM DASHBOARD</h1>
+    <div class="header-controls">
+      <button id="toggle-dark-mode" class="header-btn" title="Toggle dark mode">🌙</button>
+      <button id="reset-state" class="header-btn" title="Reset all trackers">🔄 Reset</button>
+      <button id="save-state" class="header-btn" title="Force save state">💾 Save</button>
+      <button id="help-shortcuts" class="header-btn" title="Show keyboard shortcuts">❓</button>
+    </div>
+  </header>
+
+  <main class="dashboard-main">
+    <!-- Top Row: Map + Current Room -->
+    <div class="dashboard-row row-main">
+      <section class="panel panel-map">
+        <div class="panel-header">
+          <h2>Interactive Map</h2>
+          <div class="floor-tabs">
+            <button class="floor-tab active" data-floor="grounds">Grounds</button>
+            <button class="floor-tab" data-floor="ground">Ground</button>
+            <button class="floor-tab" data-floor="upper">Upper</button>
+            <button class="floor-tab" data-floor="attic">Attic</button>
+            <button class="floor-tab" data-floor="cellar">Cellar</button>
+          </div>
+        </div>
+        <div class="map-container" id="map-container">
+          <!-- Map will be rendered here -->
+        </div>
+      </section>
+
+      <section class="panel panel-room-details">
+        <div class="panel-header">
+          <h2>Current Room</h2>
+          <button id="mark-explored" class="btn-toggle">Mark Explored</button>
+        </div>
+        <div id="room-details-content" class="room-details-content">
+          <p class="placeholder">Click a room on the map to view details</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Middle Row: Trackers -->
+    <div class="dashboard-row row-trackers">
+      <section class="panel panel-secrets">
+        <div class="panel-header">
+          <h2>Secrets Tracker</h2>
+          <span class="tracker-count" id="secrets-count">0/7</span>
+        </div>
+        <div id="secrets-content" class="tracker-content">
+          <!-- Secrets will be rendered here -->
+        </div>
+      </section>
+
+      <section class="panel panel-seals">
+        <div class="panel-header">
+          <h2>Seals Tracker</h2>
+          <span class="tracker-count" id="seals-count">0/7</span>
+        </div>
+        <div id="seals-content" class="tracker-content">
+          <!-- Seals will be rendered here -->
+        </div>
+      </section>
+
+      <section class="panel panel-timeline">
+        <div class="panel-header">
+          <h2>Timeline</h2>
+          <span class="tracker-count" id="timer-display">0:00:00</span>
+        </div>
+        <div id="timeline-content" class="tracker-content">
+          <!-- Timeline will be rendered here -->
+        </div>
+        <div class="timer-controls">
+          <button id="timer-start" class="btn-timer">Start</button>
+          <button id="timer-pause" class="btn-timer" disabled>Pause</button>
+          <button id="timer-reset" class="btn-timer">Reset</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Combat Panel (Collapsible) -->
+    <section class="panel panel-combat collapsed">
+      <div class="panel-header clickable" id="combat-header">
+        <h2>Combat Panel <span class="expand-icon">▼</span></h2>
+        <span class="phase-indicator" id="phase-indicator">Exploration</span>
+      </div>
+      <div id="combat-content" class="combat-content">
+        <!-- Combat tracking will be rendered here -->
+      </div>
+    </section>
+
+    <!-- Bottom Row: Utilities -->
+    <div class="dashboard-row row-utilities">
+      <section class="panel panel-puzzle">
+        <div class="panel-header">
+          <h2>Puzzle Box</h2>
+        </div>
+        <div id="puzzle-content" class="puzzle-content">
+          <!-- Puzzle box will be rendered here -->
+        </div>
+      </section>
+
+      <section class="panel panel-handouts">
+        <div class="panel-header">
+          <h2>Handouts</h2>
+          <span class="tracker-count" id="handouts-count">0/12</span>
+        </div>
+        <div id="handouts-content" class="handouts-content">
+          <!-- Handouts will be rendered here -->
+        </div>
+      </section>
+
+      <section class="panel panel-discoveries">
+        <div class="panel-header">
+          <h2>Discovery Abilities</h2>
+        </div>
+        <div id="discoveries-content" class="discoveries-content">
+          <!-- Discovery abilities will be rendered here -->
+        </div>
+      </section>
+    </div>
+
+    <!-- Session Notes -->
+    <section class="panel panel-notes">
+      <div class="panel-header">
+        <h2>Session Notes</h2>
+        <button id="export-notes" class="btn-export">Export</button>
+      </div>
+      <textarea id="session-notes" class="session-notes" placeholder="Your session notes here..."></textarea>
+    </section>
+  </main>
+
+  <!-- Modals -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal" id="modal-content">
+      <!-- Modal content will be rendered here -->
+    </div>
+  </div>
+
+  <!-- Help Modal -->
+  <div id="help-modal" class="modal-overlay hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Keyboard Shortcuts</h2>
+        <button class="modal-close" id="close-help">×</button>
+      </div>
+      <div class="modal-body">
+        <table>
+          <tr><td><kbd>N</kbd></td><td>Next initiative turn</td></tr>
+          <tr><td><kbd>Space</kbd></td><td>Pause/resume timer</td></tr>
+          <tr><td><kbd>1-5</kbd></td><td>Switch floor tab</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Close modal</td></tr>
+          <tr><td><kbd>Ctrl+S</kbd></td><td>Force save state</td></tr>
+          <tr><td><kbd>?</kbd></td><td>Show this help</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/dashboard-data.js"></script>
+  <script src="js/dashboard-room-data.js"></script>
+  <script src="js/dashboard-state.js"></script>
+  <script src="js/dashboard-map.js"></script>
+  <script src="js/dashboard-trackers.js"></script>
+  <script src="js/dashboard-combat.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

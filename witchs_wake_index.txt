@@ -1,0 +1,533 @@
+<h1>The Witch's Wake</h1>
+
+<p class="flavor-text">"Eight strangers. One inheritance. Seven seals. And dawn is thirteen hours away."</p>
+
+<div class="gm-warning" style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px; margin: 16px 0;">
+⚠️ <strong>GM CONTENT</strong> - Contains spoilers. Players should not read this page.
+</div>
+
+<h2>Adventure Overview</h2>
+
+<p><strong>The Witch's Wake</strong> is a 4-hour gothic mystery one-shot for D&D 5e, set in Gregory Maguire's Oz. Eight players arrive at a remote estate, each believing they're heirs to the legendary witch Yackle's fortune. What begins as a competitive treasure hunt transforms into a desperate fight for survival—and ultimately, a confrontation with one of their own.</p>
+
+<h3>At a Glance</h3>
+
+<table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+<tr style="background: #f9f9f9;">
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Detail</th>
+<th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Information</th>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>System</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">D&D 5e</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Duration</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">4 hours (single session)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Players</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">8 (one plays Yackle in disguise)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Level</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">5</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Setting</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Gregory Maguire's Oz (Wicked series)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Location</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;"><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a>, Pertha Hills, Gillikin</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Tone</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Gothic mystery, psychological horror, wonder (Haunting of Hill House meets Knives Out)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Key Themes</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Secrets, loneliness, the cost of immortality, identity</td>
+</tr>
+</table>
+
+<h2>The Premise</h2>
+
+<h3>What the Players Know</h3>
+
+<p>Eight strangers receive identical letters from the law offices of Trism & Associates in the Emerald City. Each letter states that the recipient has been named in the will of <strong>Yackle Ostreaga</strong>, a legendary witch who died (supposedly) a century ago. The letters provide travel arrangements to a remote estate in the Pertha Hills of Gillikin, where the will shall be read and the inheritance distributed.</p>
+
+<p>Each player arrives with their own reason for being there:</p>
+<ul>
+<li>A scholar seeking forbidden knowledge</li>
+<li>A soldier claiming blood relation</li>
+<li>A disguised Animal fleeing persecution</li>
+<li>An ex-maunt seeking redemption</li>
+<li>An Arjiki woman with bargained magic</li>
+<li>A guilt-haunted military captain</li>
+<li>A mechanical being questioning its existence</li>
+<li>A widow (secretly Yackle herself)</li>
+</ul>
+
+<p>Upon arrival, solicitor <strong>Mr. Trism</strong> reads the will: To claim the inheritance, the heirs must unlock <strong>seven seals</strong> hidden throughout the estate before dawn. The one who proves most worthy shall receive the greatest share.</p>
+
+<h3>What the Players Don't Know</h3>
+
+<p>This is not a competition—it's a ritual. Each player embodies an <strong>inversion</strong> of one of <a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">Lurline's Eight Bindings</a>, the cosmic principles that give Oz its structure. Yackle needs their freely-given secrets to break these Bindings and achieve either dissolution (peace) or ascension (godhood).</p>
+
+<p>And one of them—disguised as "Madame Viridian"—is Yackle herself.</p>
+
+<h2>The Core Twist</h2>
+
+<p>This adventure has <strong>two major twists</strong>:</p>
+
+<h3>The First Twist (End of Hour 1)</h3>
+<p><strong>Trigger:</strong> The grandfather clock in the Foyer chimes thirteen times at midnight.</p>
+
+<p><strong>The Reveal:</strong> The inheritance isn't for one person—it's for <em>all survivors</em>. And the amount each receives <em>increases</em> with the number who survive. The competition was a lie. The house, now fully awakened, will try to kill them. They must work together to survive until dawn.</p>
+
+<p><strong>Effect:</strong> The players realize cooperation is survival. The house becomes actively hostile. Upper floors unlock. Lair actions begin.</p>
+
+<h3>The Second Twist (End of Hour 3)</h3>
+<p><strong>Trigger:</strong> The seventh seal (Hunger) is completed in the Dining Room.</p>
+
+<p><strong>The Reveal:</strong> Madame Viridian drops her disguise. She is <a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a>, and she's been among them the whole time, collecting their secrets. The seals weren't tests of worthiness—they were keys to breaking the Bindings. The final battle begins.</p>
+
+<p><strong>Effect:</strong> Betrayal, shock, and the transition from exploration to combat. Phase 1 of Yackle's boss fight begins.</p>
+
+<h2>Session Timeline</h2>
+
+<p>The adventure is structured into four distinct hours, each with specific goals, available content, and dramatic beats.</p>
+
+<h3>Hour 1: Arrival & Investigation (60 minutes)</h3>
+
+<p><strong>Goal:</strong> Establish atmosphere, introduce characters, complete 2-3 seals, build mystery.</p>
+
+<p><strong>Key Events:</strong></p>
+<ul>
+<li><strong>0:00-0:15 —</strong> Players arrive individually at the estate. Brief introductions. Atmospheric descriptions of the grounds and cemetery.</li>
+<li><strong>0:15-0:25 —</strong> Will reading in the Foyer. Mr. Trism explains the rules: seven seals, before dawn, prove your worth. He departs mysteriously.</li>
+<li><strong>0:25-0:55 —</strong> Ground floor exploration. Players investigate rooms, discover lore, and attempt seals.</li>
+<li><strong>0:55-1:00 —</strong> <strong>THE FIRST TWIST:</strong> Clock chimes thirteen times. Mr. Trism reappears (or his corpse is found). The truth is revealed: survive together or die separately. The house awakens.</li>
+</ul>
+
+<p><strong>Available Locations:</strong></p>
+<ul>
+<li>The Approach & Cemetery (Grounds)</li>
+<li>The Foyer (entry point)</li>
+<li>The Parlor</li>
+<li>The Music Room (SEAL 1: MEMORY)</li>
+<li>The Library (SEAL 3: NATURE)</li>
+<li>The Chapel (SEAL 5: SACRIFICE)</li>
+<li>The Kitchen</li>
+<li>The Greenhouse</li>
+</ul>
+
+<p><strong>Seals Available:</strong> Memory, Nature, Sacrifice</p>
+
+<p><strong>Pacing Notes:</strong> Keep exploration brisk. Encourage players to split up initially (more suspicious, more discovery). Guide them toward at least 2 seals before the clock chimes. Foreshadow Yackle/Viridian's tells subtly.</p>
+
+<h3>Hour 2: Escalation & Cooperation (60 minutes)</h3>
+
+<p><strong>Goal:</strong> First combat, team bonding, complete 3-4 more seals, deepen mystery.</p>
+
+<p><strong>Key Events:</strong></p>
+<ul>
+<li><strong>1:00-1:15 —</strong> Immediate aftermath of the First Twist. House becomes hostile. First lair action or combat encounter (animated furniture, memory shades, or house horror).</li>
+<li><strong>1:15-1:30 —</strong> Players regroup, discuss strategy, share information. Yackle/Viridian positions herself as helpful ally, asking probing questions.</li>
+<li><strong>1:30-1:55 —</strong> Upper floors now accessible. Continued exploration, seal completion, lore discovery. Puzzle box potentially found in Study.</li>
+<li><strong>1:55-2:00 —</strong> Transition moment: players likely heading toward Dining Room for final seal, or discovering the cellar entrance.</li>
+</ul>
+
+<p><strong>Available Locations:</strong></p>
+<ul>
+<li>All ground floor rooms</li>
+<li>The Dining Room (SEAL 7: HUNGER)</li>
+<li>The Servant Quarters (SEAL 4: SERVICE - Part 1)</li>
+<li>Portrait Gallery (SEAL 2: BLOOD) - Upper floor</li>
+<li>Memorial Room (SEAL 4: SERVICE - Part 2) - Upper floor</li>
+<li>Master Bedroom - Upper floor</li>
+<li>Guest Rooms 1-3 (character-specific nightmare rooms) - Upper floor</li>
+<li>The Nursery (Holly the ghost child) - Upper floor</li>
+<li>Yackle's Study (puzzle box) - Upper floor</li>
+<li>The Observatory - Upper floor</li>
+<li>Hall of Mirrors (SEAL 6: DEED) - Upper floor</li>
+</ul>
+
+<p><strong>Seals Available:</strong> Blood, Service (both parts), Deed, Hunger</p>
+
+<p><strong>Pacing Notes:</strong> First combat should be challenging but winnable—establish stakes. Reward thorough exploration (special abilities from Holly, puzzle box, etc.). Build tension around secrets—Yackle should be present for at least 3-4 secret reveals by this point.</p>
+
+<h3>Hour 3: The Unraveling (45 minutes)</h3>
+
+<p><strong>Goal:</strong> Complete final seal, trigger the reveal, begin boss fight Phase 1.</p>
+
+<p><strong>Key Events:</strong></p>
+<ul>
+<li><strong>2:00-2:15 —</strong> Final seal preparation. Likely in the Dining Room (Seal of Hunger). Players must openly acknowledge their wants/hungers.</li>
+<li><strong>2:15-2:20 —</strong> <strong>THE SECOND TWIST:</strong> Seventh seal breaks. Yackle reveals herself. "How wonderful. You've made this so much easier." Madame Viridian's disguise drops. She manifests as herself.</li>
+<li><strong>2:20-2:45 —</strong> <strong>PHASE 1 BATTLE:</strong> Yackle fights at full power (200 HP, or 100 HP if all seals completed). Uses collected secrets against the party. Tactical spellcasting, legendary actions, memory drain. Location: initially Dining Room, may move through upper floors.</li>
+</ul>
+
+<p><strong>Combat Location:</strong> Starts in Dining Room, can move throughout the house as Yackle uses <em>dimension door</em> and mobility.</p>
+
+<p><strong>Phase 1 Objectives:</strong></p>
+<ul>
+<li>Reduce Yackle to 100 HP or lower</li>
+<li>Survive her Kumbric Extraction attempts</li>
+<li>Deal with collected secret penalties</li>
+<li>Trigger Phase 2 transition</li>
+</ul>
+
+<p><strong>Pacing Notes:</strong> The reveal should be a genuine shock—even if players suspected Viridian, the confirmation is dramatic. Give the Yackle player a moment to roleplay the transformation. Phase 1 combat should be intense—use legendary actions, lair actions, and secret-based abilities liberally. When Yackle reaches 100 HP, she merges with the house.</p>
+
+<h3>Hour 4: The Reckoning (45-55 minutes)</h3>
+
+<p><strong>Goal:</strong> Chase through house to Heart Chamber, Phases 2-3 battle, resolution.</p>
+
+<p><strong>Key Events:</strong></p>
+<ul>
+<li><strong>2:45-3:00 —</strong> <strong>PHASE 2: THE CHASE.</strong> Yackle merges with the house, becomes omnipresent. Players must find and reach the Heart Chamber in the cellar. Lair actions intensify. Shifting geometry, animated threats, Yackle attacking from walls/floors/ceilings.</li>
+<li><strong>3:00-3:30 —</strong> <strong>PHASE 3: THE HEART CHAMBER.</strong> Players reach the cellar, find the false wall (with or without map from puzzle box), enter Heart Chamber. They witness Yackle's true form suspended in the center. The Eighth Binding (Witness) cracks. Final battle begins. Destroy anchors, defeat Yackle in her true form.</li>
+<li><strong>3:30-3:45 —</strong> <strong>RESOLUTION.</strong> Yackle is defeated through violence, mercy, or binding. The house's fate is determined. Epilogue: what happens to each character after they leave (or stay).</li>
+</ul>
+
+<p><strong>Combat Locations:</strong></p>
+<ul>
+<li>Phase 2: Throughout the house (chase sequence)</li>
+<li>Wine Cellar (transition)</li>
+<li>Main Cellar (approach)</li>
+<li>Heart Chamber (Phase 3 finale)</li>
+</ul>
+
+<p><strong>Phase 2 Objectives:</strong></p>
+<ul>
+<li>Survive the house's lair actions</li>
+<li>Find the Heart Chamber (map helps significantly)</li>
+<li>Reach the cellar without being separated</li>
+</ul>
+
+<p><strong>Phase 3 Objectives:</strong></p>
+<ul>
+<li>Destroy the three anchor points (PAST, PRESENT, FUTURE)</li>
+<li>Reduce Yackle to 0 HP, or</li>
+<li>Negotiate peaceful dissolution, or</li>
+<li>Volunteer to re-bind her as warden</li>
+</ul>
+
+<p><strong>Optional Phase 4:</strong> If all 8 secrets were collected, Yackle transforms into Ascendant form (CR 15, near-TPK scenario). This should be rare and represents the worst-case outcome.</p>
+
+<p><strong>Pacing Notes:</strong> Phase 2 should feel desperate and claustrophobic. Use lair actions every round. Phase 3 is the emotional climax—let Yackle be vulnerable, sympathetic, and tragic even as she fights to survive. The resolution should feel earned, whether through violence or mercy.</p>
+
+<h2>Key NPCs</h2>
+
+<h3>Yackle (The Hidden Antagonist)</h3>
+<p><strong>Disguise:</strong> Madame Viridian, a widow seeking restitution for her husband's death</p>
+<p><strong>Truth:</strong> A fragment of pre-creation chaos, trapped by the Binding of Witness for over a millennium</p>
+<p><strong>Goal:</strong> Collect the eight inversions (player secrets) to break the Bindings and achieve dissolution or ascension</p>
+<p><strong>Stat Block:</strong> <a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle (Full Stats)</a></p>
+
+<h3>Mr. Trism (The Solicitor)</h3>
+<p><strong>Role:</strong> Reads the will, explains the rules, then disappears (or dies) when the First Twist occurs</p>
+<p><strong>Truth:</strong> Could be a construct created by the house, a previous heir's ghost, or a mundane lawyer who stumbles into danger. GM's choice based on tone preference.</p>
+
+<h3>Holly (The Ghost Child)</h3>
+<p><strong>Location:</strong> The Nursery (upper floor)</p>
+<p><strong>Nature:</strong> Spirit of a 6-year-old girl who died 300 years ago. Daughter of Mira the cook. Doesn't fully understand she's dead.</p>
+<p><strong>Interaction:</strong> Kind, lonely, knows secrets about "the lady who changes." Can provide clues and warnings. Grants <strong>Guidance of the House</strong> ability to characters who treat her with kindness.</p>
+
+<h2>The Seven Seals</h2>
+
+<p>Each seal represents one of the Eight Bindings (the eighth seal is witnessing Yackle's true form). Completing seals grants individual rewards and weakens Yackle in the final battle. For complete mechanics, see <a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals system page</a>.</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+<tr style="background: #f9f9f9;">
+<th style="border: 1px solid #ddd; padding: 8px;">Seal</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Location</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Puzzle</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Reward</th>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>1. Memory</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Music Room</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Gather sheet music fragments, arrange them, play melody on piano</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Reroll Token (reroll one failed d20)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>2. Blood</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Portrait Gallery</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Find portrait miniatures, place in correct family tree positions</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Death's Denial (auto-stabilize at 0 HP once)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>3. Nature</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Library</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Identify which preserved creatures are Animals vs animals, speak their names</td>
+<td style="border: 1px solid #ddd; padding: 8px;">True Sight Token (advantage on one Insight check)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>4. Service</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Servant Quarters + Memorial Room</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Notice stuck bell, go to Memorial Room, light candle, speak names of the dead</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Swift Aid (Help as bonus action for session)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>5. Sacrifice</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Chapel</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Place something of genuine personal value in offering bowl</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Last Strike (attack when dropped to 0 HP)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>6. Deed</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Hall of Mirrors</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Stand before True Mirror, say aloud "That is me. I did that."</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Resolve Token (reroll one failed save)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>7. Hunger</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Dining Room</td>
+<td style="border: 1px solid #ddd; padding: 8px;">All characters seated, each openly acknowledges a genuine want/hunger</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Second Wind (recover one Hit Die)</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>8. Witness</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Heart Chamber</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Witness Yackle's true form (automatic when entering chamber)</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Final Binding broken; Yackle becomes vulnerable</td>
+</tr>
+</table>
+
+<p><strong>Seal Mastery:</strong> If all 7 seals are completed before defeating Yackle, each seal grants an additional bonus against her in combat. Most importantly: Yackle starts Phase 1 at half HP (100 instead of 200).</p>
+
+<h2>Special Discoveries</h2>
+
+<p>Beyond the seals, players can earn powerful abilities through thorough exploration:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+<tr style="background: #f9f9f9;">
+<th style="border: 1px solid #ddd; padding: 8px;">Ability</th>
+<th style="border: 1px solid #ddd; padding: 8px;">How Earned</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Effect</th>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Flash of Genius</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Solve the ILOVEU puzzle box in Study</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Reaction: Add +5 to any ability check or save within 30 ft. 3 uses total.</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Guidance of the House</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Help Holly the ghost child in the Nursery</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Bonus action: Grant d4 to ally's next check. Unlimited uses. Holly whispers warnings.</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Inspiration of the Fallen</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Read names of previous heirs aloud respectfully in Memorial Room</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Once per session, add 1d6 to any d20 roll.</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Lurline's Word</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Inside the puzzle box in Study</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Speak the Word to deal 4d10 radiant damage to Yackle. Once, no save.</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Unmaking Phrase</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Piece together Bindings lore from multiple sources</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Stun Yackle for 1 round. Once, no save.</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;"><strong>Anchor Knowledge</strong></td>
+<td style="border: 1px solid #ddd; padding: 8px;">Find the map in the puzzle box</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Know exact location of Heart Chamber and anchor points in Phase 3.</td>
+</tr>
+</table>
+
+<h2>Possible Endings</h2>
+
+<p>The adventure can conclude in several ways, depending on player choices and actions:</p>
+
+<h3>1. Violence (Combat Victory)</h3>
+<p><strong>Outcome:</strong> Yackle is reduced to 0 HP in Phase 3 (or Phase 4). She crumbles to dust with final words: "I only wanted... to see tomorrow." The house immediately begins collapsing. Players have 3 rounds to escape or take 10d10 bludgeoning damage per round buried in rubble.</p>
+
+<p><strong>Aftermath:</strong> The estate is destroyed. Whatever inheritance existed is lost. But the players survive, each carrying a piece of Yackle's story. The Eighth Binding remains broken in this location—strange things happen in the Pertha Hills now.</p>
+
+<h3>2. Mercy (Peaceful Dissolution)</h3>
+<p><strong>Outcome:</strong> In Phase 3, players show Yackle genuine compassion and offer her a peaceful end. Requires DC 20 Persuasion or Insight check and sincere roleplaying. Yackle, finally witnessed and understood, chooses to let go. She fades peacefully, not into death but into gentle dissolution.</p>
+
+<p><strong>Aftermath:</strong> The house becomes mundane—no longer sentient, but stable. It can be explored, and a genuine inheritance (books, artifacts, Yackle's accumulated wealth) can be claimed. The players leave changed, having given an ancient suffering being the gift of peace.</p>
+
+<h3>3. Re-Binding (Sacrificial Warden)</h3>
+<p><strong>Outcome:</strong> A player volunteers to stay as the house's warden, binding Yackle but keeping her alive. The volunteer becomes the new keeper, living in the estate, maintaining the binding, and preventing Yackle's return to active malevolence.</p>
+
+<p><strong>Aftermath:</strong> Bittersweet. The volunteer sacrifices freedom but gains purpose. The house remains sentient, Yackle remains trapped but alive. The other players leave with their shares of the inheritance. The warden can become an NPC for future campaigns—a contact, quest-giver, or tragic figure.</p>
+
+<h3>4. Ascension (Phase 4 - TPK Risk)</h3>
+<p><strong>Outcome:</strong> If all 8 secrets were collected, Yackle transforms into her Ascendant form (CR 15). The party faces a near-impossible battle. If they manage to win, Yackle shatters with a reality-breaking scream: "I will return... I will always return..." The house collapses violently.</p>
+
+<p><strong>Aftermath:</strong> Even in victory, this ending is dark. Yackle's last words suggest she may reform eventually. The Bindings are fundamentally damaged. Reality in the area becomes unstable. Players escape but at great cost (possibly with casualties).</p>
+
+<h3>5. Failure (TPK)</h3>
+<p><strong>Outcome:</strong> The party is defeated. Yackle consumes their secrets and life force. She achieves her goal and either dissolves (if she wanted oblivion) or ascends (if she wanted power).</p>
+
+<p><strong>Aftermath:</strong> If running this as a campaign prelude, have the TPK be canon. The next campaign begins with a new party investigating why eight people vanished in the Pertha Hills. The house still stands. Something ancient waits inside.</p>
+
+<h2>Running the Adventure</h2>
+
+<h3>Pre-Session Preparation</h3>
+
+<p><strong>Essential Reading:</strong></p>
+<ul>
+<li>This adventure index (overview and timeline)</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> (all 22 rooms)</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> (stat block and tactics)</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals</a> (puzzle mechanics)</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> (cosmology)</li>
+</ul>
+
+<p><strong>Materials Needed:</strong></p>
+<ul>
+<li>12 physical handouts (see Handouts section below)</li>
+<li>ILOVEU puzzle box (or representation)</li>
+<li>Music box prop (optional)</li>
+<li>Initiative tracker for 8 players + Yackle + lair actions</li>
+<li>Secret collection tracker (mark which secrets Yackle has collected)</li>
+<li>Estate map for reference (or hand-drawn version)</li>
+</ul>
+
+<p><strong>Player Briefing:</strong></p>
+<ul>
+<li>Select one player to play Yackle (choose someone comfortable with secret antagonist roles)</li>
+<li>Provide that player with separate Yackle briefing document (roleplay guidance, tells to show, secret collection tracking)</li>
+<li>Provide all players with their character sheets, emphasizing their secrets</li>
+<li>Set expectations: gothic mystery, 4 hours, character secrets matter, cooperation required after Hour 1</li>
+</ul>
+
+<h3>Pacing Guidance</h3>
+
+<p><strong>Use a visible timer.</strong> Let players know how much real-time has elapsed. This creates natural urgency.</p>
+
+<p><strong>Hour 1: Leisurely.</strong> Let players explore, roleplay introductions, examine rooms thoroughly. Guide them toward 2-3 seals but don't rush.</p>
+
+<p><strong>Hour 2: Moderate.</strong> First combat sets stakes. Keep exploration moving but reward thoroughness. 3-4 more seals completed.</p>
+
+<p><strong>Hour 3: Urgent.</strong> The reveal is dramatic—give it space. Phase 1 combat is intense. Use legendary actions every round.</p>
+
+<p><strong>Hour 4: Desperate.</strong> Time pressure is real. Phase 2 chase should feel claustrophobic. Phase 3 is cathartic. Resolution is earned.</p>
+
+<p><strong>If running long:</strong> Condense Phase 2—have players find the Heart Chamber more quickly. Simplify lair actions.</p>
+
+<p><strong>If running short:</strong> Extend exploration in Hour 2. Add additional character-specific nightmare rooms or encounters.</p>
+
+<h3>Tracking Secrets</h3>
+
+<p>This is critical. Yackle (and you as GM) must track which secrets have been revealed in her presence:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
+<tr style="background: #f9f9f9;">
+<th style="border: 1px solid #ddd; padding: 8px;">Character</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Secret</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Collected?</th>
+<th style="border: 1px solid #ddd; padding: 8px;">Combat Benefit</th>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Averic</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Forged the letters from his mentor</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Disadvantage on Int saves; counter 1 spell free</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Liir</td>
+<td style="border: 1px solid #ddd; padding: 8px;">False Ostrega blood claim</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Advantage on attacks vs him; his damage -1d6</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Frederick</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Actually an Animal (Fox)</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Dominate person once, no concentration</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Shell</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Cast out for discovering maunt corruption</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Resistance to radiant; Shell's heals heal Yackle 25%</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Sarima</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Magic comes from void bargain, not heritage</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Use Sarima's spell slots; Sarima disadv. on concentration</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Mareth</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Burned Red Clay Fork village, killed 143 children</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Disadvantage on attacks vs her; crits become normal</td>
+</tr>
+<tr>
+<td style="border: 1px solid #ddd; padding: 8px;">Seven</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Feels emotions despite being mechanical</td>
+<td style="border: 1px solid #ddd; padding: 8px;">☐</td>
+<td style="border: 1px solid #ddd; padding: 8px;">Skip Seven's turn once; disadv. on Wis saves</td>
+</tr>
+</table>
+
+<p>Mark each secret as collected when revealed in Yackle/Viridian's presence. Use these benefits in combat immediately.</p>
+
+<h2>Handouts</h2>
+
+<p>Physical handouts greatly enhance immersion. For detailed handout content, see the <strong>Handouts page</strong> (Task 6, to be created). Brief list:</p>
+
+<ol>
+<li><strong>Place Cards (Foyer):</strong> 8 cards with epithets describing each character's inversion</li>
+<li><strong>Gravestone Rubbing (Cemetery):</strong> Ostrega family crest and dates</li>
+<li><strong>The Ozma Gambit (Parlor):</strong> Note about the unfinished chess game</li>
+<li><strong>Sheet Music Fragments (Music Room):</strong> 4-5 pieces spelling "REMEMBER"</li>
+<li><strong>Journal Excerpts (Library):</strong> Three entries from years 347, 612, 901 OZ</li>
+<li><strong>Eight Windows Diagram (Chapel):</strong> Visual guide to the Eight Bindings</li>
+<li><strong>Recipe Card (Kitchen):</strong> "For the Long Night" cryptic recipe</li>
+<li><strong>Names of the Lost (Memorial Room):</strong> List of previous heirs</li>
+<li><strong>Unfinished Letter (Master Bedroom):</strong> "I want U to know..." with circled U</li>
+<li><strong>Family Tree (Portrait Gallery):</strong> Incomplete Ostrega genealogy</li>
+<li><strong>Recent Journal Entry (Study):</strong> Yackle's plan from year 954</li>
+<li><strong>Previous Heir's Journal (Cellar):</strong> Warning from someone who came before</li>
+</ol>
+
+<h2>Common Pitfalls & Solutions</h2>
+
+<p><strong>Pitfall:</strong> Players suspect Viridian immediately and isolate/kill her before the reveal.</p>
+<p><strong>Solution:</strong> Yackle should play Viridian subtly—warm, helpful, curious. Not suspicious. If players do isolate her, have her escape using <em>dimension door</em> or <em>misty step</em>, then trigger the reveal early (Hour 2 instead of Hour 3). Adjust accordingly.</p>
+
+<p><strong>Pitfall:</strong> Players don't reveal secrets voluntarily.</p>
+<p><strong>Solution:</strong> Use Kumbric Extraction in combat to force revelations. Have room-specific encounters that pressure secrets (Guest Rooms, Hall of Mirrors). Yackle can also extract during Phase 1.</p>
+
+<p><strong>Pitfall:</strong> Party splits up and gets picked off one by one.</p>
+<p><strong>Solution:</strong> After the First Twist, emphasize survival through cooperation. Have early encounters punish solo exploration (animated objects, memory shades). Reward grouping up.</p>
+
+<p><strong>Pitfall:</strong> Combat runs too long, session goes over 4 hours.</p>
+<p><strong>Solution:</strong> Use lair actions on initiative count 20 only (not 20 and 10). Reduce Phase 2 HP to 150 instead of 180. Simplify Phase 3 by removing one anchor.</p>
+
+<p><strong>Pitfall:</strong> Players find the puzzle box immediately and get the map—skip Phase 2 chase.</p>
+<p><strong>Solution:</strong> This is fine! Reward smart play. Phase 2 can be shorter. Or add complication: the map is in code, requires translating symbols using Chapel windows.</p>
+
+<h2>Adapting for Fewer Players</h2>
+
+<p>This adventure is designed for 8 players but can be adapted:</p>
+
+<p><strong>6-7 Players:</strong> Simply use fewer character inversions. Yackle needs at least 5-6 to weaken the Bindings. Remove 1-2 characters (usually Liir and/or Mareth).</p>
+
+<p><strong>4-5 Players:</strong> Significant changes needed. Remove Yackle as player character—she's purely NPC. Players are all legitimate heirs. Reduce Yackle's HP by 25%. Remove Phase 4 entirely. Focus on mystery and exploration over betrayal.</p>
+
+<p><strong>2-3 Players:</strong> Not recommended. The player betrayal twist doesn't work with so few. Consider running this as a different adventure—perhaps the players are investigators hired to find out what happened to eight missing heirs.</p>
+
+<h2>Related Pages</h2>
+
+<ul>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> - All 22 rooms with detailed descriptions</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> - Complete stat blocks for all 4 phases</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals</a> - Puzzle mechanics and rewards</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Cosmological lore</li>
+<li><strong>Handouts</strong> - 12 physical handouts (to be created)</li>
+<li><strong>GM Quick Reference</strong> - One-page cheat sheet (to be created)</li>
+<li><strong>Pregenerated Characters</strong> - 8 character sheets with secrets</li>
+</ul>

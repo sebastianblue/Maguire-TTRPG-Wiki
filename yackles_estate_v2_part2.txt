@@ -1,0 +1,261 @@
+<h2>Ground Floor (Continued)</h2>
+
+<h3>6. The Dining Room (SEAL 7: HUNGER)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+A long table dominates this room, set for eight with fine china and tarnished silver. Candelabras line the center of the table, their candles unlit. Each place setting has a name card—not names, but descriptions. The chair at the head of the table is larger than the others, throne-like, and conspicuously empty. A sideboard against the wall holds covered dishes that steam gently, as if dinner was just served. The smell of food is overwhelming—rich, savory, impossible to identify.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Table.</strong> Set for eight, with name cards matching the epithets from the Foyer. An empty ninth place at the head. If characters sit in their "correct" seats (matching their epithet), the candles light themselves.</p>
+<ul>
+<li><strong>Perception DC 13:</strong> The ninth chair isn't dusty like the others. Someone sat here recently—there's a slight impression in the cushion, still settling.</li>
+<li><strong>Investigation DC 15:</strong> Beneath each plate, inscribed into the porcelain in tiny script: "Eat. Please. Someone stay."</li>
+<li><strong>Insight DC 16:</strong> The table is set with desperate care—every fork perfectly aligned, every napkin folded just so. This wasn't done out of habit. This was done with hope.</li>
+</ul>
+
+<p><strong>The Food.</strong> The covered dishes contain whatever food the character lifting the lid most desires—their favorite meal, comfort food from childhood, something they've been craving. It's real and safe to eat. But it never runs out, no matter how much is consumed. A DC 14 Arcana check reveals this is a form of conjuration magic, but the source is unclear.</p>
+<ul>
+<li><strong>Perception DC 14:</strong> If you eat alone, the food tastes of ash and copper. If you eat with others, it's delicious. The magic knows the difference.</li>
+<li><strong>Investigation DC 16:</strong> Under one lid, before any character lifts it, there's a note: "I made your favorite. I don't know what it is, but the house knows what you want. Please want to stay."</li>
+<li><strong>Arcana DC 17:</strong> The magic creating this food is drawing from the characters' own memories—not creating new food, but manifesting remembered sensations of satisfaction, comfort, home.</li>
+</ul>
+
+<p><strong>The Empty Chair.</strong> Larger, older than the others. No name card. A DC 15 Investigation check finds something carved into the armrest, very small: <em>"For when someone finally stays."</em></p>
+<ul>
+<li><strong>Perception DC 17:</strong> The chair is positioned to see all eight other seats simultaneously. Whoever sits here would be watching everyone, seeing everyone—but also separate from everyone.</li>
+<li><strong>Insight DC 18:</strong> The ninth chair is both throne and prison. It offers control and demands isolation. You can have power or connection, not both.</li>
+</ul>
+
+<h4>SEAL OF HUNGER PUZZLE</h4>
+
+<p>This seal cannot be completed until all characters are seated. Then:</p>
+<ol>
+<li>Each character must openly acknowledge something they want (not need, want)—a hunger they've been denying</li>
+<li>The want must be genuine, not performative (DM discretion, but the house knows)</li>
+<li>When the eighth want is spoken aloud, the candles blaze brighter and the seal breaks</li>
+</ol>
+
+<p><strong>Reward:</strong> One character gains <strong>Second Wind</strong> (recover one spent Hit Die).</p>
+
+<p><strong>Note:</strong> This is often when Yackle reveals herself. The Dining Room is her domain, and when the party shows their hungers openly, she appears: <em>"How wonderful. You've made this so much easier."</em></p>
+
+<p><strong>The Sideboard.</strong></p>
+<ul>
+<li><strong>Investigation DC 14:</strong> Drawers contain place settings for dozens—far more than eight. Plates marked "Guest 47," "Visitor 103," "Heir 125." All carefully stored, as if they might return.</li>
+<li><strong>Perception DC 16:</strong> One drawer is empty except for ash. A placard inside reads: "Guest 1. The only one I invited. They didn't want to stay either."</li>
+</ul>
+
+<p><strong>The Walls.</strong></p>
+<ul>
+<li><strong>Perception DC 15:</strong> Painted scenes of feasts, celebrations, gatherings—but every person depicted is the same woman at different ages. Yackle, alone, painted to look like a crowd.</li>
+</ul>
+
+---
+
+<h3>7. The Kitchen</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Copper pots hang from ceiling hooks, green with age. A massive hearth dominates one wall, cold and dark, with an iron spit large enough to roast a whole pig. Preparation tables are scarred by a century of knife work. A pantry door stands ajar, revealing shelves that might or might not have food. Near the back, a heavy door is set into the floor—the entrance to the cellar, chained shut with a massive padlock.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Hearth.</strong> Unlike the parlor fireplace, this one doesn't light itself. However, if fire is brought here, it burns unusually well—anything cooked in this hearth provides an additional 1d6 temporary HP for 1 hour.</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> The spit has grooves worn into it from being turned thousands of times. Not by hand—the grooves are perfectly even, machined. Something else turned this.</li>
+<li><strong>Perception DC 16:</strong> Tally marks on the hearthstones, counting up to 808. Then they stop. Then they restart at 1, different hand, continuing to 143. Then they stop forever.</li>
+<li><strong>Arcana DC 15:</strong> The hearth is a liminal space—a threshold between the house proper and what lies below. Cooking here creates sustenance but also acts as an offering to whatever's in the cellar.</li>
+</ul>
+
+<p><strong>The Pantry.</strong> Empty when one person enters. When multiple people enter together, they find it fully stocked with fresh food—bread still warm, fruit at perfect ripeness, meat freshly cut. The house feeds groups, not individuals.</p>
+<ul>
+<li><strong>Insight DC 14:</strong> The house is trying to encourage companionship, collaboration, staying together. Isolation is punished; community is rewarded.</li>
+<li><strong>Investigation DC 16:</strong> Scratched into a shelf: "The house wants us to stay. Not forever. Just tonight. Just one more night. Every night." —Visitor 89</li>
+<li><strong>Perception DC 17:</strong> One loaf of bread is moldy, weeks old, the only item that doesn't refresh. A note tied to it: "I baked this. Alone. No magic. It rotted. At least it was mine."</li>
+</ul>
+
+<p><strong>The Cellar Door.</strong> Chained and padlocked. The key does not exist within the house (it's in the puzzle box). A DC 20 Strength check can break the chain. A DC 18 Thieves' Tools check can pick the padlock. A <em>knock</em> spell opens both chain and padlock. Until the First Twist, the door won't open by any means—the house isn't ready to show what's below.</p>
+<ul>
+<li><strong>Perception DC 12:</strong> The chains are new, replaced multiple times over the years. The door itself is ancient. Someone keeps sealing this, unsealing it, sealing it again.</li>
+<li><strong>Investigation DC 16:</strong> Carved around the door frame in tiny letters: "Down is where truth lives. Up is where I pretend. Stay up. Please stay up."</li>
+<li><strong>Arcana DC 18:</strong> The lock isn't magical, but the door is. It's not keeping something from getting out—it's keeping people from getting in. Protection, not imprisonment.</li>
+</ul>
+
+<p><strong>HANDOUT: Recipe Card.</strong> Found tucked behind a pot:</p>
+<blockquote>
+"For the Long Night:<br>
+One cup of patience<br>
+Two measures of truth<br>
+A pinch of memory (your own)<br>
+Stir widdershins until the past dissolves<br>
+<br>
+Serve cold. Makes enough for everyone who matters.<br>
+<br>
+—Y.O."
+</blockquote>
+
+<p><strong>The Preparation Tables.</strong></p>
+<ul>
+<li><strong>Investigation DC 14:</strong> Knife marks spell out words if you trace them: "ALONE ALONE ALONE ALONE" repeated hundreds of times across decades of cutting.</li>
+<li><strong>Perception DC 15:</strong> One table has a child's height marked into the wood—growing marks, like a parent would make. But they stop at age six and never continue.</li>
+</ul>
+
+---
+
+<h3>8. The Servant Quarters (SEAL 4: SERVICE - Part 1)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+A row of small beds lines one wall, each neatly made with threadbare blankets. Hooks on the wall hold uniforms—maid's dresses, butler's coats, all in the same faded green. A duty roster is pinned to a board near the door, listing tasks and names in neat columns. Personal effects sit on small shelves beside each bed: a comb, a prayer book, a child's drawing. The room feels lived in, but there's no dust. Someone has been maintaining this.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Beds.</strong> Six beds, all made. The blankets are cold, but if a character lies down, they hear whispered voices—fragments of conversation, laughter, crying. A DC 14 Perception check distinguishes the words: "...another one tonight..." "...she's kinder than the stories say..." "...do you think she knows she's alone?"</p>
+<ul>
+<li><strong>Investigation DC 13:</strong> Each bed has a name sewn into the blanket: Willem, Mira, Tess, Garin, Hollis, Chel. Six servants.</li>
+<li><strong>Perception DC 16:</strong> One bed (Tess's) has a corner of the blanket embroidered with flowers—child's work, clumsy but loving. A note pinned underneath: "Miss Yael taught me stitching today. She said I was clever."</li>
+<li><strong>Insight DC 15:</strong> The voices aren't ghosts—they're echoes. Impressions left by people who cared about this place, who cared about each other, who maybe even cared about their mistress.</li>
+</ul>
+
+<p><strong>The Duty Roster.</strong> Lists tasks and names: Mira, Cook. Willem, Butler. Tess, Maid. And so on. The handwriting is consistent throughout the roster, but the dates span decades. A DC 14 Investigation check notices that some tasks are marked "Still Pending"—tasks assigned to servants who died centuries ago.</p>
+<ul>
+<li><strong>Investigation DC 15:</strong> One entry, more recent: "Holly, Nursery Care. Status: Pending. Assignment: Indefinite. Notes: She doesn't understand. Don't tell her."</li>
+<li><strong>Perception DC 16:</strong> Tasks crossed out, then un-crossed, then crossed again: "Lay out mistress's dresses (she won't wear them)" and "Prepare breakfast for two (always alone)"</li>
+<li><strong>Insight DC 17:</strong> Whoever wrote this roster loved their staff. The handwriting is careful, respectful. These weren't just servants—they were people. Maybe the only people.</li>
+</ul>
+
+<p><strong>The Bell Board.</strong> A row of bells, each labeled with a room: Library, Parlor, Chapel, Master Bedroom, etc. One bell is stuck in the "rung" position: the Memorial Room (upstairs). It makes no sound, but it never stops trembling.</p>
+<ul>
+<li><strong>Investigation DC 12:</strong> The Memorial Room bell's rope is frayed from constant tension. It's been ringing for decades.</li>
+<li><strong>Arcana DC 14:</strong> The bell isn't calling for service—it's calling for <em>remembrance</em>. Someone needs to be remembered.</li>
+</ul>
+
+<h4>SEAL OF SERVICE PUZZLE (Part 1)</h4>
+
+<p>This seal requires two steps:</p>
+<ol>
+<li>Notice the stuck bell (Perception DC 11)</li>
+<li>Go to the Memorial Room (upstairs) and perform the required service</li>
+</ol>
+
+<p>The seal completes in the Memorial Room (see that entry).</p>
+
+<p><strong>The Uniforms.</strong></p>
+<ul>
+<li><strong>Investigation DC 14:</strong> Mended repeatedly, patches on patches. Not from wear—from preservation. Someone couldn't bear to throw them away.</li>
+<li><strong>Perception DC 15:</strong> One uniform (Willem's butler coat) has a medal pinned inside the jacket: "20 Years Faithful Service, 754 OZ." The back is engraved: "To my friend. —Y."</li>
+</ul>
+
+<p><strong>The Personal Effects.</strong></p>
+<ul>
+<li><strong>Investigation DC 13 (prayer book):</strong> Bookmarked at a passage about finding light in loneliness. Marginalia: "Pray for her. She needs it more than anyone."</li>
+<li><strong>Investigation DC 14 (child's drawing):</strong> Two figures holding hands. Labels: "Me (Tess)" and "Miss Yael (my friend)." The figures are smiling.</li>
+</ul>
+
+---
+
+<h3>9. The Greenhouse</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Glass walls and ceiling, though the glass is so old and thick it's nearly green. Moonlight filters through, casting everything in an underwater glow. Plants from every region of Oz grow here in defiance of nature—Gillikinese orchids beside Quadling marsh-lotus beside Vinkus cacti. Some of the plants shouldn't be able to exist together; their climate needs are completely incompatible. In the center of the room, a potting bench holds dead flowers arranged in a pattern. Most have crumbled, but one letter remains clearly visible: E.
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Impossible Garden.</strong> Plants from all four corners of Oz, growing together. A DC 13 Nature check confirms this should be impossible—these plants need radically different conditions. A DC 16 Arcana check detects faint transmutation magic sustaining them.</p>
+<ul>
+<li><strong>Nature DC 15:</strong> The plants aren't thriving—they're persisting. Kept alive by magic but not happy. Like prisoners given food but no freedom.</li>
+<li><strong>Perception DC 14:</strong> One plant, a Gillikinese orchid, has bloomed recently. Its flower is shaped almost like a reaching hand.</li>
+<li><strong>Insight DC 16:</strong> The garden is a collection—specimens gathered from everywhere Yackle couldn't go. The world, brought here, trapped like she's trapped.</li>
+</ul>
+
+<p><strong>The Dead Flowers.</strong> Someone arranged these to spell a word. Time has destroyed most of them, but the E is clear. Nearby, a note in spidery handwriting: <em>"I tried to grow something that would last. Everything ends."</em></p>
+<ul>
+<li><strong>Investigation DC 15:</strong> Flower fragments nearby suggest the full word was "EMERALD"—but why? A city? A color? A hope?</li>
+<li><strong>Arcana DC 16:</strong> These weren't ordinary flowers. They're ghost-breath blooms, which only grow in the presence of deep longing. They died when the longing did—when hope ran out.</li>
+</ul>
+
+<p><strong>HANDOUT: The Note.</strong> Physical paper with the quoted text.</p>
+
+<p><strong>The Responsive Plants.</strong> If a character is genuinely emotionally vulnerable here (shares a real feeling, admits fear, shows sadness), one plant blooms for them. The flower lasts one hour outside the greenhouse. Any character carrying such a flower gains advantage on one Charisma check before it wilts.</p>
+<ul>
+<li><strong>Perception DC 17:</strong> The plants lean toward whoever speaks truthfully, away from whoever lies. They're literally reaching for authenticity.</li>
+<li><strong>Nature DC 18:</strong> These plants have been talked to, regularly, for centuries. They've absorbed the conversations, the confessions, the desperate monologues of someone with no one else to talk to.</li>
+</ul>
+
+<p><strong>The Mural.</strong> On one glass panel, someone has scratched a scene: a woman (Yackle?) planting something, with the word "HOPE" written beneath. It's been crossed out. Below the crossing-out: "WAIT."</p>
+<ul>
+<li><strong>Insight DC 15:</strong> The crossing-out is gentler than expected—not angry, just... tired. Correcting oneself, not condemning.</li>
+<li><strong>Investigation DC 16:</strong> Under "WAIT," in even smaller letters: "For what? For whom? For how long?"</li>
+</ul>
+
+<p><strong>The Potting Bench.</strong></p>
+<ul>
+<li><strong>Investigation DC 13:</strong> Garden tools, all maintained, all clean. Used recently. Soil under the fingernails of the gloves.</li>
+<li><strong>Perception DC 16:</strong> A journal tucked in a drawer: "Year 947. The orchid bloomed today. No one saw it but me. Does beauty exist if unwitnessed? Do I?"</li>
+</ul>
+
+---
+
+<h2>Upper Floors</h2>
+
+<h3>10. The Portrait Gallery (SEAL 2: BLOOD)</h3>
+
+<p><strong>Read Aloud:</strong></p>
+<blockquote>
+Family portraits line both walls of this long gallery, dozens of faces staring down at you. The Ostregas, according to the plaques—generations of them, spanning centuries. Some portraits are formal, posed. Others seem almost candid: a child playing, a woman reading, a man looking out a window at something unseen. One portrait, larger than the others, hangs at the far end of the gallery. It shows a young woman with faintly green-tinged skin and eyes that seem to follow you. The frame is cracked, and someone has carved a single letter into it: "I."
+</blockquote>
+
+<h4>Key Features</h4>
+
+<p><strong>The Family Portraits.</strong> The Ostrega family across generations. A DC 14 Perception check notices something strange: the same face appears in multiple portraits across different eras. Same eyes, same bone structure, despite supposedly being different people.</p>
+<ul>
+<li><strong>Perception DC 15:</strong> Portrait eyes follow you. All of them. But not tracking movement—they're looking AT you, trying to see if you're really there, if you're different from the last visitors.</li>
+<li><strong>Investigation DC 16:</strong> One portrait (dated 723 OZ) shows a woman labeled "Marta Ostrega" who looks identical to "Yael Ostrega" from 631 OZ. Same person, different name, a century apart.</li>
+<li><strong>Insight DC 17:</strong> The recurring face isn't heredity—it's the same person, painted again and again, trying to fit into a family she created to avoid being alone.</li>
+</ul>
+
+<p><strong>The Family Tree.</strong> Painted on one wall: a sprawling family tree of the Ostregas. Several branches are marked "Ended" with dates. One branch leads off the wall entirely, as if continuing somewhere unseen. A DC 14 Investigation check finds small portrait miniatures in frames around the room—they need to be placed in the empty slots on the family tree.</p>
+<ul>
+<li><strong>Investigation DC 15:</strong> Branches marked "Ended" all terminate in the same decade—740s OZ. A plague? A purge? The entire family died within five years.</li>
+<li><strong>Perception DC 16:</strong> One branch, barely visible, labeled "Friends (as close as family)" with names crossed out: "Willem (d. 754)," "Mira (d. 756)," "Tess (d. 782)," "Holly (d. 784)"—the servants.</li>
+<li><strong>Arcana DC 18:</strong> The tree isn't just genealogy—it's a binding ritual. Names written here have power, weight. This is less history and more anchor—proof that people existed, that connections were real.</li>
+</ul>
+
+<p><strong>The Large Portrait.</strong> Yackle, age 23, before her transformation. Her skin is slightly green (Quadling heritage? something else?), her expression hopeful. The frame reads "Y.O." and has "I" carved roughly into the wood. This is one of the puzzle box clues.</p>
+<ul>
+<li><strong>Perception DC 14:</strong> The frame is newer than the painting. The painting has been moved, reframed, protected—this specific image matters more than the others.</li>
+<li><strong>Insight DC 16:</strong> The expression is achingly young. Not naive, but... open. Believing in possibility. Looking at it now, knowing what she became, is almost cruel.</li>
+<li><strong>Investigation DC 18:</strong> Behind the portrait (if removed): a note yellowed with age: "This is who I was. Before the Fairy. Before the Words. Before witness became prison. Remember me like this."</li>
+</ul>
+
+<p><strong>HANDOUT: Ostrega Family Tree (Incomplete).</strong> A diagram of the family tree with several empty slots. Provide small portrait miniatures (or cards representing them) to be placed.</p>
+
+<h4>SEAL OF BLOOD PUZZLE</h4>
+
+<p>To break the seal:</p>
+<ol>
+<li>Find the portrait miniatures (scattered in this room and the Master Bedroom)</li>
+<li>Place them correctly in the family tree based on clues in the paintings (clothing, jewelry, background details)</li>
+<li>Investigation DC 14, or automatic with 15+ minutes of careful study</li>
+</ol>
+
+<p>The final slot leads off the wall. When all other miniatures are placed, the wall swings open to reveal a hidden alcove containing: a <strong>locket with no portrait inside</strong>, and a note: <em>"I had no one to put here. Does that mean I never existed?"</em></p>
+
+<p><strong>Reward:</strong> One character gains <strong>Death's Denial</strong> (first time at 0 HP, stabilize automatically).</p>
+
+<p><strong>The Candid Portraits.</strong></p>
+<ul>
+<li><strong>Investigation DC 15 (child playing):</strong> "Tess Harvin, age 6, 778 OZ" - the maid's daughter. The only child painted in the entire gallery. Background shows Yackle watching from a window, smiling.</li>
+<li><strong>Investigation DC 16 (woman reading):</strong> Yackle again, different era, reading by firelight. Title of book visible: "On Loneliness as Metaphysical State."</li>
+</ul>
+
+---
+
+<p><em>[Due to length constraints, I'll note here that the complete file would continue with rooms 11-22 following the same detailed format with investigation/perception checks and lore details. Would you like me to continue with the remaining rooms in another file, or shall we proceed to add what we have to pages.json?]</em></p>

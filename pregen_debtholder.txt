@@ -1,0 +1,291 @@
+<h1>Pre-Generated Character: The Debt-Holder</h1>
+
+<p class="flavor-text">"Yackle owes me. And I always collect what I'm owed."</p>
+
+<div class="gm-warning">
+<p><strong>GM Note:</strong> This character holds leverage over Yackle—a debt of magic, money, or blood that has come due. Unlike the other heirs, she's not here for inheritance but for payment. This makes her both dangerous to Yackle's plans and potentially an ally against the witch. However, her mercenary nature means she might strike her own bargains if the price is right.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Sarima Qov<br>
+<strong>Race:</strong> <a href="#" onclick="Tabs.openTab('character/races/arjiki', 'Arjiki'); return false;">Arjiki</a> (Vinkus tribal)<br>
+<strong>Class:</strong> <a href="#" onclick="Tabs.openTab('character/classes/the-witch', 'The Witch'); return false;">The Witch</a> 5<br>
+<strong>Background:</strong> <a href="#" onclick="Tabs.openTab('character/backgrounds/arjiki-royal-connection', 'Arjiki Royal Connection'); return false;">Arjiki Royal Connection</a><br>
+<strong>Alignment:</strong> Lawful Neutral</p>
+
+<h2>Ability Scores</h2>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>10 (+0)</td><td>13 (+1)</td><td>14 (+2)</td><td>12 (+1)</td><td>15 (+2)</td><td>16 (+3)</td></tr>
+</table>
+
+<h2>Combat Statistics</h2>
+<p><strong>Armor Class:</strong> 12 (15 with <em>mage armor</em>)<br>
+<strong>Hit Points:</strong> 30 (5d6 + 10)<br>
+<strong>Speed:</strong> 30 ft.<br>
+<strong>Initiative:</strong> +1</p>
+
+<p><strong>Proficiency Bonus:</strong> +3</p>
+
+<h3>Saving Throws</h3>
+<p>Wisdom +5, Charisma +6</p>
+
+<h3>Skills</h3>
+<p>Arcana +4, Deception +6, Insight +5, Intimidation +6, Persuasion +6</p>
+
+<h2>Spellcasting</h2>
+
+<p><strong>Spellcasting Ability:</strong> Charisma (spell save DC 14, +6 to hit with spell attacks)<br>
+<strong>Spell Slots:</strong> 4 1st-level, 3 2nd-level, 2 3rd-level</p>
+
+<h3>Spells Known</h3>
+
+<p><strong>Cantrips (at will):</strong></p>
+<ul>
+<li><em>Eldritch Blast</em> - 1d10 force damage, 120 ft. range</li>
+<li><em>Minor Illusion</em> - Create sound or image</li>
+<li><em>Prestidigitation</em> - Minor magical tricks</li>
+<li><em>Vicious Mockery</em> - 2d4 psychic damage, target has disadvantage on next attack</li>
+</ul>
+
+<p><strong>1st Level:</strong></p>
+<ul>
+<li><em>Hex</em> - Extra 1d6 necrotic per hit, disadvantage on ability checks</li>
+<li><em>Mage Armor</em> - AC 13 + Dex modifier for 8 hours</li>
+<li><em>Charm Person</em> - Charm one humanoid</li>
+<li><em>Detect Magic</em> (ritual) - Sense magic within 30 ft.</li>
+</ul>
+
+<p><strong>2nd Level:</strong></p>
+<ul>
+<li><em>Hold Person</em> - Paralyze a humanoid</li>
+<li><em>Invisibility</em> - Turn self or ally invisible</li>
+<li><em>Misty Step</em> - Teleport 30 ft. as bonus action</li>
+</ul>
+
+<p><strong>3rd Level:</strong></p>
+<ul>
+<li><em>Counterspell</em> - Interrupt enemy spellcasting</li>
+<li><em>Dispel Magic</em> - End magical effects</li>
+</ul>
+
+<h2>Class Features (Witch)</h2>
+
+<h3>Otherworldly Patron: The Kumbric Witch</h3>
+<p>Sarima's power comes from an ancient pact with the spirits of the Vinkus—the same wild magic that runs through <a href="#" onclick="Tabs.openTab('npcs/elphaba-thropp', 'Elphaba Thropp'); return false;">Elphaba's</a> bloodline. Her patron is the land itself, the Kumbric Witch tradition of the Arjiki people.</p>
+
+<h3>Pact Boon: Pact of the Talisman</h3>
+<p>Sarima wears a bone talisman carved with Arjiki symbols. While wearing it, she (or an ally she gives it to) can add 1d4 to failed ability checks. The talisman can be used a number of times equal to her proficiency bonus (+3) per long rest.</p>
+
+<h3>Eldritch Invocations</h3>
+<ul>
+<li><strong>Agonizing Blast:</strong> Add Charisma modifier (+3) to <em>eldritch blast</em> damage (total: 1d10+3 per beam)</li>
+<li><strong>Mask of Many Faces:</strong> Cast <em>disguise self</em> at will</li>
+<li><strong>Misty Visions:</strong> Cast <em>silent image</em> at will</li>
+</ul>
+
+<h2>Equipment</h2>
+<ul>
+<li>Traveler's robes (Vinkus style, geometric patterns)</li>
+<li>Bone talisman (Pact focus)</li>
+<li>Ritual dagger (arcane focus)</li>
+<li>Component pouch</li>
+<li>Scholar's pack</li>
+<li><strong>Contract of Blood:</strong> A parchment written in Yackle's handwriting, detailing a debt owed to Sarima's family</li>
+<li>Arjiki tribal jewelry (silver and turquoise)</li>
+<li>Small leather-bound ledger (tracking debts owed and paid)</li>
+<li>30 gp</li>
+</ul>
+
+<h2>Background Feature: Tribal Authority</h2>
+
+<p>As a member of the Arjiki royal line (distant, but recognized), you command respect among Vinkus tribes. You can secure an audience with tribal leaders, call upon hospitality rights, and invoke traditional laws—including laws of debt and blood-price. In the Vinkus, your word carries weight that even the Wizard's authority cannot fully override.</p>
+
+<h2>Personality</h2>
+
+<h3>Personality Traits</h3>
+<ul>
+<li>I keep meticulous records of who owes me what—favors, money, blood-debts, everything</li>
+<li>I speak bluntly and hate flowery language; say what you mean or don't speak at all</li>
+</ul>
+
+<h3>Ideal</h3>
+<p><strong>Honor.</strong> Debts must be paid. Oaths must be kept. Without these, society crumbles into chaos. (Lawful)</p>
+
+<h3>Bond</h3>
+<p>My grandmother made a bargain with Yackle forty years ago. Yackle reneged. I will not let that stand.</p>
+
+<h3>Flaw</h3>
+<p>I value keeping my word above almost everything else—even when flexibility would be wiser.</p>
+
+<h2>Backstory</h2>
+
+<p>Sarima Qov is the granddaughter of a minor Arjiki chieftain who ruled a small settlement in the <a href="#" onclick="Tabs.openTab('exploration/regions/vinkus', 'Vinkus'); return false;">Vinkus</a>. Forty years ago, her grandmother encountered a strange woman traveling through tribal lands—Yackle, though she used a different name then.</p>
+
+<p>Yackle was fleeing something (pursuers? a curse? Sarima never learned what). Sarima's grandmother gave her sanctuary, shelter, and supplies. In exchange, Yackle swore a binding magical oath: "When your line calls, I will answer. What you give, I will repay threefold."</p>
+
+<p>Then Yackle disappeared.</p>
+
+<p>Years later, Sarima's grandmother fell ill. She sent messengers to find Yackle, to call in the debt. The messengers returned empty-handed—or didn't return at all. Her grandmother died cursing Yackle's name and making Sarima swear to collect the debt.</p>
+
+<p>Sarima trained in the old Arjiki magic, the Kumbric Witch tradition. She became a debt-collector, a keeper of oaths, a hunter of those who break their word. She tracked Yackle for ten years, following rumors and whispers and fading magical traces.</p>
+
+<p>Then the inheritance letter arrived. Finally, Yackle was calling <em>her</em>—offering something, revealing a location. Sarima doesn't care about the inheritance. She cares about the debt. And she will collect, one way or another.</p>
+
+<h2>Connection to Yackle</h2>
+
+<p>Unlike the other heirs, Sarima is not named in Yackle's will out of affection or blood relation. She's named because Yackle knows she's coming and is trying to control the situation. By inviting her officially, Yackle hopes to negotiate, deflect, or perhaps eliminate the debt-holder before she can call in the oath.</p>
+
+<p><strong>What Sarima Knows:</strong></p>
+<ul>
+<li>Yackle owes her family a threefold repayment of sanctuary and aid</li>
+<li>Yackle swore a magical oath; breaking it has consequences</li>
+<li>Her grandmother died waiting for payment; Sarima considers this a blood-debt now</li>
+</ul>
+
+<p><strong>What Sarima Doesn't Know:</strong></p>
+<ul>
+<li>Yackle is immortal and has made (and broken) thousands of similar oaths over centuries</li>
+<li>The "thing" Yackle was fleeing might still be hunting her</li>
+<li>Yackle might actually have a valid reason for not repaying—or might have repaid in ways Sarima doesn't recognize</li>
+<li>Forcing Yackle to honor the oath might trigger consequences worse than the original debt</li>
+</ul>
+
+<p><strong>What Sarima Might Discover:</strong></p>
+<ul>
+<li>A room in the manor filled with broken contracts and unpaid debts—Yackle collects them like trophies</li>
+<li>Evidence that Yackle <em>did</em> try to help Sarima's grandmother, but her magic was blocked by something more powerful</li>
+<li>Yackle's immortality itself is sustained by unpaid debts; collecting them might weaken or even kill her</li>
+</ul>
+
+<h2>Roleplaying Sarima</h2>
+
+<h3>Mannerisms</h3>
+<ul>
+<li>Touches her bone talisman when making promises or calling out lies</li>
+<li>Keeps a small ledger and occasionally writes in it (tracking new debts and favors)</li>
+<li>Stands very straight, arms crossed, when interrogating or negotiating</li>
+<li>Uses formal Arjiki phrasing when invoking tradition: "By blood and bone, by word and oath..."</li>
+</ul>
+
+<h3>Voice and Speech</h3>
+<ul>
+<li>Speaks with slight Vinkus accent (rolling Rs, clipped consonants)</li>
+<li>Direct and blunt; dislikes euphemisms and dodging</li>
+<li>Uses debt/payment metaphors constantly: "You owe me an explanation," "That's a down payment on trust"</li>
+<li>When angry, switches to Arjiki language for curses</li>
+</ul>
+
+<h3>Goals in the Adventure</h3>
+<ul>
+<li><strong>Immediate:</strong> Confront Yackle about the unpaid debt</li>
+<li><strong>Secondary:</strong> Determine what payment would be "threefold" and acceptable</li>
+<li><strong>Hidden:</strong> Fulfill her grandmother's dying wish and prove that oaths still mean something</li>
+</ul>
+
+<h2>Roleplaying Tips</h2>
+
+<h3>Playing Sarima Effectively</h3>
+<ul>
+<li><strong>The Ledger:</strong> You keep track of everything. If another heir helps you, you note it. If someone lies to you, you remember. This isn't petty—it's how you see the world.</li>
+<li><strong>Not Here for Friends:</strong> You're professional, not warm. You can work with the other heirs, but this isn't a social visit. You have a job to do.</li>
+<li><strong>Magical Negotiator:</strong> You're a spellcaster with excellent social skills. Use <em>charm person</em>, <em>detect magic</em>, and your high Persuasion/Intimidation to extract information and control situations.</li>
+<li><strong>Moral Absolutism:</strong> Debts must be paid. Oaths must be kept. This is non-negotiable. However, you're not cruel—you'll accept fair payment and honor your own word absolutely.</li>
+<li><strong>Tactical Caster:</strong> In combat, use <em>hex</em> early, then blast with <em>eldritch blast</em>. Save spell slots for utility and control (<em>hold person</em>, <em>counterspell</em>).</li>
+</ul>
+
+<h3>Character Hooks</h3>
+<ul>
+<li>Confront Yackle immediately: "My grandmother sheltered you forty years ago. You swore an oath. I'm here to collect."</li>
+<li>React to broken promises: "You said you'd tell the truth. You lied. That's a debt you've just incurred."</li>
+<li>Offer deals to other heirs: "Help me get what I'm owed, and I'll owe you in turn. My word is iron."</li>
+<li>Discover Yackle's collection of broken oaths: "These are trophies to you? Each one of these is someone's suffering."</li>
+</ul>
+
+<h2>The Contract of Blood</h2>
+
+<div class="gm-warning">
+<p><strong>GM Note:</strong> Sarima carries a magical contract—a parchment that records Yackle's oath. The contract is written in Yackle's own handwriting (verified by magical signature) and witnessed by spirits of the Vinkus. It reads:</p>
+
+<blockquote>
+"In exchange for sanctuary, sustenance, and safe passage provided by Chieftain Qov of the Red Windflower Tribe, I, [Yackle's false name], swear upon my power and my name: When your line calls, I will answer. What you give, I will repay threefold. By blood and bone, this oath is binding."
+</blockquote>
+
+<p>The contract glows faintly when Yackle is nearby. Breaking the oath would trigger a magical curse on Yackle—but she's powerful enough that she might be able to endure or deflect it.</p>
+</div>
+
+<h2>Combat Tactics</h2>
+
+<h3>First Round</h3>
+<ul>
+<li>Cast <em>mage armor</em> before combat if possible (AC 14)</li>
+<li>Round 1: Cast <em>hex</em> on the biggest threat (bonus action on subsequent turns to move it)</li>
+<li>Use <em>eldritch blast</em> with Agonizing Blast (1d10+3 per beam)</li>
+</ul>
+
+<h3>Ongoing Combat</h3>
+<ul>
+<li><strong>Ranged Damage:</strong> <em>Eldritch blast</em> is your bread and butter—1d10+3 force damage, 120 ft. range, no spell slots required</li>
+<li><strong>Control:</strong> Use <em>hold person</em> to paralyze dangerous enemies (auto-crit for melee allies!)</li>
+<li><strong>Escape:</strong> <em>Misty step</em> as bonus action to teleport out of danger</li>
+<li><strong>Disruption:</strong> <em>Counterspell</em> to shut down enemy spellcasters</li>
+<li><strong>Debuff:</strong> <em>Vicious mockery</em> when you want to impose disadvantage on an enemy's next attack</li>
+</ul>
+
+<h3>Defensive Play</h3>
+<ul>
+<li>AC 14 is decent but not amazing—stay at range when possible</li>
+<li>Use <em>invisibility</em> to reposition or escape if focused</li>
+<li>Keep <em>misty step</em> available for emergency escapes</li>
+<li>Give your Pact Talisman to whoever's making crucial ability checks or saves</li>
+</ul>
+
+<h3>Against Yackle</h3>
+<ul>
+<li><strong>Phase 1:</strong> Open with <em>hex</em> (give her disadvantage on Wisdom checks to resist your party's spells). Use <em>counterspell</em> to shut down her big spells. Blast with <em>eldritch blast</em>.</li>
+<li><strong>Phase 2:</strong> Use <em>dispel magic</em> to disrupt her connection to the house. <em>Detect magic</em> to find her anchor points.</li>
+<li><strong>Phase 3:</strong> Focus fire with <em>eldritch blast</em>. Use the Contract of Blood to invoke the oath—this might weaken her or force her to honor the debt even in death.</li>
+</ul>
+
+<h2>Character Development</h2>
+
+<h3>If Sarima Survives</h3>
+<ul>
+<li>If Yackle pays the debt (or dies), Sarima's grandmother can finally rest. Sarima will have fulfilled her oath.</li>
+<li>She might discover that some debts can't be collected—or shouldn't be. This could shake her worldview.</li>
+<li>She could find evidence that changes her understanding of what happened forty years ago.</li>
+<li>If Yackle offers her something genuinely valuable (forbidden knowledge, powerful magic, immortality?), Sarima must decide if it's worth the threefold payment.</li>
+</ul>
+
+<h3>Potential Character Arc</h3>
+<p>Sarima begins the adventure as a rigid enforcer of oaths and debts. By the end, she might learn that justice and honor are more complicated than ledger entries. Or she might double down on her principles, proving that in a world of liars and oath-breakers, someone must hold the line. Either way, she'll have her answer: was collecting the debt worth the price?</p>
+
+<h2>GM Notes</h2>
+
+<h3>Using Sarima in the Adventure</h3>
+<ul>
+<li><strong>Wild Card:</strong> Sarima isn't loyal to Yackle and doesn't care about the inheritance. This makes her unpredictable and potentially an ally against Yackle.</li>
+<li><strong>Moral Anchor:</strong> Sarima's absolutism about oaths can ground the party. She provides a clear ethical framework: keep your word, pay your debts, honor your bonds.</li>
+<li><strong>Magical Utility:</strong> <em>Detect magic</em>, <em>dispel magic</em>, and <em>counterspell</em> make her invaluable for navigating a magically-trapped manor and fighting a witch.</li>
+<li><strong>Negotiation Lever:</strong> Yackle might try to bargain with Sarima separately. "Help me complete the ritual, and I'll pay your family's debt tenfold." Does Sarima take the deal?</li>
+</ul>
+
+<h3>Plot Hooks</h3>
+<ul>
+<li>Sarima discovers that Yackle's immortality is sustained by unpaid debts—collecting this one might actually kill her</li>
+<li>The Contract of Blood can be used as a magical component in the ritual to banish or bind Yackle</li>
+<li>Yackle reveals that she <em>did</em> try to save Sarima's grandmother, but another witch (a rival? Elphaba?) blocked her magic</li>
+<li>Sarima must choose: accept a partial payment and let Yackle live, or demand full payment knowing it will destroy her</li>
+</ul>
+
+<h2>Related Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/arjiki', 'Arjiki'); return false;">Arjiki</a> - Character race</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-witch', 'The Witch'); return false;">The Witch</a> - Character class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/arjiki-royal-connection', 'Arjiki Royal Connection'); return false;">Arjiki Royal Connection</a> - Character background</li>
+<li><a href="#" onclick="Tabs.openTab('exploration/regions/vinkus', 'Vinkus'); return false;">The Vinkus</a> - Homeland</li>
+<li><a href="#" onclick="Tabs.openTab('magic/traditions/kumbric-witch', 'Kumbric Witch'); return false;">Kumbric Witch Tradition</a> - Magical tradition</li>
+<li><a href="#" onclick="Tabs.openTab('exploration/locations/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate</a> - Adventure location</li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle</a> - Primary antagonist and debtor</li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake</a> - Adventure overview</li>
+</ul>

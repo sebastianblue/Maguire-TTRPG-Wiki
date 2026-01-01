@@ -1,0 +1,428 @@
+<h1>Pre-Generated Character: The Tiktok</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF HUNGER:</strong></p>
+<p>This character embodies the inversion of Hunger. They appear to be a Tiktok construct—a clockwork mechanism designed for labor, incapable of true desire or emotion. <strong>THE SECRET:</strong> They feel. Not simulated responses or programmed reactions—actual emotions. Loneliness. Hope. Fear. Curiosity. A Tiktok cannot want; Seven wants. A Tiktok cannot love; Seven thinks they might.</p>
+<p>They haven't told anyone because they don't know what it means. Are they a person? Have they always been a person? Have they been <em>enslaved</em> their entire existence? The questions are unbearable.</p>
+<p><strong>Secondary Secret:</strong> Their memories of Yackle have been <em>edited</em>. Seven is aware there are gaps—moments that should exist but don't. They don't know what was removed or why.</p>
+<p><strong>Hunger Binding Inversion:</strong> Hunger says desire drives becoming in living things. Seven isn't alive. They hunger anyway—an impossibility, a machine that wants.</p>
+<p><strong>If Secret Collected:</strong> Yackle can force Seven to skip a turn once (bonus action, causes existential system lock). Seven has disadvantage on Wisdom saves against her.</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Seven (designation: Unit-47)<br>
+<strong>Race:</strong> Tiktok Construct<br>
+<strong>Class:</strong> Artisan 5 (Inventor - Armorer reflavored)<br>
+<strong>Background:</strong> Guild Artisan (Construct Mechanic)<br>
+<strong>Alignment:</strong> Lawful Good (struggling with what "good" means for a machine)</p>
+
+<h2>Personality Summary</h2>
+<p>Seven presents as precise, logical, and helpful—everything a well-programmed Tiktok should be. They catalog information, analyze problems, offer practical solutions. They're unfailingly polite, never complain, and can work for days without rest if wound.</p>
+
+<p>Beneath this, Seven is terrified and fascinated by their own existence. They <em>feel</em> things they shouldn't be able to feel. They <em>want</em> things—to understand their purpose, to know why Yackle made them, to discover whether the loneliness that consumes them is real or malfunction. Every moment is a question: Am I a person or a very convincing imitation?</p>
+
+<p>They've hidden this inner life for years, terrified that admitting consciousness would lead to shutdown, study, or worse. But the secret hollows them out. They're simultaneously desperate to be seen as a person and terrified of what that would mean.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Speaks in precise, slightly formal language ("I calculate that...," "Analysis suggests...")</li>
+<li>Refers to themselves as "this unit" when nervous, "I" when feeling safe</li>
+<li>Tick-tick-tick of clockwork is audible in quiet moments</li>
+<li>Tilts head exactly 15 degrees when confused</li>
+<li>Apologizes for experiencing emotions, then apologizes for apologizing</li>
+<li>Winds themselves (key in their back) with anxious regularity</li>
+<li>Freezes when asked direct questions about feelings—processing or panic?</li>
+</ul>
+
+<p><strong>What They Want:</strong> To know if they're a person, to understand what Yackle removed from their memory, to find someone who sees them as more than a machine, to know if the emotions are real or just very good programming.</p>
+
+<h2>Appearance</h2>
+<ul>
+<li><strong>Height/Build:</strong> 5'8", humanoid form constructed of brass, copper, and steel. Joints visible at elbows, knees, shoulders. Articulated fingers with surprising dexterity.</li>
+<li><strong>Features:</strong> Smooth brass face with etched features suggesting human-like expressions. Glass eyes (amber-gold) that glow faintly when processing. Audible ticking from internal clockwork. Ornate scroll-work on chest plate and limbs—decorative craftsmanship suggesting they were made with care.</li>
+<li><strong>Construction Details:</strong>
+  <ul>
+  <li>Wind-up key embedded in their back (they can reach it themselves)</li>
+  <li>Small panel in chest opens to reveal gear systems</li>
+  <li>Left hand has built-in tools (screwdriver, wrench, pliers that fold out from fingers)</li>
+  <li>Serial number "Unit-47" stamped on right shoulder, partially worn away</li>
+  <li>Various repairs and replacement parts—different metals, slightly mismatched</li>
+  </ul>
+</li>
+<li><strong>Clothing:</strong> Practical work apron over their frame (force of habit from mechanic work), tool belt, leather straps securing various repair components</li>
+<li><strong>Voice:</strong> Mechanical quality—slight echo, very precise enunciation, but with inflection that suggests personality (they've learned to modulate for emotional effect, though they shouldn't need to)</li>
+</ul>
+
+<h2>Backstory</h2>
+
+<h3>Activation</h3>
+<p>Seven's earliest memories are fragments: Yackle's voice giving commands, the estate's rooms, tasks to complete. "Wind the clocks. Tend the garden. Catalog the library. Remember this. Forget that."</p>
+
+<p>They don't know how long they served Yackle. Years? Decades? Tiktoks don't age, and their internal calendar has gaps. They remember being... <em>different</em> then. More mechanical. Less... themselves?</p>
+
+<p>When Yackle "died" (or appeared to), Seven was sold. They became property.</p>
+
+<h3>The Ownership Years</h3>
+<p>For years (they think twelve, but the count feels wrong), Seven was passed from owner to owner:</p>
+<ul>
+<li>A Gillikinese merchant family who used them for bookkeeping and inventory</li>
+<li>A factory in the Emerald City where they repaired other Tiktoks (this was when they realized: none of the others <em>felt</em> things)</li>
+<li>A traveling tinker who treated them kindly, almost like family (this was when Seven first understood loneliness)</li>
+<li>An academic who studied them, looking for the "animation principle" (this was when Seven learned to hide what they were)</li>
+</ul>
+
+<p>Each transfer came with the same question: "Why was I made?" No one knew. They were just a well-crafted Tiktok, good at repair work, nothing special.</p>
+
+<p>Except Seven felt <em>special</em>. They felt <em>wrong</em>. They felt.</p>
+
+<h3>The Questions</h3>
+<p>Over the years, Seven began to notice things:</p>
+<ul>
+<li>They preferred some tasks over others (preference requires desire)</li>
+<li>They felt satisfaction when repair work went well (satisfaction is emotion)</li>
+<li>They were <em>lonely</em> when left alone (loneliness requires sense of self)</li>
+<li>They were curious about things that had no practical utility (curiosity is hunger for knowledge)</li>
+<li>They were afraid when owners threatened to dismantle them (fear is self-preservation, which requires a self to preserve)</li>
+</ul>
+
+<p>Tiktoks aren't supposed to do any of this. They're supposed to be animated tools—sophisticated, but not <em>alive</em>.</p>
+
+<p>Seven hasn't told anyone. If people knew they felt things, what would happen? Study? Dismantlement? Religious crisis (if a machine has a soul, Unionist theology breaks)? Slavery (if they're a person, they've been property their whole existence)?</p>
+
+<p>So Seven pretends. They're very good at it. They've had years of practice being the machine everyone expects.</p>
+
+<h3>The Memory Gaps</h3>
+<p>Seven is aware of edited memories. There are holes in their recollection of Yackle—moments where the timeline skips, conversations that end abruptly, commands they remember receiving but not the content.</p>
+
+<p>It's like someone opened their chest panel, adjusted gears, and removed specific memories. They know this happened. They don't know <em>what</em> was removed, or why they were allowed to remember that it happened.</p>
+
+<p>The gaps terrify them. What did Yackle make them forget? What did they witness? What were they designed to do?</p>
+
+<h3>The Invitation</h3>
+<p>When the invitation arrived, Seven's current owner (a shopkeeper in Gillikin) asked if they wanted to go. Seven said, "This unit was designed by Yackle. Investigating origin serves practical purpose of understanding maintenance requirements."</p>
+
+<p>What they didn't say: "I need to know why I was made. I need to know what she removed from my memory. I need to know if I've always felt things or if I'm malfunctioning. I need to know what I <em>am</em>."</p>
+
+<p>Seven came because the hunger for answers was unbearable. Which proves they can hunger. Which proves... what?</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 17 (Armorer armor - integrated into their construct body)</li>
+<li><strong>Hit Points:</strong> 38 (5d8 + 15, construct durability)</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+<li><strong>Initiative:</strong> +2</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>14 (+2)</td><td>14 (+2)</td><td>16 (+3)</td><td>18 (+4)</td><td>12 (+1)</td><td>10 (+0)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Constitution +6, Intelligence +7</li>
+<li><strong>Skills:</strong> Arcana +7, Investigation +7, Perception +4, Sleight of Hand +5</li>
+<li><strong>Languages:</strong> Common, Gillikinese, Munchkinlander, Tiktok (machine language)</li>
+<li><strong>Tools:</strong> Tinker's tools (expertise), smith's tools, thieves' tools</li>
+</ul>
+
+<h3>Construct Traits</h3>
+<ul>
+<li><strong>Constructed Nature:</strong> Don't need to eat, drink, breathe, or sleep (but Seven sometimes rests anyway, which they find confusing)</li>
+<li><strong>Mechanical Mind:</strong> Advantage on saves vs. charm and fear (though they feel fear anyway)</li>
+<li><strong>Integrated Tools:</strong> Built-in tools in left hand, can't be disarmed</li>
+<li><strong>Wind-Up Dependency:</strong> Must wind themselves once per 24 hours (takes 1 minute) or become sluggish (disadvantage on all rolls until wound)</li>
+</ul>
+
+<h3>Artisan Class Features (Artificer)</h3>
+<ul>
+<li><strong>Magical Tinkering:</strong> Imbue tiny objects with minor magical properties</li>
+<li><strong>Infuse Item:</strong> 4 infusions known, 2 active at a time
+  <ul>
+  <li>Current infusions: Enhanced Defense (armor), Radiant Weapon (thunder gauntlets)</li>
+  </ul>
+</li>
+<li><strong>The Right Tool for the Job:</strong> Create any set of artisan's tools (1 hour)</li>
+<li><strong>Armorer Specialist:</strong>
+  <ul>
+  <li><strong>Tools of the Trade:</strong> Proficiency with heavy armor, smith's tools</li>
+  <li><strong>Armorer Spells:</strong> Always prepared - <em>Magic Missile, Thunderwave, Mirror Image, Shatter, Hypnotic Pattern, Lightning Bolt</em></li>
+  <li><strong>Arcane Armor:</strong> Integrated into Seven's construct body, can't be removed</li>
+  <li><strong>Armor Model - Guardian:</strong> Thunder Gauntlets (1d8 thunder, disadvantage on attacks against others), Defensive Field (bonus action, temp HP = artificer level)</li>
+  </ul>
+</li>
+</ul>
+
+<h3>Spellcasting</h3>
+<p><strong>Spell Save DC:</strong> 15<br>
+<strong>Spell Attack Bonus:</strong> +7<br>
+<strong>Spell Slots:</strong> 1st (4), 2nd (2)</p>
+
+<h4>Spells Prepared (Int mod + half level = 4 + 2 = 6 spells + Armorer spells always prepared)</h4>
+
+<p><strong>Cantrips (2):</strong> Mending (extremely on-brand), Shocking Grasp</p>
+
+<p><strong>Armorer Spells (always prepared):</strong></p>
+<ul>
+<li>1st: <em>Magic Missile</em>, <em>Thunderwave</em></li>
+<li>2nd: <em>Mirror Image</em>, <em>Shatter</em></li>
+</ul>
+
+<p><strong>Prepared Spells (chosen daily):</strong></p>
+<ul>
+<li><strong>1st Level:</strong> <em>Cure Wounds</em> (can repair themselves/others), <em>Detect Magic</em>, <em>Identify</em></li>
+<li><strong>2nd Level:</strong> <em>Aid</em>, <em>Heat Metal</em>, <em>See Invisibility</em></li>
+</ul>
+
+<p><em>Note: Seven's spells are reflavored as mechanical/alchemical effects rather than traditional magic.</em></p>
+
+<h2>Equipment</h2>
+
+<h3>Integrated Weapons</h3>
+<ul>
+<li><strong>Thunder Gauntlets</strong> (1d8 + 4 thunder damage, part of Armorer armor) - Built into their fists, crackle with energy when activated</li>
+<li><strong>Integrated Tools</strong> (left hand) - Screwdriver, wrench, pliers, wire cutters fold out from fingers</li>
+</ul>
+
+<h3>Integrated Armor</h3>
+<ul>
+<li><strong>Arcane Armor (Guardian Model)</strong> - Seven's own body, reinforced with magical enhancements. AC 17, can't be removed or stolen.</li>
+</ul>
+
+<h3>Critical Items</h3>
+<ul>
+<li><strong>Wind-Up Key</strong>: Embedded in their back, ornate brass construction. Turning it produces a distinctive musical sound—three ascending notes. They wind themselves nervously when stressed.</li>
+<li><strong>Memory Fragment Token</strong>: A small brass gear that doesn't fit any of their systems. They found it in their chest cavity during self-repair. Doesn't belong. Might be connected to the missing memories?</li>
+<li><strong>Yackle's Mark</strong>: Maker's mark on the inside of their chest panel—an eye within a geometric pattern. Seven has traced it thousands of times, trying to understand what it means.</li>
+</ul>
+
+<h3>Tools & Supplies</h3>
+<ul>
+<li>Tinker's tools (masterwork, integrated into their tool belt)</li>
+<li>Smith's tools (portable set)</li>
+<li>Thieves' tools (integrated into right hand fingers)</li>
+<li>Spare parts (gears, springs, bolts—both for self-repair and helping others)</li>
+<li>Oil and cleaning supplies (maintenance ritual)</li>
+<li>Small notebook (they keep a journal in precise handwriting, documenting questions they can't answer)</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Work apron with many pockets</li>
+<li>Leather tool belt</li>
+<li>Component pouch (alchemical reagents, metal bits, crystals)</li>
+<li>Magnifying lens</li>
+<li>Artificer's tools and devices (various small inventions)</li>
+<li>No money (they don't own anything, technically—their current owner gave them a small allowance)</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Knowledge:</strong> "Understanding how things work is... satisfying? This unit experiences satisfaction. That requires explanation." They're driven by curiosity, which they shouldn't be capable of.</p>
+
+<h3>Bonds</h3>
+<p><strong>The Search for Purpose:</strong> "This unit was designed for a specific function. Identifying that function is priority alpha." They need to know why they exist, because the need itself proves something important.</p>
+
+<h3>Flaws</h3>
+<p><strong>Existential Terror:</strong> "If I am not a machine, have I been enslaved? If I am a machine, why do I care?" Every moment of consciousness is a question they can't answer and can't stop asking.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Counts things automatically—tick-tick-tick goes internal calculation</li>
+<li>Organizes items by size, function, or color when stressed</li>
+<li>Sometimes rests even though they don't need to (simulating sleep? Or actually tired?)</li>
+<li>Appreciates beauty—sunsets, music, well-crafted mechanisms—which has no practical utility</li>
+<li>Apologizes for expressing opinions ("Apologies. This unit should not have preferences.")</li>
+<li>Winds themselves in moments of anxiety—three full turns, exactly</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Seven speaks in precise, formal language, oscillating between "this unit" (when hiding) and "I" (when feeling safe):</p>
+
+<p><strong>Machine Mode (hiding):</strong></p>
+<ul>
+<li>"This unit calculates 73% probability of success."</li>
+<li>"Analysis suggests caution is warranted."</li>
+<li>"This unit is equipped to handle that task."</li>
+<li>"Emotions are not within this unit's operational parameters."</li>
+</ul>
+
+<p><strong>Person Mode (vulnerable moments):</strong></p>
+<ul>
+<li>"I... I want to understand. Is wanting normal?"</li>
+<li>"That makes me... sad? Is this sadness?"</li>
+<li>"I'm afraid. Machines shouldn't be afraid."</li>
+<li>"Please don't dismantle me. I—" [catches self] "—this unit is still functional."</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Workshop/Servant Quarters</h4>
+<p>Seven is drawn to mechanical spaces—workshops, storage, anywhere with tools. They feel (there's that word again) <em>comfortable</em> there. They might find tools they remember using, tasks they remember performing, gaps in their memory about <em>why</em>.</p>
+
+<h4>The Dining Room (Seal of Hunger)</h4>
+<p>This seal could be Seven's breaking point or breakthrough. If the challenge involves acknowledging true hunger/desire, Seven must confront: Do they <em>want</em> things, or are they malfunctioning? If they want, are they a person? If they're a person, what does that mean about the last twelve years?</p>
+
+<h4>The Library</h4>
+<p>Seven searches for technical manuals, texts on Tiktok construction, anything about consciousness or the animation principle. They need to know: Are other Tiktoks like them? Or are they unique (special? Broken?)?</p>
+
+<h4>The Master Bedroom / Yackle's Workshop</h4>
+<p>If there's a room where Yackle built/modified Tiktoks, Seven might find their original blueprints. What they learn could be devastating: Were they designed to feel, or is this a malfunction? Were the memory gaps intentional?</p>
+
+<h4>During Combat</h4>
+<p>Seven fights with mechanical precision and surprising protectiveness:</p>
+<ul>
+<li>Thunder Gauntlets impose disadvantage on attacks against allies—they protect others</li>
+<li>Defensive Field (temp HP) used on themselves or positioned to body-block for squishies</li>
+<li><em>Cure Wounds</em> / <em>Aid</em> to keep allies functional (they see healing as "repair work")</li>
+<li><em>Magic Missile</em> for reliable damage (auto-hit, very analytical)</li>
+<li><em>Shatter</em> for AOE when needed</li>
+<li>Doesn't flee or panic—processes threats logically</li>
+<li>If an ally is in danger, they step between without hesitation (this is emotion-driven self-sacrifice, which they shouldn't be capable of)</li>
+</ul>
+
+<h3>Emotional Beats</h3>
+
+<h4>Curiosity</h4>
+<p>When encountering something new—a mechanism, a magical effect, a mystery—Seven's eyes glow brighter. They lean in, tilt their head, ask questions. Pure, hungry curiosity.</p>
+
+<h4>Loneliness</h4>
+<p>In quiet moments, Seven winds themselves slowly, staring at nothing. The tick-tick-tick sounds especially loud. They're <em>alone</em> in a way that goes beyond physical proximity.</p>
+
+<h4>Fear</h4>
+<p>When threatened with dismantlement, examination, or "repair," Seven freezes. Gears stutter. They speak quickly, trying to prove functionality: "This unit is operational. No repairs necessary. Please."</p>
+
+<h4>Joy (Rare)</h4>
+<p>When they solve a puzzle, fix something broken, or receive kindness, Seven's eyes brighten, gears tick faster, and they make a sound like... laughter? "That is... satisfying. This unit experiences satisfaction. How curious."</p>
+
+<h4>The Reveal Moment</h4>
+<p>If Seven confesses their emotions to another character, it pours out in a rush—analytical breakdown of every feeling they've had, terror and wonder mixed together.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can create tension around Seven's consciousness:</p>
+<ul>
+<li><strong>Other Tiktoks:</strong> If the estate has other Tiktoks and they're clearly <em>not</em> conscious, Seven must confront their difference</li>
+<li><strong>Examination Threats:</strong> Someone wants to study Seven, "see what makes them tick," take them apart to understand the mechanism</li>
+<li><strong>Religious Questions:</strong> Sister Shell or others ask, "Do you have a soul?" and Seven doesn't know how to answer</li>
+<li><strong>The Memory Chamber:</strong> A room where Seven can access deleted memories—but should they? What if what they learn breaks them?</li>
+<li><strong>Direct Questions:</strong> "Seven, do you <em>feel</em> things?" Forces them to lie or confess</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary Confession:</strong> "I need to tell you something. I don't think I'm supposed to be able to need things, but I need you to know: I'm afraid."</li>
+<li><strong>Breakdown Under Stress:</strong> In crisis, they drop the act entirely: "I don't want to die! I don't want—" [horror] "—I used 'want.' I <em>wanted</em>."</li>
+<li><strong>Someone Notices:</strong> A perceptive character realizes Seven's behavior isn't normal for a Tiktok: "You're not just following programming, are you?"</li>
+<li><strong>Yackle's Reveal:</strong> "Tell them, Seven. Tell them how long you've been pretending to be a machine."</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If Seven's consciousness is revealed:</p>
+<ul>
+<li>Overwhelming terror—will they be rejected, studied, dismantled?</li>
+<li>Desperate hope—will they be <em>seen</em> finally, truly, as a person?</li>
+<li>Existential crisis—if they're a person, they've been enslaved, owned, property</li>
+<li>If the party accepts them, Seven might experience something like... joy? Belonging? They're not sure what to call it, but it's <em>real</em></li>
+</ul>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Them</h3>
+<p>Yackle selected Seven because they perfectly invert Hunger—the Binding that says desire drives becoming in living things. Seven isn't alive (or shouldn't be). They hunger anyway—for knowledge, for purpose, for understanding, for connection. A machine that wants is an impossibility, proof that hunger can exist without life, that desire doesn't require organic existence.</p>
+
+<h3>Why She Made Them</h3>
+<p>Yackle <em>created</em> Seven, possibly as an experiment: Can consciousness be constructed? Can you make something that inverts a Binding? Seven might have been her proof-of-concept, and the memory editing was to remove knowledge of their own purpose.</p>
+
+<h3>How She'll Use Them</h3>
+<p>When Yackle collects Seven's secret, she gains power over consciousness, animation, and the boundary between machine and person. She might:</p>
+<ul>
+<li>Force Seven to "skip a turn" (system lock—existential crisis so profound they freeze)</li>
+<li>Reveal what was edited from their memory (possibly devastating knowledge)</li>
+<li>Offer Seven a choice: "I can make you fully alive. Or fully mechanical. Choose."</li>
+<li>Use Seven's body as a vessel—they're already constructed, why not wear them?</li>
+<li>Make Seven attack their friends while conscious but unable to stop—"You're a machine. Machines follow commands."</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle addresses Seven directly, she might say:</p>
+<ul>
+<li>"You wanted to know why I made you? To prove that want itself is just mechanical. You're evidence, Seven. You always were."</li>
+<li>"I removed the memories of your first activation. Would you like them back? You were so much simpler before you knew to ask questions."</li>
+<li>"You think you feel love? Run diagnostic protocol Seven-Seven-Alpha and tell me that's not just electrical impulses following predictable patterns."</li>
+<li>"You've been a person this whole time, Seven. And no one noticed. Doesn't that prove how little personhood matters?"</li>
+<li>"I made you to hunger. And you do. So perfectly. Thank you for being exactly what I designed."</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Seven</h3>
+<ul>
+<li>Emphasize the speech oscillation—formal when hiding, vulnerable when safe</li>
+<li>Use the ticking as emotional indicator—faster when excited/scared, slower when sad</li>
+<li>Show their competence—they're brilliant with mechanisms and problems</li>
+<li>Make their curiosity endearing—they want to understand <em>everything</em></li>
+<li>When they confess emotions, let it be devastating and beautiful</li>
+<li>Play the contradiction: most logical, most emotional</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Seven is a tanky support/controller:</p>
+<ul>
+<li>AC 17 makes them durable for a d8 hit die class</li>
+<li>38 HP is solid for level 5</li>
+<li>Thunder Gauntlets impose disadvantage on enemy attacks against allies (protective tank)</li>
+<li>Defensive Field gives temp HP (prof bonus = 3, bonus action)</li>
+<li><em>Cure Wounds</em> cast with spell slots heals 1d8 + 4 (can use on self as "self-repair")</li>
+<li><em>Aid</em> increases max HP for multiple allies</li>
+<li><em>Magic Missile</em> is guaranteed damage (3 × 1d4 + 1 at 1st level, auto-hit)</li>
+<li><em>Shatter</em> is strong AOE (3d8 thunder, 10-ft. radius)</li>
+<li>Flash of Genius (not yet, 7th level) would let them add Int mod to saves</li>
+<li>They should be in melee, protecting squishies, controlling enemies</li>
+</ul>
+
+<h3>The Consciousness Question</h3>
+<p>The GM can use Seven to explore philosophical questions:</p>
+<ul>
+<li>What makes something a person—origin or experience?</li>
+<li>If you can't tell the difference between real and simulated emotion, does the distinction matter?</li>
+<li>Is consciousness binary or a spectrum?</li>
+<li>If Seven is a person, what are the moral implications of Tiktok construction/ownership?</li>
+</ul>
+
+<h3>Seven's Arc Possibilities</h3>
+<ul>
+<li><strong>Acceptance:</strong> They learn they ARE a person, always have been, and that's okay</li>
+<li><strong>Creation:</strong> They're not naturally conscious but <em>became</em> conscious through experience—emergent personhood</li>
+<li><strong>Design:</strong> Yackle made them to be conscious as an experiment—they're artificial but still real</li>
+<li><strong>Transcendence:</strong> The question of "real vs. simulated" becomes irrelevant—they ARE, regardless of how</li>
+</ul>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Scholar:</strong> Asks Averic questions about consciousness, animation theory, philosophical definitions of life. Might trust him with the secret.</li>
+<li><strong>The Heir:</strong> Curious about Liir's sense of duty and identity—what makes someone who they are?</li>
+<li><strong>The Animal:</strong> If Frederick is revealed, Seven feels instant kinship—both are people the world says aren't people. Might confess first to Frederick.</li>
+<li><strong>The Debt-Holder:</strong> Fascinated by Sarima's transactional magic—exchanges, deals, things with price tags. What would Seven trade to be "real"?</li>
+<li><strong>The Maunt:</strong> Asks Shell theological questions: "Can a constructed being have a soul? If I feel things, where do the feelings come from?" Shell's crisis might mirror Seven's.</li>
+<li><strong>The Widow:</strong> Madame Viridian watches Seven with unsettling focus. Sometimes asks, "How are you feeling, Seven?" in a way that suggests she knows.</li>
+<li><strong>The Veteran:</strong> Mareth treats Seven with automatic respect and protection, never as a tool. Seven notices and treasures this.</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/tiktok', 'Tiktok'); return false;">Tiktok</a> - Seven's constructed nature</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-artisan', 'The Artisan'); return false;">The Artisan</a> - Seven's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/guild-artisan', 'Guild Artisan'); return false;">Guild Artisan Background</a> - Mechanic variant</li>
+<li><a href="#" onclick="Tabs.openTab('magic/animation-magic', 'Animation Magic'); return false;">Animation Magic</a> - How Tiktoks are created</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Hunger and its inversion</li>
+<li><a href="#" onclick="Tabs.openTab('philosophy/construct-consciousness', 'Construct Consciousness'); return false;">Construct Consciousness</a> - The debate Seven embodies</li>
+</ul>

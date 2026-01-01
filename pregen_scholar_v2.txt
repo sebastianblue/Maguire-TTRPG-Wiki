@@ -1,0 +1,318 @@
+<h1>Pre-Generated Character: The Scholar of Lost Truths</h1>
+
+<div class="gm-warning">
+<p><strong>GM SECRET - THE BINDING OF MEMORY:</strong></p>
+<p>This character embodies the inversion of Memory. He built his academic career on a foundational text—a collection of letters supposedly written by his mentor revealing corruption in Shiz University's admissions process. <strong>THE SECRET:</strong> He forged the letters himself. His mentor never wrote them. Averic fabricated the scandal to secure his own position, then spent years "preserving" the memory of a crime that never happened.</p>
+<p><strong>Memory Binding Inversion:</strong> The Binding says memory connects past to present and truth must be preserved. Averic preserves a memory that never existed, a false past he created.</p>
+<p><strong>If Secret Collected:</strong> Yackle gains advantage on saving throws against his spells. His spell save DC against her decreases by 2. She whispers, "Such dedication to a fiction, Scholar. You documented lies so thoroughly they became truth."</p>
+</div>
+
+<h2>Character Overview</h2>
+<p><strong>Name:</strong> Averic Gulch<br>
+<strong>Race:</strong> Gillikinese Human<br>
+<strong>Class:</strong> Scholar 5<br>
+<strong>Background:</strong> Sage (Academic Researcher)<br>
+<strong>Alignment:</strong> Neutral Good (believes himself Lawful Good)</p>
+
+<h2>Personality Summary</h2>
+<p>Averic is a meticulous, obsessive documentarian who measures his worth in citations and footnotes. He carries guilt like a lodestone—not for the forgery itself, which he's rationalized away, but for the fear of being discovered. He over-explains everything, compulsively cross-references his statements, and treats conversation like peer review. His dedication to "preserving truth" is both genuine and deeply ironic; he truly believes in accuracy, which makes his founding lie all the more corrosive.</p>
+
+<p><strong>Mannerisms:</strong></p>
+<ul>
+<li>Constantly writes in his journal, even during conversations</li>
+<li>Says "For the record" and "As documented in..." obsessively</li>
+<li>Adjusts his spectacles when nervous (which is often)</li>
+<li>Touches the leather folio containing the forged letters like a talisman</li>
+<li>Corrects minor factual errors with uncomfortable intensity</li>
+<li>Speaks in perfectly structured paragraphs with verbal footnotes</li>
+</ul>
+
+<p><strong>What He Wants:</strong> To prove his academic worth through legitimate scholarship, to bury the original sin so deep it becomes irrelevant, to be remembered for discoveries rather than discoveries about him.</p>
+
+<h2>Appearance</h2>
+<ul>
+<li><strong>Age:</strong> 34</li>
+<li><strong>Height/Build:</strong> 5'10", slender, poor posture from years hunched over books</li>
+<li><strong>Features:</strong> Pale skin with ink-stained fingers, prematurely graying brown hair always disheveled, wire-rim spectacles perpetually sliding down his nose, dark circles under observant hazel eyes</li>
+<li><strong>Clothing:</strong> Academic robes in Gillikinese purple, ink-stained cuffs, numerous pockets filled with notebooks and writing implements, a leather satchel that never leaves his side</li>
+<li><strong>Distinguishing Marks:</strong> Permanent ink stain on his right middle finger, a nervous habit of touching the bridge of his spectacles</li>
+</ul>
+
+<h2>Backstory</h2>
+
+<h3>The Forgery</h3>
+<p>Averic was a promising graduate student at Shiz University twelve years ago—talented but unremarkable, lost in a cohort of brilliant minds. His mentor, Professor Lenx, was a celebrated historian who barely noticed Averic among his many students. When Lenx died suddenly, Averic saw an opportunity.</p>
+
+<p>He spent three months studying Lenx's handwriting, researching obscure admissions records, and crafting a series of letters that "revealed" how wealthy families bought their children's way into Shiz. The letters were compelling, detailed, and utterly fabricated. Averic "discovered" them among Lenx's papers and published them with extensive commentary.</p>
+
+<p>The scandal catapulted Averic to academic prominence. He became the keeper of Lenx's legacy, the scholar who exposed institutional corruption, the brave truth-teller. Universities offered him positions. Journals solicited his work. He built an entire career on documentation, verification, and academic integrity—all founded on a lie.</p>
+
+<h3>The Weight of Success</h3>
+<p>For a decade, Averic has lived in fear of discovery. He's preserved the forged letters with archival care, making them as legitimate as possible through meticulous documentation. He's become genuinely skilled at his work, producing real scholarship to bury the false foundation. But every accolade feels hollow, every citation a reminder.</p>
+
+<p>He tells himself it doesn't matter—the letters exposed a truth even if they weren't true themselves. Wealthy families did buy admissions; he just couldn't prove it legitimately. He's done good work since. The forgery was a youthful mistake that enabled genuine contributions.</p>
+
+<p>He almost believes this. Almost.</p>
+
+<h3>The Invitation</h3>
+<p>When Averic received the invitation to Yackle's estate, he saw it as validation—a reclusive scholar recognizing his work. But the invitation mentioned "shared interests in preserved memories" and "the documentation of things that should be forgotten." The phrasing unsettled him.</p>
+
+<p>He came anyway, because he's drawn to mysteries, and because some part of him wants to be caught. Wants the weight lifted, even if it destroys him.</p>
+
+<h2>Combat Statistics</h2>
+
+<h3>Basic Stats</h3>
+<ul>
+<li><strong>Armor Class:</strong> 13 (studded leather)</li>
+<li><strong>Hit Points:</strong> 27 (5d8)</li>
+<li><strong>Speed:</strong> 30 ft.</li>
+<li><strong>Initiative:</strong> +3</li>
+</ul>
+
+<h3>Ability Scores</h3>
+<table>
+<tr><th>STR</th><th>DEX</th><th>CON</th><th>INT</th><th>WIS</th><th>CHA</th></tr>
+<tr><td>8 (-1)</td><td>14 (+2)</td><td>10 (+0)</td><td>18 (+4)</td><td>14 (+2)</td><td>12 (+1)</td></tr>
+</table>
+
+<h3>Proficiencies</h3>
+<ul>
+<li><strong>Saving Throws:</strong> Intelligence +7, Wisdom +5</li>
+<li><strong>Skills:</strong> Arcana +7, History +10 (expertise), Investigation +10 (expertise), Insight +5, Perception +5, Religion +7</li>
+<li><strong>Languages:</strong> Common, Gillikinese, Ancient Ozian, Quadling, Munchkinlander, Elvish</li>
+<li><strong>Tools:</strong> Calligrapher's supplies, forgery kit</li>
+</ul>
+
+<h3>Scholar Class Features</h3>
+<ul>
+<li><strong>Bardic Inspiration (d8):</strong> 4/day - Called "Scholarly Insight," represents sharing knowledge to bolster allies</li>
+<li><strong>Jack of All Trades:</strong> +2 to any ability check that doesn't use proficiency bonus</li>
+<li><strong>Song of Rest (d6):</strong> Represented as "Lectures on Recovery," soothing academic discourse during short rests</li>
+<li><strong>Expertise:</strong> History, Investigation</li>
+<li><strong>Font of Inspiration:</strong> Regain Bardic Inspiration on short rest</li>
+<li><strong>College of Lore Features:</strong>
+  <ul>
+  <li><strong>Bonus Proficiencies:</strong> Insight, Perception, Religion</li>
+  <li><strong>Cutting Words:</strong> 3/day, use Bardic Inspiration die to reduce enemy attack/ability check/damage (reaction)</li>
+  </ul>
+</li>
+</ul>
+
+<h3>Spellcasting</h3>
+<p><strong>Spell Save DC:</strong> 15<br>
+<strong>Spell Attack Bonus:</strong> +7<br>
+<strong>Spell Slots:</strong> 1st (4), 2nd (3), 3rd (2)</p>
+
+<h4>Spells Known</h4>
+<p><strong>Cantrips:</strong> Mage Hand, Message, Prestidigitation, Vicious Mockery</p>
+
+<p><strong>1st Level:</strong> Comprehend Languages, Detect Magic, Identify, Sleep, Thunderwave</p>
+
+<p><strong>2nd Level:</strong> Detect Thoughts, Hold Person, Locate Object, Suggestion</p>
+
+<p><strong>3rd Level:</strong> Counterspell, Dispel Magic, Tongues</p>
+
+<p><em>Note: As a Scholar (reflavored Bard), spells are cast through recited knowledge, historical precedent, and academic authority rather than music.</em></p>
+
+<h2>Equipment</h2>
+
+<h3>Weapons</h3>
+<ul>
+<li><strong>Rapier</strong> (1d8 piercing, finesse) - Ornamental, rarely used</li>
+<li><strong>Light Crossbow</strong> (1d8 piercing, 80/320 ft., ammunition, loading, two-handed) with 20 bolts</li>
+</ul>
+
+<h3>Armor</h3>
+<ul>
+<li><strong>Studded Leather Armor</strong> (AC 12 + Dex modifier)</li>
+</ul>
+
+<h3>Tools & Supplies</h3>
+<ul>
+<li>Calligrapher's supplies</li>
+<li>Forgery kit (hidden in false bottom of satchel)</li>
+<li>Five journals filled with notes and observations</li>
+<li>Two blank journals for new documentation</li>
+<li>Extensive writing implements (quills, inks, sealing wax)</li>
+<li>Magnifying glass</li>
+<li>Academic seal and stamp</li>
+</ul>
+
+<h3>The Forged Letters</h3>
+<ul>
+<li><strong>Physical Description:</strong> Seven letters on aged paper, sealed in a protective leather folio with archival tissue paper. Appear to be 12 years old, written in Professor Lenx's handwriting (which Averic studied obsessively).</li>
+<li><strong>Content:</strong> Detailed allegations of admissions corruption at Shiz University, naming specific families and amounts paid. Convincingly written in Lenx's academic style.</li>
+<li><strong>Averic's Relationship:</strong> He keeps them with him always, has "preserved" them with such care they've become nearly indistinguishable from legitimate historical documents. He's written three books analyzing them.</li>
+<li><strong>The Truth:</strong> Every word is Averic's invention, crafted in his graduate student apartment over three months of careful forgery.</li>
+</ul>
+
+<h3>Other Equipment</h3>
+<ul>
+<li>Scholar's pack with essential books</li>
+<li>Component pouch (academic focuses: ancient coins, preserved specimens, historical fragments)</li>
+<li>Fine clothes suitable for academic presentations</li>
+<li>Traveling robes (current wear)</li>
+<li>Belt pouch with 45 gold pieces, 8 silver, 12 copper</li>
+</ul>
+
+<h2>Personality Details</h2>
+
+<h3>Ideals</h3>
+<p><strong>Knowledge:</strong> "The path to power and self-improvement is through knowledge." (Even if he had to create some of that knowledge.)</p>
+
+<h3>Bonds</h3>
+<p><strong>The Letters:</strong> "I've dedicated my life to preserving Professor Lenx's legacy." (A legacy he fabricated, which makes the dedication simultaneously genuine and horrifying.)</p>
+
+<h3>Flaws</h3>
+<p><strong>Guilt-Driven Perfectionism:</strong> "I can't let anyone find a mistake in my work." Every error, no matter how minor, feels like it might unravel everything. He over-documents, over-cites, and obsessively verifies because he's trying to bury one enormous lie under a mountain of meticulous truth.</p>
+
+<h3>Quirks</h3>
+<ul>
+<li>Writes everything down immediately, even in dangerous situations</li>
+<li>Becomes visibly distressed if asked about his early career</li>
+<li>Defends Professor Lenx's reputation with uncomfortable intensity</li>
+<li>Has memorized the exact wording of all seven forged letters</li>
+<li>Practices Lenx's handwriting in private, even now (compulsion he can't stop)</li>
+<li>Treats his journals as more important than his own safety</li>
+</ul>
+
+<h2>Roleplaying Guidance</h2>
+
+<h3>Speech Patterns</h3>
+<p>Averic speaks in formal, structured sentences with frequent academic references:</p>
+<ul>
+<li>"As documented in the Third History of Shiz, the architectural period suggests..."</li>
+<li>"For the record, that's the fourth unexplained phenomenon we've encountered."</li>
+<li>"If I may interject a point of historical context..."</li>
+<li>"I should note—and I will note, in my journal—that..."</li>
+<li>"According to established precedent, cross-referenced with the Lenx papers..."</li>
+</ul>
+
+<h3>In Different Rooms</h3>
+
+<h4>The Library</h4>
+<p>This is Averic's element, but also his terror. He becomes excited examining books, taking notes, cross-referencing—but any mention of forgeries, false documents, or academic fraud causes visible distress. He might find books about detecting forgeries and compulsively read them, unable to help himself.</p>
+
+<h4>The Study</h4>
+<p>He's drawn to Yackle's personal papers and documents. He can't resist analyzing handwriting, examining seals, dating materials. If he finds evidence of historical manipulation or false records, it both fascinates and horrifies him—he's looking in a mirror.</p>
+
+<h4>The Dining Room</h4>
+<p>During dinner, he documents everything—who sits where, what's served, exact quotes from conversation. Other characters might find this annoying or paranoid. He's most relaxed when people ask him about his research (the legitimate parts), most tense when conversation turns to academic integrity.</p>
+
+<h4>The Portrait Gallery</h4>
+<p>He analyzes painting techniques, dates periods, identifies artistic schools—all defense mechanisms against the portraits' unsettling qualities. He might notice details others miss because he's trained to examine documents for authenticity. Ironically, he's excellent at spotting forgeries.</p>
+
+<h4>During Combat</h4>
+<p>Averic fights like someone who learned combat from books—technically correct but lacking practical experience. He uses spells that control, reveal truth, or counter enemy abilities. His Cutting Words feature manifests as devastating academic critiques: "Your form is derivative!" "That's a logical fallacy!" He protects his journals even when doing so is tactically unsound.</p>
+
+<h3>Emotional Beats</h3>
+
+<h4>Guilt</h4>
+<p>When someone praises his work on the Lenx papers, he becomes quiet, withdrawn. Changes subject quickly. Touching the leather folio is both comfort and punishment.</p>
+
+<h4>Fear</h4>
+<p>Any suggestion that someone might examine the original letters too closely triggers panic. He becomes defensive, over-explanatory, almost aggressive in protecting "Lenx's legacy."</p>
+
+<h4>Genuine Pride</h4>
+<p>When he solves a mystery or reveals hidden information through legitimate scholarship, his joy is real and childlike. These moments show who he could have been without the forgery.</p>
+
+<h4>Connection</h4>
+<p>If another character shares a secret or shows vulnerability, Averic almost confesses. Almost. He wants desperately to be known and forgiven but can't bring himself to speak the words.</p>
+
+<h2>The Secret's Role</h2>
+
+<h3>Using the Secret</h3>
+<p>The GM can leverage Averic's secret in several ways:</p>
+<ul>
+<li><strong>The Library:</strong> Books about Professor Lenx, or forgery detection manuals, or records that contradict the letters' claims</li>
+<li><strong>Yackle's Knowledge:</strong> She might have correspondence from the real Lenx, proving the letters are fake</li>
+<li><strong>Other Characters:</strong> If someone mentions studying under Lenx, or questions the letters' authenticity, or admires Averic's "brave exposure of corruption"</li>
+<li><strong>Magical Revelation:</strong> Zone of Truth, Detect Thoughts, or Yackle's insight could force confrontation</li>
+</ul>
+
+<h3>Potential Reveals</h3>
+<ul>
+<li><strong>Voluntary Confession:</strong> Under extreme stress, Averic might confess to another character, seeking absolution</li>
+<li><strong>Magical Compulsion:</strong> Yackle forces the truth out during Phase 2 or 3</li>
+<li><strong>Evidence Found:</strong> Players discover Averic's practice sheets in his journals, showing him copying Lenx's handwriting</li>
+<li><strong>Yackle's Monologue:</strong> She reveals it herself: "Tell them about Lenx, Scholar. Tell them who really wrote those letters."</li>
+</ul>
+
+<h3>After the Secret</h3>
+<p>If Averic's secret is revealed and he survives, he experiences devastating relief. The weight he's carried for twelve years lifts. He might lose his academic position, but he's finally free to do legitimate work. Or he might double down, claiming Yackle lied, unable to face the consequences.</p>
+
+<h2>Connection to Yackle</h2>
+
+<h3>Why She Chose Him</h3>
+<p>Yackle selected Averic because he embodies Memory's inversion—a man who preserves a past that never existed, who built truth on lies, who documents fiction so thoroughly it becomes history. He's a perfect offering to the Kumbric Void: a scholar whose entire career is founded on something that should be forgotten.</p>
+
+<h3>How She'll Use Him</h3>
+<p>When Yackle collects Averic's secret, she gains power over documentation, verification, and the authority of written truth. She might:</p>
+<ul>
+<li>Forge reality itself, creating "documented" events that never happened</li>
+<li>Erase or alter written records throughout the estate</li>
+<li>Make others forget what they've learned or documented</li>
+<li>Turn Averic's own scholarship against him, making him unable to trust anything he reads</li>
+</ul>
+
+<h3>The Confrontation</h3>
+<p>When Yackle reveals knowledge of the forgery, Averic might:</p>
+<ul>
+<li><strong>Deny:</strong> "You're lying! Professor Lenx wrote those letters!"</li>
+<li><strong>Bargain:</strong> "Please—I've done real work since then, legitimate scholarship—"</li>
+<li><strong>Break:</strong> Collapse into confession, seeking punishment he feels he deserves</li>
+<li><strong>Rage:</strong> Attack her for threatening to destroy everything he's built</li>
+</ul>
+
+<h2>GM Notes</h2>
+
+<h3>Playing Averic</h3>
+<ul>
+<li>Emphasize his compulsive documentation—he writes during conversations, combat, even moments of terror</li>
+<li>Show the contradiction: he's genuinely skilled and deeply fraudulent</li>
+<li>Use his expertise to provide the party with historical knowledge and puzzle solutions</li>
+<li>Make him endearing—his obsessiveness is annoying but comes from deep insecurity</li>
+<li>When the secret emerges, play the relief alongside the devastation</li>
+</ul>
+
+<h3>Combat Role</h3>
+<p>Averic is a controller and support caster:</p>
+<ul>
+<li>Use <em>Detect Thoughts</em> and <em>Identify</em> to gather information</li>
+<li><em>Counterspell</em> and <em>Dispel Magic</em> to shut down enemy magic</li>
+<li><em>Hold Person</em> and <em>Suggestion</em> to control enemies</li>
+<li>Bardic Inspiration to boost ally rolls (flavored as timely advice)</li>
+<li>Cutting Words to debuff enemies (academic criticism as psychic damage)</li>
+<li>He's physically fragile—prioritize staying behind the party</li>
+</ul>
+
+<h3>Character Arc Potential</h3>
+<p>If this becomes a longer campaign, Averic's arc involves choosing between:</p>
+<ul>
+<li>Continuing the lie and living with the guilt</li>
+<li>Confessing and accepting consequences</li>
+<li>Finding a way to make amends without destroying himself</li>
+</ul>
+
+<p>His relationship with other party members, especially if they show him grace despite his fraud, could be transformative. The question becomes: Can someone built on a lie become genuine? Can he document his own redemption?</p>
+
+<h2>Relationships with Other Pre-Gens</h2>
+
+<ul>
+<li><strong>The Heir:</strong> Fascinated by the Ostrega lineage claim, might have researched the family. Could inadvertently threaten the Heir's secret by being too thorough.</li>
+<li><strong>The Animal:</strong> Tries to categorize and understand Animal consciousness academically, which Frederick finds dehumanizing but not malicious.</li>
+<li><strong>The Debt-Holder:</strong> Intrigued by Arjiki magical traditions, asks too many questions about transactional magic.</li>
+<li><strong>The Maunt:</strong> Uncomfortable around religious authority—Sister Shell represents institutions he's defrauded.</li>
+<li><strong>The Widow:</strong> Deeply unsettled by Madame Viridian's insight, fears she can see through him (she can—she's Yackle).</li>
+<li><strong>The Veteran:</strong> Admires Captain Trynn's straightforwardness, wishes he could be that uncomplicated.</li>
+<li><strong>The Tiktok:</strong> Finds Seven fascinating as a study subject, doesn't fully grasp their emotional complexity.</li>
+</ul>
+
+<h2>Related Wiki Pages</h2>
+<ul>
+<li><a href="#" onclick="Tabs.openTab('character/races/gillikinese', 'Gillikinese'); return false;">Gillikinese</a> - Averic's people</li>
+<li><a href="#" onclick="Tabs.openTab('character/classes/the-scholar', 'The Scholar'); return false;">The Scholar</a> - Averic's class</li>
+<li><a href="#" onclick="Tabs.openTab('character/backgrounds/sage', 'Sage'); return false;">Sage Background</a> - Academic researcher background</li>
+<li><a href="#" onclick="Tabs.openTab('locations/shiz-university', 'Shiz University'); return false;">Shiz University</a> - Where the forgery began</li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings</a> - Memory and its inversion</li>
+</ul>

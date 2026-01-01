@@ -1,0 +1,424 @@
+<h1>The Witch's Wake — GM Quick Reference</h1>
+
+<p class="flavor-text">"Everything you need to run this 4-hour gothic mystery in one place."</p>
+
+<div class="gm-note">
+<strong>⚠️ GM ONLY —</strong> This page contains major spoilers for The Witch's Wake adventure.
+</div>
+
+<h2>At a Glance</h2>
+
+<ul>
+<li><strong>System:</strong> D&D 5e</li>
+<li><strong>Duration:</strong> 4 hours</li>
+<li><strong>Players:</strong> 8 (one is secretly Yackle)</li>
+<li><strong>Level:</strong> 5</li>
+<li><strong>Setting:</strong> Yackle's Estate, Pertha Hills, Gillikin</li>
+<li><strong>Tone:</strong> Gothic mystery, horror, intrigue (Haunting of Hill House meets Knives Out)</li>
+</ul>
+
+<h2>The Core Premise</h2>
+
+<p>Eight strangers are summoned to the remote estate of Yackle Ostreaga, legendary witch thought long dead. They're told they're heirs who must unlock seven seals to claim their inheritance. One of them is secretly Yackle herself in disguise, collecting their secrets to fuel a dark ritual.</p>
+
+<h3>The Two Twists</h3>
+
+<ol>
+<li><strong>End of Hour 1:</strong> The inheritance increases with more survivors. The house becomes hostile. Cooperation is survival.</li>
+<li><strong>End of Hour 3:</strong> One player IS Yackle. She's been collecting secrets. Final battle begins.</li>
+</ol>
+
+<h2>Session Timeline</h2>
+
+<table>
+<tr>
+<th>Hour</th>
+<th>Phase</th>
+<th>Key Events</th>
+<th>Goal</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Arrival</td>
+<td>
+• Players arrive individually (0:00-0:15)<br>
+• Will reading in Foyer (0:15-0:25)<br>
+• Free exploration begins (0:25-0:55)<br>
+• <strong>FIRST TWIST:</strong> Clock chimes 13 times (0:55-1:00)
+</td>
+<td>Establish atmosphere, introduce characters, complete 2-3 seals</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Escalation</td>
+<td>
+• First combat encounter (1:00-1:15)<br>
+• Upper floors unlock (1:15-1:25)<br>
+• Major lore discovery (1:25-1:50)<br>
+• Players start suspecting each other (1:50-2:00)
+</td>
+<td>Build tension, complete 3-4 more seals, reveal deeper mysteries</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Unraveling</td>
+<td>
+• Final seal attempted (2:00-2:20)<br>
+• Gathering evidence (2:20-2:35)<br>
+• <strong>THE REVEAL:</strong> Viridian is Yackle (2:35-2:45)<br>
+• Phase 1 battle begins (2:45-3:00)
+</td>
+<td>Build to revelation, create dramatic confrontation</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Reckoning</td>
+<td>
+• Phase 2: House chase (3:00-3:20)<br>
+• Phase 3: Heart Chamber (3:20-3:50)<br>
+• Resolution & epilogue (3:50-4:00)
+</td>
+<td>Epic multi-phase boss battle, narrative conclusion</td>
+</tr>
+</table>
+
+<h2>The Eight Secrets</h2>
+
+<table>
+<tr>
+<th>Character</th>
+<th>Binding</th>
+<th>Secret</th>
+<th>Combat Effect (If Collected)</th>
+</tr>
+<tr>
+<td>Averic (Scholar)</td>
+<td>Memory</td>
+<td>Forged his mentor's letters</td>
+<td>Disadvantage on Int saves; Yackle counters one spell free</td>
+</tr>
+<tr>
+<td>Liir (Heir)</td>
+<td>Blood</td>
+<td>Knows his Ostrega claim is false</td>
+<td>Yackle has advantage on attacks vs him; his damage -1d6</td>
+</tr>
+<tr>
+<td>Frederick (Animal)</td>
+<td>Nature</td>
+<td>Is a Fox Animal passing as human</td>
+<td>Yackle can cast Dominate Person on him (no concentration)</td>
+</tr>
+<tr>
+<td>Mareth (Debt-Holder)</td>
+<td>Service</td>
+<td>Murdered the person she owed a life-debt to</td>
+<td>Yackle's necrotic damage bypasses his resistance/immunity</td>
+</tr>
+<tr>
+<td>Shell (Former Maunt)</td>
+<td>Sacrifice</td>
+<td>Stole sacred relic to save own life</td>
+<td>Yackle can force him to reroll any save (use lower result)</td>
+</tr>
+<tr>
+<td>Nessa (Widow)</td>
+<td>Deed</td>
+<td>Killed her husband and framed another</td>
+<td>Disadvantage on Wisdom saves; Yackle's Insight vs her is advantage</td>
+</tr>
+<tr>
+<td>Trism (Veteran)</td>
+<td>Hunger</td>
+<td>Killed prisoners for their rations during siege</td>
+<td>Yackle heals for half damage she deals to him</td>
+</tr>
+<tr>
+<td>Viridian (Secret)</td>
+<td>Witness</td>
+<td><strong>IS YACKLE</strong> — has never been truly known</td>
+<td>If all 7 other secrets collected: <strong>Phase 4 Ascension</strong> (CR 15, near-TPK)</td>
+</tr>
+</table>
+
+<div class="gm-note">
+<strong>Critical Rule:</strong> Yackle only collects a secret if it's revealed <em>in her presence</em> (within 30 feet). Once revealed to her, that character is immune to Memory Extraction.
+</div>
+
+<h2>The Seven Seals</h2>
+
+<table>
+<tr>
+<th>Seal</th>
+<th>Location</th>
+<th>Puzzle</th>
+<th>Individual Reward</th>
+<th>Mastery Bonus (Combat)</th>
+</tr>
+<tr>
+<td>1. Memory</td>
+<td>Music Room</td>
+<td>Reconstruct & play melody from fragments</td>
+<td>Reroll Token (force Yackle to reroll)</td>
+<td>Force Yackle to reroll 1 attack/check per round</td>
+</tr>
+<tr>
+<td>2. Blood</td>
+<td>Portrait Gallery</td>
+<td>Complete family tree using portraits</td>
+<td>Death's Denial (auto-stabilize at 0 HP once)</td>
+<td>Yackle's necrotic damage halved</td>
+</tr>
+<tr>
+<td>3. Nature</td>
+<td>Library</td>
+<td>Identify which books describe Animals vs animals</td>
+<td>True Sight Token (see invisible/shapechangers)</td>
+<td>Yackle cannot teleport or turn invisible</td>
+</tr>
+<tr>
+<td>4. Service</td>
+<td>Servant Quarters → Memorial</td>
+<td>Answer servant's bell, light memorial candle</td>
+<td>Swift Aid (Dash as bonus action 3x)</td>
+<td>Party gains +2 to initiative</td>
+</tr>
+<tr>
+<td>5. Sacrifice</td>
+<td>Chapel</td>
+<td>Offer something precious to altar, ritual prayer</td>
+<td>Martyr's Shield (transfer damage to self)</td>
+<td>Party gains resistance to necrotic damage</td>
+</tr>
+<tr>
+<td>6. Deed</td>
+<td>Hall of Mirrors</td>
+<td>Confront true reflection, accept past actions</td>
+<td>Clear Conscience (advantage on Wis saves)</td>
+<td>Yackle's illusions/charms have disadvantage</td>
+</tr>
+<tr>
+<td>7. Hunger</td>
+<td>Dining Room</td>
+<td>Resist phantom feast, break plates together</td>
+<td>Satiation (no exhaustion for 24 hours)</td>
+<td>Yackle cannot regain HP or legendary actions</td>
+</tr>
+</table>
+
+<div class="gm-note">
+<strong>All Seals Complete Bonus:</strong> If all 7 seals are completed, Yackle starts Phase 1 at HALF HP (100 instead of 200).
+</div>
+
+<h2>Combat: Yackle's Phases</h2>
+
+<h3>Phase 1: The Revealed Witch (CR 9)</h3>
+<ul>
+<li><strong>HP:</strong> 200 (or 100 if all seals complete)</li>
+<li><strong>AC:</strong> 15</li>
+<li><strong>Location:</strong> Wherever revelation happens (usually Dining Room or Observatory)</li>
+<li><strong>Tactics:</strong> Memory Extraction (bonus action), spellcasting, collecting remaining secrets</li>
+<li><strong>Legendary Actions:</strong> 3 base + 1 per secret collected</li>
+<li><strong>Trigger Phase 2:</strong> Reduced to 0 HP</li>
+</ul>
+
+<h3>Phase 2: The House Itself (CR 10)</h3>
+<ul>
+<li><strong>HP:</strong> 150</li>
+<li><strong>AC:</strong> 16</li>
+<li><strong>Form:</strong> Incorporeal, merged with the house</li>
+<li><strong>Location:</strong> Entire mansion</li>
+<li><strong>Tactics:</strong> Lair actions every round, animate furniture/portraits, separate party</li>
+<li><strong>Win Condition:</strong> Players must reach Heart Chamber (basement)</li>
+<li><strong>Trigger Phase 3:</strong> Players enter Heart Chamber</li>
+</ul>
+
+<h3>Phase 3: The Heart Chamber (CR 11)</h3>
+<ul>
+<li><strong>HP:</strong> 175</li>
+<li><strong>AC:</strong> 17</li>
+<li><strong>Form:</strong> Anchored to three ritual points</li>
+<li><strong>Anchors:</strong> 30 HP each (destroy anchors = -20 HP to Yackle & -1 legendary action)</li>
+<li><strong>Tactics:</strong> Full power, desperate, willing to destroy the house</li>
+<li><strong>Defeat:</strong> Death OR players convince her to accept oblivion (DC 20 Persuasion/Insight)</li>
+</ul>
+
+<h3>Phase 4: Ascendant (CR 15) — ONLY IF ALL 8 SECRETS COLLECTED</h3>
+<ul>
+<li><strong>HP:</strong> 250</li>
+<li><strong>AC:</strong> 18</li>
+<li><strong>Warning:</strong> Near-TPK scenario. Yackle becomes partially unbound.</li>
+<li><strong>Each secret grants one "Eight Inversion Attack" (4d10 damage, special effect)</strong></li>
+<li><strong>How to survive:</strong> Players must find the Unmaking Phrase (hidden in lore) or sacrifice Viridian's player willingly</li>
+</ul>
+
+<h2>Key NPCs</h2>
+
+<h3>Mr. Trism (The Solicitor)</h3>
+<ul>
+<li><strong>Role:</strong> Reads the will, delivers exposition, maintains normalcy</li>
+<li><strong>Secret:</strong> Dead. Killed by Yackle 3 days ago, reanimated as puppet</li>
+<li><strong>Tell:</strong> Never eats, never drinks, eyes don't blink properly</li>
+<li><strong>Investigation DC 14:</strong> Notice he's unusually cold to touch</li>
+<li><strong>When to Reveal:</strong> When Yackle reveals herself, Trism collapses like strings cut</li>
+</ul>
+
+<h3>Holly (Ghost Child)</h3>
+<ul>
+<li><strong>Who:</strong> Spirit of Yackle's daughter from centuries ago</li>
+<li><strong>Location:</strong> Nursery, occasionally wanders</li>
+<li><strong>Personality:</strong> Innocent, playful, doesn't understand she's dead</li>
+<li><strong>What She Knows:</strong> "Mama has so many faces," location of hidden rooms, puzzle box code letters</li>
+<li><strong>Help:</strong> Can guide players to Heart Chamber if befriended</li>
+</ul>
+
+<h2>Critical Mechanics</h2>
+
+<h3>Memory Extraction (Yackle's Bonus Action)</h3>
+<p>Target one creature within 30 feet. Wisdom save DC 16 or Yackle learns one secret memory. If the memory is one of the Eight Inversions, she collects it for power.</p>
+<p><strong>Immunity:</strong> Once a character has willingly revealed their secret to Yackle (roleplay, not extraction), they're immune to this ability.</p>
+
+<h3>Lair Actions (Phase 2)</h3>
+<p>On initiative count 20, Yackle uses one lair action. Cannot repeat the last one used.</p>
+<ul>
+<li><strong>Grasping Walls:</strong> DC 15 Str save or restrained</li>
+<li><strong>Shifting Corridors:</strong> Teleport one creature to random room</li>
+<li><strong>Memory Flood:</strong> DC 15 Wis save or stunned (relive victim's memory)</li>
+<li><strong>Summon Shade:</strong> Memory Shade (CR 3) appears</li>
+<li><strong>Collapsing Floor:</strong> DC 15 Dex save or 3d6 damage, fall prone</li>
+<li><strong>Extinguish:</strong> All magical light in one room snuffed</li>
+</ul>
+
+<h3>The Puzzle Box: I L O V E U</h3>
+<p>Six-letter code hidden throughout the house. Letters found in:</p>
+<ul>
+<li><strong>I</strong> — Portrait Gallery (carved in frame)</li>
+<li><strong>L</strong> — Library (journal entry circled)</li>
+<li><strong>O</strong> — Music Room (sheet music title first letters)</li>
+<li><strong>V</strong> — Chapel (altar inscription)</li>
+<li><strong>E</strong> — Greenhouse (arrangement of dead flowers)</li>
+<li><strong>U</strong> — Master Bedroom (circled in unfinished letter)</li>
+</ul>
+<p><strong>Reward when solved:</strong></p>
+<ul>
+<li>Map to Heart Chamber</li>
+<li>Lurline's Word scroll (4d10 radiant damage, no save, one use)</li>
+<li>Flash of Genius ability (add Int mod to save/check, 3 uses)</li>
+</ul>
+
+<h2>Discovery Abilities</h2>
+
+<p>Special powers players can earn through exploration and roleplay:</p>
+
+<table>
+<tr>
+<th>Ability</th>
+<th>How to Earn</th>
+<th>Effect</th>
+</tr>
+<tr>
+<td>Flash of Genius</td>
+<td>Solve puzzle box</td>
+<td>Add Int mod to any save/check (3 uses)</td>
+</tr>
+<tr>
+<td>Guidance of the House</td>
+<td>Help ghost child (Holly)</td>
+<td>Know safest path through house</td>
+</tr>
+<tr>
+<td>Inspiration of the Fallen</td>
+<td>Read names in Memorial Room, honor them</td>
+<td>3d6 Inspiration dice (can give to allies)</td>
+</tr>
+<tr>
+<td>Yackle's Tell</td>
+<td>Notice Viridian unaffected by house horrors (Insight DC 16)</td>
+<td>Advantage on saves vs Yackle</td>
+</tr>
+<tr>
+<td>Lurline's Word</td>
+<td>Inside puzzle box</td>
+<td>4d10 radiant damage, no save (1 use)</td>
+</tr>
+<tr>
+<td>Unmaking Phrase</td>
+<td>Piece together Eight Bindings lore from multiple sources</td>
+<td>Stun Yackle for 1 round (1 use)</td>
+</tr>
+</table>
+
+<h2>Possible Endings</h2>
+
+<h3>1. Total Victory</h3>
+<p><strong>Condition:</strong> All 7 seals complete, defeat Yackle, most players survive<br>
+<strong>Outcome:</strong> House becomes neutral safe haven. Players inherit estate and Yackle's knowledge. Bindings remain intact.</p>
+
+<h3>2. Pyrrhic Victory</h3>
+<p><strong>Condition:</strong> Defeat Yackle but 4+ players dead, OR Yackle reaches Phase 4 but is stopped<br>
+<strong>Outcome:</strong> House collapses. Survivors escape barely. Estate destroyed but Oz is saved.</p>
+
+<h3>3. Mercy</h3>
+<p><strong>Condition:</strong> Players convince Yackle to accept oblivion (DC 20 Persuasion/Insight check)<br>
+<strong>Outcome:</strong> Yackle disperses peacefully. House fades. Players each receive a gift from her final act of sacrifice. Bittersweet.</p>
+
+<h3>4. The Unmaking (BAD END)</h3>
+<p><strong>Condition:</strong> Yackle collects all 8 secrets and isn't stopped in Phase 4<br>
+<strong>Outcome:</strong> The Eight Bindings begin to fray. Reality around the estate becomes unstable. Yackle achieves oblivion but takes a piece of Oz with her. The Pertha Hills become a "blighted zone" where the rules of reality don't fully apply. Survivors flee, traumatized.</p>
+
+<h3>5. Stalemate</h3>
+<p><strong>Condition:</strong> Players escape house before defeating Yackle, OR all players die<br>
+<strong>Outcome:</strong> Yackle remains trapped. In another century, she'll call new heirs. The cycle continues.</p>
+
+<h2>Common GM Pitfalls & Solutions</h2>
+
+<h3>Pitfall: Players suspect Viridian too early</h3>
+<p><strong>Solution:</strong> Have Yackle/Viridian share a "secret" that's emotionally true (her loneliness, her exhaustion) even if the backstory is false. Make her sympathetic. Red herring another player with suspicious behavior.</p>
+
+<h3>Pitfall: Players refuse to share secrets</h3>
+<p><strong>Solution:</strong> Yackle can use Memory Extraction (Wis save DC 16). Seals require vulnerability to complete. House horrors threaten them individually, forcing cooperation.</p>
+
+<h3>Pitfall: Combat takes too long</h3>
+<p><strong>Solution:</strong> Phase 2 is a chase, not full combat. Phase 3 starts with anchors pre-damaged if time is short. Skip Phase 2 entirely if running behind.</p>
+
+<h3>Pitfall: Players get lost in 22 rooms</h3>
+<p><strong>Solution:</strong> Ghost child guides them. Seal locations glow faintly (Perception DC 12). Map handout shows rough layout.</p>
+
+<h3>Pitfall: Too many secrets revealed early</h3>
+<p><strong>Solution:</strong> Yackle must be present (within 30 feet) to collect. She'll engineer situations to be nearby when secrets might emerge.</p>
+
+<h2>Pacing Guidelines</h2>
+
+<ul>
+<li><strong>If ahead of schedule:</strong> Add more atmospheric exploration, deeper NPC roleplay, extra house horror encounters</li>
+<li><strong>If behind schedule:</strong> Skip Phase 2 chase, start Phase 3 with anchors damaged, reduce HP pools by 25%</li>
+<li><strong>If party is struggling:</strong> Holly offers direct help, discovery abilities become easier to find, reduce DCs by 2</li>
+<li><strong>If party is dominating:</strong> Yackle collects secrets faster, adds more lair actions, uses environment creatively</li>
+</ul>
+
+<h2>Pre-Session Prep Checklist</h2>
+
+<ul>
+<li>☐ Print all 8 character sheets</li>
+<li>☐ Print handouts (place cards, journals, letters, puzzle box clues)</li>
+<li>☐ Prepare Yackle stat blocks (all phases)</li>
+<li>☐ Prepare house horror stat blocks (animated furniture, memory shades)</li>
+<li>☐ Brief Viridian player privately (30 min before session)</li>
+<li>☐ Sketch rough house map for players (or provide handout)</li>
+<li>☐ Prepare initiative tracker</li>
+<li>☐ Prepare secret tracking sheet</li>
+<li>☐ Prepare seal completion tracker</li>
+<li>☐ Set up atmospheric music/lighting</li>
+<li>☐ Review timeline and twist timings</li>
+</ul>
+
+<h2>Related Pages</h2>
+
+<ul>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/index', 'The Witch\'s Wake'); return false;">The Witch's Wake — Full Adventure</a></li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/yackles-estate', 'Yackle\'s Estate'); return false;">Yackle's Estate — All 22 Rooms</a></li>
+<li><a href="#" onclick="Tabs.openTab('npcs/yackle', 'Yackle'); return false;">Yackle — Complete Stat Blocks</a></li>
+<li><a href="#" onclick="Tabs.openTab('adventures/the-witchs-wake/the-seven-seals', 'The Seven Seals'); return false;">The Seven Seals — Detailed Puzzles</a></li>
+<li><a href="#" onclick="Tabs.openTab('lore/the-eight-bindings', 'The Eight Bindings'); return false;">The Eight Bindings — Cosmology</a></li>
+<li><a href="#" onclick="Tabs.openTab('character/pregen/the-scholar', 'Pregenerated Characters'); return false;">The Eight Heirs — Character Sheets</a></li>
+</ul>
