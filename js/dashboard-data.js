@@ -64,7 +64,14 @@ const DashboardData = {
       sealId: 'memory',
       hasSecret: false,
       hasHandout: false,
-      connections: ['foyer']
+      connections: ['foyer'],
+      description: `<p>A grand piano dominates the room. Four music boxes sit on a shelf beside sheet music.</p>
+        <h4>SEAL 1: MEMORY - "The past is real"</h4>
+        <p><strong>Prop:</strong> 4 Music Boxes (brass ornate, simple wood, painted flowers, black lacquer)</p>
+        <p><strong>Puzzle:</strong> Wind each box, compare to sheet music. Place the <strong>Simple Wood</strong> box (plainest, original melody) on piano's fallboard.</p>
+        <p><strong>Target:</strong> Averic (Scholar) - will be tempted by the better-sounding Brass Ornate box</p>
+        <p><strong>Failure:</strong> Piano slams lid. DC 13 Dex save or 2d6 damage. After 3 failures, piano plays backward as hint, locks 10 min.</p>
+        <p><strong>Reward:</strong> Reroll Token (reroll one failed d20, once)</p>`
     },
     'library': {
       id: 'library',
@@ -77,7 +84,14 @@ const DashboardData = {
       sealId: 'nature',
       hasSecret: false,
       hasHandout: true,
-      connections: ['foyer', 'parlor']
+      connections: ['foyer', 'parlor'],
+      description: `<p>Towering bookshelves filled with volumes on natural history and Animals. Four specific books glow faintly.</p>
+        <h4>SEAL 3: NATURE - "Beings are their kind"</h4>
+        <p><strong>Prop:</strong> 4 Animal Books + Sigil Pieces inside each</p>
+        <p><strong>Puzzle:</strong> Arrange the 4 puzzle pieces (from inside the books) to form the complete Animal Liberation sigil.</p>
+        <p><strong>Target:</strong> Frederick (Animal) - must openly claim Animal identity</p>
+        <p><strong>Failure:</strong> Books slam shut. 1d6 force damage + DC 12 Str check to open again. After 3 failures, books speak: "You hide what you are. The seal knows."</p>
+        <p><strong>Reward:</strong> True Sight Token (see through one illusion/disguise, auto-success)</p>`
     },
     'chapel': {
       id: 'chapel',
@@ -163,8 +177,7 @@ const DashboardData = {
       position: { x: 50, y: 50 },
       explored: false,
       partyHere: false,
-      hasSeal: true,
-      sealId: 'service',
+      hasSeal: false,
       hasSecret: false,
       hasHandout: false,
       connections: ['portrait-gallery', 'master-bedroom']
@@ -302,9 +315,8 @@ const DashboardData = {
       position: { x: 50, y: 80 },
       explored: false,
       partyHere: false,
-      hasSeal: true,
-      sealId: 'witness',
-      hasSecret: false,
+      hasSeal: false,
+      hasSecret: true,
       hasHandout: false,
       connections: ['main-cellar']
     }
