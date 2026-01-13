@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maguire Oz TTRPG Wiki</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Maguire Oz TTRPG Wiki</div>
+    <div class="controls">
+      <button id="modeToggle" aria-label="Toggle dark/light">🌗</button>
+      <label class="font-control">Font <input type="range" id="fontSize" min="14" max="22" value="16" /></label>
+      <button id="printBtn">🖨️ Print View</button>
+      <button id="exportEdits">Export Edits</button>
+      <input type="file" id="importEdits" style="display:none" />
+      <button id="importEditsBtn">Import Edits</button>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="search">
+        <input id="searchInput" type="search" placeholder="Search (Ctrl+K)" />
+        <div class="filters">
+          <input id="filterCategory" type="text" placeholder="Filter by tag" />
+          <label><input type="checkbox" id="fuzzyToggle" checked /> Fuzzy match</label>
+        </div>
+      </div>
+      <nav id="navTree" aria-label="Navigation"></nav>
+      <section class="panel" aria-label="Bookmarks">
+        <h3>Bookmarks</h3>
+        <ul id="bookmarks"></ul>
+      </section>
+      <section class="panel" aria-label="Recent Pages">
+        <h3>Recent</h3>
+        <ul id="recent"></ul>
+      </section>
+      <section class="panel" aria-label="Session Notes">
+        <h3>Session Notes</h3>
+        <textarea id="sessionNotes" rows="6"></textarea>
+      </section>
+      <section class="panel" aria-label="GM Tools">
+        <h3>GM Tools</h3>
+        <div class="gm-tool">
+          <label>Dice Roller</label>
+          <input id="diceExpr" placeholder="e.g., 2d6+1" />
+          <button id="rollDice">Roll</button>
+          <div id="diceResult"></div>
+        </div>
+        <div class="gm-tool">
+          <label>Initiative Tracker</label>
+          <div class="init-inputs">
+            <input id="initName" placeholder="Name" />
+            <input id="initRoll" placeholder="Roll" type="number" />
+            <button id="addInit">Add</button>
+          </div>
+          <ol id="initList"></ol>
+        </div>
+        <div class="gm-tool">
+          <label>Condition Reference</label>
+          <ul id="conditions"></ul>
+        </div>
+        <div class="gm-tool">
+          <label>Stat Block</label>
+          <input id="statQuery" placeholder="Search creature" />
+          <div id="statBlock"></div>
+        </div>
+      </section>
+    </aside>
+    <main class="content">
+      <div class="tabbar" id="tabbar"></div>
+      <div class="view-controls">
+        <button id="splitToggle">Toggle Split View</button>
+        <button id="bookmarkToggle">Bookmark</button>
+        <button id="editToggle">Edit (Ctrl+E)</button>
+        <button id="openHistory">History</button>
+      </div>
+      <section class="view" id="primaryView">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <article id="pageContent"></article>
+        <section class="related" id="related"></section>
+      </section>
+      <section class="view split" id="secondaryView" aria-label="Split view"></section>
+      <section class="editor" id="editor">
+        <div class="editor-tabs">
+          <button data-mode="markdown" class="active">Markdown</button>
+          <button data-mode="rich">Rich Text</button>
+        </div>
+        <textarea id="markdownArea" rows="10"></textarea>
+        <div id="richArea" contenteditable="true"></div>
+        <div class="editor-actions">
+          <button id="saveEdit">Save (Ctrl+S)</button>
+          <button id="cancelEdit">Cancel</button>
+          <button id="exportPage">Export Page</button>
+          <input type="file" id="importPage" style="display:none" />
+          <button id="importPageBtn">Import Page</button>
+        </div>
+        <div id="history"></div>
+      </section>
+    </main>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
